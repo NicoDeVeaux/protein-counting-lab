@@ -2,7 +2,7 @@
   "export_version": 1,
   "created_at_utc": "2026-11-10T14:27:37.797111+00:00",
   "scope": "Privacy-redacted public export, not the byte-identical original sealed workspace.",
-  "redactions": "Local home/policy metadata and signed URL queries only. Historical original hashes preserved for comparison.",
+  "redactions": "Local home/policy metadata and signed URL queries only. Historical original hashes preserved for comparison. Per-user system temporary directories and pytest user names are also normalized.",
   "files": [
     {
       "path": ".gitignore",
@@ -58,7 +58,7 @@
       "path": "DATA_RELEASE.json",
       "storage": "git",
       "original_sha256": null,
-      "sha256": "72a68c2d0fd2d054bd59cfcf82910f33506ba83510b8e5833a55747ecb984560",
+      "sha256": "a7002e3ca1baa0190a2ed7d159bd17cc443a0945175d3975e22423ec9c921f13",
       "bytes": 318,
       "metadata_redacted": false,
       "publication_addition": true
@@ -3201,8 +3201,8 @@
       "path": "prepared/campaign-002/preflight_tests.txt",
       "storage": "release",
       "original_sha256": "2e47d7bc5778aeca792b30b05d1a5c0a63c7d1dbff7a2b515a771f6246921abd",
-      "sha256": "bd757c3f87ef8a44509a304618119339ad061a21528eb95fd9f7f26f20b42396",
-      "bytes": 6286,
+      "sha256": "e5d3b91a672c04dce759a34661094a5cf3fd8573bbe9406b996e9030a8a7f54d",
+      "bytes": 6103,
       "metadata_redacted": true
     },
     {
@@ -4505,9 +4505,9 @@
       "path": "prepared/campaign-004/preflight-tests.first.txt",
       "storage": "release",
       "original_sha256": "4a3a299a9fd3193e5a7eb9e97c170c0330c5f0544db178931deacc352879981c",
-      "sha256": "4a3a299a9fd3193e5a7eb9e97c170c0330c5f0544db178931deacc352879981c",
-      "bytes": 23163,
-      "metadata_redacted": false
+      "sha256": "b4e28a4616199242fcbc2201d0dceb1d5731d0dd0477b04d16defa55d571d906",
+      "bytes": 22309,
+      "metadata_redacted": true
     },
     {
       "path": "prepared/campaign-004/preflight-tests.txt",
@@ -76106,5 +76106,5 @@
   ],
   "omitted_artifacts": 377,
   "metadata_redacted_file_count": 2428,
-  "exported_file_bytes": 381246753
+  "exported_file_bytes": 381245716
 }
