@@ -86,7 +86,8 @@ with a matched molecular system. Success on synthetic counting does not establis
 that final biological gate.
 
 [The independent external-grader review](notes/EXTERNAL_GRADERS.md) recommends
-published MC2022 weighted instances with exact-rational Ganak as the next
-computational gate. It distinguishes that proposed evaluator from external Lean
+screening public MC2026/MC2025 Track 4 instances for nonnegative, unprojected
+weighted counting, with exact-rational Ganak as an independent reference. MC2022
+is an archived fallback. It distinguishes that proposed evaluator from external Lean
 count checkers, UAI factor-model benchmarks and assay-based biological grading.
 No reviewed tool is a turnkey grader for the full three-state affinity task.

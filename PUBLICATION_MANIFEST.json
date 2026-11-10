@@ -39,11 +39,14 @@
       "path": "BENCHMARK.md",
       "storage": "git",
       "original_sha256": null,
-      "sha256": "49bc9fbf3fe03d307b235cfc55cb184016dd9e7d08b6552713136ba96dc02ed7",
-      "bytes": 5678,
+      "sha256": "4827f5e6bc033bd14929259e45387c5d22a7253c621a14b5883454bb6399061f",
+      "bytes": 5768,
       "metadata_redacted": false,
       "publication_addition": true,
-      "followup_addition": "2026-11-10: separately sealed campaign-006 synthetic experiment, formal checks, independent grading and external-grader source review."
+      "followup_addition": "2026-11-10: separately sealed campaign-006 synthetic experiment, formal checks, independent grading and external-grader source review.",
+      "followup_edits": [
+        "2026-11-10: verified public MC2026/MC2025 archive availability; prefer semantic screening of recent Track 4 collections, retaining MC2022 as fallback."
+      ]
     },
     {
       "path": "CAMPAIGN-002.md",
@@ -2909,11 +2912,14 @@
       "path": "notes/EXTERNAL_GRADERS.md",
       "storage": "git",
       "original_sha256": null,
-      "sha256": "160ac0a7feedde0182386666cf3b409ab11fa30f4e8cf728d48ddb96b26d4d8a",
-      "bytes": 12443,
+      "sha256": "fca3cc29fa8e86ed32b8caabf1d7d80e29b719c44f555c94d8da892d4e33722e",
+      "bytes": 14536,
       "metadata_redacted": false,
       "publication_addition": true,
-      "followup_addition": "2026-11-10: separately sealed campaign-006 synthetic experiment, formal checks, independent grading and external-grader source review."
+      "followup_addition": "2026-11-10: separately sealed campaign-006 synthetic experiment, formal checks, independent grading and external-grader source review.",
+      "followup_edits": [
+        "2026-11-10: verified public MC2026/MC2025 archive availability; prefer semantic screening of recent Track 4 collections, retaining MC2022 as fallback."
+      ]
     },
     {
       "path": "outputs/campaign-001.png",
@@ -76540,7 +76546,7 @@
   ],
   "omitted_artifacts": 377,
   "metadata_redacted_file_count": 2428,
-  "exported_file_bytes": 381871616,
+  "exported_file_bytes": 381873799,
   "followup": {
     "date": "2026-11-10",
     "scope": "README explanation and bounded open-lane arithmetic checks",
@@ -76606,5 +76612,14 @@
       "notes/EXTERNAL_GRADERS.md",
       "scripts/campaign6_benchmark.py"
     ]
+  },
+  "external_grader_availability_followup": {
+    "date": "2026-11-10",
+    "updated_git_files": [
+      "BENCHMARK.md",
+      "notes/EXTERNAL_GRADERS.md"
+    ],
+    "scope": "Public-share metadata and Track 4 HEAD checks; source review only, no bulk download or benchmark run",
+    "bulk_data_unchanged": true
   }
 }

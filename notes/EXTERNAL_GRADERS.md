@@ -4,8 +4,10 @@ Checked against primary sources on 2026-11-10. This is a source review and a
 proposed next gate, not an executed external benchmark. No solver was installed,
 dataset downloaded, or external optimization run launched for this review.
 
-Start with MC2022 weighted-counting instances and deterministic exact-rational
-Ganak as an external numerical gate. For biological usefulness, use held-out,
+Screen MC2026 Track 4 first, then MC2025 Track 4, for nonnegative, unprojected
+weighted-counting instances. Use deterministic exact-rational Ganak as an external
+numerical gate; MC2022 remains an archived fallback with verified licensing.
+For biological usefulness, use held-out,
 assay-matched SKEMPI systems; ProteinGym is the stronger ready-made scoring option
 if a suitable binding assay is available. These are separate objectives.
 
@@ -21,7 +23,7 @@ parts of that problem:
 
 | External resource | What it supplies | What remains |
 |---|---|---|
-| [Model Counting Competition 2022](https://mccompetition.org/2022/mc_description.html) plus [Ganak](https://github.com/meelgroup/ganak) | Published weighted-counting instances; an established independent counter with exact rational arithmetic and a nonprobabilistic mode. | Parse literal weights and CNF without changing their meaning; validate the adapter; build a fixed interval/ranking evaluator. A counter is an oracle/baseline, not itself a ranking grader. |
+| [Model Counting Competition 2026](https://mccompetition.org/2026/mc_description.html), [2025](https://mccompetition.org/2025/mc_description.html), and archived [2022](https://mccompetition.org/2022/mc_description.html), plus [Ganak](https://github.com/meelgroup/ganak) | Public counting instances and an established independent counter with exact rational arithmetic and a nonprobabilistic mode. | Classify weights/projection before selecting a compatible cohort; validate the parser/adapter and build the interval/ranking evaluator. A counter is an oracle/baseline, not itself a ranking grader. |
 | [UAI 2022 PR benchmarks](https://uaicompetition.github.io/uci-2022/results/benchmarks/) | External finite factor graphs and separate tuning/final suites. PR is exactly a sum of products of factors. | Support actual domains and decimal factors. The [official score](https://uaicompetition.github.io/uci-2022/results/evaluation-criteria/) evaluates point-estimate log error, not sound enclosures or three-state rankings; exact references must be established separately. |
 | [count-catcher](https://github.com/leansolving/count-catcher) | An external Lean checker producing count theorems from D4/CPOG certificates; an archived, licensed subset of MC2022 instances. | Current counting is unweighted. A protein-factor encoding and weighted extension are separate work. The supplied reproduction stack targets x86-64 Linux, with substantial dependencies. |
 | [OSPREY / BBK*](https://pmc.ncbi.nlm.nih.gov/articles/PMC6074059/) | An established domain algorithm using affinity bounds to prune sequence spaces and order designs. | Run the same conformational spaces and energy model, including preparation costs. An OSPREY result is a model-based computational comparison, not an assay truth label. |
@@ -35,12 +37,42 @@ This source review is not a reproducible executable release seal.
 
 ## First practical gate: independent weighted-counting evaluation
 
-Use the nonnegative, nonprojected weighted track of MC2022, with a cohort frozen
-by source family and static size rather than success of our method. Keep hard
-cases as explicit timeouts. Start with a small declared panel; the original
-competition allowed 3,600 seconds and 32 GB, so its whole suite is not a laptop
-smoke test. Its exact category disqualifies wrong counts. These are external
-counting problems, not biological affinity measurements. [Competition rules](https://mccompetition.org/2022/mc_description.html).
+### Recent public downloads are available
+
+On 2026-11-10 the organizers' public shares returned directory listings without
+a user login. HEAD requests for both Track 4 archives returned HTTP 200 with
+`application/x-tar`. Only metadata was fetched; the archives were not downloaded.
+
+| Year | Public share | Archives listed |
+|---|---|---|
+| 2026 | [MCC2026_Public](https://nextcloud.liu.se/s/STzdpXNgZDZaPRo) | Tracks 1, 2B, 3, 4 and 5B; Track 4 is 74,352,640 bytes. |
+| 2025 | [MC2025_Public](https://nextcloud.liu.se/s/2zbn4APWnjLxRLo) | Tracks 1, 3, 4 and 5B; Track 4 is 45,424,640 bytes. |
+
+The original recommendation to start with 2022 was unnecessarily conservative.
+Availability is distinct from compatibility with our current arithmetic. The
+[2026 results slides, slide 17](https://mccompetition.org/assets/files/2026/MC2026_awards.pdf)
+explicitly say Track 4 contained MC, PMC and WMC instances, with no PWMC instances
+received. Its title alone therefore must not exclude the entire track. Screen
+the actual metadata for ordinary nonnegative WMC. The
+[2025 page](https://mccompetition.org/2025/mc_description.html) says weighted
+counting was subsumed by Track 4, so screen that collection next.
+
+The separate 2026 link labelled `Private Instances` redirected this anonymous
+check to Microsoft sign-in. That does not restrict the accessible public share.
+The contest's public/private split describes its evaluation process; a new search
+still needs a protected family-level holdout. Recent archive contents, exact
+reference counts and redistribution terms have not yet been audited here.
+
+Freeze eligibility by semantics, source family and static size before measuring
+our method; retain hard cases as explicit timeouts. The
+[2026 rules](https://mccompetition.org/2026/mc_description.html) allow 3,600 seconds
+and 32 GB, while Track 1F uses the same unweighted instances with a 120-second
+limit. That is a useful bounded solver gate, but does not test weighted affinity.
+The official webpage strikes out precision category B although the results slides
+still show it; use a clearly frozen exact category A for this proposed evaluator.
+These are external counting problems, not biological affinity measurements.
+
+### Archived fallback and independent reference
 
 The organizers' [archived competition set](https://zenodo.org/records/10012860)
 contains all four tracks, with CC BY 4.0 recorded in the
@@ -75,10 +107,12 @@ unsatisfiable formulas. Account for auxiliary bits, table sizes, preprocessing,
 coefficient growth and external oracle cost. This is a proposed adapter, not a
 verified reduction already present in campaign 006.
 
-Do not take every newer competition track as compatible. MC2026 introduces
-negative-weight instances in track 2B; the current natural-number/nonnegative
-certificate does not cover them. Projected counting also changes the target and
-cannot be supported by discarding the projection directive. [MC2026 tracks and format](https://mccompetition.org/2026/mc_description.html).
+MC2026's signed-weight Track 2B is outside the current natural-number/nonnegative
+proof; complex-weight Track 5B also needs different arithmetic and an appropriate
+objective. Projected counting changes the target and cannot be supported by
+discarding the projection directive. These are track-specific restrictions,
+not a reason to reject the recent public collections as a whole.
+[MC2026 tracks and format](https://mccompetition.org/2026/mc_description.html).
 
 The fixed evaluator should validate every claimed interval against its independent
 reference and every claimed strict winner by exact cross multiplication. A false
