@@ -1,0 +1,2762 @@
+{
+  "scope": "Upstream files omitted from mirror; stable fetch pointers where directly identified.",
+  "artifacts": [
+    {
+      "path": "grader/campaign-002/primary_sources/scheduledInference.h",
+      "original_sha256": "71a336fe7b329f10c0dfde84f97fa49ffee40ad308d4bb5a34b59c0624ce13ab",
+      "bytes": 6352,
+      "reason": "Upstream software/binary or vendored source: retrieve from original source with its license.",
+      "source_urls": [
+        "https://raw.githubusercontent.com/agrumery/aGrUM/3.3.2/src/agrum/base/graphicalModels/inference/scheduler/scheduledInference.h"
+      ]
+    },
+    {
+      "path": "grader/campaign-002/primary_sources/scheduledInference_inl.h",
+      "original_sha256": "b6f8dafbc073a2180367c2152d7fd1cf8338930b469a7c1588a80e79c4da767d",
+      "bytes": 4154,
+      "reason": "Upstream software/binary or vendored source: retrieve from original source with its license.",
+      "source_urls": [
+        "https://raw.githubusercontent.com/agrumery/aGrUM/3.3.2/src/agrum/base/graphicalModels/inference/scheduler/scheduledInference_inl.h"
+      ]
+    },
+    {
+      "path": "grader/campaign-002/primary_sources/scheduler.h",
+      "original_sha256": "ef937c07970759e6bcfe9b99d1774d6120d473de2512ebe350ce42e9c85b795d",
+      "bytes": 7177,
+      "reason": "Upstream software/binary or vendored source: retrieve from original source with its license.",
+      "source_urls": [
+        "https://raw.githubusercontent.com/agrumery/aGrUM/3.3.2/src/agrum/base/graphicalModels/inference/scheduler/scheduler.h"
+      ]
+    },
+    {
+      "path": "grader/campaign-002/primary_sources/schedulerSequential.h",
+      "original_sha256": "dd8f3bfbb9c5a91d2dad78c78ce15713291ab31e3a8abe4819c7cc8d68733845",
+      "bytes": 8396,
+      "reason": "Upstream software/binary or vendored source: retrieve from original source with its license.",
+      "source_urls": [
+        "https://raw.githubusercontent.com/agrumery/aGrUM/3.3.2/src/agrum/base/graphicalModels/inference/scheduler/schedulerSequential.h"
+      ]
+    },
+    {
+      "path": "grader/campaign-002/primary_sources/schedulerSequential_inl.h",
+      "original_sha256": "f8036396bd8a901ad3fedb46d9b3a41faba32a867e8cc0e94998b4bb46c41928",
+      "bytes": 4014,
+      "reason": "Upstream software/binary or vendored source: retrieve from original source with its license.",
+      "source_urls": [
+        "https://raw.githubusercontent.com/agrumery/aGrUM/3.3.2/src/agrum/base/graphicalModels/inference/scheduler/schedulerSequential_inl.h"
+      ]
+    },
+    {
+      "path": "grader/campaign-002/primary_sources/scheduler_inl.h",
+      "original_sha256": "79263cd0af205ff4eb3cee8c5e5add181acbd76d97862f3d8587978af2a7f5e1",
+      "bytes": 3880,
+      "reason": "Upstream software/binary or vendored source: retrieve from original source with its license.",
+      "source_urls": [
+        "https://raw.githubusercontent.com/agrumery/aGrUM/3.3.2/src/agrum/base/graphicalModels/inference/scheduler/scheduler_inl.h"
+      ]
+    },
+    {
+      "path": "prepared/campaign-002/models/1BK2__cpd_source_first_aa__beta1__simplified.json",
+      "original_sha256": "c765ddfb76c4c3e7be34b3b58ebf1e17520dcf8cb78e10b1d8799cc2ead063ef",
+      "bytes": 199238,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-002/models/1CSK__cpd_source_first_aa__beta1__simplified.json",
+      "original_sha256": "66208d34517d3d794231591ea13f3079a53378c903634dada51baa173700818e",
+      "bytes": 529816,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-002/models/1FYN__cpd_source_first_aa__beta1__simplified.json",
+      "original_sha256": "2972ce30706dbd7c9da96ee5cff4fe0cfd1a0bbecebca1d2f18d2bc4526bf48f",
+      "bytes": 127827,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-002/models/1MJC__cpd_source_first_aa__beta1__simplified.json",
+      "original_sha256": "1ee7a48c06a52dfcc10c9136c1fda58efb5d738e67c3f20b961cff5a8ab21b4a",
+      "bytes": 624901,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-002/models/1PIN__cpd_source_first_aa__beta1__simplified.json",
+      "original_sha256": "fdeed4c8f1052f91df75c5f9447cbfb5ef0b225f14b9d254d5f43d7e10ecfc63",
+      "bytes": 422883,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-002/models/1SHG__cpd_source_first_aa__beta1__simplified.json",
+      "original_sha256": "6ba31c5f4e221a9a4e92411647c236c71e040e73dfb37bb3612c6cf6f9e65d65",
+      "bytes": 448347,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-002/models/synthetic-constant-n48-q4__simplified.json",
+      "original_sha256": "d88abc84a05fe4a260be54b2e5eb6706c09eec3e6c1142b93f13f3e25d96e70a",
+      "bytes": 309767,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-002/models/synthetic-separable-n32-q4__simplified.json",
+      "original_sha256": "a8e5df16d704bbf36894490e2ef17d311b04c7dfcab23f3fb88a1d4657768580",
+      "bytes": 289661,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-002/controls/synthetic-chain-n32-q4.json",
+      "original_sha256": "d09c5ba77c4645d86286421d7cea423bada128a3fd4d0a43a450e700e87d8e3c",
+      "bytes": 13780,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-002/controls/synthetic-chain-n96-q4.json",
+      "original_sha256": "cdc2ce6084d1e8a97da6c7fae5566759134e1d4958b8850c8de674808b20872c",
+      "bytes": 41300,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-002/controls/synthetic-clique-n10-q4.json",
+      "original_sha256": "ce6117a4d906597b553b2f776be9aa4138b0db0d3fd404aeb4014157ec283305",
+      "bytes": 19479,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-002/controls/synthetic-clique-n12-q4.json",
+      "original_sha256": "a0d499e9f65bb50541e4abc413e68da37c48aabc939c70fab7a09b9e3f43841e",
+      "bytes": 28356,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-002/controls/synthetic-clique-n14-q4.json",
+      "original_sha256": "d206b48a09b4254931dd2d4fc923e43a528c0760c49d83b3e340cd12be5a83de",
+      "bytes": 38925,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-002/controls/synthetic-constant-n48-q4.json",
+      "original_sha256": "f340c60dd5cce2244e516f2266d841dccf453b08ac9bc17d98d3ce7a6670bc3f",
+      "bytes": 463942,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-002/controls/synthetic-cycle-n48-q4.json",
+      "original_sha256": "e099013c10800c1f7d26d42182c64d489b50cc317623cbaf6d68b6f7c2abc7ca",
+      "bytes": 21082,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-002/controls/synthetic-grid4-n16-q3.json",
+      "original_sha256": "093974529d8f27e9a9358408c59e474375d2c4d409891294a2aa79b23669c7d2",
+      "bytes": 7551,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-002/controls/synthetic-grid8-n64-q3.json",
+      "original_sha256": "5dac12ea6763a6adf0593ba74f71d9a407a64dd410b2d0bd4329a11dffa5eded",
+      "bytes": 33585,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-002/controls/synthetic-independent-n64-q4.json",
+      "original_sha256": "66c0cae56bc2eab53e362bc77de0c4145852c9b94ee94b075e7f772715331b6b",
+      "bytes": 9552,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-002/controls/synthetic-separable-n32-q4.json",
+      "original_sha256": "0c22527317202cccae31f2ea86a482b41db0344359f3c0b0fc39ae0ab4634a29",
+      "bytes": 212176,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-003/models/1BK2__cpd_source_first_aa__beta1__propagated.json",
+      "original_sha256": "2c477477b2e8fd977a0414ed757f318f8df33be5670a023312f45e556b147c9f",
+      "bytes": 170836,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-003/models/1BK2__cpd_source_first_aa__beta1__simplified.json",
+      "original_sha256": "c765ddfb76c4c3e7be34b3b58ebf1e17520dcf8cb78e10b1d8799cc2ead063ef",
+      "bytes": 199238,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-003/models/1CSK__cpd_source_first_aa__beta1__propagated.json",
+      "original_sha256": "d44372d5e5cd66a648dce1ca1cdb79e38c9d08c5c9476a1ba507143b946456e3",
+      "bytes": 489837,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-003/models/1CSK__cpd_source_first_aa__beta1__simplified.json",
+      "original_sha256": "66208d34517d3d794231591ea13f3079a53378c903634dada51baa173700818e",
+      "bytes": 529816,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-003/models/1FYN__cpd_source_first_aa__beta1__propagated.json",
+      "original_sha256": "49ff1d8b3a987c5bec62f5807e418f9dedb748092858b71b410797a43a5bd17f",
+      "bytes": 118266,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-003/models/1FYN__cpd_source_first_aa__beta1__simplified.json",
+      "original_sha256": "2972ce30706dbd7c9da96ee5cff4fe0cfd1a0bbecebca1d2f18d2bc4526bf48f",
+      "bytes": 127827,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-003/models/1MJC__cpd_source_first_aa__beta1__propagated.json",
+      "original_sha256": "f71762707c4bfb9e9ce4a1441351a3c27cac36e8747d9ae9fa09255bf793ab29",
+      "bytes": 604606,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-003/models/1MJC__cpd_source_first_aa__beta1__simplified.json",
+      "original_sha256": "1ee7a48c06a52dfcc10c9136c1fda58efb5d738e67c3f20b961cff5a8ab21b4a",
+      "bytes": 624901,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-003/models/1PIN__cpd_source_first_aa__beta1__propagated.json",
+      "original_sha256": "787bb677d5ceb09e5c15824eb5389789bd8aff2e432b5e8ad966160a86c0b44c",
+      "bytes": 395171,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-003/models/1PIN__cpd_source_first_aa__beta1__simplified.json",
+      "original_sha256": "fdeed4c8f1052f91df75c5f9447cbfb5ef0b225f14b9d254d5f43d7e10ecfc63",
+      "bytes": 422883,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-003/models/1SHG__cpd_source_first_aa__beta1__propagated.json",
+      "original_sha256": "a2e182c52d417208ccdc3fa5aa4e37a60af84d8d8e663bca55ebd322dff6c1fc",
+      "bytes": 341633,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-003/models/1SHG__cpd_source_first_aa__beta1__simplified.json",
+      "original_sha256": "6ba31c5f4e221a9a4e92411647c236c71e040e73dfb37bb3612c6cf6f9e65d65",
+      "bytes": 448347,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-003/models/control003-cascade__propagated.json",
+      "original_sha256": "0fb2291b6fe691cc5ce618d127feefcb779ee51bef2594c543a270bdbc93cf61",
+      "bytes": 5868,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-003/models/control003-cascade__simplified.json",
+      "original_sha256": "3950232d7fff068e9445e2628fc6bf0665befa297e8cd65ed037917cf904258f",
+      "bytes": 3100,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-003/models/control003-duplicate-zero__propagated.json",
+      "original_sha256": "7322a0a7abdb89e4d1f78ee3d9ed776941d9b91465fcc00c31bfb2bbfd41c31c",
+      "bytes": 1846,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-003/models/control003-duplicate-zero__simplified.json",
+      "original_sha256": "911552c1306a45a6f9006e5e36cc5dedfd06d81a0887452c565f10618a31e2b1",
+      "bytes": 1218,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-003/models/control003-finite-tail__propagated.json",
+      "original_sha256": "1d5e72244097d273e671809d826ff17bf526c2eca467c47bdfd72e0cad2cd7a2",
+      "bytes": 3369,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-003/models/control003-finite-tail__simplified.json",
+      "original_sha256": "cc7ff69528a8f265c416575407dfb5a54e5424ed5c08fb31968792abd6d56655",
+      "bytes": 1728,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-003/models/control003-global-zero__propagated.json",
+      "original_sha256": "7362d4fd5f851d8b2efcb2cc5b94d40e6c4d42667fa029f7c7fa9c4012896d15",
+      "bytes": 2516,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-003/models/control003-global-zero__simplified.json",
+      "original_sha256": "3f4ef9f7ec1cd55ae3e0de95838101291fe2f331f71dcb1929b27d0644e1802a",
+      "bytes": 1390,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-003/models/control003-local-zero__propagated.json",
+      "original_sha256": "3deb83a39b4a1bae4ca9a3be882c27417eeb369a1eedba12cdffa18999d13897",
+      "bytes": 2181,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-003/models/control003-local-zero__simplified.json",
+      "original_sha256": "0dba1f5c6390779ead4b68e664c3a710fa6d07327f31924781b226b9f556b02d",
+      "bytes": 2007,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-003/models/control003-multiplicity__propagated.json",
+      "original_sha256": "76e0ed19d349a235dfd5ce521badbfe936aa204ffac928020dfa59e719a347e1",
+      "bytes": 2256,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-003/models/control003-multiplicity__simplified.json",
+      "original_sha256": "2c21c0da65b5891ad51f11043daecbb73f2386aec030981f9f3f21ffe99db663",
+      "bytes": 989,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-003/controls/control003-cascade.json",
+      "original_sha256": "8bd76a1f121bea6ca31328a0db26d9337678c3f0c97f1ca2abed2ba97ceb4c4a",
+      "bytes": 2735,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-003/controls/control003-duplicate-zero.json",
+      "original_sha256": "00d53168c370bf383429cf6c5b1192a3b8ceffc0193571bb84c28e5143cff774",
+      "bytes": 855,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-003/controls/control003-finite-tail.json",
+      "original_sha256": "40d94e2d7775492a76459e7d634f460821b78f834123a4bee01b87b5196e65ac",
+      "bytes": 1333,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-003/controls/control003-global-zero.json",
+      "original_sha256": "751bf396a9684d553e25eda1d2a12814fe0f26e9adc367eddb6faa242aa96985",
+      "bytes": 1027,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-003/controls/control003-local-zero.json",
+      "original_sha256": "11bd98609c2992396e414671be771b7d0bca33e38f356c21a5e7619af4a6e91c",
+      "bytes": 1640,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-003/controls/control003-multiplicity.json",
+      "original_sha256": "f0aa580f45c3451a3333fa64b6b12189161544097399da9efc58ff7e5b02b502",
+      "bytes": 622,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s00_LEU__original__complex.json",
+      "original_sha256": "efa3c6ccb23e47c77232b0e1fbf99ffc1e594b53fef025963a846b2891aecb8a",
+      "bytes": 23375,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s00_LEU__original__ligand.json",
+      "original_sha256": "2ba3485667b282cffd0dec47165e21329f4cb375d91b20948d171c021de56a35",
+      "bytes": 6528,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s00_LEU__original__protein.json",
+      "original_sha256": "c48d1fc0a3019b7f7c18b98c4e49161075046c385400f687ccff40ce721bfd6f",
+      "bytes": 6779,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s00_LEU__propagated__complex.json",
+      "original_sha256": "aed27ab1a1bbb1d1edec2fd67d14c20515b3a739465edd986b8e7419983e1494",
+      "bytes": 14951,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s00_LEU__propagated__ligand.json",
+      "original_sha256": "b3cb67d2f4ffdc25b5322443d9fc119a3fa26e714f51cbf7a0859dcb51eb3c53",
+      "bytes": 6535,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s00_LEU__propagated__protein.json",
+      "original_sha256": "a78e0f257477e8bb30bb7fabb8a7451a29a68f57f0b6267dcd11cb05706388b8",
+      "bytes": 7563,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s00_LEU__simplified__complex.json",
+      "original_sha256": "fc88623777898b699a3ad157361666b6849782a3e6af30fa4c2baf546381caf1",
+      "bytes": 24293,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s00_LEU__simplified__ligand.json",
+      "original_sha256": "5d1e38066263097ad6bd97c8c14cdb7975f0f493c0d268986011a755a5d04a57",
+      "bytes": 7149,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s00_LEU__simplified__protein.json",
+      "original_sha256": "2e983cf5297a7039c0e575a561cb2ae463cf126b97f06358f0d0782c08afbe53",
+      "bytes": 7400,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s01_ALA__original__complex.json",
+      "original_sha256": "38bb52a72dc9e2058ed1822a443cdb78cc92607f2180fa1ce1115b96f962cfb5",
+      "bytes": 18507,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s01_ALA__original__ligand.json",
+      "original_sha256": "81bd675355761f6d13bbb6fb8122ca505db820336b39496fc545d99b1cddc0ab",
+      "bytes": 4299,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s01_ALA__original__protein.json",
+      "original_sha256": "6b24eccebf5691c7931545cff7da71b38a8080803aba8d87b60d770288ffb97a",
+      "bytes": 6779,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s01_ALA__propagated__complex.json",
+      "original_sha256": "39205c230991586af133a2a81b63a7d41e151616f0d46af0ce989cb7176c0810",
+      "bytes": 14206,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s01_ALA__propagated__ligand.json",
+      "original_sha256": "48f139586b2be47222c6577d0c5c8406bd84ea21e62d5830b528234477a83987",
+      "bytes": 5982,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s01_ALA__propagated__protein.json",
+      "original_sha256": "ece09449ee14db3fee8632963a107352cc56ff602acc27884e102d9c94d93064",
+      "bytes": 7563,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s01_ALA__simplified__complex.json",
+      "original_sha256": "78d007eb355b3cdf3e01c5189a93801c4feebdec08b2e9e509e39876e3e112c0",
+      "bytes": 20412,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s01_ALA__simplified__ligand.json",
+      "original_sha256": "f8a7e7da45dd59db8125d94e2591770df7d1b0c4e10162842af90306e34ebfa2",
+      "bytes": 5569,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s01_ALA__simplified__protein.json",
+      "original_sha256": "830c527af5bb48796c085fcaa8ea474d802db68ee7948939fd4f7f57484fadfd",
+      "bytes": 7400,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s02_VAL__original__complex.json",
+      "original_sha256": "c212fae6d75f702262810879164c4114ce30ae03e766adb794996a5174c86b3b",
+      "bytes": 20478,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s02_VAL__original__ligand.json",
+      "original_sha256": "f904f4a11f9d0d16670e67a9e962bdeea7c29c7cc23aacabcb56a6a9effccea0",
+      "bytes": 5187,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s02_VAL__original__protein.json",
+      "original_sha256": "6273389c31fddea00a671f5e518705d48f81157f2c94e4874d0a70f5723465ca",
+      "bytes": 6779,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s02_VAL__propagated__complex.json",
+      "original_sha256": "0f0d35d65c8c7b2df1621c92684661801f6d4d47f1171d35ea5cd873f1284b61",
+      "bytes": 14322,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s02_VAL__propagated__ligand.json",
+      "original_sha256": "f66fc0e9ef700915eaee062118c76b0412289416bf5d801d4ff2834e57b1c6a6",
+      "bytes": 5934,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s02_VAL__propagated__protein.json",
+      "original_sha256": "83d355943ea369162f54ebf9c922ebc6921470ce17e6b1a5eebcbeb993fc4de0",
+      "bytes": 7563,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s02_VAL__simplified__complex.json",
+      "original_sha256": "5aebf39d9439691a73c4c9a597e5d4f0c2f51d9380d99c06e41182fb2a22e573",
+      "bytes": 21435,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s02_VAL__simplified__ligand.json",
+      "original_sha256": "4204a50c5e4b56f61da7d9727ae623ff0901d03d526db80249d7b957383b947a",
+      "bytes": 5847,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s02_VAL__simplified__protein.json",
+      "original_sha256": "e7f659e76bfe97bb9a13a85fc9ec2d2e93f397f656ecfc050ecbec562fb57773",
+      "bytes": 7400,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s03_ILE__original__complex.json",
+      "original_sha256": "1ae57ed1f213f978d804f6cd229a41a71e3c7e7a79d5e48703c3e43180fe6717",
+      "bytes": 24406,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s03_ILE__original__ligand.json",
+      "original_sha256": "f05a95c141fcb1ca8eafd9d6f23fd5069a93a332997224cd38fd01176cae904e",
+      "bytes": 6966,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s03_ILE__original__protein.json",
+      "original_sha256": "4a6329483eabc259af0031c81d326537c6645d48122a03d4373aa0287defcfcb",
+      "bytes": 6779,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s03_ILE__propagated__complex.json",
+      "original_sha256": "28a0eeba516e11f53044ed05e1f243414ca1deb8e36c7a572d34364b50ef1350",
+      "bytes": 16161,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s03_ILE__propagated__ligand.json",
+      "original_sha256": "9b48c848198e005617efbaf01b057e7065c56ce16044f34f0e963a74a45adae4",
+      "bytes": 7031,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s03_ILE__propagated__protein.json",
+      "original_sha256": "5dee99d27c8999bfd67e345d0a421bdab0e6567938042cc4d5878d5fae6397c0",
+      "bytes": 7563,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s03_ILE__simplified__complex.json",
+      "original_sha256": "7688f96a2ec69c828861128f3db075ee71179895d28d350d892fe68957ddb31d",
+      "bytes": 25311,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s03_ILE__simplified__ligand.json",
+      "original_sha256": "d7341e7456d4a1bfb55393d78542951501ff1c1d0246eba286011e5552536553",
+      "bytes": 7574,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s03_ILE__simplified__protein.json",
+      "original_sha256": "fb213522aa7957babf54d1ae5746a8785aa35467ce8faecf5142ea713b2acb2f",
+      "bytes": 7400,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s04_PHE__original__complex.json",
+      "original_sha256": "5486332bd9de09d7ee63669a0e578e977dd679e2aca998c697623c9636ae0d63",
+      "bytes": 21375,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s04_PHE__original__ligand.json",
+      "original_sha256": "6a5bf5e85b44e690c7db9bcfe6d237b1dafddb6a488e822227c7b1ee0f2f05ff",
+      "bytes": 5669,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s04_PHE__original__protein.json",
+      "original_sha256": "91360160cd0a791939e8291c28c7aefacfe6c48871f4be972101dc5c5c8382ca",
+      "bytes": 6779,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s04_PHE__propagated__complex.json",
+      "original_sha256": "2ef2e3d7e631e4fff52a635be07a9b7928ecc0a881fc44560381458388999925",
+      "bytes": 14243,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s04_PHE__propagated__ligand.json",
+      "original_sha256": "c93b79c530d1d134f0f5300f18b82685e5918a1dd3efc1abf68afda0fdf063fe",
+      "bytes": 6248,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s04_PHE__propagated__protein.json",
+      "original_sha256": "18b1161f405d167bdbddffd371a893aa6ab8fa8dde7688b34b816fe91e2f8af2",
+      "bytes": 7563,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s04_PHE__simplified__complex.json",
+      "original_sha256": "fb018783785ede4fc27863c7be24be27ea07b3ddb9467598133e0183757b9c4b",
+      "bytes": 22319,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s04_PHE__simplified__ligand.json",
+      "original_sha256": "c13175fa40d04d83063eddcfe470b4a4d915aa22253d36e5f324f727a3bb81bf",
+      "bytes": 6316,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s04_PHE__simplified__protein.json",
+      "original_sha256": "92937068e7c7e0daaa373e4f7a9b72f908240885671ffec51b382a9db5d07a0c",
+      "bytes": 7400,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s05_TYR__original__complex.json",
+      "original_sha256": "1d90a9fdb1299d8ee28357925e8ebc068693fa82f317cc1f607b83135e166d19",
+      "bytes": 25219,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s05_TYR__original__ligand.json",
+      "original_sha256": "ff71e852ae76a8712ad693558716a96fd5d75a42398affe2761e6b285af7c055",
+      "bytes": 7473,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s05_TYR__original__protein.json",
+      "original_sha256": "a45b73e8feea9013b91a022fe0cc043fd8bc2ee375983e246cef705c382e7624",
+      "bytes": 6779,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s05_TYR__propagated__complex.json",
+      "original_sha256": "8df94062b21deb283d3032f583d31f829372a1259f220c102ed4c971bfaae911",
+      "bytes": 13808,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s05_TYR__propagated__ligand.json",
+      "original_sha256": "c485f865fdc7f5e622ee94a39a46a0af262a3744e5d452d022aa2be05b3e9610",
+      "bytes": 7371,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s05_TYR__propagated__protein.json",
+      "original_sha256": "3786a6ec01b3b85462851de850da68cadd72526b974256fac1437fcbbefa2210",
+      "bytes": 7563,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s05_TYR__simplified__complex.json",
+      "original_sha256": "11d63a30fb6472c85db3a44dbcf62fd8e22fe490719148f921178fb0d9769ee2",
+      "bytes": 26111,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s05_TYR__simplified__ligand.json",
+      "original_sha256": "4ddf904bca80e2a2014990f8e49b1a66de407dcb5b10da0e19f532f92e0bb833",
+      "bytes": 8068,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s05_TYR__simplified__protein.json",
+      "original_sha256": "1a30bc2c8ec6537b371e8ba739c960b330dd92c69a55ce37e0a75e214025a80b",
+      "bytes": 7400,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s06_TRP__original__complex.json",
+      "original_sha256": "c1abd4bde2d9b2c8e73867d08d3625025a3bcc6c9aee540d860ee1d33f546873",
+      "bytes": 24138,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s06_TRP__original__ligand.json",
+      "original_sha256": "442de6d4894711cf4087ef93a825e8f119b7a2a47f5413e8fb7fc7e3db700949",
+      "bytes": 6938,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s06_TRP__original__protein.json",
+      "original_sha256": "d176ad71ecf34e5b86b96ce6cf21a1265def87a6b0986fff5d100cc18d02fdad",
+      "bytes": 6779,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s06_TRP__propagated__complex.json",
+      "original_sha256": "4111890e8cdd1d4a6f8f7af2c79d5e87840145fe90e0738f9305d04cfd555601",
+      "bytes": 13756,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s06_TRP__propagated__ligand.json",
+      "original_sha256": "22c92a976a44c464c3175c5c1e4e56abf16b56ea6b590137cfff0da8e2cf4133",
+      "bytes": 6563,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s06_TRP__propagated__protein.json",
+      "original_sha256": "6f5bf8538f7f18302a10387006bb12b93c7ffb22680a7d77259ff5171ffea83e",
+      "bytes": 7563,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s06_TRP__simplified__complex.json",
+      "original_sha256": "e8bd0c1ec01b7338fdb67e9c661f5bff5df7ab5dda503542cfb46b803ec4a9e2",
+      "bytes": 25043,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s06_TRP__simplified__ligand.json",
+      "original_sha256": "f4a5ffc25f5e433b57689861b349e28ec1e4e89c6165571a69fc0838307b2a67",
+      "bytes": 7546,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s06_TRP__simplified__protein.json",
+      "original_sha256": "f12d57e3fdbbeb0f604924ad10d61e695e96de5632daee832b18a0820f347f85",
+      "bytes": 7400,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s07_CYS__original__complex.json",
+      "original_sha256": "9da31fd6d12d3f7bca536f0e1cffc55c5059334e98ee5e341a357ecac6a10310",
+      "bytes": 20511,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s07_CYS__original__ligand.json",
+      "original_sha256": "aa063d55139ad147769dbcd4f5937191e1eb426fb0c760480a81b3ee4f66d82b",
+      "bytes": 5215,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s07_CYS__original__protein.json",
+      "original_sha256": "bacb73123a6bdb109e93fd8c88cd83f95a3385ce1f524ebb3cc80614260d3073",
+      "bytes": 6779,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s07_CYS__propagated__complex.json",
+      "original_sha256": "615d868cbc33faa95977b4c0853c02c3d4c210b169fac1a408f2cb8d9d5003eb",
+      "bytes": 14354,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s07_CYS__propagated__ligand.json",
+      "original_sha256": "cc6237350a2848b3065691c8454a6382f2a606496829f9b1ed7a025a9ee2bc5e",
+      "bytes": 5961,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s07_CYS__propagated__protein.json",
+      "original_sha256": "7e232ee5820c78db8d5008b723f736147194be9391afd8675cb03b1c093cf6c1",
+      "bytes": 7563,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s07_CYS__simplified__complex.json",
+      "original_sha256": "fd786cf2e49d020da7ea0a12b4b4d4af651043ab99293de2da054e24a42c9a33",
+      "bytes": 21468,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s07_CYS__simplified__ligand.json",
+      "original_sha256": "01170ad1e07027010ff4ed117fec0410beb7ab7b0beba24e0dea659dae9efbd6",
+      "bytes": 5875,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s07_CYS__simplified__protein.json",
+      "original_sha256": "fb97d455879ef1be9621f61ebe761c18de76e7500f22c2533c3ee3bb46886a0d",
+      "bytes": 7400,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s08_MET__original__complex.json",
+      "original_sha256": "355132626bc4fa5f431ebe3575df0446dc39aa6ac49c64437f927bc5071c240c",
+      "bytes": 30245,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s08_MET__original__ligand.json",
+      "original_sha256": "b8408b19140545fde9a7061c6093d07ca772611f0c1474be6e730acf7cfa5552",
+      "bytes": 9730,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s08_MET__original__protein.json",
+      "original_sha256": "7ad8c76ddf49a1d72abfc4979d13a84be7cdfc7c54e4f58563c402c1c2bee8a1",
+      "bytes": 6779,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s08_MET__propagated__complex.json",
+      "original_sha256": "c53b320d0f9d1ca9ed765ca6e489c0ecd36f900f3d8ed347cd9e8a2bc4570291",
+      "bytes": 17363,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s08_MET__propagated__ligand.json",
+      "original_sha256": "d0fac0f176381fb511cf82e464207347877bce3efcb9a09a24c2b1afe25fd880",
+      "bytes": 8777,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s08_MET__propagated__protein.json",
+      "original_sha256": "64ad85d99eeb4bf7cbf1780cd967b72de848c368c9b852c586d62200fefff338",
+      "bytes": 7563,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s08_MET__simplified__complex.json",
+      "original_sha256": "b569aff671b4c0761c8b99bb64f2126cbf80558f2b47380efebe59b0e643e70a",
+      "bytes": 31072,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s08_MET__simplified__ligand.json",
+      "original_sha256": "c384a87018c857392e3a2c805825aa8b4721dc788dc338fc0c3773a198c34569",
+      "bytes": 10260,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s08_MET__simplified__protein.json",
+      "original_sha256": "cfa803e3fde974b6bf21e86c7e606d1a3358ea2da71f0caddcb1862e860e7058",
+      "bytes": 7400,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s09_SER__original__complex.json",
+      "original_sha256": "2fb1d930407ebb7af33f9afc421d763f61013edefab370a031b3c9cc6140e755",
+      "bytes": 35604,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s09_SER__original__ligand.json",
+      "original_sha256": "00bec1dc7365985fc6b6d815d1f42284f1420086a42baa48d1be3ec398aa3202",
+      "bytes": 12143,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s09_SER__original__protein.json",
+      "original_sha256": "8913dd516c410aa95a28b3b5e29b8694029d7c4ea0bbcc567416619406a84498",
+      "bytes": 6779,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s09_SER__propagated__complex.json",
+      "original_sha256": "b4f9666089f6e67986cb4fab320b34c7bf95998c2dad4ff9cf84ff3f42c1dacd",
+      "bytes": 23660,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s09_SER__propagated__ligand.json",
+      "original_sha256": "e35c6b8cae3f19697e3b5d7e46f17e6bf312c73dc3f780f389dbcc69e836d6a7",
+      "bytes": 10319,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s09_SER__propagated__protein.json",
+      "original_sha256": "8f0bdc5ff7f435e47d4caf496b9fd9a37089e728a3bd6cccfe7c4b975e5d31c6",
+      "bytes": 7563,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s09_SER__simplified__complex.json",
+      "original_sha256": "7212c4ab8fd86d260efbf28bcf93175c479988599e6119eefe027370f32fbd11",
+      "bytes": 36366,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s09_SER__simplified__ligand.json",
+      "original_sha256": "754ee9044ef3d34066e546ccffa3f808bc30f949a8f3e08ed0b377a542415ee4",
+      "bytes": 12608,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s09_SER__simplified__protein.json",
+      "original_sha256": "96cb518c765e6a3975a3aafddbf198a47b113ec9a05f50e988633f87dd24cfb8",
+      "bytes": 7400,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s10_THR__original__complex.json",
+      "original_sha256": "df365e3935fc428283a0b3a8f139b8a2d6d9b00fda736ed00bdb48199cb579dc",
+      "bytes": 35490,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s10_THR__original__ligand.json",
+      "original_sha256": "a4f1f4dc2257214d0e8395ad0e4caa378915ec6291e6c88ef8d62cf226b4d07d",
+      "bytes": 12056,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s10_THR__original__protein.json",
+      "original_sha256": "5295740dbd2537b22a984d12190ad30c8c10993bd73d1c8e03cf9fe23e803bea",
+      "bytes": 6781,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s10_THR__propagated__complex.json",
+      "original_sha256": "9ac005c6c069d2e7de83b20eaa5d8818ba0b6172e163f48de7a869368f4fc8c7",
+      "bytes": 23584,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s10_THR__propagated__ligand.json",
+      "original_sha256": "e0eb8cff4155c509a122dbc3fb146da4360f2a46694613e7d04a8450bdffb9d4",
+      "bytes": 10250,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s10_THR__propagated__protein.json",
+      "original_sha256": "504e5447e03cd39f0a11e799b7b290fe6676bfd0636a7e6ee908152f6cf1b1f7",
+      "bytes": 7565,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s10_THR__simplified__complex.json",
+      "original_sha256": "860fa29c46784e0965e0903b0f1d17cb1daf04577e3b874b3c2065ade04ae256",
+      "bytes": 36252,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s10_THR__simplified__ligand.json",
+      "original_sha256": "319dd9f4268c07b10fa881ce47c9ad6dbe805067b7268163081edc0ac19d611f",
+      "bytes": 12521,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s10_THR__simplified__protein.json",
+      "original_sha256": "60274aeaa2acaa710d4434fb801acd3d2dd88c3f40427d134f19c126c016706d",
+      "bytes": 7402,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s11_LYS__original__complex.json",
+      "original_sha256": "091d31cc19d7c9b74e557e68700e4d96a989408025c0b70b3932ad232dc996fe",
+      "bytes": 43985,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s11_LYS__original__ligand.json",
+      "original_sha256": "174a3233cf6beeec81228197bb1150da05fe8cf3e45f0ed805ab068c3ac6dcce",
+      "bytes": 16096,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s11_LYS__original__protein.json",
+      "original_sha256": "cd043519af0d80d109a1c8e74ddb5ae52ecd77ecc25977e5451fe999e8d3bfbb",
+      "bytes": 6781,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s11_LYS__propagated__complex.json",
+      "original_sha256": "e0398c8cd26af4e9d82b5577719ce76180138c2b6fe8c7f400ad9d939f03aa94",
+      "bytes": 20574,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s11_LYS__propagated__ligand.json",
+      "original_sha256": "5b97b02a0f8d832643d67dacfbeb7e662ea418bb4d35dd1e6ebd3f794152335c",
+      "bytes": 12016,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s11_LYS__propagated__protein.json",
+      "original_sha256": "218bc608bba63abe866ff4639a1b24d1d3e5c9fc7d4c92fc85cd39cbe1118b30",
+      "bytes": 7565,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s11_LYS__simplified__complex.json",
+      "original_sha256": "1df2d657e0e0dd45e6fbbbe0b1eaff5d0b4d2029336edfea92e837b93434b197",
+      "bytes": 44630,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s11_LYS__simplified__ligand.json",
+      "original_sha256": "35483a4957291a6580eb00fe72706537f30dfd6822759a9fa46f170dcb8b7d24",
+      "bytes": 16444,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s11_LYS__simplified__protein.json",
+      "original_sha256": "7b1735d362d505fb6d83ef4a6a9a9970027d47ec12baae9ab0565cf8edb75cc2",
+      "bytes": 7402,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s12_ARG__original__complex.json",
+      "original_sha256": "7ec21057042922c7c33397280e00b4c3317d5a5739ec78763fd817e35ba57bdb",
+      "bytes": 50288,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s12_ARG__original__ligand.json",
+      "original_sha256": "b0cbf3d20353fab1fd6001141c19c490d0ad4febb6bd56c8b8aeb00522db2f05",
+      "bytes": 19261,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s12_ARG__original__protein.json",
+      "original_sha256": "93f7d29295372d153f01b3f58a22dd0523094b1990fb2573e1021aafaa8c7197",
+      "bytes": 6781,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s12_ARG__propagated__complex.json",
+      "original_sha256": "b4ff7f68683dda8d9ff122f8d968ea1a1249eb57140c56deaa204aed21aae811",
+      "bytes": 23038,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s12_ARG__propagated__ligand.json",
+      "original_sha256": "ed036549cfa051ce95ab4cd0a8a509ceda0dd08efe74b24a9bb4592df6be2ac5",
+      "bytes": 14262,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s12_ARG__propagated__protein.json",
+      "original_sha256": "fa14539dcf163373d1e45b9ccbe6a6527fc8c9d15f22c2dde77d73fea9bc96e5",
+      "bytes": 7565,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s12_ARG__simplified__complex.json",
+      "original_sha256": "f5e4675243e6baef796e99c220f1301dba5b79f245f5fa600c4d18d543086d31",
+      "bytes": 50842,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s12_ARG__simplified__ligand.json",
+      "original_sha256": "c7174cc2b61197b6b05d798ab9913ae53a43d5a42a18acab169004ce2a3acb3d",
+      "bytes": 19518,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s12_ARG__simplified__protein.json",
+      "original_sha256": "2da2504a8e966a213d39f582127174e2b7fc42ef4cc2ac54676fabab92f9e4f5",
+      "bytes": 7402,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s13_HIP__original__complex.json",
+      "original_sha256": "4efb3edbbf40b70bae4f41516e129b923926b918291ae9a91a8f7a68b23ba65a",
+      "bytes": 25346,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s13_HIP__original__ligand.json",
+      "original_sha256": "4400c4a783b52504176336251d5518aca925aa635e497ed371adbc952a2d666b",
+      "bytes": 7472,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s13_HIP__original__protein.json",
+      "original_sha256": "1274805feb547897d709d368c252dcf637d550a899aa0fed3974c4f8381f3b83",
+      "bytes": 6781,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s13_HIP__propagated__complex.json",
+      "original_sha256": "6c634ca7229d08ab9e69297678646abad713990aa62857f20c8d86a8ce17c664",
+      "bytes": 15548,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s13_HIP__propagated__ligand.json",
+      "original_sha256": "066107cfeb612621ef63fd913ce2c2685a712109ed0564c39a6f505b34bef175",
+      "bytes": 7126,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s13_HIP__propagated__protein.json",
+      "original_sha256": "dc9a3f45b4c68ca095820ebd35a1fa848cd2786d9f90cdc12bf0d51765c979db",
+      "bytes": 7565,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s13_HIP__simplified__complex.json",
+      "original_sha256": "dca8cfe00f591ae93cac0d1f4802b6cd8056eb65f3748e2efdec1bcfd31e4b6a",
+      "bytes": 26238,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s13_HIP__simplified__ligand.json",
+      "original_sha256": "d1897cde582fd44ed351ca4744b904045d03f3c66db5d4ac2f4d199bbc0b5bb4",
+      "bytes": 8067,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s13_HIP__simplified__protein.json",
+      "original_sha256": "214238349b075d4b440785435852b0ae147561d428a25e3be722811344477567",
+      "bytes": 7402,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s14_HIE__original__complex.json",
+      "original_sha256": "ff3de6bbcc2307e6b585e2605f249cc07317704b662a7866814208a219e3fd38",
+      "bytes": 25338,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s14_HIE__original__ligand.json",
+      "original_sha256": "e345a595fb58516cb972a64dadb8fca1957a26c57aa26249e6ce4ad926b89d52",
+      "bytes": 7465,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s14_HIE__original__protein.json",
+      "original_sha256": "78cbe7d4e25330ae7f6ceb93b21a3e0f297f4666f026a1b44586c97ea15040db",
+      "bytes": 6781,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s14_HIE__propagated__complex.json",
+      "original_sha256": "d36b144cda6d058fea03e85bb3f523cacf3ace23214badb401a7c724208a6c5e",
+      "bytes": 15557,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s14_HIE__propagated__ligand.json",
+      "original_sha256": "ccd5e7501ef2b6757197433e8f6fa80711c110225d33614e122de254f7916e7d",
+      "bytes": 7123,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s14_HIE__propagated__protein.json",
+      "original_sha256": "385aaff85a7042104fd438a9bae2401c2e8d11cb3399b3c9e39111604aa925ed",
+      "bytes": 7565,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s14_HIE__simplified__complex.json",
+      "original_sha256": "66b129d542db966ab2c1a81602ead328645a4f45ffd9fa256373274d72f2136f",
+      "bytes": 26230,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s14_HIE__simplified__ligand.json",
+      "original_sha256": "ce24621102f4b44c8540b6077460b78da04e4eace70ffd1784958b9bcac8e529",
+      "bytes": 8060,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s14_HIE__simplified__protein.json",
+      "original_sha256": "9baa538c24f98a9e4a1d4ef92cd22e19f3f6101424694dcc5baf9dce00e96300",
+      "bytes": 7402,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s15_HID__original__complex.json",
+      "original_sha256": "1dffb0eecfe96102d10482ad08c616fac153b23735c730d4dd4cd46d5114e025",
+      "bytes": 25369,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s15_HID__original__ligand.json",
+      "original_sha256": "77da41af232b13d6405c1d2d8f3469f96128df2fb7614e7a78a7f634beff5cdd",
+      "bytes": 7457,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s15_HID__original__protein.json",
+      "original_sha256": "4ce89ec2dee1e9e3d9b53094ba42d3b4e240e8ee87c8f380c8100da5ac158740",
+      "bytes": 6781,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s15_HID__propagated__complex.json",
+      "original_sha256": "395da5f133a4384e3ca967adeba94d8c0116ca2e58f246f3366400025bd07af7",
+      "bytes": 15574,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s15_HID__propagated__ligand.json",
+      "original_sha256": "673a943e19bf4771470fcfded26a693159c4f22471579a3e1f9fd7acc1b03ac3",
+      "bytes": 7118,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s15_HID__propagated__protein.json",
+      "original_sha256": "a1e915797947c284ac2d94d75d413043a2935cea874a699e49a1e42b0e225a08",
+      "bytes": 7565,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s15_HID__simplified__complex.json",
+      "original_sha256": "8caeaf2a9ea79789a6c5a0f8ee12924a09fd6077ba87d4eb759360c9cadce366",
+      "bytes": 26261,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s15_HID__simplified__ligand.json",
+      "original_sha256": "ae1f6347c7b85f92bf6ea0b458897da6cfec26e0c1f1df319cb600a3b166703a",
+      "bytes": 8052,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s15_HID__simplified__protein.json",
+      "original_sha256": "491a7a49946f2b578b3f5e9d4a65413f4db14b2d15e32a7d7424a13634c43634",
+      "bytes": 7402,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s16_ASP__original__complex.json",
+      "original_sha256": "6df329232155d9988454769e3e508e903b3fe36be611b66c0225e0ee7dbcfc4b",
+      "bytes": 22530,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s16_ASP__original__ligand.json",
+      "original_sha256": "746849b633a92f46fe47819011bb5e3373a752d35f922ce4513c50cfcfd129ac",
+      "bytes": 6111,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s16_ASP__original__protein.json",
+      "original_sha256": "756a46ebed6ee39fa21e42e98d00b00161b04226dbb5b0791fad8d66de621fbc",
+      "bytes": 6781,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s16_ASP__propagated__complex.json",
+      "original_sha256": "278759e81fb4b10f0e225fd8bfe5a6511774225861b9c57737858b7796f02839",
+      "bytes": 15010,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s16_ASP__propagated__ligand.json",
+      "original_sha256": "efdb8d08a439240adcf5c75599ae486ce538ef8ef3f40345f5fdc307d0c08ea3",
+      "bytes": 6266,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s16_ASP__propagated__protein.json",
+      "original_sha256": "1c55d5ec31bebd986349cd8c9ac2b12b3fa4d16b535977860654159812c4f7b4",
+      "bytes": 7565,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s16_ASP__simplified__complex.json",
+      "original_sha256": "3ed9348981f4102f273578a55ae86b433a335b8ddbe127cba98611444773ba6c",
+      "bytes": 23461,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s16_ASP__simplified__ligand.json",
+      "original_sha256": "796783b73504a1e3ba65c95343a41ed4314fefcedb04c232008bdeea45d9fd17",
+      "bytes": 6745,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s16_ASP__simplified__protein.json",
+      "original_sha256": "9bb0af710187ec7d1b1713a7fc2f00ae682ae6d812f28959fb7fd7b3fb8c7439",
+      "bytes": 7402,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s17_GLU__original__complex.json",
+      "original_sha256": "ac43a3b44896602b16e4961c407460e80cb70682bec7ff8541292cec5754c852",
+      "bytes": 25459,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s17_GLU__original__ligand.json",
+      "original_sha256": "62de9012a356c43fddba933b5c9dcebd01687de60c53379dce3c778cd86106d9",
+      "bytes": 7465,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s17_GLU__original__protein.json",
+      "original_sha256": "140162e7b8df5b696ca53987848db6f5cbcdaf50ab6825251f7682345dbd836b",
+      "bytes": 6781,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s17_GLU__propagated__complex.json",
+      "original_sha256": "602836d9521a6508711b57635b56420233eb960540c512f235c15819b18ac4fd",
+      "bytes": 16210,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s17_GLU__propagated__ligand.json",
+      "original_sha256": "6dd7c53c47b3a1c639f639f215bf5ba351369b6c3f0a4437d590438426214ab7",
+      "bytes": 7111,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s17_GLU__propagated__protein.json",
+      "original_sha256": "6841c755c0895406f2c690d1cc490825734f46492e8be370ce9714180bb12afd",
+      "bytes": 7565,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s17_GLU__simplified__complex.json",
+      "original_sha256": "649787f60812f718c7e72bd0537de35bac64f007460e33394c12f4e7ad68499c",
+      "bytes": 26351,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s17_GLU__simplified__ligand.json",
+      "original_sha256": "c7e1ae75e8ac21531470ad7445a3f4d3fba313554412248555ec2380552798ef",
+      "bytes": 8060,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s17_GLU__simplified__protein.json",
+      "original_sha256": "7be45e3b0caf2efb6736b633e9afe4564d49c58c650ad3c7fe9892be9b2d724a",
+      "bytes": 7402,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s18_ASN__original__complex.json",
+      "original_sha256": "8211c2dd2810f0a9173588d841b4a251215a188f9013cc859f3bce55bcfa528a",
+      "bytes": 24454,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s18_ASN__original__ligand.json",
+      "original_sha256": "4d3a86b3d47ad1f8656d45f211f7dc6b9d518ab49eedab5779984b3096827b7c",
+      "bytes": 6985,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s18_ASN__original__protein.json",
+      "original_sha256": "2c153011681ada5a374faab8543c04ec72d6e51e5fefde36646afcb23e57bd50",
+      "bytes": 6781,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s18_ASN__propagated__complex.json",
+      "original_sha256": "035e5b202054382415e69fa6d9f4e8eb3fe34e2bf587c0c9a67aff5ef659672d",
+      "bytes": 15624,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s18_ASN__propagated__ligand.json",
+      "original_sha256": "aa74f9b9eaaea40f5c0d5342055ce4f3bab979ec4c7284d4424b6edfd9886831",
+      "bytes": 6571,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s18_ASN__propagated__protein.json",
+      "original_sha256": "afcc15ca8a2d908351029e3d03c4c1a00994ab764f376a4aaf6ffd070898d448",
+      "bytes": 7565,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s18_ASN__simplified__complex.json",
+      "original_sha256": "f5741d0fd12f04a15b0280da336d1b2092d52f7c22c9cd0b73ea6ac1bf7565d9",
+      "bytes": 25359,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s18_ASN__simplified__ligand.json",
+      "original_sha256": "76149b328a86b5eb4d06e847cdb333d9e471691718ae4acdd13abd5bcb7ac7fb",
+      "bytes": 7593,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s18_ASN__simplified__protein.json",
+      "original_sha256": "c90964344e4cd23249b104a8c1f7be968ead21b3bb97205ad216f6f9169cacaf",
+      "bytes": 7402,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s19_GLN__original__complex.json",
+      "original_sha256": "a14683e27c364b0c84f867c0aab6387b6c265d15dcd1a9f130e1a63adbdda8af",
+      "bytes": 26407,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s19_GLN__original__ligand.json",
+      "original_sha256": "9d3e620d517b287383ad24b5545efb724da972b01aedf366a440d882e70836a0",
+      "bytes": 7881,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s19_GLN__original__protein.json",
+      "original_sha256": "7d7b2bacdd5914e2a695e4bbb0cc19c7d99cb2482a1bde0d7bc8217d89492dc3",
+      "bytes": 6781,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s19_GLN__propagated__complex.json",
+      "original_sha256": "a9b26763d8ff841e16dde02d1fca47a8f29636809b09d0ff8fbed7a59d4cc431",
+      "bytes": 16818,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s19_GLN__propagated__ligand.json",
+      "original_sha256": "cc0a1dd485597714150a737b560961d4c948beed51bafb847c04f0f97ac4c8d5",
+      "bytes": 7134,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s19_GLN__propagated__protein.json",
+      "original_sha256": "ac1075a5879db7ae6ec1d34e8eea30a52a722c759e38c8b970b29ced6b97bee4",
+      "bytes": 7565,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s19_GLN__simplified__complex.json",
+      "original_sha256": "cd7c4c56c46fa4baa5abc8eb25c86a9fb448ea4860d1cb9a782bc7c3f7a64a75",
+      "bytes": 27286,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s19_GLN__simplified__ligand.json",
+      "original_sha256": "075fcca135e1c937cb26200716668537603653d3317d607ebf433c5992479b12",
+      "bytes": 8463,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s19_GLN__simplified__protein.json",
+      "original_sha256": "5072fee34e946398c42984f5cc317453b01c187a798efe43a286853b65377e57",
+      "bytes": 7402,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s20_GLY__original__complex.json",
+      "original_sha256": "830a5baba98c59e4e41cf22c9366489589993a0dd3a9355898d30376fe420ab0",
+      "bytes": 18515,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s20_GLY__original__ligand.json",
+      "original_sha256": "916ced7960d32e3537f204bd2962ceb7e15e62b93d0bd45597b95456866754f9",
+      "bytes": 4305,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s20_GLY__original__protein.json",
+      "original_sha256": "0e7b79bdea6c738dc94c00e74cde99bfdc23e720f671122db0c78097716d5991",
+      "bytes": 6781,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s20_GLY__propagated__complex.json",
+      "original_sha256": "1dd5de04c6ca484088c09000b09426e01dbe409f93aea5ae331578e49ed5d9f0",
+      "bytes": 14214,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s20_GLY__propagated__ligand.json",
+      "original_sha256": "5c60824dc9b1c1d23c2d7d424bdf6aa2778f73e3c2bec5c03cf67dc808a7e782",
+      "bytes": 5986,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s20_GLY__propagated__protein.json",
+      "original_sha256": "181ff21daef5cdbc6b24af5a2086e29ac62eda595093b29969ee519cff177a26",
+      "bytes": 7565,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s20_GLY__simplified__complex.json",
+      "original_sha256": "dd58ddb1dffffe3144be7717c072d659571f9183d8f953e6cac2b590fd704377",
+      "bytes": 20420,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s20_GLY__simplified__ligand.json",
+      "original_sha256": "1fd29bee8e29cb297d49dcf863cd9794fba0f7c487a327e982be529e20a629fb",
+      "bytes": 5575,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "prepared/campaign-004/models/s20_GLY__simplified__protein.json",
+      "original_sha256": "fd16132a846a2899b7b4b44938d0b728e9171cacd73f9ee3a938a417f1951180",
+      "bytes": 7402,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "experiments/energy_recovery5/native/NativeMatrixCheck.class",
+      "original_sha256": "9006e396290baf5aad258fac8a6f09b34d907ab1c3e55b0f36fb465c1b0dd557",
+      "bytes": 5925,
+      "reason": "Upstream software/binary or vendored source: retrieve from original source with its license.",
+      "source_urls": []
+    },
+    {
+      "path": "experiments/energy_recovery5/native/OSPREY3-master-3.1-beta1.jar",
+      "original_sha256": "574a80ad2d8e750fd267fb2436bb5ff3e6cdb3bb0142115f2292c66c6474c8b1",
+      "bytes": 3302831,
+      "reason": "Upstream software/binary or vendored source: retrieve from original source with its license.",
+      "source_urls": []
+    },
+    {
+      "path": "data/campaign-005/kras2020/OSPREY.zip",
+      "original_sha256": "eced95471a82f1b5f23456bf46edcda44d594c90f96f863cf7cc875bcab62001",
+      "bytes": 71741717,
+      "reason": "Upstream document/archive: retrieve from cited original source.",
+      "source_urls": [
+        "https://dataverse.harvard.edu/api/access/datafile/3590161"
+      ]
+    },
+    {
+      "path": "data/campaign-005/kras2020/article.html",
+      "original_sha256": "8699b48ae4aeca25b7f5a31e2babb4163fa4640effb94e1d171e50533a8210b3",
+      "bytes": 341483,
+      "reason": "Upstream document/archive: retrieve from cited original source.",
+      "source_urls": [
+        "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007447"
+      ]
+    },
+    {
+      "path": "data/campaign-005/kras2020/article.txt",
+      "original_sha256": "4592c08b7a5f15aa5b8a83c7994722e3eef9c682addb37254c4a04d04d70912e",
+      "bytes": 158683,
+      "reason": "Full upstream paper/thesis extraction; not mirrored.",
+      "source_urls": []
+    },
+    {
+      "path": "data/campaign-005/source_discovery/ayyildiz_thesis.txt",
+      "original_sha256": "82aee5e14e8216328fc1c8bc0f3cc4f4f749d873954fc3fab47b5e8ca701aab1",
+      "bytes": 229439,
+      "reason": "Full upstream paper/thesis extraction; not mirrored.",
+      "source_urls": []
+    },
+    {
+      "path": "data/campaign-005/source_discovery/fridman2000_extracted.json",
+      "original_sha256": "acc8cccafe05f9a663b37618b88a5223f128a562e8f2b13831501f397680640c",
+      "bytes": 202271,
+      "reason": "Full upstream paper/thesis extraction; not mirrored.",
+      "source_urls": []
+    },
+    {
+      "path": "data/campaign-005/source_discovery/qa/kras_S2_page1.png",
+      "original_sha256": "ca6b9c7f159f60e4c295f41ec141629784fb5800f067c4e5530c85982e42a21c",
+      "bytes": 357496,
+      "reason": "Rendered upstream page image; numeric transcriptions and provenance retained.",
+      "source_urls": []
+    },
+    {
+      "path": "data/campaign-005/source_discovery/qa/kras_S2_page2.png",
+      "original_sha256": "2be6f3834dff94f958cf9ad240b85a37afb430a20ac3adc2566a39268daa8f95",
+      "bytes": 127344,
+      "reason": "Rendered upstream page image; numeric transcriptions and provenance retained.",
+      "source_urls": []
+    },
+    {
+      "path": "data/campaign-005/source_discovery/raw/ayyildiz_article.xml",
+      "original_sha256": "0bfe91e242ac81b47573391b544357487b8e64573a4b8cf45146a81c4e993be8",
+      "bytes": 92387,
+      "reason": "Upstream download retained by provenance; not mirrored in this export.",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12202725/fullTextXML"
+      ]
+    },
+    {
+      "path": "data/campaign-005/source_discovery/raw/ayyildiz_thesis.pdf",
+      "original_sha256": "d82b9b18dfea8b2bf582005d3171e97a4ac46a18a9cb5b49cbe796b4615311d6",
+      "bytes": 10409621,
+      "reason": "Upstream download retained by provenance; not mirrored in this export.",
+      "source_urls": [
+        "https://epub.uni-bayreuth.de/8572/1/Dissertation_Ayyildiz_Merve_unsigned.pdf"
+      ]
+    },
+    {
+      "path": "data/campaign-005/source_discovery/raw/ayyildiz_thesis_page.html",
+      "original_sha256": "0a831da68bc474ec88d54c7161307547864acbaad978a6ea3feca491665474e6",
+      "bytes": 40277,
+      "reason": "Upstream download retained by provenance; not mirrored in this export.",
+      "source_urls": [
+        "https://epub.uni-bayreuth.de/8572/"
+      ]
+    },
+    {
+      "path": "data/campaign-005/source_discovery/raw/block1996.html",
+      "original_sha256": "27c9037d88e97a78f8def44a9e3177b71e0ded11dd2bcb50bc6eac21da79acd4",
+      "bytes": 322001,
+      "reason": "Upstream download retained by provenance; not mirrored in this export.",
+      "source_urls": [
+        "https://www.nature.com/articles/nsb0396-244"
+      ]
+    },
+    {
+      "path": "data/campaign-005/source_discovery/raw/block1996_pubmed.xml",
+      "original_sha256": "76e224a19d7cad6044cee7b960e7a59cd6b9c7f11da6bfb69834fce4fb4b4624",
+      "bytes": 5708,
+      "reason": "Upstream download retained by provenance; not mirrored in this export.",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:8605626%20AND%20SRC:MED&format=json&resultType=core"
+      ]
+    },
+    {
+      "path": "data/campaign-005/source_discovery/raw/dexdesign_article.html",
+      "original_sha256": "7bd3721fb4bee28d9546f85cee9085c91278d8a00a8893807435e6968ac0e122",
+      "bytes": 314750,
+      "reason": "Upstream download retained by provenance; not mirrored in this export.",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11099876/"
+      ]
+    },
+    {
+      "path": "data/campaign-005/source_discovery/raw/dexdesign_protocol.html",
+      "original_sha256": "3fc8d90d40a15fedbbbf1b944f34045163a2e4d0402ca2a286b7b73b22382201",
+      "bytes": 173808,
+      "reason": "Upstream download retained by provenance; not mirrored in this export.",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11698684/"
+      ]
+    },
+    {
+      "path": "data/campaign-005/source_discovery/raw/filchtinski2010_crossref.json",
+      "original_sha256": "c07f66675d84970dc3e24dfa2745de45193d581253aacdb2b7e6c55c96669ec6",
+      "bytes": 22176,
+      "reason": "Upstream download retained by provenance; not mirrored in this export.",
+      "source_urls": [
+        "https://api.crossref.org/works/10.1016/j.jmb.2010.03.046"
+      ]
+    },
+    {
+      "path": "data/campaign-005/source_discovery/raw/filchtinski2010_elsevier.xml",
+      "original_sha256": "2d85e61fbdc1f87173b4521cac4d13a6e65eef84a7279894a32b52a827b1d880",
+      "bytes": 1890,
+      "reason": "Upstream download retained by provenance; not mirrored in this export.",
+      "source_urls": [
+        "https://api.elsevier.com/content/article/PII:S0022283610003219?httpAccept=text/xml"
+      ]
+    },
+    {
+      "path": "data/campaign-005/source_discovery/raw/filchtinski2010_pubmed.html",
+      "original_sha256": "0df2f414d56f53a3b967325f00f8ae6cc8bf7a4cf3b244330baf698fa51f9730",
+      "bytes": 5590,
+      "reason": "Upstream download retained by provenance; not mirrored in this export.",
+      "source_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/20361980/"
+      ]
+    },
+    {
+      "path": "data/campaign-005/source_discovery/raw/filchtinski2010_pubmed.json",
+      "original_sha256": "d8d53ac4b1ecfa104e33d6798f3d0017db78c760d7393bb4c87d115dad7b1ff4",
+      "bytes": 6233,
+      "reason": "Upstream download retained by provenance; not mirrored in this export.",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:20361980%20AND%20SRC:MED&format=json&resultType=core"
+      ]
+    },
+    {
+      "path": "data/campaign-005/source_discovery/raw/fridman2000_archived20180724.pdf",
+      "original_sha256": "80ab5b5cf185066fd54ad32342905722fdfd970f1087b0d225d14d82530e56ff",
+      "bytes": 735500,
+      "reason": "Upstream download retained by provenance; not mirrored in this export.",
+      "source_urls": [
+        "https://web.archive.org/web/20180724054314id_/http://www.jbc.org/content/275/39/30363.full.pdf"
+      ]
+    },
+    {
+      "path": "data/campaign-005/source_discovery/raw/fridman2000_crossref.json",
+      "original_sha256": "e9b417ce5f43b2a9a62c712eaa20014b446a82c7cb1a08c6ea6e556f3f52c452",
+      "bytes": 18080,
+      "reason": "Upstream download retained by provenance; not mirrored in this export.",
+      "source_urls": [
+        "https://api.crossref.org/works/10.1074/jbc.M003193200"
+      ]
+    },
+    {
+      "path": "data/campaign-005/source_discovery/raw/fridman2000_elsevier.xml",
+      "original_sha256": "977215ad1f71063218e15809ff649b5dfbae9f52953cb096e1afa781b885b305",
+      "bytes": 1942,
+      "reason": "Upstream download retained by provenance; not mirrored in this export.",
+      "source_urls": [
+        "https://api.elsevier.com/content/article/PII:S002192581844375X?httpAccept=text/xml"
+      ]
+    },
+    {
+      "path": "data/campaign-005/source_discovery/raw/fridman2000_pubmed.html",
+      "original_sha256": "b6ca79c961ac645fbd639a658ab41dd0a749dd77463d5b26a4c3417a10e1459b",
+      "bytes": 5590,
+      "reason": "Upstream download retained by provenance; not mirrored in this export.",
+      "source_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/10887184/"
+      ]
+    },
+    {
+      "path": "data/campaign-005/source_discovery/raw/fridman2000_pubmed.json",
+      "original_sha256": "44ec22c8d8545a571d93ebe19fea6e02c90b771fae92834bf3c7fa0855e1bcdc",
+      "bytes": 5751,
+      "reason": "Upstream download retained by provenance; not mirrored in this export.",
+      "source_urls": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:10887184%20AND%20SRC:MED&format=json&resultType=core"
+      ]
+    },
+    {
+      "path": "data/campaign-005/source_discovery/raw/fridman2000_wayback.json",
+      "original_sha256": "881cd4a4146b3f8e91bb221aca205e8cc2b80c8c592a9cea2f016a6f17821b50",
+      "bytes": 264,
+      "reason": "Upstream download retained by provenance; not mirrored in this export.",
+      "source_urls": [
+        "https://archive.org/wayback/available?url=http%3A%2F%2Fwww.jbc.org%2Fcontent%2F275%2F39%2F30363.full.pdf"
+      ]
+    },
+    {
+      "path": "data/campaign-005/source_discovery/raw/hocker_mmpbsa_readme.rst",
+      "original_sha256": "8a407c637319d7f94c347122e9ae110b49c7671c22b1fe1195a20a8a825aac69",
+      "bytes": 4214,
+      "reason": "Upstream download retained by provenance; not mirrored in this export.",
+      "source_urls": [
+        "https://raw.githubusercontent.com/Hoecker-Lab/mmpbsa_scoring/main/README.rst"
+      ]
+    },
+    {
+      "path": "data/campaign-005/source_discovery/raw/hocker_mmpbsa_tree.json",
+      "original_sha256": "5a96722c61c1d219d87f4682784fe5e2a8da25d0b4e66129f8941b916eb1a687",
+      "bytes": 5229,
+      "reason": "Upstream download retained by provenance; not mirrored in this export.",
+      "source_urls": [
+        "https://api.github.com/repos/Hoecker-Lab/mmpbsa_scoring/git/trees/main?recursive=1"
+      ]
+    },
+    {
+      "path": "data/campaign-005/source_discovery/raw/hockerlab_repos.json",
+      "original_sha256": "59ff021231434fab358f53a0f42fb9e54b03cd5c204641d012f895e5d66d3f1e",
+      "bytes": 27936,
+      "reason": "Upstream download retained by provenance; not mirrored in this export.",
+      "source_urls": [
+        "https://api.github.com/orgs/Hoecker-Lab/repos?per_page=100"
+      ]
+    },
+    {
+      "path": "data/campaign-005/source_discovery/raw/kras_S2_table.pdf",
+      "original_sha256": "e3c6ab0be394f7765ab15b8deb222a809fb6e4d1f099bde5b7bdfccc5b1a8c05",
+      "bytes": 117719,
+      "reason": "Upstream download retained by provenance; not mirrored in this export.",
+      "source_urls": [
+        "https://journals.plos.org/ploscompbiol/article/file?type=supplementary&id=10.1371/journal.pcbi.1007447.s007"
+      ]
+    },
+    {
+      "path": "data/campaign-005/source_discovery/raw/osprey_main_commit.json",
+      "original_sha256": "bf642a83d68336ca2a8b3345b30c46910b3c9d720b0ead5659d9ff8156a9e146",
+      "bytes": 59315,
+      "reason": "Upstream download retained by provenance; not mirrored in this export.",
+      "source_urls": [
+        "https://api.github.com/repos/donaldlab/OSPREY3/commits/main"
+      ]
+    },
+    {
+      "path": "data/campaign-005/source_discovery/raw/osprey_repo.json",
+      "original_sha256": "bb2eda14627990be4090a68d57cd2662bc09d6c845908a9e73a4819f7c58c101",
+      "bytes": 6217,
+      "reason": "Upstream download retained by provenance; not mirrored in this export.",
+      "source_urls": [
+        "https://api.github.com/repos/donaldlab/OSPREY3"
+      ]
+    },
+    {
+      "path": "data/campaign-002/models/cpd/1BK2__cpd_source_first_aa__beta1.json",
+      "original_sha256": "6c7fdd162573d55dbdbc5578299c90d7fcdeeda40bfb00cc25761ca576afc397",
+      "bytes": 133438,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "data/campaign-002/models/cpd/1CSK__cpd_source_first_aa__beta1.json",
+      "original_sha256": "0c7db2762be11525024f329c7075b86463a920b54664c331b489c9c20e2a6bea",
+      "bytes": 410048,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "data/campaign-002/models/cpd/1FYN__cpd_source_first_aa__beta1.json",
+      "original_sha256": "181deadb4b1f598cf44ab8e3c0a6518bfc98b48fa0766a53fe093ba172f25322",
+      "bytes": 72198,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "data/campaign-002/models/cpd/1MJC__cpd_source_first_aa__beta1.json",
+      "original_sha256": "fb4b7799b3152f7eed5b0909bcb5b2b66aa71e5650aefe4ba3fd572b2badd933",
+      "bytes": 511619,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "data/campaign-002/models/cpd/1PIN__cpd_source_first_aa__beta1.json",
+      "original_sha256": "3f81d4514f5d198105b1eb45f8ecc82dd79477e4f4bb704477da2033332ec100",
+      "bytes": 316629,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "data/campaign-002/models/cpd/1SHG__cpd_source_first_aa__beta1.json",
+      "original_sha256": "76c3b300140ad12e7f5105c726de8226bc4184e585eaa4b290623fa9d6c0912a",
+      "bytes": 340291,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "data/campaign-002/source_code/RotamerSearch.java",
+      "original_sha256": "0f22e1df2cf3c5075241e48600e56fdd6d5f12d745cc7d8d97ba4c7e8141096d",
+      "bytes": 195170,
+      "reason": "Upstream download retained by provenance; not mirrored in this export.",
+      "source_urls": []
+    },
+    {
+      "path": "data/campaign-002/source_code/mat2wcsp.pl",
+      "original_sha256": "721b328a59fa7128e8205dd05c9745ce484d5f83fb5819888961e7b5e79a068e",
+      "bytes": 19006,
+      "reason": "Upstream download retained by provenance; not mirrored in this export.",
+      "source_urls": []
+    },
+    {
+      "path": "data/campaign-002/source_pages/cpd.html",
+      "original_sha256": "d17b6d1de868cb6bf9408e7af5be75520d2af1dadb5d43beccb62dce0719fb03",
+      "bytes": 50044,
+      "reason": "Upstream download retained by provenance; not mirrored in this export.",
+      "source_urls": [
+        "https://genoweb.toulouse.inra.fr/~tschiex/CPD/"
+      ]
+    },
+    {
+      "path": "data/campaign-002/source_pages/evalgm.html",
+      "original_sha256": "c2d1e229ee81cc1f002c6e7fc45f07e48b5d8408731a55033005c872e487e0a5",
+      "bytes": 2133,
+      "reason": "Upstream download retained by provenance; not mirrored in this export.",
+      "source_urls": [
+        "https://genoweb.toulouse.inra.fr/~degivry/evalgm/CFN/ProteinDesignUAI2017/"
+      ]
+    },
+    {
+      "path": "data/campaign-002/raw/1BK2.matrix.24p.17aa.usingEref.txt.xz",
+      "original_sha256": "75939f15dcf527942392f1e6c7c7b9708c6fed3daed0cbceb2a9891e98741b1c",
+      "bytes": 3620412,
+      "reason": "Upstream download retained by provenance; not mirrored in this export.",
+      "source_urls": [
+        "https://genoweb.toulouse.inra.fr/~tschiex/CPD/CPD-instances/1BK2.matrix.24p.17aa.usingEref.txt.xz"
+      ]
+    },
+    {
+      "path": "data/campaign-002/raw/1CSK.matrix.30p.9aa.usingEref.txt.xz",
+      "original_sha256": "9e95790466034a0d081572ee2bf5b9fc967e42530c963999fccbed05b43b622d",
+      "bytes": 834636,
+      "reason": "Upstream download retained by provenance; not mirrored in this export.",
+      "source_urls": [
+        "https://genoweb.toulouse.inra.fr/~tschiex/CPD/CPD-instances/1CSK.matrix.30p.9aa.usingEref.txt.xz"
+      ]
+    },
+    {
+      "path": "data/campaign-002/raw/1FYN.matrix.23p.19aa.usingEref.txt.xz",
+      "original_sha256": "b330cb75860797835f84bbe6370f36fd3390ae2e00935b60a66f19a5696ab58e",
+      "bytes": 13591548,
+      "reason": "Upstream download retained by provenance; not mirrored in this export.",
+      "source_urls": [
+        "https://genoweb.toulouse.inra.fr/~tschiex/CPD/CPD-instances/1FYN.matrix.23p.19aa.usingEref.txt.xz"
+      ]
+    },
+    {
+      "path": "data/campaign-002/raw/1MJC.matrix.28p.17aa.usingEref.txt.xz",
+      "original_sha256": "868b45abaa4b44f243d4e61c43c6613687796017cd254e1c8d76502ce99b5b45",
+      "bytes": 534008,
+      "reason": "Upstream download retained by provenance; not mirrored in this export.",
+      "source_urls": [
+        "https://genoweb.toulouse.inra.fr/~tschiex/CPD/CPD-instances/1MJC.matrix.28p.17aa.usingEref.txt.xz"
+      ]
+    },
+    {
+      "path": "data/campaign-002/raw/1PIN.matrix.28p.20aa.usingEref.txt.xz",
+      "original_sha256": "5eefa3c331748857631d30cf7ee3aad901a2615c888bd9efd92d317beecdffbe",
+      "bytes": 10805784,
+      "reason": "Upstream download retained by provenance; not mirrored in this export.",
+      "source_urls": [
+        "https://genoweb.toulouse.inra.fr/~tschiex/CPD/CPD-instances/1PIN.matrix.28p.20aa.usingEref.txt.xz"
+      ]
+    },
+    {
+      "path": "data/campaign-002/raw/1SHG.matrix.28p.17aa.usingEref.txt.xz",
+      "original_sha256": "598d4f7947231e7e8974cf15de5014b332aa9949f70028ee960c77b295e6e869",
+      "bytes": 1174412,
+      "reason": "Upstream download retained by provenance; not mirrored in this export.",
+      "source_urls": [
+        "https://genoweb.toulouse.inra.fr/~tschiex/CPD/CPD-instances/1SHG.matrix.28p.17aa.usingEref.txt.xz"
+      ]
+    },
+    {
+      "path": "data/campaign-002/raw/CPD_instances_description.pdf",
+      "original_sha256": "50acf84df391daf15c965fef194a1421a7ad4bca0b50f21e856a8487030cd600",
+      "bytes": 7926688,
+      "reason": "Upstream download retained by provenance; not mirrored in this export.",
+      "source_urls": [
+        "https://genoweb.toulouse.inra.fr/~degivry/evalgm/CFN/ProteinDesignUAI2017/CPD_instances_description.pdf"
+      ]
+    },
+    {
+      "path": "data/campaign-002/raw/CPD_instances_description.txt",
+      "original_sha256": "d19b0267d8ccdd5704df4a6f34ab1a3eed48a1c62c337cbbfd4703d25f02ecaa",
+      "bytes": 23296,
+      "reason": "Upstream download retained by provenance; not mirrored in this export.",
+      "source_urls": []
+    },
+    {
+      "path": "data/campaign-002/raw/QuickStart.pdf",
+      "original_sha256": "183bc3aaecddc1ffcff5b39669c0da413c301e56fade55c6f9f00f9380c9683f",
+      "bytes": 213887,
+      "reason": "Upstream download retained by provenance; not mirrored in this export.",
+      "source_urls": [
+        "https://genoweb.toulouse.inra.fr/~tschiex/CPD/QuickStart.pdf"
+      ]
+    },
+    {
+      "path": "data/campaign-002/raw/QuickStart.txt",
+      "original_sha256": "4d43da267fa1d7cb09c884790b68b7ad698d994f47ce676aec280a3189bc8938",
+      "bytes": 18015,
+      "reason": "Upstream download retained by provenance; not mirrored in this export.",
+      "source_urls": []
+    },
+    {
+      "path": "data/campaign-002/raw/Readme",
+      "original_sha256": "5f83e4b90236f91cca3bcf0d506083932756e940786ce307ca523fbd48247302",
+      "bytes": 349,
+      "reason": "Upstream download retained by provenance; not mirrored in this export.",
+      "source_urls": [
+        "https://genoweb.toulouse.inra.fr/~degivry/evalgm/CFN/ProteinDesignUAI2017/Readme"
+      ]
+    },
+    {
+      "path": "data/campaign-002/raw/SpeedUp.tgz",
+      "original_sha256": "b7de9834f8aceeb121479676a212cdbebab36d12631836594efbe999f855ad7d",
+      "bytes": 12183966,
+      "reason": "Upstream download retained by provenance; not mirrored in this export.",
+      "source_urls": [
+        "https://genoweb.toulouse.inra.fr/~tschiex/CPD/SpeedUp.tgz"
+      ]
+    },
+    {
+      "path": "data/campaign-002/raw/SpeedUp_headerpart.bin",
+      "original_sha256": "02bb4f0ad3435b7d61c5df4e18838f0a062aa3d70f325da865cf4acff30b825f",
+      "bytes": 131072,
+      "reason": "Upstream software/binary or vendored source: retrieve from original source with its license.",
+      "source_urls": [
+        "https://genoweb.toulouse.inra.fr/~tschiex/CPD/SpeedUp.tgz"
+      ]
+    },
+    {
+      "path": "data/models/uai23/1a0r_prepped_00031_2_0_5_5-0-1-2-3-4_F2_N0_E0_e0_t0e+00_KstarMAP__source_first__complex.json",
+      "original_sha256": "6bb43cd758441d32c2148b8abc836906e040ce65f5fa8bc5208defd4cc846c69",
+      "bytes": 32820,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "data/models/uai23/1a0r_prepped_00031_2_0_5_5-0-1-2-3-4_F2_N0_E0_e0_t0e+00_KstarMAP__source_first__ligand.json",
+      "original_sha256": "41ef2436fde9956a2272c45a517574be6e4781608737b18779c8cb56b4efa066",
+      "bytes": 15426,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "data/models/uai23/1a0r_prepped_00031_2_0_5_5-0-1-2-3-4_F2_N0_E0_e0_t0e+00_KstarMAP__source_first__protein.json",
+      "original_sha256": "0aa65e39c5176bc0327490e8cb085ed6ec9ade924612c2f2dfa5a574e9538e61",
+      "bytes": 3541,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "data/models/uai23/1gwc_prepped_00021_1_0_4_3_F2_N0_E0_e0_t0e+00_KstarMAP__source_first__complex.json",
+      "original_sha256": "8d16ec12f9056c06f47e3b9fdf56a9eb268282273e8a280e72377417271b01b7",
+      "bytes": 46695,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "data/models/uai23/1gwc_prepped_00021_1_0_4_3_F2_N0_E0_e0_t0e+00_KstarMAP__source_first__ligand.json",
+      "original_sha256": "dfdb651cd57cff283b2442dab0fb843b6b4a0447210846646ffed354903c24c2",
+      "bytes": 2295,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "data/models/uai23/1gwc_prepped_00021_1_0_4_3_F2_N0_E0_e0_t0e+00_KstarMAP__source_first__protein.json",
+      "original_sha256": "6dd9f5e84d5a3eed80e24381c6d3c98662bd3231342e215f4d40d5c81f617651",
+      "bytes": 19770,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "data/models/uai23/2hnv_prepped_00025_3_0_4_3_F2_N0_E0_e0_t0e+00_KstarMAP__source_first__complex.json",
+      "original_sha256": "94d8b035b2b46fc08f4d543dbf77f5fd325232b92fc72a16addb43b5ffec48d5",
+      "bytes": 34717,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "data/models/uai23/2hnv_prepped_00025_3_0_4_3_F2_N0_E0_e0_t0e+00_KstarMAP__source_first__ligand.json",
+      "original_sha256": "dd5ae3efeabd23eccc3bf4ed419f13dd9e08c3f67ad734221c67b1aaf7e64cc5",
+      "bytes": 14792,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "data/models/uai23/2hnv_prepped_00025_3_0_4_3_F2_N0_E0_e0_t0e+00_KstarMAP__source_first__protein.json",
+      "original_sha256": "1a872279dd39721d74655de0a162b57eba37c8c4665f4076822a729b14f7337a",
+      "bytes": 4311,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "data/models/uai23/2rf9_prepped_00007_1_0_7_3_F2_N0_E0_e0_t0e+00_KstarMAP__source_first__complex.json",
+      "original_sha256": "4a8f280bf12a79e3c19e66666dc95efd5e127f54d04d12925d784df858f56af7",
+      "bytes": 18823,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "data/models/uai23/2rf9_prepped_00007_1_0_7_3_F2_N0_E0_e0_t0e+00_KstarMAP__source_first__ligand.json",
+      "original_sha256": "7eb3c40d152a7c9bc9e9f9cf7ef170300b0267f67d86436be333b6abdab2174d",
+      "bytes": 11812,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "data/models/uai23/2rf9_prepped_00007_1_0_7_3_F2_N0_E0_e0_t0e+00_KstarMAP__source_first__protein.json",
+      "original_sha256": "4728ab9678bf43c9efa17e07b204170a4f61ea4360b262a040e68111f13e95a8",
+      "bytes": 1874,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "data/models/uai23/2rf9_prepped_00013_3_0_4_3_F2_N0_E0_e0_t0e+00_KstarMAP__source_first__complex.json",
+      "original_sha256": "83f3cadc4e6a41208a44ac5e52b1072d81c59724d2310b7c80fa60ce51cf9f32",
+      "bytes": 14953,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "data/models/uai23/2rf9_prepped_00013_3_0_4_3_F2_N0_E0_e0_t0e+00_KstarMAP__source_first__ligand.json",
+      "original_sha256": "7c937f75ae8622454bbc18a30cdb50f839a30bd0d4861adcdae5f60a64d24396",
+      "bytes": 5091,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "data/models/uai23/2rf9_prepped_00013_3_0_4_3_F2_N0_E0_e0_t0e+00_KstarMAP__source_first__protein.json",
+      "original_sha256": "911acce8adf0acfe3d8cdaa6350fdc2982354a806640b1f2a8880b65ac5b5422",
+      "bytes": 4208,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "data/models/uai23/2rfe_prepped_00012_3_0_3_3_F2_N0_E0_e0_t0e+00_KstarMAP__source_first__complex.json",
+      "original_sha256": "e017f108060d6a6e04848c5ead43f1dd420bf7f7b4e9073fa9d1814845c98ad0",
+      "bytes": 13039,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "data/models/uai23/2rfe_prepped_00012_3_0_3_3_F2_N0_E0_e0_t0e+00_KstarMAP__source_first__ligand.json",
+      "original_sha256": "116aaa09904b432653cc5143138c232fd0216fee17522e5f8227229d9c83ead0",
+      "bytes": 4055,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "data/models/uai23/2rfe_prepped_00012_3_0_3_3_F2_N0_E0_e0_t0e+00_KstarMAP__source_first__protein.json",
+      "original_sha256": "5784db464bdb768006d6c3175e344989a0161b7e465b9fc8ddbc146c6ae88378",
+      "bytes": 4159,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "data/models/uai23/2rfe_prepped_00014_3_0_3_3_F2_N0_E0_e0_t0e+00_KstarMAP__source_first__complex.json",
+      "original_sha256": "4e832af00b1ee32a937abd63ec9674c8772bb009db95c7d2250341d559236cb2",
+      "bytes": 13002,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "data/models/uai23/2rfe_prepped_00014_3_0_3_3_F2_N0_E0_e0_t0e+00_KstarMAP__source_first__ligand.json",
+      "original_sha256": "5d84f19c353732682a8d6536f407572e352b1f7697e1c53abe1c4c363d051274",
+      "bytes": 4068,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "data/models/uai23/2rfe_prepped_00014_3_0_3_3_F2_N0_E0_e0_t0e+00_KstarMAP__source_first__protein.json",
+      "original_sha256": "feec538e1981bd422f7670514dfd72fc7e933cde04301007dc501245cfdfef2d",
+      "bytes": 4158,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "data/models/uai23/2rfe_prepped_00017_2_0_4_3_F2_N0_E0_e0_t0e+00_KstarMAP__source_first__complex.json",
+      "original_sha256": "8a22cdf24439bb4b28ca1eaca42376c6112db1181554c2858a35a97d3a055d13",
+      "bytes": 44759,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "data/models/uai23/2rfe_prepped_00017_2_0_4_3_F2_N0_E0_e0_t0e+00_KstarMAP__source_first__ligand.json",
+      "original_sha256": "fa20b1d6182d7de5983dbb841f659cafd148f397944a7b92d40cb40485a5cae0",
+      "bytes": 12216,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "data/models/uai23/2rfe_prepped_00017_2_0_4_3_F2_N0_E0_e0_t0e+00_KstarMAP__source_first__protein.json",
+      "original_sha256": "0e3349a710ae350a7784feb48b04067ab05186747f6948de887c2e40664c9cde",
+      "bytes": 6516,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "data/models/uai23/2rfe_prepped_00030_4_3_2_0_F2_N0_E0_e0_t0e+00_KstarMAP__source_first__complex.json",
+      "original_sha256": "732150cd2413205a92ca36c8f936fb0198c1bd377804c175210e5534fd1319e7",
+      "bytes": 81896,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "data/models/uai23/2rfe_prepped_00030_4_3_2_0_F2_N0_E0_e0_t0e+00_KstarMAP__source_first__ligand.json",
+      "original_sha256": "415afc3b45e5063879f5eefd252b283d41e3f5c44c5a84f7e6a9433d908dfb1c",
+      "bytes": 6543,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "data/models/uai23/2rfe_prepped_00030_4_3_2_0_F2_N0_E0_e0_t0e+00_KstarMAP__source_first__protein.json",
+      "original_sha256": "17af34bf8ce6edf38c3101bdcd3e2c99a903fe5db1bef5a9ad160883388c81a4",
+      "bytes": 30190,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "data/models/uai23/2xgy_prepped_00020_3_0_3_3_F2_N0_E0_e0_t0e+00_KstarMAP__source_first__complex.json",
+      "original_sha256": "63b1df791178ce74470691add4188abb2e10ad6c489b30b2289d00e83d3f43c4",
+      "bytes": 74486,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "data/models/uai23/2xgy_prepped_00020_3_0_3_3_F2_N0_E0_e0_t0e+00_KstarMAP__source_first__ligand.json",
+      "original_sha256": "b6d671a43a3128e629d3c3a9d115b7e08f799f75e76c34af96ae2898c5d84898",
+      "bytes": 19405,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "data/models/uai23/2xgy_prepped_00020_3_0_3_3_F2_N0_E0_e0_t0e+00_KstarMAP__source_first__protein.json",
+      "original_sha256": "8f9d3c7ca157454f9fa5d307be07126208903825e31e332a1d9a88d4e904776a",
+      "bytes": 8446,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "data/models/uai23/3u7y_prepped_00009_2_0_3_3_F2_N0_E0_e0_t0e+00_KstarMAP__source_first__complex.json",
+      "original_sha256": "db980f2d009f2afbda89310c8234197e12ea3c30f52d279070232ba003a3e30d",
+      "bytes": 24293,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "data/models/uai23/3u7y_prepped_00009_2_0_3_3_F2_N0_E0_e0_t0e+00_KstarMAP__source_first__ligand.json",
+      "original_sha256": "c3d07f0f5a1b791e4189566270eb69315eba2e121f8984d89495c432a0b92f94",
+      "bytes": 9224,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "data/models/uai23/3u7y_prepped_00009_2_0_3_3_F2_N0_E0_e0_t0e+00_KstarMAP__source_first__protein.json",
+      "original_sha256": "68c901031654315bf1276ef3166ff4555301473c002d3690703d2fc84baed7b7",
+      "bytes": 3865,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "data/models/uai23/3u7y_prepped_00011_2_0_3_3_F2_N0_E0_e0_t0e+00_KstarMAP__source_first__complex.json",
+      "original_sha256": "960e14b8bfc5703dc2c2c53730bc93856083ce80b3e0f0935e8111eecf392139",
+      "bytes": 38096,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "data/models/uai23/3u7y_prepped_00011_2_0_3_3_F2_N0_E0_e0_t0e+00_KstarMAP__source_first__ligand.json",
+      "original_sha256": "bdf65498563fe5ce5de4e17b68b0a8d7961a88c0d85bfafdaff26ea4bb0759ec",
+      "bytes": 10247,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "data/models/uai23/3u7y_prepped_00011_2_0_3_3_F2_N0_E0_e0_t0e+00_KstarMAP__source_first__protein.json",
+      "original_sha256": "d15e30d37b6043254fa8e6563952d2ec6c24acb1bfb641f2992ec3106929ac62",
+      "bytes": 4755,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "data/models/uai23/4kt6_prepped_00024_4_4-0-1-2-3_3_0_F2_N0_E0_e0_t0e+00_KstarMAP__source_first__complex.json",
+      "original_sha256": "f9ded5076f7699e8d4dce5bb98b7b563e48057ac0134f224c3990209864eb49e",
+      "bytes": 21276,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "data/models/uai23/4kt6_prepped_00024_4_4-0-1-2-3_3_0_F2_N0_E0_e0_t0e+00_KstarMAP__source_first__ligand.json",
+      "original_sha256": "51652fa799e5eb7869d2283f1959c2a97083ffdb31077583f016dfb32d79057a",
+      "bytes": 5927,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "data/models/uai23/4kt6_prepped_00024_4_4-0-1-2-3_3_0_F2_N0_E0_e0_t0e+00_KstarMAP__source_first__protein.json",
+      "original_sha256": "c1a88cccfc7c2aad59d3354bdded561b252e5fc685e436047b281a8f2ab2968c",
+      "bytes": 5570,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "data/models/uai23/4wwi_prepped_00019_3_0_3_3_F2_N0_E0_e0_t0e+00_KstarMAP__source_first__complex.json",
+      "original_sha256": "2e25dd896b7313b059138d57221b6c25e78d29bc5cbfbc8e9634a2f31b47eae8",
+      "bytes": 22118,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "data/models/uai23/4wwi_prepped_00019_3_0_3_3_F2_N0_E0_e0_t0e+00_KstarMAP__source_first__ligand.json",
+      "original_sha256": "1e9fd427e65e68e3970aaf573224baa63b3acff331d77073194581aa025050f1",
+      "bytes": 6376,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "data/models/uai23/4wwi_prepped_00019_3_0_3_3_F2_N0_E0_e0_t0e+00_KstarMAP__source_first__protein.json",
+      "original_sha256": "42ff768a9be2f55e67cd6bcd180d606c04b9b342c6c8f29353b69fc3ceff2800",
+      "bytes": 5552,
+      "reason": "Converted upstream energy-table payload with unresolved source redistribution terms; rebuild from pinned upstream inputs.",
+      "source_urls": []
+    },
+    {
+      "path": "data/campaign-004/comparator_audit/source_snapshots/BBKStar.java",
+      "original_sha256": "4b529f1ebf6ceb018df0fd0ac7d4d784418385e7ded3b9aa6372967382833f1c",
+      "bytes": 23155,
+      "reason": "Upstream download retained by provenance; not mirrored in this export.",
+      "source_urls": []
+    },
+    {
+      "path": "data/campaign-004/comparator_audit/source_snapshots/ConfEnergyCalculator.java",
+      "original_sha256": "8adf400ae64744f1537c4fc97da163479b0013763f3beb57d7fca646f309b409",
+      "bytes": 20333,
+      "reason": "Upstream download retained by provenance; not mirrored in this export.",
+      "source_urls": []
+    },
+    {
+      "path": "data/campaign-004/comparator_audit/source_snapshots/EnergyMatrix.java",
+      "original_sha256": "28e748d30856267a544be38ed7727318d5b9da5e492994a16000ac2c147674d2",
+      "bytes": 11267,
+      "reason": "Upstream download retained by provenance; not mirrored in this export.",
+      "source_urls": []
+    },
+    {
+      "path": "data/campaign-004/comparator_audit/source_snapshots/PartitionFunction.java",
+      "original_sha256": "7ee137863e2a84bfa059af4000fa57b0836a5bc74969fc11c11c80a8938208b4",
+      "bytes": 9902,
+      "reason": "Upstream download retained by provenance; not mirrored in this export.",
+      "source_urls": []
+    },
+    {
+      "path": "data/campaign-004/comparator_audit/source_snapshots/bbkstar.py",
+      "original_sha256": "cb486cedb64230c459212e6bc8b66bee1a5691338cdcc72808117353e54c96ec",
+      "bytes": 4862,
+      "reason": "Upstream download retained by provenance; not mirrored in this export.",
+      "source_urls": []
+    },
+    {
+      "path": "data/campaign-004/comparator_audit/source_snapshots/build.gradle.kts",
+      "original_sha256": "5b86a0eec649000dd9d84a953e5d85689eabafe46857b58f0fdb43c4bb52850d",
+      "bytes": 8704,
+      "reason": "Upstream download retained by provenance; not mirrored in this export.",
+      "source_urls": [
+        "https://github.com/donaldlab/OSPREY3/blob/3d53244851f0388db9e01b288bbd330145935aa7/build.gradle.kts"
+      ]
+    },
+    {
+      "path": "data/campaign-004/comparator_audit/source_snapshots/index.json",
+      "original_sha256": "19294ca5338315062034671a5d5ecdb70582ecbc1d7de2e94238dcfc697f0244",
+      "bytes": 4433,
+      "reason": "Upstream download retained by provenance; not mirrored in this export.",
+      "source_urls": []
+    },
+    {
+      "path": "data/raw/ayyildiz2025/JCC-46-0-s001.pdf",
+      "original_sha256": "f8e527ae8db72ebc5c40f98ad6cf349854d2ef56619c4f21d230cc0d88643e9d",
+      "bytes": 804141,
+      "reason": "Upstream download retained by provenance; not mirrored in this export.",
+      "source_urls": []
+    },
+    {
+      "path": "data/raw/ayyildiz2025/JCC-46-0-s001.txt",
+      "original_sha256": "73ac14acaf23168b3e5a7c92635355485fe85c72bb03b54368768ba9a2b7cbe0",
+      "bytes": 7068,
+      "reason": "Upstream download retained by provenance; not mirrored in this export.",
+      "source_urls": []
+    },
+    {
+      "path": "data/raw/ayyildiz2025/JCC-46-0-s002.zip",
+      "original_sha256": "3aefd33bddbb5ab5032b4b8d060f07c4a8e691de7234dbbdf4aba2552d61bd0f",
+      "bytes": 22030,
+      "reason": "Upstream download retained by provenance; not mirrored in this export.",
+      "source_urls": []
+    },
+    {
+      "path": "data/raw/ayyildiz2025/supplementaryFiles.zip",
+      "original_sha256": "d5e3a36653fdbc8f68cc3af8c1d69e2c46361a494d1f16bd83ce665db0ca8861",
+      "bytes": 1218739,
+      "reason": "Upstream download retained by provenance; not mirrored in this export.",
+      "source_urls": []
+    },
+    {
+      "path": "data/raw/ayyildiz2025/qa/table-s1-page3.png",
+      "original_sha256": "6fcf61e3419b18f941f97f3f330d6c84e64ade9657c746d24c2fc47d9478257c",
+      "bytes": 62716,
+      "reason": "Upstream download retained by provenance; not mirrored in this export.",
+      "source_urls": []
+    },
+    {
+      "path": "data/raw/ayyildiz2025/qa/table-s1-page4.png",
+      "original_sha256": "8d2d2f1e69055872e7a5dd61217f3c1f49cc3fc07c6172f3b5069d223a38e20a",
+      "bytes": 52664,
+      "reason": "Upstream download retained by provenance; not mirrored in this export.",
+      "source_urls": []
+    },
+    {
+      "path": "data/raw/ayyildiz2025/qa/table-s1-page5.png",
+      "original_sha256": "ba83d3e5f286f868af07f7f0c70d9c68c353deb172a3ceca1fda60d067f12e05",
+      "bytes": 27420,
+      "reason": "Upstream download retained by provenance; not mirrored in this export.",
+      "source_urls": []
+    },
+    {
+      "path": "data/raw/ayyildiz2025/analysis_source/DataProcessingClasses.py",
+      "original_sha256": "54fe1aac1f9c2a9ed3bc01c97648bb8b0957396d89f8ad494694c4237bca19e6",
+      "bytes": 17397,
+      "reason": "Upstream download retained by provenance; not mirrored in this export.",
+      "source_urls": []
+    },
+    {
+      "path": "data/raw/ayyildiz2025/analysis_source/PlotClasses.py",
+      "original_sha256": "954cc8b4557f59c0d20cae1f3a853a2fd80f57524dbf7ea099fa89884eb8e5c5",
+      "bytes": 23549,
+      "reason": "Upstream download retained by provenance; not mirrored in this export.",
+      "source_urls": []
+    },
+    {
+      "path": "data/raw/ayyildiz2025/analysis_source/analyze_flex_ddG_all-struc.py",
+      "original_sha256": "d08e64c8f8269bc9a7c029a5655f37b140a00dabc34564acdef409c79d13e531",
+      "bytes": 9542,
+      "reason": "Upstream download retained by provenance; not mirrored in this export.",
+      "source_urls": []
+    },
+    {
+      "path": "data/raw/ayyildiz2025/analysis_source/bbkstar.py",
+      "original_sha256": "4beb229cfe05db8a8953c49adf47d9aa26b48fc8b41185e57eee563b39604ec2",
+      "bytes": 5988,
+      "reason": "Upstream download retained by provenance; not mirrored in this export.",
+      "source_urls": []
+    },
+    {
+      "path": "data/raw/ayyildiz2025/analysis_source/ddG-backrub.xml",
+      "original_sha256": "1dc571372f6a3b1d2272a56de95980fa8052bb668aeedb1a70d8ebba8fee93a7",
+      "bytes": 5962,
+      "reason": "Upstream download retained by provenance; not mirrored in this export.",
+      "source_urls": []
+    },
+    {
+      "path": "data/raw/ayyildiz2025/analysis_source/flexddg.py",
+      "original_sha256": "5af2b655bcef8b18ef658eca8d8afb28684e97cd7f234b4c2b37a8ea6257fa66",
+      "bytes": 3813,
+      "reason": "Upstream download retained by provenance; not mirrored in this export.",
+      "source_urls": []
+    },
+    {
+      "path": "data/raw/ayyildiz2025/analysis_source/run_pocketoptimizer.sh",
+      "original_sha256": "b6ca3009e7f9f0eeca39b5db9899e2832191dcfdf3941501b44c0986445be097",
+      "bytes": 410,
+      "reason": "Upstream download retained by provenance; not mirrored in this export.",
+      "source_urls": []
+    },
+    {
+      "path": "data/raw/ayyildiz2025/analysis_source/structure-preparation.py",
+      "original_sha256": "b4b633dabf73c61ad32bfca398fb1f51a31891ce5c63bc82afd95e855313f3b9",
+      "bytes": 3791,
+      "reason": "Upstream download retained by provenance; not mirrored in this export.",
+      "source_urls": []
+    },
+    {
+      "path": "data/raw/uai23/1a0r_prepped_00031_2_0_5_5-0-1-2-3-4_F2_N0_E0_e0_t0e+00_KstarMAP.zip",
+      "original_sha256": "57c2fd7201949c7a4cab0213b47fe48594c689689547588c5593b5655efcd8e7",
+      "bytes": 7996657,
+      "reason": "Upstream download retained by provenance; not mirrored in this export.",
+      "source_urls": [
+        "https://raw.githubusercontent.com/dechterlab/uai23-KstarMAP-benchmarks/bfc66c40e1da80849ed11fb585b21b9073e1c838/Expanded_5_F2_t0e%2B00/1a0r_prepped_00031_2_0_5_5-0-1-2-3-4_F2_N0_E0_e0_t0e%2B00_KstarMAP.zip"
+      ]
+    },
+    {
+      "path": "data/raw/uai23/1gwc_prepped_00021_1_0_4_3_F2_N0_E0_e0_t0e+00_KstarMAP.zip",
+      "original_sha256": "03b5cabf71585e72b494ad2db1a2ec023019355c70cf965d4f80ce19c98fe327",
+      "bytes": 3449334,
+      "reason": "Upstream download retained by provenance; not mirrored in this export.",
+      "source_urls": [
+        "https://raw.githubusercontent.com/dechterlab/uai23-KstarMAP-benchmarks/bfc66c40e1da80849ed11fb585b21b9073e1c838/Expanded_3_F2_t0e%2B00/1gwc_prepped_00021_1_0_4_3_F2_N0_E0_e0_t0e%2B00_KstarMAP.zip"
+      ]
+    },
+    {
+      "path": "data/raw/uai23/2hnv_prepped_00025_3_0_4_3_F2_N0_E0_e0_t0e+00_KstarMAP.zip",
+      "original_sha256": "e8b38e2753e4abd6888521252c7cea24216068f8f518b813611d74b5a0b55b73",
+      "bytes": 2988795,
+      "reason": "Upstream download retained by provenance; not mirrored in this export.",
+      "source_urls": [
+        "https://raw.githubusercontent.com/dechterlab/uai23-KstarMAP-benchmarks/bfc66c40e1da80849ed11fb585b21b9073e1c838/Expanded_3_F2_t0e%2B00/2hnv_prepped_00025_3_0_4_3_F2_N0_E0_e0_t0e%2B00_KstarMAP.zip"
+      ]
+    },
+    {
+      "path": "data/raw/uai23/2rf9_prepped_00007_1_0_7_3_F2_N0_E0_e0_t0e+00_KstarMAP.zip",
+      "original_sha256": "705d9d79fe43fbdbbc73f77542e6d5a9498710f9cbfc72fd8eb55394b066a0cb",
+      "bytes": 3362231,
+      "reason": "Upstream download retained by provenance; not mirrored in this export.",
+      "source_urls": [
+        "https://raw.githubusercontent.com/dechterlab/uai23-KstarMAP-benchmarks/bfc66c40e1da80849ed11fb585b21b9073e1c838/Expanded_3_F2_t0e%2B00/2rf9_prepped_00007_1_0_7_3_F2_N0_E0_e0_t0e%2B00_KstarMAP.zip"
+      ]
+    },
+    {
+      "path": "data/raw/uai23/2rf9_prepped_00013_3_0_4_3_F2_N0_E0_e0_t0e+00_KstarMAP.zip",
+      "original_sha256": "5b0f248aa4cdb8a47071b66e5f9071993617a38ba211bb2ef152e9597cd20d53",
+      "bytes": 3218277,
+      "reason": "Upstream download retained by provenance; not mirrored in this export.",
+      "source_urls": [
+        "https://raw.githubusercontent.com/dechterlab/uai23-KstarMAP-benchmarks/bfc66c40e1da80849ed11fb585b21b9073e1c838/Expanded_3_F2_t0e%2B00/2rf9_prepped_00013_3_0_4_3_F2_N0_E0_e0_t0e%2B00_KstarMAP.zip"
+      ]
+    },
+    {
+      "path": "data/raw/uai23/2rfe_prepped_00012_3_0_3_3_F2_N0_E0_e0_t0e+00_KstarMAP.zip",
+      "original_sha256": "8587d3a278d9a3004b17042323a65518ef9be2b5b1ffd27f0df7acb87a76dbd3",
+      "bytes": 3338034,
+      "reason": "Upstream download retained by provenance; not mirrored in this export.",
+      "source_urls": [
+        "https://raw.githubusercontent.com/dechterlab/uai23-KstarMAP-benchmarks/bfc66c40e1da80849ed11fb585b21b9073e1c838/Expanded_3_F2_t0e%2B00/2rfe_prepped_00012_3_0_3_3_F2_N0_E0_e0_t0e%2B00_KstarMAP.zip"
+      ]
+    },
+    {
+      "path": "data/raw/uai23/2rfe_prepped_00014_3_0_3_3_F2_N0_E0_e0_t0e+00_KstarMAP.zip",
+      "original_sha256": "81c585774157457391689848175c4c823e52b1e8dde1e1bb2b8357e20da82124",
+      "bytes": 3349262,
+      "reason": "Upstream download retained by provenance; not mirrored in this export.",
+      "source_urls": [
+        "https://raw.githubusercontent.com/dechterlab/uai23-KstarMAP-benchmarks/bfc66c40e1da80849ed11fb585b21b9073e1c838/Expanded_3_F2_t0e%2B00/2rfe_prepped_00014_3_0_3_3_F2_N0_E0_e0_t0e%2B00_KstarMAP.zip"
+      ]
+    },
+    {
+      "path": "data/raw/uai23/2rfe_prepped_00017_2_0_4_3_F2_N0_E0_e0_t0e+00_KstarMAP.zip",
+      "original_sha256": "4c8585a7cf6053b9541c1f4f28fbd2decc70d1715e2f9416515c8c1752e31adb",
+      "bytes": 3149049,
+      "reason": "Upstream download retained by provenance; not mirrored in this export.",
+      "source_urls": [
+        "https://raw.githubusercontent.com/dechterlab/uai23-KstarMAP-benchmarks/bfc66c40e1da80849ed11fb585b21b9073e1c838/Expanded_3_F2_t0e%2B00/2rfe_prepped_00017_2_0_4_3_F2_N0_E0_e0_t0e%2B00_KstarMAP.zip"
+      ]
+    },
+    {
+      "path": "data/raw/uai23/2rfe_prepped_00030_4_3_2_0_F2_N0_E0_e0_t0e+00_KstarMAP.zip",
+      "original_sha256": "b2d829c2d7e280419480e1ce837d2e1a33e3df62e237a129224d343d52ac03af",
+      "bytes": 3173853,
+      "reason": "Upstream download retained by provenance; not mirrored in this export.",
+      "source_urls": [
+        "https://raw.githubusercontent.com/dechterlab/uai23-KstarMAP-benchmarks/bfc66c40e1da80849ed11fb585b21b9073e1c838/Expanded_3_F2_t0e%2B00/2rfe_prepped_00030_4_3_2_0_F2_N0_E0_e0_t0e%2B00_KstarMAP.zip"
+      ]
+    },
+    {
+      "path": "data/raw/uai23/2xgy_prepped_00020_3_0_3_3_F2_N0_E0_e0_t0e+00_KstarMAP.zip",
+      "original_sha256": "661176b3759dc19b33ed94607394a0a3510780c612977849d63b7fc8f401daf0",
+      "bytes": 3119706,
+      "reason": "Upstream download retained by provenance; not mirrored in this export.",
+      "source_urls": [
+        "https://raw.githubusercontent.com/dechterlab/uai23-KstarMAP-benchmarks/bfc66c40e1da80849ed11fb585b21b9073e1c838/Expanded_3_F2_t0e%2B00/2xgy_prepped_00020_3_0_3_3_F2_N0_E0_e0_t0e%2B00_KstarMAP.zip"
+      ]
+    },
+    {
+      "path": "data/raw/uai23/3u7y_prepped_00009_2_0_3_3_F2_N0_E0_e0_t0e+00_KstarMAP.zip",
+      "original_sha256": "d3805f3b0241ae4cee279ca09e61457d60c437e8fefa19eca2afb3cbea8fef54",
+      "bytes": 2984062,
+      "reason": "Upstream download retained by provenance; not mirrored in this export.",
+      "source_urls": [
+        "https://raw.githubusercontent.com/dechterlab/uai23-KstarMAP-benchmarks/bfc66c40e1da80849ed11fb585b21b9073e1c838/Expanded_3_F2_t0e%2B00/3u7y_prepped_00009_2_0_3_3_F2_N0_E0_e0_t0e%2B00_KstarMAP.zip"
+      ]
+    },
+    {
+      "path": "data/raw/uai23/3u7y_prepped_00011_2_0_3_3_F2_N0_E0_e0_t0e+00_KstarMAP.zip",
+      "original_sha256": "7ff3543085b4f61e687e9ee58ac5dfad5af691cae717aa5149b19c9af844635a",
+      "bytes": 3073697,
+      "reason": "Upstream download retained by provenance; not mirrored in this export.",
+      "source_urls": [
+        "https://raw.githubusercontent.com/dechterlab/uai23-KstarMAP-benchmarks/bfc66c40e1da80849ed11fb585b21b9073e1c838/Expanded_3_F2_t0e%2B00/3u7y_prepped_00011_2_0_3_3_F2_N0_E0_e0_t0e%2B00_KstarMAP.zip"
+      ]
+    },
+    {
+      "path": "data/raw/uai23/4kt6_prepped_00024_4_4-0-1-2-3_3_0_F2_N0_E0_e0_t0e+00_KstarMAP.zip",
+      "original_sha256": "91930eb924313873759545df291b26b54e1e55a245dac63bfb1632d47381d32c",
+      "bytes": 5670577,
+      "reason": "Upstream download retained by provenance; not mirrored in this export.",
+      "source_urls": [
+        "https://raw.githubusercontent.com/dechterlab/uai23-KstarMAP-benchmarks/bfc66c40e1da80849ed11fb585b21b9073e1c838/Expanded_4_F2_t0e%2B00/4kt6_prepped_00024_4_4-0-1-2-3_3_0_F2_N0_E0_e0_t0e%2B00_KstarMAP.zip"
+      ]
+    },
+    {
+      "path": "data/raw/uai23/4wwi_prepped_00019_3_0_3_3_F2_N0_E0_e0_t0e+00_KstarMAP.zip",
+      "original_sha256": "6a2dc5c8f29d960d9548d186470184fac0acbaeaf8116d37112d90d436512cf2",
+      "bytes": 3074558,
+      "reason": "Upstream download retained by provenance; not mirrored in this export.",
+      "source_urls": [
+        "https://raw.githubusercontent.com/dechterlab/uai23-KstarMAP-benchmarks/bfc66c40e1da80849ed11fb585b21b9073e1c838/Expanded_3_F2_t0e%2B00/4wwi_prepped_00019_3_0_3_3_F2_N0_E0_e0_t0e%2B00_KstarMAP.zip"
+      ]
+    }
+  ]
+}

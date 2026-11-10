@@ -1,0 +1,53 @@
+# Independent verdict: campaign 004
+
+**Three-state scoring and the full 21-template ranking are verified for the released source encoding. Pruning provides no coverage gain, no material memory benefit, and no general timing win in this pilot.** The physical affinity interpretation remains unestablished, so these are source-encoding ranking diagnostics, not biological predictions.
+
+All **8,428 sealed files** rehash correctly, including all **8,031 prior campaign003 files**. Grader `8f2343`, preparation `500936`, execution `96d122` and bundle `1e4e8e` retain their identities. All 17 static stages and all **12 panel workers, 252 repeated query scores and 756 state slots** reconcile with the frozen schedule and raw records. There are no missing/extra attempts, retries, skips, undefined ratios or recorded failures. The 63 reference slots all complete. This is 21 variants of one selected case, not 252 independent designs.
+
+The case is the prospective minimum-sum metadata choice, `2rfe_prepped_00012`, with the lexicographic tie resolved against `_00014`. All 21 non-DUMMY labels at the first mutable source selector, F338, are retained; other selectors stay source-first. HIP/HIE/HID are separate residue templates, so the panel must not be described as 21 distinct natural amino acids. No outcome-based selection or change between preparation and final scientific choices is found.
+
+The preparation exposure statement discloses earlier source grammar, summary/conformer labels and selected UAI numeric-prefix inspection. Stored chronology places formal all-case audits, conditioning and reference enumeration after the preparation freeze, and measured workers after the execution freeze. This is a disclosed preflight qualification; local clocks/seals do not certify absence of undisclosed historical work. The retained initial synthetic preflight has 14 fixture-related failures; the final frozen preflight has 136 passes. No protein failure is erased by that pre-freeze correction.
+
+## Source semantics and correctness
+
+The fresh grader independently parses every original ZIP/UAI/query/sum/summary and released energy table without importing experiment code. Across all 14 cases, all **691 factors** belong to exactly one declared state, all **386,544 selector-constraint entries** agree with the shared residue-template/conformer maps, and temperature is 298.15 K with gas constant 0.0019891 kcal/(mol K). The `.sum` files explicitly assign two denominator groups and one numerator group. No source scalar, selector-only or cross-state factor is omitted. No normalization is added or source offset discarded. The appropriate encoded objective is `logZ_C - logZ_P - logZ_L`; the ordinary partition sum of the complete conditional graph would instead multiply the state sums. This agrees with the published formulation and released format description. [Paper, equations 3–5](https://proceedings.mlr.press/v216/pezeshki23a/pezeshki23a.pdf), [supplement, section 2.0.3](https://ics.uci.edu/~dechter/publications/r274-supplemental.pdf).
+
+All **42 existing source-first models** reproduce, checking 35,459 numeric entries while ignoring only identity log-zero scalars. All **63 new original targets** reproduce every source slice and domain map, checking another 21,560 entries. Final domain indices mapped to real templates are retained, including F338 index 202. Ordinal position supplies no dummy-state proof. Their coordinate origin and physical calibration have not been independently reconstructed.
+
+All **4,661,625 released rounded-energy/source-weight entries** are compatible with the declared Boltzmann sign and temperature. There are 696,477 energy-table source zeros: **695,547** have finite rounded energies whose entire rounding range guarantees binary64 underflow; **930** lie near the underflow boundary at the available text precision. No positive decimal underflows during this campaign's source parsing. These are already truncated source targets. The rounded text matrices cannot recover their original full-precision positive physical weights. The present exactness claim applies to the encoded target; neither absolute physical affinity nor an unrounded physical partition function is established. The paper's optional UFO scheme deliberately changes positive factors; no such new threshold is introduced here. [Paper, section 5](https://proceedings.mlr.press/v216/pezeshki23a/pezeshki23a.pdf).
+
+All **126 prepared representations** pass the independent support-trace replay, reverse-order fixed-point check, retained-state mapping and **31,096 exact Fraction factor-entry identities**. Only represented exact zeros delete support. Domain multiplicities and every finite log term remain. Across the 63 state rows, Cartesian assignments fall from 885,801 to 61,578; the independently enumerated positive-support total is 52,035. Cartesian counts are not support counts. This is conventional exact preprocessing, with previously sealed independent grader helpers reused only for support/algebra verification.
+
+Fresh direct **Decimal 90/120** enumeration from the new independent source decoder reproduces all 63 references in all three declared numerical semantics: stored binary64 logs, original binary64 source weights, and source decimal lexemes. No fallback reference or panel replacement is needed. Maximum 90/120 score difference is below `6e-88`; stored-log versus source-binary64 score conversion differs by at most `1.91e-16`. Precision agreement supplies numerical evidence, not directed intervals or a certificate.
+
+All 756 state outputs independently pass, with maximum absolute logZ error **6.58e-14**. All 252 raw log ratios pass, with maximum absolute error **8.33e-14**. No zero or undefined denominator occurs in this panel; frozen synthetic tests cover those branches. Every panel reproduces all 210 pairwise orders and top-1/3/5 membership. The smallest adjacent reference gap is **0.03206**, well above the combined numerical envelopes; no tie or boundary uncertainty needs to be forced into an order.
+
+The encoded top five are **LEU, ARG, LYS, ASN, ILE**. LEU, the source-first baseline, exceeds ARG by **0.0384293 log units**. None of the declared alternatives improves on baseline in this encoded panel. This is not an experimentally validated mutation recommendation.
+
+## Costs and practical limits
+
+All runtime numeric fingerprints match their frozen targets. The **240 cache hits** each point to a preceding correctly completed identical protein target within the same fresh worker; **516 state solves** execute directly. Both arms charge conditioning, transformation and fingerprint checks for every query. No cross-worker application cache is used; operating-system caches are not flushed.
+
+| Complete fresh 21-query panel | Baseline outer wall | Pruned outer wall |
+|---|---:|---:|
+| Batch, three repeats | 0.224–0.233 s | 0.185–0.194 s |
+| VE, three repeats | 0.168–0.184 s | 0.189–0.197 s |
+
+Batch's paired baseline/pruned wall ratios are **1.17–1.21**, but the frozen random schedule puts pruning first in **all three batch pairs**. This does not achieve the rubric's intended arm counterbalancing and leaves the modest benefit order-confounded. VE uses both orders, and pruning is slower in all three pairs; its additional preprocessing exceeds the saved inference time. CPU follows these respective directions. Both arms finish all queries under the common 20 s policy, so there is **no coverage gain**. Whole-worker observed peaks of **74.4–75.8 MB** show no material memory advantage. The largest within-cell wall max/min is 1.096; three repeated pairs on one small model do not establish a portable solver ranking.
+
+The common outer clock charges spawn/imports, manifest/source read, conditioning, transforms/checks, inference or traced cache reuse, ratio, journal/result/sidecar/stdout and reaping. Source loading is approximately 0.058–0.061 s per worker. The internal cold-worker clock starts after imports/manifest read and is not the full cold endpoint. Static preparation takes 8.79 s elapsed, including 5.75 s reference outer wall and 0.254 s target preparation. Measured worker walls sum to 2.365 s; campaign elapsed is 2.563 s including 0.088 s premeasurement validation, 0.103 s named controller work and 0.0074 s other writes/loop overhead. Nested phase clocks must not be added.
+
+The 16 MiB table limit is an estimated solver-array policy, not total memory. Batch enforces the 20M state policy; VE uses its table/wall policies, although every observed state product is below 20M. RSS uses sampled process-tree readings plus worker lifetime high-water, with four high-waters exceeding the samples. There are only 8–12 samples per worker, no sample timestamps and a requested 10 ms sleep. Query high-water is cumulative; no enforced instantaneous memory ceiling follows. Versions are declared at freeze rather than independently logged at every import.
+
+No compatible BBK*/AOBB-K* comparison was executed. Independent rehashing of retained official BBK* sources supports the need for three conformation spaces and energy/search/partition factories; it does not establish that a same-target adapter is impossible. The retained benchmark repository contains ZIPs and a README rather than a solver. The separate 63 experimental labels remain untested: their supplemental scripts reference an absent prepared PDB and contain no prepared conformation spaces or energy matrices. No inference speed, ranking match or baseline result establishes biological accuracy or ETH.
+
+| Gate | Judgment |
+|---|---|
+| Integrity/prospectivity | Qualified pass; disclosed source preflight and local chronology limits. |
+| Released source decomposition and same-target transformations | Pass across all 14 audits and all pilot representations. |
+| Physical affinity interpretation | Not established; restrict conclusions to source-encoding diagnostics. |
+| Independent references and numerical/rank correctness | Pass for the complete fixed panel. |
+| Coverage/resources/comparison | Full equal coverage; qualified local costs, batch order confound, no native comparator. |
+| Usefulness | Useful validated scoring pipeline and bounded method tradeoff; no general or biological winner. |
+
+The independent evidence is in `semantics_audit.json`, `ranking_audit.json`, `scope_audit.json` and `resource_audit/audit.json`, with reproducible checkers and `AUDIT_SEAL.json`. Parent plots and later narrative reports were not inspected. Candidate claims received before auditing were treated as claims to verify. No additional measurement is required to complete this verdict.

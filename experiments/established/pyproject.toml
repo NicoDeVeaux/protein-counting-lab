@@ -1,0 +1,15 @@
+[project]
+name = "protein-counting-established-runtime"
+version = "0.1.0"
+description = "Locked established-solver and audit environment for protein counting experiments"
+requires-python = ">=3.13,<3.14"
+dependencies = [
+  "pyagrum==3.3.2",
+  "numpy==2.5.4",
+  "psutil>=7,<8",
+  "jsonschema>=4,<5",
+  "mpmath>=1.3,<2",
+]
+
+[dependency-groups]
+dev = ["pytest>=8,<10"]

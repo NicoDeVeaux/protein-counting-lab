@@ -1,0 +1,157 @@
+{
+  "scope": "Initial literature download inventory; original publication rights retained.",
+  "artifacts": [
+    {
+      "name": "andor2022.pdf",
+      "bytes": 3044996,
+      "sha256": "e829242e25b4d6bfba73479a0f9af3d43d08245d1281989c4d7482209464dd2b",
+      "treatment": "Original literature download omitted from mirror; citation and source retained where identified.",
+      "source_url": "https://proceedings.mlr.press/v180/pezeshki22a/pezeshki22a.pdf",
+      "citation_url": "https://proceedings.mlr.press/v180/pezeshki22a.html"
+    },
+    {
+      "name": "andor2023.pdf",
+      "bytes": 1742452,
+      "sha256": "78b9e0b1bd6944920de74935af879c80fdba7e4831f58a1f4cbe4a856c277297",
+      "treatment": "Original literature download omitted from mirror; citation and source retained where identified.",
+      "source_url": "https://proceedings.mlr.press/v216/pezeshki23a/pezeshki23a.pdf",
+      "citation_url": "https://proceedings.mlr.press/v216/pezeshki23a.html"
+    },
+    {
+      "name": "andor2023.txt",
+      "bytes": 52812,
+      "sha256": "4612f1daeed4810a4ecdb8635bfbcd118423facf7e6a45f576cd065445c55034",
+      "treatment": "Original literature download omitted from mirror; citation and source retained where identified."
+    },
+    {
+      "name": "bibliography.json",
+      "bytes": 5212,
+      "sha256": "d66a8c2071177f65702412b0845f6b4ed8c16c1a2014e23c70d7f1e2996cd4e8",
+      "treatment": "Original literature download omitted from mirror; citation and source retained where identified."
+    },
+    {
+      "name": "cck2026-supplement.png",
+      "bytes": 192146,
+      "sha256": "0d4b179c1c7fd9cebc6953102652c1a8f5a77cec592828298ded067d1e75b23c",
+      "treatment": "Original literature download omitted from mirror; citation and source retained where identified."
+    },
+    {
+      "name": "cck2026_v2.pdf",
+      "bytes": 5623509,
+      "sha256": "69e2bf3ced8d3628d45ccb82e5a79d19c4dc96a38aaa8cbc939f1568f0541baa",
+      "treatment": "Original literature download omitted from mirror; citation and source retained where identified.",
+      "source_url": "https://www.biorxiv.org/content/10.1101/2025.11.21.689740v2.full.pdf",
+      "citation_url": "https://www.biorxiv.org/content/10.1101/2025.11.21.689740v2"
+    },
+    {
+      "name": "cck2026_v2.txt",
+      "bytes": 72150,
+      "sha256": "86a4186a920176b833918cf514c4804dc92f6ea9a74ff566fb5c0014b54a48f9",
+      "treatment": "Original literature download omitted from mirror; citation and source retained where identified."
+    },
+    {
+      "name": "dexdesign2024.pdf",
+      "bytes": 3651788,
+      "sha256": "23ab8e9d8ad8d44a5ad20373577d40e93b73780686d5a192cd08ec3ab16698cb",
+      "treatment": "Original literature download omitted from mirror; citation and source retained where identified.",
+      "source_url": "https://users.cs.duke.edu/~bdonald/papers/peds24/peds24.pdf",
+      "citation_url": "https://doi.org/10.1093/protein/gzae007"
+    },
+    {
+      "name": "dynamic_proteins2025.pdf",
+      "bytes": 2509935,
+      "sha256": "b53d3e0231abb9c332a092e47d3937cefecb28753b9c82cf121e492fd8e36068",
+      "treatment": "Original literature download omitted from mirror; citation and source retained where identified.",
+      "source_url": "https://static1.squarespace.com/static/602a45cbfff66b0cea7d63b1/t/685f32cf37c0476468500084/1751069395476/science.adr7094.pdf",
+      "citation_url": "https://doi.org/10.1126/science.adr7094"
+    },
+    {
+      "name": "effiedes2026.pdf",
+      "bytes": 3388247,
+      "sha256": "e5d31c4b005ab2e6f2743fcaba1af0b82540532d44170e764eb6ea2d7bbf9fef",
+      "treatment": "Original literature download omitted from mirror; citation and source retained where identified.",
+      "source_url": "https://europepmc.org/articles/PMC13422582?pdf=render",
+      "citation_url": "https://doi.org/10.1002/advs.76464"
+    },
+    {
+      "name": "eth2026.pdf",
+      "bytes": 887884,
+      "sha256": "5b1612dc2eebb2cad5b4cbe62d1fed2982f01ab1908c26f70010a651487e8123",
+      "treatment": "Original literature download omitted from mirror; citation and source retained where identified.",
+      "source_url": "https://raw.githubusercontent.com/openai/math/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf",
+      "citation_url": "https://github.com/openai/math/tree/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026"
+    },
+    {
+      "name": "eth2026.txt",
+      "bytes": 216297,
+      "sha256": "608b455706bea504b791e763a766a8fae3894da6b570c47dec57027ca9937dd8",
+      "treatment": "Original literature download omitted from mirror; citation and source retained where identified."
+    },
+    {
+      "name": "geometry2006.pdf",
+      "bytes": 212306,
+      "sha256": "f7af3ad73d08da75f153c7759206764bb7e86546bf571bf11a1e7a6be74e52da",
+      "treatment": "Original literature download omitted from mirror; citation and source retained where identified.",
+      "source_url": "https://home.ttic.edu/~jinbo/ps/SideChain-JACM.pdf",
+      "citation_url": "https://doi.org/10.1145/1162349.1162350"
+    },
+    {
+      "name": "ising_counting2024.pdf",
+      "bytes": 621654,
+      "sha256": "a8f3babd92abf3ffc55f49fd9fbc08890eddd1dbae83ed9448f900b5f6876ec7",
+      "treatment": "Original literature download omitted from mirror; citation and source retained where identified.",
+      "source_url": "https://arxiv.org/pdf/2212.12812",
+      "citation_url": "https://arxiv.org/abs/2212.12812"
+    },
+    {
+      "name": "osprey_protocol2024.pdf",
+      "bytes": 525922,
+      "sha256": "d40abae83178a1bb34e3037204e1ac3e0ef17e77c9811858a8215b789cfc31fc",
+      "treatment": "Original literature download omitted from mirror; citation and source retained where identified.",
+      "source_url": "https://users.cs.duke.edu/~bdonald/papers/jcb24/childs-et-al-2024-protocol-for-designing-de-novo-noncanonical-peptide-binders-in-osprey.pdf",
+      "citation_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11698684/"
+    },
+    {
+      "name": "reading-packet.zip",
+      "bytes": 21980429,
+      "sha256": "c78ab7e70e96cac763c9036061e11d6a93ac21478ae3e3f2629cf6a2d449d05d",
+      "treatment": "Original literature download omitted from mirror; citation and source retained where identified."
+    },
+    {
+      "name": "sparse_graphs2017.pdf",
+      "bytes": 3011343,
+      "sha256": "1f4189ac39b8d38ad813ab44ce67cad8b8ba2ea20d8bda7cedb3d7c5f137ea26",
+      "treatment": "Original literature download omitted from mirror; citation and source retained where identified.",
+      "source_url": "https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1005346&type=printable",
+      "citation_url": "https://doi.org/10.1371/journal.pcbi.1005346"
+    },
+    {
+      "name": "specificity2025-methods.png",
+      "bytes": 270187,
+      "sha256": "4d2a7325f09400b613733b868254a091a03bbc54fa3454ca1951e6da14db66e5",
+      "treatment": "Original literature download omitted from mirror; citation and source retained where identified."
+    },
+    {
+      "name": "specificity2025.pdf",
+      "bytes": 992829,
+      "sha256": "5f46e35f436dc5601c9d06937a0f93239594243e82f8eeb382ca20d1fd377199",
+      "treatment": "Original literature download omitted from mirror; citation and source retained where identified.",
+      "source_url": "https://europepmc.org/articles/PMC12202725?pdf=render",
+      "citation_url": "https://doi.org/10.1002/jcc.70160"
+    },
+    {
+      "name": "specificity2025.txt",
+      "bytes": 41809,
+      "sha256": "9e97aaeaa0d005f30cc1193dbc538a3cbfcca1b83ca3b155b0fd5c57d02d25c6",
+      "treatment": "Original literature download omitted from mirror; citation and source retained where identified."
+    },
+    {
+      "name": "viricel2016.pdf",
+      "bytes": 522346,
+      "sha256": "f1d3abc0839d018d850813ca03c20ec16ed33c04f3f7f59d81e96cc9666c10a8",
+      "treatment": "Original literature download omitted from mirror; citation and source retained where identified.",
+      "source_url": "https://miat.inrae.fr/schiex/Export/CP2016.pdf",
+      "citation_url": "https://doi.org/10.1007/978-3-319-44953-1_46"
+    }
+  ]
+}
