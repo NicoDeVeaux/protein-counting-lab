@@ -1,10 +1,12 @@
 # Protein counting experiments
 
-Exploratory experiments on discrete protein design: partition functions, ensemble affinity scores, exact preprocessing, numerical references, and independent grading. This repository preserves useful results and negative findings from six local CPU campaigns.
+Exploratory experiments on discrete protein design: partition functions, ensemble affinity scores, exact preprocessing, numerical references, and independent grading. This repository preserves useful results and negative findings from six local CPU campaigns and a separate verification follow-up.
 
 The latest biological study uses full-precision rigid energy matrices from the published c-Raf/Ras archive. All 78 state calculations for 13 admitted variants pass independent high-precision references. Ensemble counting reverses two pairwise variant rankings and changes no mutation-effect directions. A small model-transfer comparison does not establish improved biological prediction.
 
 The new [campaign 006](CAMPAIGN-006.md) tests certified adaptive ranking on small synthetic integer models. Lean checks the ranking arithmetic; TLC checks a bounded cache model. Adaptive stopping reduces work on three nontrivial cases, while exact variable elimination remains faster on every nontrivial case. [BENCHMARK.md](BENCHMARK.md) explains the task, scoring, baselines and requirements for a discovery loop.
+
+[Campaign 007](CAMPAIGN-007.md) strengthens that certificate path: Lean now recomputes and proves the partition-bound construction from a model and binary split certificate. The Python table translation remains independently tested rather than proved. This is a verification follow-up, with no new speedup claim.
 
 | Study | Result |
 |---|---|
@@ -14,6 +16,7 @@ The new [campaign 006](CAMPAIGN-006.md) tests certified adaptive ranking on smal
 | [Campaign 004](CAMPAIGN-004.md) | Full three-state ranking for 21 residue templates; baseline remains best, no general pruning win. |
 | [Campaign 005](CAMPAIGN-005.md) | Counting changes prioritization in a full-precision rigid model; assay/model mismatch prevents direct biological validation. |
 | [Campaign 006](CAMPAIGN-006.md) | Exact ranking certificates and safe adaptive stopping work on a laptop; refinement savings do not beat native exact VE. |
+| [Campaign 007](CAMPAIGN-007.md) | Lean checks factor bounds, completion counts and split coverage; a supplied Python enclosure is no longer a premise of the new bound theorem. |
 
 The independent grader freezes criteria before fresh measurements and checks saved outputs separately from experiment implementations. This is research code, not a production solver or evidence of an ETH breakthrough.
 
@@ -39,7 +42,7 @@ Checked on 2026-11-10; these assessments distinguish completed work from propose
 | Literal proof schedules plus larger hardware | Poor practical starting point: old Section 4 and new appendix parameter checks fail at realistic sizes. This says nothing universal about other implementations. | Derive an explicit finite operation/bit-memory budget before implementing a full counter. |
 | Instance-specific layouts or simplified algebraic subroutines | Mathematically open: the paper exposes a general product-sum routine. No practical gain demonstrated here. | Construct and verify a small layout, bound every interpolation/measurement cost, and compare with same-target VE before expanding. |
 | Weighted encoding and precision | Campaign 006 uses exact integer intervals and proves the ratio comparison. Its table coefficients need at most 20 bits; initial partition bounds need at most 239 bits. This is not a physical-weight or CNF adapter. | Produce certified Boltzmann-weight intervals and count reduction auxiliaries and intermediate coefficient costs. |
-| Structure, shared-state reuse and certified rank-aware stopping | Campaign 006 passes its adaptive-work gate on three nontrivial synthetic cases; native exact VE is faster throughout the nontrivial panel. Near ties expose the limits of fixed partition precision. | Couple the certificate policy to a faster bound producer and an independent external benchmark; preserve preprocessing costs and unresolved outcomes. |
+| Structure, shared-state reuse and certified rank-aware stopping | Campaign 006 passes its adaptive-work gate on three nontrivial synthetic cases; native exact VE remains faster. Campaign 007 proves the parsed-model bound construction and checks real producer certificates. | Couple a faster producer to the checked certificate path and an independent external benchmark; retain verification/preprocessing costs and unresolved outcomes. |
 | Assay-matched energies and flexibility | Highest priority for biological usefulness: campaign 005 changes two model orders but has no matched-assay validation or established biological winner. | Prepare the measured molecular system, freeze model/assay identities, and compare ensemble versus same-model GMEC on held-out measurements. |
 
 The ETH parameter checks remain preconditions and error-budget arithmetic. Campaign 006 separately benchmarks conventional exact arithmetic and adaptive stopping. See [the checked roadmap](notes/ETH_AND_OPEN_LANES.md) for the earlier feasibility checks and [the benchmark guide](BENCHMARK.md) for the new engineering experiment.

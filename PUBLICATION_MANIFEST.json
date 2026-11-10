@@ -91,6 +91,16 @@
       "followup_addition": "2026-11-10: separately sealed campaign-006 synthetic experiment, formal checks, independent grading and external-grader source review."
     },
     {
+      "path": "CAMPAIGN-007.md",
+      "storage": "git",
+      "original_sha256": null,
+      "sha256": "45624074c4b9da2355ab844eadc99683ff6c1dd12bc7f6814fd570050aaf8853",
+      "bytes": 4738,
+      "metadata_redacted": false,
+      "publication_addition": true,
+      "followup_addition": "2026-11-10: campaign-007 partition certificate exporter, universal Lean construction proof, independent correctness audit and documentation."
+    },
+    {
       "path": "DATA_RELEASE.json",
       "storage": "git",
       "original_sha256": null,
@@ -134,13 +144,14 @@
       "path": "README.md",
       "storage": "git",
       "original_sha256": "8f7761ea3e667c1b02ed7e1d04c2ee17437e7c29d6da3ba0c617b6e54bfd0448",
-      "sha256": "cb93bc9b77f92d3d499859bc3427646a111f5e20a1505c5fef4bb1d32ba11179",
-      "bytes": 10253,
+      "sha256": "dd743ae54bf4803014b0437b1cd49832c061337c6c40d77a020510718a48ad8c",
+      "bytes": 10806,
       "metadata_redacted": true,
       "publication_edit": "Public README, agent guidance or ignore rules rewritten; scientific implementation unchanged.",
       "followup_edit": "2026-11-10: ETH explanation/open-lane check documentation; scientific campaign implementations and bulk data unchanged.",
       "followup_edits": [
-        "2026-11-10: campaign-006 and external-grader follow-up; original campaign implementations and release payload unchanged."
+        "2026-11-10: campaign-006 and external-grader follow-up; original campaign implementations and release payload unchanged.",
+        "2026-11-10: document campaign-007 checked partition-bound construction; prior scientific implementations and measurements unchanged."
       ]
     },
     {
@@ -1526,6 +1537,46 @@
       "metadata_redacted": false
     },
     {
+      "path": "experiments/partition_certificate7/__init__.py",
+      "storage": "git",
+      "original_sha256": null,
+      "sha256": "b50a800b3647848df49a38c0c54e8b53176dab0d9e9f889c4789b427b0c1448b",
+      "bytes": 77,
+      "metadata_redacted": false,
+      "publication_addition": true,
+      "followup_addition": "2026-11-10: campaign-007 partition certificate exporter, universal Lean construction proof, independent correctness audit and documentation."
+    },
+    {
+      "path": "experiments/partition_certificate7/__main__.py",
+      "storage": "git",
+      "original_sha256": null,
+      "sha256": "1c1c1d351a97be15bc9f995625b2ab5bc06955e1d5e64097f3032a4ee85dd5fe",
+      "bytes": 1332,
+      "metadata_redacted": false,
+      "publication_addition": true,
+      "followup_addition": "2026-11-10: campaign-007 partition certificate exporter, universal Lean construction proof, independent correctness audit and documentation."
+    },
+    {
+      "path": "experiments/partition_certificate7/core.py",
+      "storage": "git",
+      "original_sha256": null,
+      "sha256": "9d91249b431a76967f67a6f768a0cf37663a0651639904d25487d4954d264f04",
+      "bytes": 3138,
+      "metadata_redacted": false,
+      "publication_addition": true,
+      "followup_addition": "2026-11-10: campaign-007 partition certificate exporter, universal Lean construction proof, independent correctness audit and documentation."
+    },
+    {
+      "path": "experiments/partition_certificate7/verify.py",
+      "storage": "git",
+      "original_sha256": null,
+      "sha256": "e68441cac2699a1df2c128f9ffa4875e17661d08c6522df1938d819632cd82b1",
+      "bytes": 4451,
+      "metadata_redacted": false,
+      "publication_addition": true,
+      "followup_addition": "2026-11-10: campaign-007 partition certificate exporter, universal Lean construction proof, independent correctness audit and documentation."
+    },
+    {
       "path": "experiments/rigid_affinity5/__init__.py",
       "storage": "git",
       "original_sha256": "76f23ff9bf7171ab57cf29b2d64b46a8146ab1ba59315538d48fff3f7753de7e",
@@ -1892,6 +1943,76 @@
       "metadata_redacted": false,
       "publication_addition": true,
       "followup_addition": "2026-11-10: separately sealed campaign-006 synthetic experiment, formal checks, independent grading and external-grader source review."
+    },
+    {
+      "path": "formal/campaign-007/lean/Main.lean",
+      "storage": "git",
+      "original_sha256": null,
+      "sha256": "0ca6cd00d9b013546027897e8a23667f1738174a8f29feddb10a374c5a26ec29",
+      "bytes": 2159,
+      "metadata_redacted": false,
+      "publication_addition": true,
+      "followup_addition": "2026-11-10: campaign-007 partition certificate exporter, universal Lean construction proof, independent correctness audit and documentation."
+    },
+    {
+      "path": "formal/campaign-007/lean/PartitionCertificate.lean",
+      "storage": "git",
+      "original_sha256": null,
+      "sha256": "8c147616e4d68e5250a046131a9f6ee39bc7766777ddd2e23e8146d28a58e16a",
+      "bytes": 12068,
+      "metadata_redacted": false,
+      "publication_addition": true,
+      "followup_addition": "2026-11-10: campaign-007 partition certificate exporter, universal Lean construction proof, independent correctness audit and documentation."
+    },
+    {
+      "path": "formal/campaign-007/lean/README.md",
+      "storage": "git",
+      "original_sha256": null,
+      "sha256": "8e2ba86930427eb8f3ba48b967a2b227acb540f323434cfb35cd38231fc99ffb",
+      "bytes": 5718,
+      "metadata_redacted": false,
+      "publication_addition": true,
+      "followup_addition": "2026-11-10: campaign-007 partition certificate exporter, universal Lean construction proof, independent correctness audit and documentation."
+    },
+    {
+      "path": "formal/campaign-007/lean/check.py",
+      "storage": "git",
+      "original_sha256": null,
+      "sha256": "5db83a280f05f7d033d71679be1b44adb28693bef0eb6bf9dcc6d48060df5f02",
+      "bytes": 6827,
+      "metadata_redacted": false,
+      "publication_addition": true,
+      "followup_addition": "2026-11-10: campaign-007 partition certificate exporter, universal Lean construction proof, independent correctness audit and documentation."
+    },
+    {
+      "path": "formal/campaign-007/lean/check.sh",
+      "storage": "git",
+      "original_sha256": null,
+      "sha256": "b47dd69ee70b2c7446fb6683e35a35425337ef621039d3fde5fdfaaa72ecd493",
+      "bytes": 66,
+      "metadata_redacted": false,
+      "publication_addition": true,
+      "followup_addition": "2026-11-10: campaign-007 partition certificate exporter, universal Lean construction proof, independent correctness audit and documentation."
+    },
+    {
+      "path": "formal/campaign-007/lean/lakefile.toml",
+      "storage": "git",
+      "original_sha256": null,
+      "sha256": "7aefb5d23e828d4bf3a1ca2f96e0caac169d9a27bb18347d28abf3a597cf3a14",
+      "bytes": 135,
+      "metadata_redacted": false,
+      "publication_addition": true,
+      "followup_addition": "2026-11-10: campaign-007 partition certificate exporter, universal Lean construction proof, independent correctness audit and documentation."
+    },
+    {
+      "path": "formal/campaign-007/lean/lean-toolchain",
+      "storage": "git",
+      "original_sha256": null,
+      "sha256": "ca5f1f601d34c49079e38d7e7041eb0f2a9c227fbc1df0f404820069a052330c",
+      "bytes": 25,
+      "metadata_redacted": false,
+      "publication_addition": true,
+      "followup_addition": "2026-11-10: campaign-007 partition certificate exporter, universal Lean construction proof, independent correctness audit and documentation."
     },
     {
       "path": "grader/POSTEXPOSURE.md",
@@ -2822,6 +2943,56 @@
       "metadata_redacted": false,
       "publication_addition": true,
       "followup_addition": "2026-11-10: separately sealed campaign-006 synthetic experiment, formal checks, independent grading and external-grader source review."
+    },
+    {
+      "path": "grader/campaign-007/PROTOCOL.md",
+      "storage": "git",
+      "original_sha256": null,
+      "sha256": "a8f619b0e3876897e3471a65207b198f1494866bc3d432b8384558ed5db01a3c",
+      "bytes": 5272,
+      "metadata_redacted": false,
+      "publication_addition": true,
+      "followup_addition": "2026-11-10: campaign-007 partition certificate exporter, universal Lean construction proof, independent correctness audit and documentation."
+    },
+    {
+      "path": "grader/campaign-007/REPORT.md",
+      "storage": "git",
+      "original_sha256": null,
+      "sha256": "56f1754b6833b95cf6146015832bc4750d5b948e28e2531b6004013c1446c2a8",
+      "bytes": 6870,
+      "metadata_redacted": false,
+      "publication_addition": true,
+      "followup_addition": "2026-11-10: campaign-007 partition certificate exporter, universal Lean construction proof, independent correctness audit and documentation."
+    },
+    {
+      "path": "grader/campaign-007/audit.py",
+      "storage": "git",
+      "original_sha256": null,
+      "sha256": "8820265f0d9044f01cfd985f4b32122f653f88cc02d7a4f51084cb5f1868a0d8",
+      "bytes": 6023,
+      "metadata_redacted": false,
+      "publication_addition": true,
+      "followup_addition": "2026-11-10: campaign-007 partition certificate exporter, universal Lean construction proof, independent correctness audit and documentation."
+    },
+    {
+      "path": "grader/campaign-007/audit_lean.py",
+      "storage": "git",
+      "original_sha256": null,
+      "sha256": "d2f11f4577c484c2154c6107602272394611abdbd48f88329834cb31d44fa13d",
+      "bytes": 6297,
+      "metadata_redacted": false,
+      "publication_addition": true,
+      "followup_addition": "2026-11-10: campaign-007 partition certificate exporter, universal Lean construction proof, independent correctness audit and documentation."
+    },
+    {
+      "path": "grader/campaign-007/oracle.py",
+      "storage": "git",
+      "original_sha256": null,
+      "sha256": "fd8dbb6c0524e33f76b627375d1dee5dbcebdadbc2878ddc177d7746a1a1bfa7",
+      "bytes": 4664,
+      "metadata_redacted": false,
+      "publication_addition": true,
+      "followup_addition": "2026-11-10: campaign-007 partition certificate exporter, universal Lean construction proof, independent correctness audit and documentation."
     },
     {
       "path": "grader/freeze_manifest.json",
@@ -76546,7 +76717,7 @@
   ],
   "omitted_artifacts": 377,
   "metadata_redacted_file_count": 2428,
-  "exported_file_bytes": 381873799,
+  "exported_file_bytes": 381944212,
   "followup": {
     "date": "2026-11-10",
     "scope": "README explanation and bounded open-lane arithmetic checks",
@@ -76621,5 +76792,32 @@
     ],
     "scope": "Public-share metadata and Track 4 HEAD checks; source review only, no bulk download or benchmark run",
     "bulk_data_unchanged": true
+  },
+  "campaign_007_followup": {
+    "date": "2026-11-10",
+    "scope": "Checked finite-model partition-bound construction; no new speedup benchmark or historical data download",
+    "bulk_data_unchanged": true,
+    "updated_git_files": [
+      "README.md"
+    ],
+    "added_git_files": [
+      "CAMPAIGN-007.md",
+      "experiments/partition_certificate7/__init__.py",
+      "experiments/partition_certificate7/__main__.py",
+      "experiments/partition_certificate7/core.py",
+      "experiments/partition_certificate7/verify.py",
+      "formal/campaign-007/lean/Main.lean",
+      "formal/campaign-007/lean/PartitionCertificate.lean",
+      "formal/campaign-007/lean/README.md",
+      "formal/campaign-007/lean/check.py",
+      "formal/campaign-007/lean/check.sh",
+      "formal/campaign-007/lean/lakefile.toml",
+      "formal/campaign-007/lean/lean-toolchain",
+      "grader/campaign-007/PROTOCOL.md",
+      "grader/campaign-007/REPORT.md",
+      "grader/campaign-007/audit.py",
+      "grader/campaign-007/audit_lean.py",
+      "grader/campaign-007/oracle.py"
+    ]
   }
 }

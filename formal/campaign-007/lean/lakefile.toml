@@ -1,0 +1,6 @@
+name = "partition_certificate"
+version = "0.1.0"
+defaultTargets = ["PartitionCertificate"]
+
+[[lean_lib]]
+name = "PartitionCertificate"
