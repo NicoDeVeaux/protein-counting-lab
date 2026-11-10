@@ -85,19 +85,21 @@
       "path": "PUBLICATION.md",
       "storage": "git",
       "original_sha256": null,
-      "sha256": "7481fec35f60d15cc35f4f0740ec168e8f4b583e9734b270094590bf376cf003",
-      "bytes": 2870,
+      "sha256": "0a3c9d075a09f21f28baa4d205c27a0b3fe593f1c25c3aa6f5dac8620b82f36c",
+      "bytes": 3205,
       "metadata_redacted": false,
-      "publication_addition": true
+      "publication_addition": true,
+      "followup_edit": "2026-11-10: ETH explanation/open-lane check documentation; scientific campaign implementations and bulk data unchanged."
     },
     {
       "path": "README.md",
       "storage": "git",
       "original_sha256": "8f7761ea3e667c1b02ed7e1d04c2ee17437e7c29d6da3ba0c617b6e54bfd0448",
-      "sha256": "79c67a6bd008cf55ec099877c90200b26943a5cae6110915b60c86928e5db9a1",
-      "bytes": 3774,
+      "sha256": "41459aee6fdd5cd3c550c67f845a95fdcf59c9d0ffd23108d73941f743300073",
+      "bytes": 8408,
       "metadata_redacted": true,
-      "publication_edit": "Public README, agent guidance or ignore rules rewritten; scientific implementation unchanged."
+      "publication_edit": "Public README, agent guidance or ignore rules rewritten; scientific implementation unchanged.",
+      "followup_edit": "2026-11-10: ETH explanation/open-lane check documentation; scientific campaign implementations and bulk data unchanged."
     },
     {
       "path": "RUNNING.md",
@@ -2500,6 +2502,16 @@
       "sha256": "3ef51cd1a304f0fe8fdc2f3534dd243483fc5b171a70fc4e3f30502a455daa93",
       "bytes": 25222,
       "metadata_redacted": false
+    },
+    {
+      "path": "notes/ETH_AND_OPEN_LANES.md",
+      "storage": "git",
+      "original_sha256": null,
+      "sha256": "b5f2277e4a8536232a43ccd2beda525bb18cf82571536559b9752a3458b0ef11",
+      "bytes": 9200,
+      "metadata_redacted": false,
+      "publication_addition": true,
+      "followup_addition": "2026-11-10: bounded arithmetic/source review, not a new solver experiment."
     },
     {
       "path": "outputs/campaign-001.png",
@@ -75776,6 +75788,16 @@
       "metadata_redacted": false
     },
     {
+      "path": "scripts/check_open_lanes.py",
+      "storage": "git",
+      "original_sha256": null,
+      "sha256": "6e2d99917129c355c17c679df7a7e921e59cdc7988dfb996686863d8f5b9b28e",
+      "bytes": 3294,
+      "metadata_redacted": false,
+      "publication_addition": true,
+      "followup_addition": "2026-11-10: bounded arithmetic/source review, not a new solver experiment."
+    },
+    {
       "path": "scripts/correct_round2_catalog_preflight.py",
       "storage": "git",
       "original_sha256": "1f610484d047c63c7ddd3b21f30204607f690ab42488052c2df646f3328191f4",
@@ -76106,5 +76128,18 @@
   ],
   "omitted_artifacts": 377,
   "metadata_redacted_file_count": 2428,
-  "exported_file_bytes": 381245716
+  "exported_file_bytes": 381263179,
+  "followup": {
+    "date": "2026-11-10",
+    "scope": "README explanation and bounded open-lane arithmetic checks",
+    "bulk_data_unchanged": true,
+    "updated_git_files": [
+      "PUBLICATION.md",
+      "README.md"
+    ],
+    "added_git_files": [
+      "notes/ETH_AND_OPEN_LANES.md",
+      "scripts/check_open_lanes.py"
+    ]
+  }
 }

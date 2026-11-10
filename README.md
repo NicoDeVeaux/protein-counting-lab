@@ -14,6 +14,33 @@ The latest study uses full-precision rigid energy matrices from the published c-
 
 The independent grader freezes criteria before fresh measurements and checks saved outputs separately from experiment implementations. This is research code, not a production solver or evidence of an ETH breakthrough.
 
+## Why the ETH result did not produce a speedup here
+
+**We did not implement or benchmark the new ETH-refuting algorithm.** An early feasibility audit rejected one literal proof parameter schedule as a practical starting point; the subsequent experiments used conventional enumeration, variable elimination and exact preprocessing. This archive therefore contains no negative performance benchmark of the new algorithm.
+
+The released [manuscript](https://github.com/openai/math/blob/4eaee87548250b2682affda7d05d947c05554bae/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf) covers exact counting of fixed-width CNF solutions, and its common counting routine accepts rational-algebra factors. A decision-versus-counting distinction is not the explanation. The [Lean scope note](https://github.com/openai/math/blob/4eaee87548250b2682affda7d05d947c05554bae/lean/docs/378.md) documents a weaker subexponential bound than the sharper paper bound; neither supplies a demonstrated practical protein counter.
+
+- **Asymptotic scale:** in the audited Section 4 schedule, four necessary conditions first pass at `n = 2^10909384703 + 1` Boolean variables for beta=1. This is a parameter-feasibility threshold, not a measured runtime crossover or a lower bound on improved implementations. A new check of the appendix's literal tensor schedule also finds an unusably late first positive recursion parameter. More CPUs or GPUs do not repair those literal schedules.
+- **The relevant size:** `n` counts encoded Boolean variables, not conformations. Fifty positions with ten conformers have `10^50` conformations but only 200 binary choice bits before validity/weight auxiliaries. A huge conformational space is not automatically the theorem's large-n regime.
+- **A weighted-model bridge remains:** finite-domain choices, Boltzmann weights, precision, intermediate coefficients and encoding overhead need an explicit analysis. The common weighted product-sum interface makes this a real open route, but we did not build that adapter.
+- **Our biological bottleneck remains:** the final 78 state calculations were already cheap; their model and assays were mismatched. Faster sums alone would not establish better affinity predictions. Larger conventional cases remain unsolved under our budgets, which also does not establish an ETH-derived opportunity.
+
+The current explanation is an implementation, finite-scale and model-validation gap. Better constructions or extracted subroutines remain possible. [Detailed checks and qualifications](notes/ETH_AND_OPEN_LANES.md) include reproducible arithmetic checks without downloading the bulk data.
+
+## Lanes left open
+
+Checked on 2026-11-10; these assessments distinguish completed work from proposed experiments.
+
+| Lane | Evidence and current assessment | Next useful gate |
+|---|---|---|
+| Literal proof schedules plus larger hardware | Poor practical starting point: old Section 4 and new appendix parameter checks fail at realistic sizes. This says nothing universal about other implementations. | Derive an explicit finite operation/bit-memory budget before implementing a full counter. |
+| Instance-specific layouts or simplified algebraic subroutines | Mathematically open: the paper exposes a general product-sum routine. No practical gain demonstrated here. | Construct and verify a small layout, bound every interpolation/measurement cost, and compare with same-target VE before expanding. |
+| Weighted encoding and precision | Useful, inexpensive prerequisite rather than a demonstrated speedup. | Count actual bits, auxiliaries and coefficient sizes; propagate errors through three-state ratios and rankings. |
+| Structure, shared-state reuse and certified rank-aware stopping | Best supported engineering lane: propagation helped one source model and identical-state reuse was validated. Adaptive ranking remains untested; finite positive weights require tail bounds. | Match a native/domain baseline, retain preprocessing costs, and resolve useful rankings with valid enclosures rather than demanding unnecessary partition precision. |
+| Assay-matched energies and flexibility | Highest priority for biological usefulness: campaign 005 changes two model orders but has no matched-assay validation or established biological winner. | Prepare the measured molecular system, freeze model/assay identities, and compare ensemble versus same-model GMEC on held-out measurements. |
+
+The checks are preconditions and error-budget arithmetic, not a new solver benchmark. See [the checked roadmap](notes/ETH_AND_OPEN_LANES.md) for what would justify revisiting each lane.
+
 ## Code and data
 
 Code, tests, reports and figures live in Git. Bulk results and licensed inputs are attached to the [data release](https://github.com/NicoDeVeaux/protein-counting-lab/releases/tag/v2026.11.10). From a clone:
