@@ -1,0 +1,7 @@
+{
+  "experiments/certified_rank6/core.py": "56ae81b1a435202b9b1505b49e48224c96cae90493bfecb494275e23de69f8b6",
+  "experiments/certified_rank6/fixtures.py": "2e5e0d571c28ea0d051f8830337a117e9aa76be65656a1c0e40fc78ad756cf9f",
+  "scripts/campaign6_benchmark.py": "356d77003c8f43eee9811f253999fc5e9c1697cb15a296b981fe72d6f1830098",
+  "grader/campaign-006/PROTOCOL.md": "3bbbb578e1b9c2ce435fbcd600366f7fdc3622ef15adda8ee2741aa2782ff41b",
+  "grader/campaign-006/AMENDMENT-001.md": "eb5709bcd23704fe63dbe69ddde9cc04decab708c01a7b2c09bf9c99256e5e00"
+}

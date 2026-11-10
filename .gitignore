@@ -19,4 +19,9 @@ runs/
 !UPSTREAM_ARTIFACTS.json
 !LITERATURE_ARTIFACTS.json
 !references/bibliography.json
+!experiments/certified_rank6/SOURCE_SEAL.json
+!experiments/certified_rank6/results/RAW_RESULTS.json
+!experiments/certified_rank6/results/SOURCE_SEAL.json
+!experiments/certified_rank6/results-v2/RAW_RESULTS.json
+!experiments/certified_rank6/results-v2/SOURCE_SEAL.json
 

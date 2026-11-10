@@ -5,13 +5,26 @@
   "redactions": "Local home/policy metadata and signed URL queries only. Historical original hashes preserved for comparison. Per-user system temporary directories and pytest user names are also normalized.",
   "files": [
     {
+      "path": ".gitattributes",
+      "storage": "git",
+      "original_sha256": null,
+      "sha256": "be600f7e84de14e82e5eb9aef2a1062c906ebc6e53416f6a4de2c93ce7342b8e",
+      "bytes": 377,
+      "metadata_redacted": false,
+      "publication_addition": true,
+      "followup_addition": "2026-11-10: separately sealed campaign-006 synthetic experiment, formal checks, independent grading and external-grader source review."
+    },
+    {
       "path": ".gitignore",
       "storage": "git",
       "original_sha256": "ac9a663af9893abc94d031dbfa6e31ec23ea8734229214e4a36a5510c140e232",
-      "sha256": "dcb7108519c5f3e04307056643bf9aa3b53ec076fa34be586cb02ea923ea8676",
-      "bytes": 254,
+      "sha256": "a79314ea1841cacb84ca39e45c4ac5573f3a89838b063f58a019c6b2c2a78bef",
+      "bytes": 522,
       "metadata_redacted": true,
-      "publication_edit": "Public README, agent guidance or ignore rules rewritten; scientific implementation unchanged."
+      "publication_edit": "Public README, agent guidance or ignore rules rewritten; scientific implementation unchanged.",
+      "followup_edits": [
+        "2026-11-10: campaign-006 and external-grader follow-up; original campaign implementations and release payload unchanged."
+      ]
     },
     {
       "path": "AGENTS.md",
@@ -21,6 +34,16 @@
       "bytes": 864,
       "metadata_redacted": true,
       "publication_edit": "Public README, agent guidance or ignore rules rewritten; scientific implementation unchanged."
+    },
+    {
+      "path": "BENCHMARK.md",
+      "storage": "git",
+      "original_sha256": null,
+      "sha256": "49bc9fbf3fe03d307b235cfc55cb184016dd9e7d08b6552713136ba96dc02ed7",
+      "bytes": 5678,
+      "metadata_redacted": false,
+      "publication_addition": true,
+      "followup_addition": "2026-11-10: separately sealed campaign-006 synthetic experiment, formal checks, independent grading and external-grader source review."
     },
     {
       "path": "CAMPAIGN-002.md",
@@ -55,6 +78,16 @@
       "metadata_redacted": false
     },
     {
+      "path": "CAMPAIGN-006.md",
+      "storage": "git",
+      "original_sha256": null,
+      "sha256": "c489219b0ad72c5f1c8c5938eaeeec7708d46c195c6e45e4d35ef7d05ae665fc",
+      "bytes": 4160,
+      "metadata_redacted": false,
+      "publication_addition": true,
+      "followup_addition": "2026-11-10: separately sealed campaign-006 synthetic experiment, formal checks, independent grading and external-grader source review."
+    },
+    {
       "path": "DATA_RELEASE.json",
       "storage": "git",
       "original_sha256": null,
@@ -85,21 +118,27 @@
       "path": "PUBLICATION.md",
       "storage": "git",
       "original_sha256": null,
-      "sha256": "0a3c9d075a09f21f28baa4d205c27a0b3fe593f1c25c3aa6f5dac8620b82f36c",
-      "bytes": 3205,
+      "sha256": "a4ea681bd80e8639fe1e0710ee1c075a39700b12fadfebd7cf990bad3605fe92",
+      "bytes": 3330,
       "metadata_redacted": false,
       "publication_addition": true,
-      "followup_edit": "2026-11-10: ETH explanation/open-lane check documentation; scientific campaign implementations and bulk data unchanged."
+      "followup_edit": "2026-11-10: ETH explanation/open-lane check documentation; scientific campaign implementations and bulk data unchanged.",
+      "followup_edits": [
+        "2026-11-10: campaign-006 and external-grader follow-up; original campaign implementations and release payload unchanged."
+      ]
     },
     {
       "path": "README.md",
       "storage": "git",
       "original_sha256": "8f7761ea3e667c1b02ed7e1d04c2ee17437e7c29d6da3ba0c617b6e54bfd0448",
-      "sha256": "41459aee6fdd5cd3c550c67f845a95fdcf59c9d0ffd23108d73941f743300073",
-      "bytes": 8408,
+      "sha256": "cb93bc9b77f92d3d499859bc3427646a111f5e20a1505c5fef4bb1d32ba11179",
+      "bytes": 10253,
       "metadata_redacted": true,
       "publication_edit": "Public README, agent guidance or ignore rules rewritten; scientific implementation unchanged.",
-      "followup_edit": "2026-11-10: ETH explanation/open-lane check documentation; scientific campaign implementations and bulk data unchanged."
+      "followup_edit": "2026-11-10: ETH explanation/open-lane check documentation; scientific campaign implementations and bulk data unchanged.",
+      "followup_edits": [
+        "2026-11-10: campaign-006 and external-grader follow-up; original campaign implementations and release payload unchanged."
+      ]
     },
     {
       "path": "RUNNING.md",
@@ -582,6 +621,146 @@
       "sha256": "f7401b5d9d42a07a6301c887eabb8741654033f2df71f1f258966da3b59894fb",
       "bytes": 25009,
       "metadata_redacted": false
+    },
+    {
+      "path": "experiments/certified_rank6/DESIGN.md",
+      "storage": "git",
+      "original_sha256": null,
+      "sha256": "011e92d29b831a4d4ec67b845310b8cdd6578de268822ef7fd0a7e89d64c1d81",
+      "bytes": 5261,
+      "metadata_redacted": false,
+      "publication_addition": true,
+      "followup_addition": "2026-11-10: separately sealed campaign-006 synthetic experiment, formal checks, independent grading and external-grader source review."
+    },
+    {
+      "path": "experiments/certified_rank6/SOURCE_SEAL.json",
+      "storage": "git",
+      "original_sha256": null,
+      "sha256": "e0aae4c0dae2929e45ffaf20c8b43c1a47eb96ca8c5ff7377b7b9fe0acf6e5d4",
+      "bytes": 544,
+      "metadata_redacted": false,
+      "publication_addition": true,
+      "followup_addition": "2026-11-10: separately sealed campaign-006 synthetic experiment, formal checks, independent grading and external-grader source review."
+    },
+    {
+      "path": "experiments/certified_rank6/__init__.py",
+      "storage": "git",
+      "original_sha256": null,
+      "sha256": "7f9065c78bc57db1cc8ff04e871092d1c5f89acccf7f3f2fe2571be4fdd660bf",
+      "bytes": 67,
+      "metadata_redacted": false,
+      "publication_addition": true,
+      "followup_addition": "2026-11-10: separately sealed campaign-006 synthetic experiment, formal checks, independent grading and external-grader source review."
+    },
+    {
+      "path": "experiments/certified_rank6/core.py",
+      "storage": "git",
+      "original_sha256": null,
+      "sha256": "56ae81b1a435202b9b1505b49e48224c96cae90493bfecb494275e23de69f8b6",
+      "bytes": 16111,
+      "metadata_redacted": false,
+      "publication_addition": true,
+      "followup_addition": "2026-11-10: separately sealed campaign-006 synthetic experiment, formal checks, independent grading and external-grader source review."
+    },
+    {
+      "path": "experiments/certified_rank6/fixtures.py",
+      "storage": "git",
+      "original_sha256": null,
+      "sha256": "2e5e0d571c28ea0d051f8830337a117e9aa76be65656a1c0e40fc78ad756cf9f",
+      "bytes": 3044,
+      "metadata_redacted": false,
+      "publication_addition": true,
+      "followup_addition": "2026-11-10: separately sealed campaign-006 synthetic experiment, formal checks, independent grading and external-grader source review."
+    },
+    {
+      "path": "experiments/certified_rank6/results-v2/RAW_RESULTS.json",
+      "storage": "git",
+      "original_sha256": null,
+      "sha256": "a413ffdf4fbf532d48e57efa595209b7d5d949785388868755b85628a9c2cb54",
+      "bytes": 86644,
+      "metadata_redacted": false,
+      "publication_addition": true,
+      "followup_addition": "2026-11-10: separately sealed campaign-006 synthetic experiment, formal checks, independent grading and external-grader source review."
+    },
+    {
+      "path": "experiments/certified_rank6/results-v2/RESULTS.csv",
+      "storage": "git",
+      "original_sha256": null,
+      "sha256": "d86d08abd355b3e20e3826659fd9c4da9e4f8f7d4e6a42abd9d822c2e5a92195",
+      "bytes": 3239,
+      "metadata_redacted": false,
+      "publication_addition": true,
+      "followup_addition": "2026-11-10: separately sealed campaign-006 synthetic experiment, formal checks, independent grading and external-grader source review."
+    },
+    {
+      "path": "experiments/certified_rank6/results-v2/SOURCE_SEAL.json",
+      "storage": "git",
+      "original_sha256": null,
+      "sha256": "e0aae4c0dae2929e45ffaf20c8b43c1a47eb96ca8c5ff7377b7b9fe0acf6e5d4",
+      "bytes": 544,
+      "metadata_redacted": false,
+      "publication_addition": true,
+      "followup_addition": "2026-11-10: separately sealed campaign-006 synthetic experiment, formal checks, independent grading and external-grader source review."
+    },
+    {
+      "path": "experiments/certified_rank6/results-v2/WITNESSES.csv",
+      "storage": "git",
+      "original_sha256": null,
+      "sha256": "9a92676f8f0c2ab907e5189a4e65f686b9a85d30c5b56247e9d49f54732acb32",
+      "bytes": 24788,
+      "metadata_redacted": false,
+      "publication_addition": true,
+      "followup_addition": "2026-11-10: separately sealed campaign-006 synthetic experiment, formal checks, independent grading and external-grader source review."
+    },
+    {
+      "path": "experiments/certified_rank6/results/RAW_RESULTS.json",
+      "storage": "git",
+      "original_sha256": null,
+      "sha256": "55b16b7de3e833b8b0d12b0435976fb249bf2b826a13f709970e30330741bfed",
+      "bytes": 86634,
+      "metadata_redacted": false,
+      "publication_addition": true,
+      "followup_addition": "2026-11-10: separately sealed campaign-006 synthetic experiment, formal checks, independent grading and external-grader source review."
+    },
+    {
+      "path": "experiments/certified_rank6/results/RESULTS.csv",
+      "storage": "git",
+      "original_sha256": null,
+      "sha256": "ff55fc4bff2b34b2415facab507ba1a5000ba6ee7379b53785d7793dd92af41d",
+      "bytes": 3239,
+      "metadata_redacted": false,
+      "publication_addition": true,
+      "followup_addition": "2026-11-10: separately sealed campaign-006 synthetic experiment, formal checks, independent grading and external-grader source review."
+    },
+    {
+      "path": "experiments/certified_rank6/results/SOURCE_SEAL.json",
+      "storage": "git",
+      "original_sha256": null,
+      "sha256": "e0aae4c0dae2929e45ffaf20c8b43c1a47eb96ca8c5ff7377b7b9fe0acf6e5d4",
+      "bytes": 544,
+      "metadata_redacted": false,
+      "publication_addition": true,
+      "followup_addition": "2026-11-10: separately sealed campaign-006 synthetic experiment, formal checks, independent grading and external-grader source review."
+    },
+    {
+      "path": "experiments/certified_rank6/results/WITNESSES.csv",
+      "storage": "git",
+      "original_sha256": null,
+      "sha256": "9a92676f8f0c2ab907e5189a4e65f686b9a85d30c5b56247e9d49f54732acb32",
+      "bytes": 24788,
+      "metadata_redacted": false,
+      "publication_addition": true,
+      "followup_addition": "2026-11-10: separately sealed campaign-006 synthetic experiment, formal checks, independent grading and external-grader source review."
+    },
+    {
+      "path": "experiments/certified_rank6/test_core.py",
+      "storage": "git",
+      "original_sha256": null,
+      "sha256": "e604948c68704cc51b940f9026f108943cd6fc81614f34443ca62a6d0918d178",
+      "bytes": 4595,
+      "metadata_redacted": false,
+      "publication_addition": true,
+      "followup_addition": "2026-11-10: separately sealed campaign-006 synthetic experiment, formal checks, independent grading and external-grader source review."
     },
     {
       "path": "experiments/energy_recovery5/FEASIBILITY.md",
@@ -1592,6 +1771,126 @@
       "metadata_redacted": false
     },
     {
+      "path": "formal/campaign-006/lean/Certificate.lean",
+      "storage": "git",
+      "original_sha256": null,
+      "sha256": "d21ba518e6432dacfbfd87c845778be42fd464e3ba73b995d95c5fa663a3f5f0",
+      "bytes": 4817,
+      "metadata_redacted": false,
+      "publication_addition": true,
+      "followup_addition": "2026-11-10: separately sealed campaign-006 synthetic experiment, formal checks, independent grading and external-grader source review."
+    },
+    {
+      "path": "formal/campaign-006/lean/Main.lean",
+      "storage": "git",
+      "original_sha256": null,
+      "sha256": "36c77bd5bf2019e8fe1f6c53c6760a2d06135d916ef49ccbf21ed5866dbdb30c",
+      "bytes": 801,
+      "metadata_redacted": false,
+      "publication_addition": true,
+      "followup_addition": "2026-11-10: separately sealed campaign-006 synthetic experiment, formal checks, independent grading and external-grader source review."
+    },
+    {
+      "path": "formal/campaign-006/lean/README.md",
+      "storage": "git",
+      "original_sha256": null,
+      "sha256": "e7704435ead85aa12b8d27a0b3c370a1cbb188bd1a9dcc9c77e111ca3ce94477",
+      "bytes": 2281,
+      "metadata_redacted": false,
+      "publication_addition": true,
+      "followup_addition": "2026-11-10: separately sealed campaign-006 synthetic experiment, formal checks, independent grading and external-grader source review."
+    },
+    {
+      "path": "formal/campaign-006/lean/check.py",
+      "storage": "git",
+      "original_sha256": null,
+      "sha256": "b059ac684330af2d85a339c013019e4489fd6616ffc71c654f854d012943043f",
+      "bytes": 5534,
+      "metadata_redacted": false,
+      "publication_addition": true,
+      "followup_addition": "2026-11-10: separately sealed campaign-006 synthetic experiment, formal checks, independent grading and external-grader source review."
+    },
+    {
+      "path": "formal/campaign-006/lean/check.sh",
+      "storage": "git",
+      "original_sha256": null,
+      "sha256": "b47dd69ee70b2c7446fb6683e35a35425337ef621039d3fde5fdfaaa72ecd493",
+      "bytes": 66,
+      "metadata_redacted": false,
+      "publication_addition": true,
+      "followup_addition": "2026-11-10: separately sealed campaign-006 synthetic experiment, formal checks, independent grading and external-grader source review."
+    },
+    {
+      "path": "formal/campaign-006/lean/lakefile.toml",
+      "storage": "git",
+      "original_sha256": null,
+      "sha256": "1fe51500bb2a6949359027aa1384f48c15cc748dcf885a49156e2202f80bf831",
+      "bytes": 138,
+      "metadata_redacted": false,
+      "publication_addition": true,
+      "followup_addition": "2026-11-10: separately sealed campaign-006 synthetic experiment, formal checks, independent grading and external-grader source review."
+    },
+    {
+      "path": "formal/campaign-006/lean/lean-toolchain",
+      "storage": "git",
+      "original_sha256": null,
+      "sha256": "ca5f1f601d34c49079e38d7e7041eb0f2a9c227fbc1df0f404820069a052330c",
+      "bytes": 25,
+      "metadata_redacted": false,
+      "publication_addition": true,
+      "followup_addition": "2026-11-10: separately sealed campaign-006 synthetic experiment, formal checks, independent grading and external-grader source review."
+    },
+    {
+      "path": "formal/campaign-006/tla/BoundCache.tla",
+      "storage": "git",
+      "original_sha256": null,
+      "sha256": "7d42f7a74e3be2c713dc9002211ae9d5ed6ed21d395e43b51de884471607c0f8",
+      "bytes": 4270,
+      "metadata_redacted": false,
+      "publication_addition": true,
+      "followup_addition": "2026-11-10: separately sealed campaign-006 synthetic experiment, formal checks, independent grading and external-grader source review."
+    },
+    {
+      "path": "formal/campaign-006/tla/MCP_TRACES.md",
+      "storage": "git",
+      "original_sha256": null,
+      "sha256": "5c6dfe2705083fcca2aca80a1388152f63d05f162923d4131dbde083576e6c24",
+      "bytes": 14302,
+      "metadata_redacted": false,
+      "publication_addition": true,
+      "followup_addition": "2026-11-10: separately sealed campaign-006 synthetic experiment, formal checks, independent grading and external-grader source review."
+    },
+    {
+      "path": "formal/campaign-006/tla/README.md",
+      "storage": "git",
+      "original_sha256": null,
+      "sha256": "844d5b545973a44629792bda58d69b1436095eeb1cb138ebe2ccd85072b600db",
+      "bytes": 3455,
+      "metadata_redacted": false,
+      "publication_addition": true,
+      "followup_addition": "2026-11-10: separately sealed campaign-006 synthetic experiment, formal checks, independent grading and external-grader source review."
+    },
+    {
+      "path": "formal/campaign-006/tla/RESULTS.md",
+      "storage": "git",
+      "original_sha256": null,
+      "sha256": "e1af1967cafcbb6bf22e344f4c1219c2792ceead7feab4e4ece6b0895587171e",
+      "bytes": 26173,
+      "metadata_redacted": false,
+      "publication_addition": true,
+      "followup_addition": "2026-11-10: separately sealed campaign-006 synthetic experiment, formal checks, independent grading and external-grader source review."
+    },
+    {
+      "path": "formal/campaign-006/tla/check.py",
+      "storage": "git",
+      "original_sha256": null,
+      "sha256": "b456c5c97603dd0753c65d9857fbef006b10f19f7a504836bdaa279d69124c71",
+      "bytes": 4316,
+      "metadata_redacted": false,
+      "publication_addition": true,
+      "followup_addition": "2026-11-10: separately sealed campaign-006 synthetic experiment, formal checks, independent grading and external-grader source review."
+    },
+    {
       "path": "grader/POSTEXPOSURE.md",
       "storage": "git",
       "original_sha256": "dfcbc90e1690a2d175d93bfd91c414649c8aa1108a81e672e96fd37db62f1683",
@@ -2432,6 +2731,96 @@
       "metadata_redacted": false
     },
     {
+      "path": "grader/campaign-006/AMENDMENT-001.md",
+      "storage": "git",
+      "original_sha256": null,
+      "sha256": "eb5709bcd23704fe63dbe69ddde9cc04decab708c01a7b2c09bf9c99256e5e00",
+      "bytes": 720,
+      "metadata_redacted": false,
+      "publication_addition": true,
+      "followup_addition": "2026-11-10: separately sealed campaign-006 synthetic experiment, formal checks, independent grading and external-grader source review."
+    },
+    {
+      "path": "grader/campaign-006/AMENDMENT-002.md",
+      "storage": "git",
+      "original_sha256": null,
+      "sha256": "0a42d274fbf276040380d9fce293992d531cded8fe65b459e664e45cfc65e148",
+      "bytes": 1283,
+      "metadata_redacted": false,
+      "publication_addition": true,
+      "followup_addition": "2026-11-10: separately sealed campaign-006 synthetic experiment, formal checks, independent grading and external-grader source review."
+    },
+    {
+      "path": "grader/campaign-006/PROTOCOL.md",
+      "storage": "git",
+      "original_sha256": null,
+      "sha256": "3bbbb578e1b9c2ce435fbcd600366f7fdc3622ef15adda8ee2741aa2782ff41b",
+      "bytes": 6289,
+      "metadata_redacted": false,
+      "publication_addition": true,
+      "followup_addition": "2026-11-10: separately sealed campaign-006 synthetic experiment, formal checks, independent grading and external-grader source review."
+    },
+    {
+      "path": "grader/campaign-006/REPORT.md",
+      "storage": "git",
+      "original_sha256": null,
+      "sha256": "111af5ee27d17e2e5a16e7acaec387908793714b86d70c03871b7fe27ec65ac0",
+      "bytes": 8108,
+      "metadata_redacted": false,
+      "publication_addition": true,
+      "followup_addition": "2026-11-10: separately sealed campaign-006 synthetic experiment, formal checks, independent grading and external-grader source review."
+    },
+    {
+      "path": "grader/campaign-006/audit.py",
+      "storage": "git",
+      "original_sha256": null,
+      "sha256": "dc5049956b53720feabe6ca894ed792cdb70794cca23a3734f9480d589629d69",
+      "bytes": 8262,
+      "metadata_redacted": false,
+      "publication_addition": true,
+      "followup_addition": "2026-11-10: separately sealed campaign-006 synthetic experiment, formal checks, independent grading and external-grader source review."
+    },
+    {
+      "path": "grader/campaign-006/audit_mutants.py",
+      "storage": "git",
+      "original_sha256": null,
+      "sha256": "eb7167c5ba8f5d5035b3e0aae26e9fb7e4634a9d5ed591d8e7f2201e25345fb5",
+      "bytes": 2380,
+      "metadata_redacted": false,
+      "publication_addition": true,
+      "followup_addition": "2026-11-10: separately sealed campaign-006 synthetic experiment, formal checks, independent grading and external-grader source review."
+    },
+    {
+      "path": "grader/campaign-006/audit_results.py",
+      "storage": "git",
+      "original_sha256": null,
+      "sha256": "eb35fd2bc719331baf01ce7b6403a5491f648e182e2e19445b09f007d2225942",
+      "bytes": 5975,
+      "metadata_redacted": false,
+      "publication_addition": true,
+      "followup_addition": "2026-11-10: separately sealed campaign-006 synthetic experiment, formal checks, independent grading and external-grader source review."
+    },
+    {
+      "path": "grader/campaign-006/checker_cases.cert",
+      "storage": "git",
+      "original_sha256": null,
+      "sha256": "84f135a7ce35e9eea9358fc479dc127dae7e68b695611a2b3b559c9078cd3b2a",
+      "bytes": 216578,
+      "metadata_redacted": false,
+      "publication_addition": true,
+      "followup_addition": "2026-11-10: separately sealed campaign-006 synthetic experiment, formal checks, independent grading and external-grader source review."
+    },
+    {
+      "path": "grader/campaign-006/oracle.py",
+      "storage": "git",
+      "original_sha256": null,
+      "sha256": "7b71f3f5db1e7cedc1918820d29a99ffb322510da8c26ecc55c574a4bc0a195b",
+      "bytes": 1249,
+      "metadata_redacted": false,
+      "publication_addition": true,
+      "followup_addition": "2026-11-10: separately sealed campaign-006 synthetic experiment, formal checks, independent grading and external-grader source review."
+    },
+    {
       "path": "grader/freeze_manifest.json",
       "storage": "release",
       "original_sha256": "68bb14cb44995a3a9016c565bfb4a667437764470e891fad49e34da38e702dfa",
@@ -2507,11 +2896,24 @@
       "path": "notes/ETH_AND_OPEN_LANES.md",
       "storage": "git",
       "original_sha256": null,
-      "sha256": "b5f2277e4a8536232a43ccd2beda525bb18cf82571536559b9752a3458b0ef11",
-      "bytes": 9200,
+      "sha256": "868145e7f7524825c3afbf0b32b47e8c4bd54762a5292025c303d12073bd9f3f",
+      "bytes": 9849,
       "metadata_redacted": false,
       "publication_addition": true,
-      "followup_addition": "2026-11-10: bounded arithmetic/source review, not a new solver experiment."
+      "followup_addition": "2026-11-10: bounded arithmetic/source review, not a new solver experiment.",
+      "followup_edits": [
+        "2026-11-10: campaign-006 and external-grader follow-up; original campaign implementations and release payload unchanged."
+      ]
+    },
+    {
+      "path": "notes/EXTERNAL_GRADERS.md",
+      "storage": "git",
+      "original_sha256": null,
+      "sha256": "160ac0a7feedde0182386666cf3b409ab11fa30f4e8cf728d48ddb96b26d4d8a",
+      "bytes": 12443,
+      "metadata_redacted": false,
+      "publication_addition": true,
+      "followup_addition": "2026-11-10: separately sealed campaign-006 synthetic experiment, formal checks, independent grading and external-grader source review."
     },
     {
       "path": "outputs/campaign-001.png",
@@ -75756,6 +76158,16 @@
       "metadata_redacted": false
     },
     {
+      "path": "scripts/campaign6_benchmark.py",
+      "storage": "git",
+      "original_sha256": null,
+      "sha256": "356d77003c8f43eee9811f253999fc5e9c1697cb15a296b981fe72d6f1830098",
+      "bytes": 5828,
+      "metadata_redacted": false,
+      "publication_addition": true,
+      "followup_addition": "2026-11-10: separately sealed campaign-006 synthetic experiment, formal checks, independent grading and external-grader source review."
+    },
+    {
       "path": "scripts/campaign_round2.py",
       "storage": "git",
       "original_sha256": "6f3427b5e334cfd27859b586a1b0549a44c18758d064ef82bd7836943fc55e26",
@@ -76128,7 +76540,7 @@
   ],
   "omitted_artifacts": 377,
   "metadata_redacted_file_count": 2428,
-  "exported_file_bytes": 381263179,
+  "exported_file_bytes": 381871616,
   "followup": {
     "date": "2026-11-10",
     "scope": "README explanation and bounded open-lane arithmetic checks",
@@ -76140,6 +76552,59 @@
     "added_git_files": [
       "notes/ETH_AND_OPEN_LANES.md",
       "scripts/check_open_lanes.py"
+    ]
+  },
+  "campaign_006_followup": {
+    "date": "2026-11-10",
+    "scope": "Certified adaptive ranking prototype, sealed synthetic measurements, Lean/TLC checks and external-grader research",
+    "bulk_data_unchanged": true,
+    "updated_git_files": [
+      ".gitignore",
+      "PUBLICATION.md",
+      "README.md",
+      "notes/ETH_AND_OPEN_LANES.md"
+    ],
+    "added_git_files": [
+      ".gitattributes",
+      "BENCHMARK.md",
+      "CAMPAIGN-006.md",
+      "experiments/certified_rank6/DESIGN.md",
+      "experiments/certified_rank6/SOURCE_SEAL.json",
+      "experiments/certified_rank6/__init__.py",
+      "experiments/certified_rank6/core.py",
+      "experiments/certified_rank6/fixtures.py",
+      "experiments/certified_rank6/results-v2/RAW_RESULTS.json",
+      "experiments/certified_rank6/results-v2/RESULTS.csv",
+      "experiments/certified_rank6/results-v2/SOURCE_SEAL.json",
+      "experiments/certified_rank6/results-v2/WITNESSES.csv",
+      "experiments/certified_rank6/results/RAW_RESULTS.json",
+      "experiments/certified_rank6/results/RESULTS.csv",
+      "experiments/certified_rank6/results/SOURCE_SEAL.json",
+      "experiments/certified_rank6/results/WITNESSES.csv",
+      "experiments/certified_rank6/test_core.py",
+      "formal/campaign-006/lean/Certificate.lean",
+      "formal/campaign-006/lean/Main.lean",
+      "formal/campaign-006/lean/README.md",
+      "formal/campaign-006/lean/check.py",
+      "formal/campaign-006/lean/check.sh",
+      "formal/campaign-006/lean/lakefile.toml",
+      "formal/campaign-006/lean/lean-toolchain",
+      "formal/campaign-006/tla/BoundCache.tla",
+      "formal/campaign-006/tla/MCP_TRACES.md",
+      "formal/campaign-006/tla/README.md",
+      "formal/campaign-006/tla/RESULTS.md",
+      "formal/campaign-006/tla/check.py",
+      "grader/campaign-006/AMENDMENT-001.md",
+      "grader/campaign-006/AMENDMENT-002.md",
+      "grader/campaign-006/PROTOCOL.md",
+      "grader/campaign-006/REPORT.md",
+      "grader/campaign-006/audit.py",
+      "grader/campaign-006/audit_mutants.py",
+      "grader/campaign-006/audit_results.py",
+      "grader/campaign-006/checker_cases.cert",
+      "grader/campaign-006/oracle.py",
+      "notes/EXTERNAL_GRADERS.md",
+      "scripts/campaign6_benchmark.py"
     ]
   }
 }

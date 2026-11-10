@@ -1,5 +1,14 @@
 # ETH, finite-scale checks and remaining research lanes
 
+Follow-up on the same date: [campaign 006](../CAMPAIGN-006.md) has now implemented
+the certified adaptive-stopping gate described below. It proves the integer rank
+checker and tests actual enclosing bounds on a frozen synthetic panel. Three
+nontrivial cases save refinement work and time against the fixed-precision policy;
+native exact VE remains faster in every nontrivial case. The remaining lane is a
+faster producer plus external held-out grading, rather than enlarging this prefix
+enumerator. Physical Boltzmann-weight certification and assay validation remain
+open. [BENCHMARK.md](../BENCHMARK.md) defines the measured question and scoring.
+
 Checked 2026-11-10. This note explains the archive's scope and adds small deterministic arithmetic checks. It does not rerun protein experiments, rebuild Lean or independently certify the theorem. The bulk data remains in the release rather than on the local working machine.
 
 ## What the released result supplies

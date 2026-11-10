@@ -4,7 +4,7 @@ The public Git repository contains original implementation/test code, research g
 
 `PUBLICATION_MANIFEST.json` identifies each exported research file, its storage location, original SHA-256, exported SHA-256 and whether its metadata changed. Original hashes are historical evidence, not a claim that redacted files still validate against original research seals. Use `python3 publication.py verify` to verify this public export; `--code-only` verifies just the Git portion.
 
-The manifest on the main branch also tracks subsequent documented code/guide additions. The copy attached to the initial data release remains the snapshot for its Git tag. Documentation-only follow-ups leave the data archive and its per-file checksums unchanged; use the manifest from the same Git revision as the code being checked.
+The manifest on the main branch also tracks subsequent documented code/guide additions. The copy attached to the initial data release remains the snapshot for its Git tag. Campaign 006 adds separately sealed original code, formal checks and small synthetic measurements directly in Git. The earlier data archive and its per-file checksums remain unchanged; use the manifest from the same Git revision as the code being checked.
 
 Local home paths, private policy breadcrumbs and query strings on signed download redirects were redacted in a separate export. No numerical scores or experimental outcomes were edited. The README, local agent guidance and ignore rules were rewritten for publication; their changes are identified in the manifest. New publication tooling and documentation are identified as publication additions. Source code implementing the scientific calculations otherwise remains unchanged.
 
@@ -14,6 +14,6 @@ The deposited `rasDesigns.zip` archive is included verbatim under its dataset CC
 
 Extraction rejects absolute/traversing paths, links, devices, unexpected members and mismatched checksums. Existing conflicting files are not overwritten. Downloads are public unauthenticated GitHub release/source requests; this project requires no credentials.
 
-The original research environment included two independent numerical implementations, documented synthetic failures/fixes and bounded experiments. Publication does not repeat those experiments or turn the small pilots into validation of physical affinity. Aggregate preparation cost was not measured. See the individual independent reports for the exact scientific and resource qualifications.
+The original research environment included two independent numerical implementations, documented synthetic failures/fixes and bounded experiments. The initial export did not repeat those experiments. Campaign 006 is a new synthetic study, not validation of physical affinity. Aggregate biological preparation cost was not measured. See the individual independent reports for the exact scientific and resource qualifications.
 
 This is written by an AI agent (model name unavailable) on Nico DeVeaux's behalf.

@@ -1,0 +1,3482 @@
+[
+  {
+    "method": "adaptive",
+    "status": "certified_top1",
+    "winner": "C",
+    "expansions": 0,
+    "bound_evaluations": 3,
+    "exact_leaf_evaluations": 0,
+    "resolved_assignments": 768,
+    "unique_states": 3,
+    "state_uses": 9,
+    "certification_calls": 5,
+    "max_endpoint_bits": 12,
+    "tolerance_met": true,
+    "all_partitions_exact": true,
+    "bounds": [
+      {
+        "lower": 256,
+        "upper": 256
+      },
+      {
+        "lower": 512,
+        "upper": 512
+      },
+      {
+        "lower": 2048,
+        "upper": 2048
+      }
+    ],
+    "case": "uniform8",
+    "seconds": 0.000701375,
+    "input": {
+      "unique_states": 3,
+      "state_uses": 9,
+      "binary_variables_per_state": 8,
+      "factor_entries": 135,
+      "coefficient_bits": 4,
+      "coefficient_bits_sum": 139,
+      "auxiliary_variables": 0
+    },
+    "repetition": 0
+  },
+  {
+    "method": "fixed",
+    "status": "certified_top1",
+    "winner": "C",
+    "expansions": 0,
+    "bound_evaluations": 3,
+    "exact_leaf_evaluations": 0,
+    "resolved_assignments": 768,
+    "unique_states": 3,
+    "state_uses": 9,
+    "certification_calls": 5,
+    "max_endpoint_bits": 12,
+    "tolerance_met": true,
+    "all_partitions_exact": true,
+    "bounds": [
+      {
+        "lower": 256,
+        "upper": 256
+      },
+      {
+        "lower": 512,
+        "upper": 512
+      },
+      {
+        "lower": 2048,
+        "upper": 2048
+      }
+    ],
+    "case": "uniform8",
+    "seconds": 0.00060475,
+    "input": {
+      "unique_states": 3,
+      "state_uses": 9,
+      "binary_variables_per_state": 8,
+      "factor_entries": 135,
+      "coefficient_bits": 4,
+      "coefficient_bits_sum": 139,
+      "auxiliary_variables": 0
+    },
+    "repetition": 0
+  },
+  {
+    "method": "ve",
+    "status": "certified_top1",
+    "winner": "C",
+    "unique_states": 3,
+    "work": 252,
+    "max_endpoint_bits": 12,
+    "case": "uniform8",
+    "seconds": 0.0006775,
+    "input": {
+      "unique_states": 3,
+      "state_uses": 9,
+      "binary_variables_per_state": 8,
+      "factor_entries": 135,
+      "coefficient_bits": 4,
+      "coefficient_bits_sum": 139,
+      "auxiliary_variables": 0
+    },
+    "repetition": 0
+  },
+  {
+    "method": "enumeration",
+    "status": "certified_top1",
+    "winner": "C",
+    "unique_states": 3,
+    "work": 768,
+    "max_endpoint_bits": 12,
+    "case": "uniform8",
+    "seconds": 0.002094875,
+    "input": {
+      "unique_states": 3,
+      "state_uses": 9,
+      "binary_variables_per_state": 8,
+      "factor_entries": 135,
+      "coefficient_bits": 4,
+      "coefficient_bits_sum": 139,
+      "auxiliary_variables": 0
+    },
+    "repetition": 0
+  },
+  {
+    "method": "fixed",
+    "status": "certified_top1",
+    "winner": "C",
+    "expansions": 0,
+    "bound_evaluations": 3,
+    "exact_leaf_evaluations": 0,
+    "resolved_assignments": 768,
+    "unique_states": 3,
+    "state_uses": 9,
+    "certification_calls": 5,
+    "max_endpoint_bits": 12,
+    "tolerance_met": true,
+    "all_partitions_exact": true,
+    "bounds": [
+      {
+        "lower": 256,
+        "upper": 256
+      },
+      {
+        "lower": 512,
+        "upper": 512
+      },
+      {
+        "lower": 2048,
+        "upper": 2048
+      }
+    ],
+    "case": "uniform8",
+    "seconds": 0.000640667,
+    "input": {
+      "unique_states": 3,
+      "state_uses": 9,
+      "binary_variables_per_state": 8,
+      "factor_entries": 135,
+      "coefficient_bits": 4,
+      "coefficient_bits_sum": 139,
+      "auxiliary_variables": 0
+    },
+    "repetition": 1
+  },
+  {
+    "method": "ve",
+    "status": "certified_top1",
+    "winner": "C",
+    "unique_states": 3,
+    "work": 252,
+    "max_endpoint_bits": 12,
+    "case": "uniform8",
+    "seconds": 0.000609584,
+    "input": {
+      "unique_states": 3,
+      "state_uses": 9,
+      "binary_variables_per_state": 8,
+      "factor_entries": 135,
+      "coefficient_bits": 4,
+      "coefficient_bits_sum": 139,
+      "auxiliary_variables": 0
+    },
+    "repetition": 1
+  },
+  {
+    "method": "enumeration",
+    "status": "certified_top1",
+    "winner": "C",
+    "unique_states": 3,
+    "work": 768,
+    "max_endpoint_bits": 12,
+    "case": "uniform8",
+    "seconds": 0.002130459,
+    "input": {
+      "unique_states": 3,
+      "state_uses": 9,
+      "binary_variables_per_state": 8,
+      "factor_entries": 135,
+      "coefficient_bits": 4,
+      "coefficient_bits_sum": 139,
+      "auxiliary_variables": 0
+    },
+    "repetition": 1
+  },
+  {
+    "method": "adaptive",
+    "status": "certified_top1",
+    "winner": "C",
+    "expansions": 0,
+    "bound_evaluations": 3,
+    "exact_leaf_evaluations": 0,
+    "resolved_assignments": 768,
+    "unique_states": 3,
+    "state_uses": 9,
+    "certification_calls": 5,
+    "max_endpoint_bits": 12,
+    "tolerance_met": true,
+    "all_partitions_exact": true,
+    "bounds": [
+      {
+        "lower": 256,
+        "upper": 256
+      },
+      {
+        "lower": 512,
+        "upper": 512
+      },
+      {
+        "lower": 2048,
+        "upper": 2048
+      }
+    ],
+    "case": "uniform8",
+    "seconds": 0.000648791,
+    "input": {
+      "unique_states": 3,
+      "state_uses": 9,
+      "binary_variables_per_state": 8,
+      "factor_entries": 135,
+      "coefficient_bits": 4,
+      "coefficient_bits_sum": 139,
+      "auxiliary_variables": 0
+    },
+    "repetition": 1
+  },
+  {
+    "method": "ve",
+    "status": "certified_top1",
+    "winner": "C",
+    "unique_states": 3,
+    "work": 252,
+    "max_endpoint_bits": 12,
+    "case": "uniform8",
+    "seconds": 0.000643083,
+    "input": {
+      "unique_states": 3,
+      "state_uses": 9,
+      "binary_variables_per_state": 8,
+      "factor_entries": 135,
+      "coefficient_bits": 4,
+      "coefficient_bits_sum": 139,
+      "auxiliary_variables": 0
+    },
+    "repetition": 2
+  },
+  {
+    "method": "enumeration",
+    "status": "certified_top1",
+    "winner": "C",
+    "unique_states": 3,
+    "work": 768,
+    "max_endpoint_bits": 12,
+    "case": "uniform8",
+    "seconds": 0.002215334,
+    "input": {
+      "unique_states": 3,
+      "state_uses": 9,
+      "binary_variables_per_state": 8,
+      "factor_entries": 135,
+      "coefficient_bits": 4,
+      "coefficient_bits_sum": 139,
+      "auxiliary_variables": 0
+    },
+    "repetition": 2
+  },
+  {
+    "method": "adaptive",
+    "status": "certified_top1",
+    "winner": "C",
+    "expansions": 0,
+    "bound_evaluations": 3,
+    "exact_leaf_evaluations": 0,
+    "resolved_assignments": 768,
+    "unique_states": 3,
+    "state_uses": 9,
+    "certification_calls": 5,
+    "max_endpoint_bits": 12,
+    "tolerance_met": true,
+    "all_partitions_exact": true,
+    "bounds": [
+      {
+        "lower": 256,
+        "upper": 256
+      },
+      {
+        "lower": 512,
+        "upper": 512
+      },
+      {
+        "lower": 2048,
+        "upper": 2048
+      }
+    ],
+    "case": "uniform8",
+    "seconds": 0.001343375,
+    "input": {
+      "unique_states": 3,
+      "state_uses": 9,
+      "binary_variables_per_state": 8,
+      "factor_entries": 135,
+      "coefficient_bits": 4,
+      "coefficient_bits_sum": 139,
+      "auxiliary_variables": 0
+    },
+    "repetition": 2
+  },
+  {
+    "method": "fixed",
+    "status": "certified_top1",
+    "winner": "C",
+    "expansions": 0,
+    "bound_evaluations": 3,
+    "exact_leaf_evaluations": 0,
+    "resolved_assignments": 768,
+    "unique_states": 3,
+    "state_uses": 9,
+    "certification_calls": 5,
+    "max_endpoint_bits": 12,
+    "tolerance_met": true,
+    "all_partitions_exact": true,
+    "bounds": [
+      {
+        "lower": 256,
+        "upper": 256
+      },
+      {
+        "lower": 512,
+        "upper": 512
+      },
+      {
+        "lower": 2048,
+        "upper": 2048
+      }
+    ],
+    "case": "uniform8",
+    "seconds": 0.000673791,
+    "input": {
+      "unique_states": 3,
+      "state_uses": 9,
+      "binary_variables_per_state": 8,
+      "factor_entries": 135,
+      "coefficient_bits": 4,
+      "coefficient_bits_sum": 139,
+      "auxiliary_variables": 0
+    },
+    "repetition": 2
+  },
+  {
+    "method": "adaptive",
+    "status": "certified_top1",
+    "winner": "C",
+    "expansions": 144,
+    "bound_evaluations": 297,
+    "exact_leaf_evaluations": 18,
+    "resolved_assignments": 18,
+    "unique_states": 9,
+    "state_uses": 9,
+    "certification_calls": 31,
+    "max_endpoint_bits": 59,
+    "tolerance_met": false,
+    "all_partitions_exact": false,
+    "bounds": [
+      {
+        "lower": 208497395459376,
+        "upper": 315818983904976
+      },
+      {
+        "lower": 208497395459376,
+        "upper": 315818983904976
+      },
+      {
+        "lower": 208497395459376,
+        "upper": 315818983904976
+      },
+      {
+        "lower": 416994790918752,
+        "upper": 631637967809952
+      },
+      {
+        "lower": 208497395459376,
+        "upper": 315818983904976
+      },
+      {
+        "lower": 208497395459376,
+        "upper": 315818983904976
+      },
+      {
+        "lower": 1667979163675008,
+        "upper": 2526551871239808
+      },
+      {
+        "lower": 208497395459376,
+        "upper": 315818983904976
+      },
+      {
+        "lower": 208497395459376,
+        "upper": 315818983904976
+      }
+    ],
+    "case": "concentrated8",
+    "seconds": 0.004548875,
+    "input": {
+      "unique_states": 9,
+      "state_uses": 9,
+      "binary_variables_per_state": 8,
+      "factor_entries": 405,
+      "coefficient_bits": 4,
+      "coefficient_bits_sum": 1003,
+      "auxiliary_variables": 0
+    },
+    "repetition": 0
+  },
+  {
+    "method": "fixed",
+    "status": "certified_top1",
+    "winner": "C",
+    "expansions": 576,
+    "bound_evaluations": 1161,
+    "exact_leaf_evaluations": 180,
+    "resolved_assignments": 180,
+    "unique_states": 9,
+    "state_uses": 9,
+    "certification_calls": 5,
+    "max_endpoint_bits": 59,
+    "tolerance_met": true,
+    "all_partitions_exact": false,
+    "bounds": [
+      {
+        "lower": 213354853848864,
+        "upper": 214513175077344
+      },
+      {
+        "lower": 213355466068896,
+        "upper": 214562764899936
+      },
+      {
+        "lower": 213354853848864,
+        "upper": 214513175077344
+      },
+      {
+        "lower": 426709707697728,
+        "upper": 429026350154688
+      },
+      {
+        "lower": 213354853848864,
+        "upper": 214513175077344
+      },
+      {
+        "lower": 213354853848864,
+        "upper": 214513175077344
+      },
+      {
+        "lower": 1706838830790912,
+        "upper": 1716105400618752
+      },
+      {
+        "lower": 213355466068896,
+        "upper": 214562764899936
+      },
+      {
+        "lower": 213354853848864,
+        "upper": 214513175077344
+      }
+    ],
+    "case": "concentrated8",
+    "seconds": 0.010179541,
+    "input": {
+      "unique_states": 9,
+      "state_uses": 9,
+      "binary_variables_per_state": 8,
+      "factor_entries": 405,
+      "coefficient_bits": 4,
+      "coefficient_bits_sum": 1003,
+      "auxiliary_variables": 0
+    },
+    "repetition": 0
+  },
+  {
+    "method": "ve",
+    "status": "certified_top1",
+    "winner": "C",
+    "unique_states": 9,
+    "work": 756,
+    "max_endpoint_bits": 51,
+    "case": "concentrated8",
+    "seconds": 0.001052,
+    "input": {
+      "unique_states": 9,
+      "state_uses": 9,
+      "binary_variables_per_state": 8,
+      "factor_entries": 405,
+      "coefficient_bits": 4,
+      "coefficient_bits_sum": 1003,
+      "auxiliary_variables": 0
+    },
+    "repetition": 0
+  },
+  {
+    "method": "enumeration",
+    "status": "certified_top1",
+    "winner": "C",
+    "unique_states": 9,
+    "work": 2304,
+    "max_endpoint_bits": 51,
+    "case": "concentrated8",
+    "seconds": 0.005498542,
+    "input": {
+      "unique_states": 9,
+      "state_uses": 9,
+      "binary_variables_per_state": 8,
+      "factor_entries": 405,
+      "coefficient_bits": 4,
+      "coefficient_bits_sum": 1003,
+      "auxiliary_variables": 0
+    },
+    "repetition": 0
+  },
+  {
+    "method": "fixed",
+    "status": "certified_top1",
+    "winner": "C",
+    "expansions": 576,
+    "bound_evaluations": 1161,
+    "exact_leaf_evaluations": 180,
+    "resolved_assignments": 180,
+    "unique_states": 9,
+    "state_uses": 9,
+    "certification_calls": 5,
+    "max_endpoint_bits": 59,
+    "tolerance_met": true,
+    "all_partitions_exact": false,
+    "bounds": [
+      {
+        "lower": 213354853848864,
+        "upper": 214513175077344
+      },
+      {
+        "lower": 213355466068896,
+        "upper": 214562764899936
+      },
+      {
+        "lower": 213354853848864,
+        "upper": 214513175077344
+      },
+      {
+        "lower": 426709707697728,
+        "upper": 429026350154688
+      },
+      {
+        "lower": 213354853848864,
+        "upper": 214513175077344
+      },
+      {
+        "lower": 213354853848864,
+        "upper": 214513175077344
+      },
+      {
+        "lower": 1706838830790912,
+        "upper": 1716105400618752
+      },
+      {
+        "lower": 213355466068896,
+        "upper": 214562764899936
+      },
+      {
+        "lower": 213354853848864,
+        "upper": 214513175077344
+      }
+    ],
+    "case": "concentrated8",
+    "seconds": 0.01142475,
+    "input": {
+      "unique_states": 9,
+      "state_uses": 9,
+      "binary_variables_per_state": 8,
+      "factor_entries": 405,
+      "coefficient_bits": 4,
+      "coefficient_bits_sum": 1003,
+      "auxiliary_variables": 0
+    },
+    "repetition": 1
+  },
+  {
+    "method": "ve",
+    "status": "certified_top1",
+    "winner": "C",
+    "unique_states": 9,
+    "work": 756,
+    "max_endpoint_bits": 51,
+    "case": "concentrated8",
+    "seconds": 0.001084791,
+    "input": {
+      "unique_states": 9,
+      "state_uses": 9,
+      "binary_variables_per_state": 8,
+      "factor_entries": 405,
+      "coefficient_bits": 4,
+      "coefficient_bits_sum": 1003,
+      "auxiliary_variables": 0
+    },
+    "repetition": 1
+  },
+  {
+    "method": "enumeration",
+    "status": "certified_top1",
+    "winner": "C",
+    "unique_states": 9,
+    "work": 2304,
+    "max_endpoint_bits": 51,
+    "case": "concentrated8",
+    "seconds": 0.005304167,
+    "input": {
+      "unique_states": 9,
+      "state_uses": 9,
+      "binary_variables_per_state": 8,
+      "factor_entries": 405,
+      "coefficient_bits": 4,
+      "coefficient_bits_sum": 1003,
+      "auxiliary_variables": 0
+    },
+    "repetition": 1
+  },
+  {
+    "method": "adaptive",
+    "status": "certified_top1",
+    "winner": "C",
+    "expansions": 144,
+    "bound_evaluations": 297,
+    "exact_leaf_evaluations": 18,
+    "resolved_assignments": 18,
+    "unique_states": 9,
+    "state_uses": 9,
+    "certification_calls": 31,
+    "max_endpoint_bits": 59,
+    "tolerance_met": false,
+    "all_partitions_exact": false,
+    "bounds": [
+      {
+        "lower": 208497395459376,
+        "upper": 315818983904976
+      },
+      {
+        "lower": 208497395459376,
+        "upper": 315818983904976
+      },
+      {
+        "lower": 208497395459376,
+        "upper": 315818983904976
+      },
+      {
+        "lower": 416994790918752,
+        "upper": 631637967809952
+      },
+      {
+        "lower": 208497395459376,
+        "upper": 315818983904976
+      },
+      {
+        "lower": 208497395459376,
+        "upper": 315818983904976
+      },
+      {
+        "lower": 1667979163675008,
+        "upper": 2526551871239808
+      },
+      {
+        "lower": 208497395459376,
+        "upper": 315818983904976
+      },
+      {
+        "lower": 208497395459376,
+        "upper": 315818983904976
+      }
+    ],
+    "case": "concentrated8",
+    "seconds": 0.004812666,
+    "input": {
+      "unique_states": 9,
+      "state_uses": 9,
+      "binary_variables_per_state": 8,
+      "factor_entries": 405,
+      "coefficient_bits": 4,
+      "coefficient_bits_sum": 1003,
+      "auxiliary_variables": 0
+    },
+    "repetition": 1
+  },
+  {
+    "method": "ve",
+    "status": "certified_top1",
+    "winner": "C",
+    "unique_states": 9,
+    "work": 756,
+    "max_endpoint_bits": 51,
+    "case": "concentrated8",
+    "seconds": 0.00108625,
+    "input": {
+      "unique_states": 9,
+      "state_uses": 9,
+      "binary_variables_per_state": 8,
+      "factor_entries": 405,
+      "coefficient_bits": 4,
+      "coefficient_bits_sum": 1003,
+      "auxiliary_variables": 0
+    },
+    "repetition": 2
+  },
+  {
+    "method": "enumeration",
+    "status": "certified_top1",
+    "winner": "C",
+    "unique_states": 9,
+    "work": 2304,
+    "max_endpoint_bits": 51,
+    "case": "concentrated8",
+    "seconds": 0.005590833,
+    "input": {
+      "unique_states": 9,
+      "state_uses": 9,
+      "binary_variables_per_state": 8,
+      "factor_entries": 405,
+      "coefficient_bits": 4,
+      "coefficient_bits_sum": 1003,
+      "auxiliary_variables": 0
+    },
+    "repetition": 2
+  },
+  {
+    "method": "adaptive",
+    "status": "certified_top1",
+    "winner": "C",
+    "expansions": 144,
+    "bound_evaluations": 297,
+    "exact_leaf_evaluations": 18,
+    "resolved_assignments": 18,
+    "unique_states": 9,
+    "state_uses": 9,
+    "certification_calls": 31,
+    "max_endpoint_bits": 59,
+    "tolerance_met": false,
+    "all_partitions_exact": false,
+    "bounds": [
+      {
+        "lower": 208497395459376,
+        "upper": 315818983904976
+      },
+      {
+        "lower": 208497395459376,
+        "upper": 315818983904976
+      },
+      {
+        "lower": 208497395459376,
+        "upper": 315818983904976
+      },
+      {
+        "lower": 416994790918752,
+        "upper": 631637967809952
+      },
+      {
+        "lower": 208497395459376,
+        "upper": 315818983904976
+      },
+      {
+        "lower": 208497395459376,
+        "upper": 315818983904976
+      },
+      {
+        "lower": 1667979163675008,
+        "upper": 2526551871239808
+      },
+      {
+        "lower": 208497395459376,
+        "upper": 315818983904976
+      },
+      {
+        "lower": 208497395459376,
+        "upper": 315818983904976
+      }
+    ],
+    "case": "concentrated8",
+    "seconds": 0.004688917,
+    "input": {
+      "unique_states": 9,
+      "state_uses": 9,
+      "binary_variables_per_state": 8,
+      "factor_entries": 405,
+      "coefficient_bits": 4,
+      "coefficient_bits_sum": 1003,
+      "auxiliary_variables": 0
+    },
+    "repetition": 2
+  },
+  {
+    "method": "fixed",
+    "status": "certified_top1",
+    "winner": "C",
+    "expansions": 576,
+    "bound_evaluations": 1161,
+    "exact_leaf_evaluations": 180,
+    "resolved_assignments": 180,
+    "unique_states": 9,
+    "state_uses": 9,
+    "certification_calls": 5,
+    "max_endpoint_bits": 59,
+    "tolerance_met": true,
+    "all_partitions_exact": false,
+    "bounds": [
+      {
+        "lower": 213354853848864,
+        "upper": 214513175077344
+      },
+      {
+        "lower": 213355466068896,
+        "upper": 214562764899936
+      },
+      {
+        "lower": 213354853848864,
+        "upper": 214513175077344
+      },
+      {
+        "lower": 426709707697728,
+        "upper": 429026350154688
+      },
+      {
+        "lower": 213354853848864,
+        "upper": 214513175077344
+      },
+      {
+        "lower": 213354853848864,
+        "upper": 214513175077344
+      },
+      {
+        "lower": 1706838830790912,
+        "upper": 1716105400618752
+      },
+      {
+        "lower": 213355466068896,
+        "upper": 214562764899936
+      },
+      {
+        "lower": 213354853848864,
+        "upper": 214513175077344
+      }
+    ],
+    "case": "concentrated8",
+    "seconds": 0.010480375,
+    "input": {
+      "unique_states": 9,
+      "state_uses": 9,
+      "binary_variables_per_state": 8,
+      "factor_entries": 405,
+      "coefficient_bits": 4,
+      "coefficient_bits_sum": 1003,
+      "auxiliary_variables": 0
+    },
+    "repetition": 2
+  },
+  {
+    "method": "adaptive",
+    "status": "certified_top1",
+    "winner": "C",
+    "expansions": 528,
+    "bound_evaluations": 1065,
+    "exact_leaf_evaluations": 18,
+    "resolved_assignments": 18,
+    "unique_states": 9,
+    "state_uses": 9,
+    "certification_calls": 109,
+    "max_endpoint_bits": 88,
+    "tolerance_met": false,
+    "all_partitions_exact": false,
+    "bounds": [
+      {
+        "lower": 8975208274018444487088,
+        "upper": 17418182236946153993808
+      },
+      {
+        "lower": 8975208274018444487088,
+        "upper": 17418182236946153993808
+      },
+      {
+        "lower": 8975208274018444487088,
+        "upper": 17418182236946153993808
+      },
+      {
+        "lower": 17956820641372241052384,
+        "upper": 26103391631225308463904
+      },
+      {
+        "lower": 8978410320686120526192,
+        "upper": 13051695815612654231952
+      },
+      {
+        "lower": 8978410320686120526192,
+        "upper": 13051695815612654231952
+      },
+      {
+        "lower": 71827282565488964209536,
+        "upper": 104413566524901233855616
+      },
+      {
+        "lower": 8978410320686120526192,
+        "upper": 13051695815612654231952
+      },
+      {
+        "lower": 8978410320686120526192,
+        "upper": 13051695815612654231952
+      }
+    ],
+    "case": "concentrated12",
+    "seconds": 0.0199545,
+    "input": {
+      "unique_states": 9,
+      "state_uses": 9,
+      "binary_variables_per_state": 12,
+      "factor_entries": 621,
+      "coefficient_bits": 4,
+      "coefficient_bits_sum": 1543,
+      "auxiliary_variables": 0
+    },
+    "repetition": 0
+  },
+  {
+    "method": "fixed",
+    "status": "certified_top1",
+    "winner": "C",
+    "expansions": 2016,
+    "bound_evaluations": 4041,
+    "exact_leaf_evaluations": 450,
+    "resolved_assignments": 450,
+    "unique_states": 9,
+    "state_uses": 9,
+    "certification_calls": 5,
+    "max_endpoint_bits": 88,
+    "tolerance_met": true,
+    "all_partitions_exact": false,
+    "bounds": [
+      {
+        "lower": 9246182418983121471216,
+        "upper": 9326469678655864459536
+      },
+      {
+        "lower": 9246182418983118485232,
+        "upper": 9325626348578804777232
+      },
+      {
+        "lower": 9246182418983121471216,
+        "upper": 9326469678655864459536
+      },
+      {
+        "lower": 18492364837966242942432,
+        "upper": 18652939357311728919072
+      },
+      {
+        "lower": 9246182418983121471216,
+        "upper": 9326469678655864459536
+      },
+      {
+        "lower": 9246182418983121471216,
+        "upper": 9326469678655864459536
+      },
+      {
+        "lower": 73969459351864971769728,
+        "upper": 74611757429246915676288
+      },
+      {
+        "lower": 9246182418983121471216,
+        "upper": 9326469678655864459536
+      },
+      {
+        "lower": 9246182418983121471216,
+        "upper": 9326469678655864459536
+      }
+    ],
+    "case": "concentrated12",
+    "seconds": 0.04777725,
+    "input": {
+      "unique_states": 9,
+      "state_uses": 9,
+      "binary_variables_per_state": 12,
+      "factor_entries": 621,
+      "coefficient_bits": 4,
+      "coefficient_bits_sum": 1543,
+      "auxiliary_variables": 0
+    },
+    "repetition": 0
+  },
+  {
+    "method": "ve",
+    "status": "certified_top1",
+    "winner": "C",
+    "unique_states": 9,
+    "work": 1188,
+    "max_endpoint_bits": 76,
+    "case": "concentrated12",
+    "seconds": 0.001899791,
+    "input": {
+      "unique_states": 9,
+      "state_uses": 9,
+      "binary_variables_per_state": 12,
+      "factor_entries": 621,
+      "coefficient_bits": 4,
+      "coefficient_bits_sum": 1543,
+      "auxiliary_variables": 0
+    },
+    "repetition": 0
+  },
+  {
+    "method": "enumeration",
+    "status": "certified_top1",
+    "winner": "C",
+    "unique_states": 9,
+    "work": 36864,
+    "max_endpoint_bits": 76,
+    "case": "concentrated12",
+    "seconds": 0.118140583,
+    "input": {
+      "unique_states": 9,
+      "state_uses": 9,
+      "binary_variables_per_state": 12,
+      "factor_entries": 621,
+      "coefficient_bits": 4,
+      "coefficient_bits_sum": 1543,
+      "auxiliary_variables": 0
+    },
+    "repetition": 0
+  },
+  {
+    "method": "fixed",
+    "status": "certified_top1",
+    "winner": "C",
+    "expansions": 2016,
+    "bound_evaluations": 4041,
+    "exact_leaf_evaluations": 450,
+    "resolved_assignments": 450,
+    "unique_states": 9,
+    "state_uses": 9,
+    "certification_calls": 5,
+    "max_endpoint_bits": 88,
+    "tolerance_met": true,
+    "all_partitions_exact": false,
+    "bounds": [
+      {
+        "lower": 9246182418983121471216,
+        "upper": 9326469678655864459536
+      },
+      {
+        "lower": 9246182418983118485232,
+        "upper": 9325626348578804777232
+      },
+      {
+        "lower": 9246182418983121471216,
+        "upper": 9326469678655864459536
+      },
+      {
+        "lower": 18492364837966242942432,
+        "upper": 18652939357311728919072
+      },
+      {
+        "lower": 9246182418983121471216,
+        "upper": 9326469678655864459536
+      },
+      {
+        "lower": 9246182418983121471216,
+        "upper": 9326469678655864459536
+      },
+      {
+        "lower": 73969459351864971769728,
+        "upper": 74611757429246915676288
+      },
+      {
+        "lower": 9246182418983121471216,
+        "upper": 9326469678655864459536
+      },
+      {
+        "lower": 9246182418983121471216,
+        "upper": 9326469678655864459536
+      }
+    ],
+    "case": "concentrated12",
+    "seconds": 0.04914325,
+    "input": {
+      "unique_states": 9,
+      "state_uses": 9,
+      "binary_variables_per_state": 12,
+      "factor_entries": 621,
+      "coefficient_bits": 4,
+      "coefficient_bits_sum": 1543,
+      "auxiliary_variables": 0
+    },
+    "repetition": 1
+  },
+  {
+    "method": "ve",
+    "status": "certified_top1",
+    "winner": "C",
+    "unique_states": 9,
+    "work": 1188,
+    "max_endpoint_bits": 76,
+    "case": "concentrated12",
+    "seconds": 0.001928458,
+    "input": {
+      "unique_states": 9,
+      "state_uses": 9,
+      "binary_variables_per_state": 12,
+      "factor_entries": 621,
+      "coefficient_bits": 4,
+      "coefficient_bits_sum": 1543,
+      "auxiliary_variables": 0
+    },
+    "repetition": 1
+  },
+  {
+    "method": "enumeration",
+    "status": "certified_top1",
+    "winner": "C",
+    "unique_states": 9,
+    "work": 36864,
+    "max_endpoint_bits": 76,
+    "case": "concentrated12",
+    "seconds": 0.122290708,
+    "input": {
+      "unique_states": 9,
+      "state_uses": 9,
+      "binary_variables_per_state": 12,
+      "factor_entries": 621,
+      "coefficient_bits": 4,
+      "coefficient_bits_sum": 1543,
+      "auxiliary_variables": 0
+    },
+    "repetition": 1
+  },
+  {
+    "method": "adaptive",
+    "status": "certified_top1",
+    "winner": "C",
+    "expansions": 528,
+    "bound_evaluations": 1065,
+    "exact_leaf_evaluations": 18,
+    "resolved_assignments": 18,
+    "unique_states": 9,
+    "state_uses": 9,
+    "certification_calls": 109,
+    "max_endpoint_bits": 88,
+    "tolerance_met": false,
+    "all_partitions_exact": false,
+    "bounds": [
+      {
+        "lower": 8975208274018444487088,
+        "upper": 17418182236946153993808
+      },
+      {
+        "lower": 8975208274018444487088,
+        "upper": 17418182236946153993808
+      },
+      {
+        "lower": 8975208274018444487088,
+        "upper": 17418182236946153993808
+      },
+      {
+        "lower": 17956820641372241052384,
+        "upper": 26103391631225308463904
+      },
+      {
+        "lower": 8978410320686120526192,
+        "upper": 13051695815612654231952
+      },
+      {
+        "lower": 8978410320686120526192,
+        "upper": 13051695815612654231952
+      },
+      {
+        "lower": 71827282565488964209536,
+        "upper": 104413566524901233855616
+      },
+      {
+        "lower": 8978410320686120526192,
+        "upper": 13051695815612654231952
+      },
+      {
+        "lower": 8978410320686120526192,
+        "upper": 13051695815612654231952
+      }
+    ],
+    "case": "concentrated12",
+    "seconds": 0.019845708,
+    "input": {
+      "unique_states": 9,
+      "state_uses": 9,
+      "binary_variables_per_state": 12,
+      "factor_entries": 621,
+      "coefficient_bits": 4,
+      "coefficient_bits_sum": 1543,
+      "auxiliary_variables": 0
+    },
+    "repetition": 1
+  },
+  {
+    "method": "ve",
+    "status": "certified_top1",
+    "winner": "C",
+    "unique_states": 9,
+    "work": 1188,
+    "max_endpoint_bits": 76,
+    "case": "concentrated12",
+    "seconds": 0.00176825,
+    "input": {
+      "unique_states": 9,
+      "state_uses": 9,
+      "binary_variables_per_state": 12,
+      "factor_entries": 621,
+      "coefficient_bits": 4,
+      "coefficient_bits_sum": 1543,
+      "auxiliary_variables": 0
+    },
+    "repetition": 2
+  },
+  {
+    "method": "enumeration",
+    "status": "certified_top1",
+    "winner": "C",
+    "unique_states": 9,
+    "work": 36864,
+    "max_endpoint_bits": 76,
+    "case": "concentrated12",
+    "seconds": 0.119301459,
+    "input": {
+      "unique_states": 9,
+      "state_uses": 9,
+      "binary_variables_per_state": 12,
+      "factor_entries": 621,
+      "coefficient_bits": 4,
+      "coefficient_bits_sum": 1543,
+      "auxiliary_variables": 0
+    },
+    "repetition": 2
+  },
+  {
+    "method": "adaptive",
+    "status": "certified_top1",
+    "winner": "C",
+    "expansions": 528,
+    "bound_evaluations": 1065,
+    "exact_leaf_evaluations": 18,
+    "resolved_assignments": 18,
+    "unique_states": 9,
+    "state_uses": 9,
+    "certification_calls": 109,
+    "max_endpoint_bits": 88,
+    "tolerance_met": false,
+    "all_partitions_exact": false,
+    "bounds": [
+      {
+        "lower": 8975208274018444487088,
+        "upper": 17418182236946153993808
+      },
+      {
+        "lower": 8975208274018444487088,
+        "upper": 17418182236946153993808
+      },
+      {
+        "lower": 8975208274018444487088,
+        "upper": 17418182236946153993808
+      },
+      {
+        "lower": 17956820641372241052384,
+        "upper": 26103391631225308463904
+      },
+      {
+        "lower": 8978410320686120526192,
+        "upper": 13051695815612654231952
+      },
+      {
+        "lower": 8978410320686120526192,
+        "upper": 13051695815612654231952
+      },
+      {
+        "lower": 71827282565488964209536,
+        "upper": 104413566524901233855616
+      },
+      {
+        "lower": 8978410320686120526192,
+        "upper": 13051695815612654231952
+      },
+      {
+        "lower": 8978410320686120526192,
+        "upper": 13051695815612654231952
+      }
+    ],
+    "case": "concentrated12",
+    "seconds": 0.019709125,
+    "input": {
+      "unique_states": 9,
+      "state_uses": 9,
+      "binary_variables_per_state": 12,
+      "factor_entries": 621,
+      "coefficient_bits": 4,
+      "coefficient_bits_sum": 1543,
+      "auxiliary_variables": 0
+    },
+    "repetition": 2
+  },
+  {
+    "method": "fixed",
+    "status": "certified_top1",
+    "winner": "C",
+    "expansions": 2016,
+    "bound_evaluations": 4041,
+    "exact_leaf_evaluations": 450,
+    "resolved_assignments": 450,
+    "unique_states": 9,
+    "state_uses": 9,
+    "certification_calls": 5,
+    "max_endpoint_bits": 88,
+    "tolerance_met": true,
+    "all_partitions_exact": false,
+    "bounds": [
+      {
+        "lower": 9246182418983121471216,
+        "upper": 9326469678655864459536
+      },
+      {
+        "lower": 9246182418983118485232,
+        "upper": 9325626348578804777232
+      },
+      {
+        "lower": 9246182418983121471216,
+        "upper": 9326469678655864459536
+      },
+      {
+        "lower": 18492364837966242942432,
+        "upper": 18652939357311728919072
+      },
+      {
+        "lower": 9246182418983121471216,
+        "upper": 9326469678655864459536
+      },
+      {
+        "lower": 9246182418983121471216,
+        "upper": 9326469678655864459536
+      },
+      {
+        "lower": 73969459351864971769728,
+        "upper": 74611757429246915676288
+      },
+      {
+        "lower": 9246182418983121471216,
+        "upper": 9326469678655864459536
+      },
+      {
+        "lower": 9246182418983121471216,
+        "upper": 9326469678655864459536
+      }
+    ],
+    "case": "concentrated12",
+    "seconds": 0.048044417,
+    "input": {
+      "unique_states": 9,
+      "state_uses": 9,
+      "binary_variables_per_state": 12,
+      "factor_entries": 621,
+      "coefficient_bits": 4,
+      "coefficient_bits_sum": 1543,
+      "auxiliary_variables": 0
+    },
+    "repetition": 2
+  },
+  {
+    "method": "adaptive",
+    "status": "certified_top1",
+    "winner": "C",
+    "expansions": 176,
+    "bound_evaluations": 355,
+    "exact_leaf_evaluations": 6,
+    "resolved_assignments": 6,
+    "unique_states": 3,
+    "state_uses": 9,
+    "certification_calls": 41,
+    "max_endpoint_bits": 88,
+    "tolerance_met": false,
+    "all_partitions_exact": false,
+    "bounds": [
+      {
+        "lower": 8978410320686120526192,
+        "upper": 13051695815612654231952
+      },
+      {
+        "lower": 17956820641372241052384,
+        "upper": 26103391631225308463904
+      },
+      {
+        "lower": 71801666192147555896704,
+        "upper": 139345457895569231950464
+      }
+    ],
+    "case": "shared12",
+    "seconds": 0.007062875,
+    "input": {
+      "unique_states": 3,
+      "state_uses": 9,
+      "binary_variables_per_state": 12,
+      "factor_entries": 207,
+      "coefficient_bits": 4,
+      "coefficient_bits_sum": 517,
+      "auxiliary_variables": 0
+    },
+    "repetition": 0
+  },
+  {
+    "method": "fixed",
+    "status": "certified_top1",
+    "winner": "C",
+    "expansions": 672,
+    "bound_evaluations": 1347,
+    "exact_leaf_evaluations": 150,
+    "resolved_assignments": 150,
+    "unique_states": 3,
+    "state_uses": 9,
+    "certification_calls": 5,
+    "max_endpoint_bits": 88,
+    "tolerance_met": true,
+    "all_partitions_exact": false,
+    "bounds": [
+      {
+        "lower": 9246182418983121471216,
+        "upper": 9326469678655864459536
+      },
+      {
+        "lower": 18492364837966242942432,
+        "upper": 18652939357311728919072
+      },
+      {
+        "lower": 73969459351864971769728,
+        "upper": 74611757429246915676288
+      }
+    ],
+    "case": "shared12",
+    "seconds": 0.012567708,
+    "input": {
+      "unique_states": 3,
+      "state_uses": 9,
+      "binary_variables_per_state": 12,
+      "factor_entries": 207,
+      "coefficient_bits": 4,
+      "coefficient_bits_sum": 517,
+      "auxiliary_variables": 0
+    },
+    "repetition": 0
+  },
+  {
+    "method": "ve",
+    "status": "certified_top1",
+    "winner": "C",
+    "unique_states": 3,
+    "work": 396,
+    "max_endpoint_bits": 76,
+    "case": "shared12",
+    "seconds": 0.001015792,
+    "input": {
+      "unique_states": 3,
+      "state_uses": 9,
+      "binary_variables_per_state": 12,
+      "factor_entries": 207,
+      "coefficient_bits": 4,
+      "coefficient_bits_sum": 517,
+      "auxiliary_variables": 0
+    },
+    "repetition": 0
+  },
+  {
+    "method": "enumeration",
+    "status": "certified_top1",
+    "winner": "C",
+    "unique_states": 3,
+    "work": 12288,
+    "max_endpoint_bits": 76,
+    "case": "shared12",
+    "seconds": 0.039859542,
+    "input": {
+      "unique_states": 3,
+      "state_uses": 9,
+      "binary_variables_per_state": 12,
+      "factor_entries": 207,
+      "coefficient_bits": 4,
+      "coefficient_bits_sum": 517,
+      "auxiliary_variables": 0
+    },
+    "repetition": 0
+  },
+  {
+    "method": "fixed",
+    "status": "certified_top1",
+    "winner": "C",
+    "expansions": 672,
+    "bound_evaluations": 1347,
+    "exact_leaf_evaluations": 150,
+    "resolved_assignments": 150,
+    "unique_states": 3,
+    "state_uses": 9,
+    "certification_calls": 5,
+    "max_endpoint_bits": 88,
+    "tolerance_met": true,
+    "all_partitions_exact": false,
+    "bounds": [
+      {
+        "lower": 9246182418983121471216,
+        "upper": 9326469678655864459536
+      },
+      {
+        "lower": 18492364837966242942432,
+        "upper": 18652939357311728919072
+      },
+      {
+        "lower": 73969459351864971769728,
+        "upper": 74611757429246915676288
+      }
+    ],
+    "case": "shared12",
+    "seconds": 0.012628917,
+    "input": {
+      "unique_states": 3,
+      "state_uses": 9,
+      "binary_variables_per_state": 12,
+      "factor_entries": 207,
+      "coefficient_bits": 4,
+      "coefficient_bits_sum": 517,
+      "auxiliary_variables": 0
+    },
+    "repetition": 1
+  },
+  {
+    "method": "ve",
+    "status": "certified_top1",
+    "winner": "C",
+    "unique_states": 3,
+    "work": 396,
+    "max_endpoint_bits": 76,
+    "case": "shared12",
+    "seconds": 0.001022917,
+    "input": {
+      "unique_states": 3,
+      "state_uses": 9,
+      "binary_variables_per_state": 12,
+      "factor_entries": 207,
+      "coefficient_bits": 4,
+      "coefficient_bits_sum": 517,
+      "auxiliary_variables": 0
+    },
+    "repetition": 1
+  },
+  {
+    "method": "enumeration",
+    "status": "certified_top1",
+    "winner": "C",
+    "unique_states": 3,
+    "work": 12288,
+    "max_endpoint_bits": 76,
+    "case": "shared12",
+    "seconds": 0.04048325,
+    "input": {
+      "unique_states": 3,
+      "state_uses": 9,
+      "binary_variables_per_state": 12,
+      "factor_entries": 207,
+      "coefficient_bits": 4,
+      "coefficient_bits_sum": 517,
+      "auxiliary_variables": 0
+    },
+    "repetition": 1
+  },
+  {
+    "method": "adaptive",
+    "status": "certified_top1",
+    "winner": "C",
+    "expansions": 176,
+    "bound_evaluations": 355,
+    "exact_leaf_evaluations": 6,
+    "resolved_assignments": 6,
+    "unique_states": 3,
+    "state_uses": 9,
+    "certification_calls": 41,
+    "max_endpoint_bits": 88,
+    "tolerance_met": false,
+    "all_partitions_exact": false,
+    "bounds": [
+      {
+        "lower": 8978410320686120526192,
+        "upper": 13051695815612654231952
+      },
+      {
+        "lower": 17956820641372241052384,
+        "upper": 26103391631225308463904
+      },
+      {
+        "lower": 71801666192147555896704,
+        "upper": 139345457895569231950464
+      }
+    ],
+    "case": "shared12",
+    "seconds": 0.006619,
+    "input": {
+      "unique_states": 3,
+      "state_uses": 9,
+      "binary_variables_per_state": 12,
+      "factor_entries": 207,
+      "coefficient_bits": 4,
+      "coefficient_bits_sum": 517,
+      "auxiliary_variables": 0
+    },
+    "repetition": 1
+  },
+  {
+    "method": "ve",
+    "status": "certified_top1",
+    "winner": "C",
+    "unique_states": 3,
+    "work": 396,
+    "max_endpoint_bits": 76,
+    "case": "shared12",
+    "seconds": 0.001080334,
+    "input": {
+      "unique_states": 3,
+      "state_uses": 9,
+      "binary_variables_per_state": 12,
+      "factor_entries": 207,
+      "coefficient_bits": 4,
+      "coefficient_bits_sum": 517,
+      "auxiliary_variables": 0
+    },
+    "repetition": 2
+  },
+  {
+    "method": "enumeration",
+    "status": "certified_top1",
+    "winner": "C",
+    "unique_states": 3,
+    "work": 12288,
+    "max_endpoint_bits": 76,
+    "case": "shared12",
+    "seconds": 0.040328333,
+    "input": {
+      "unique_states": 3,
+      "state_uses": 9,
+      "binary_variables_per_state": 12,
+      "factor_entries": 207,
+      "coefficient_bits": 4,
+      "coefficient_bits_sum": 517,
+      "auxiliary_variables": 0
+    },
+    "repetition": 2
+  },
+  {
+    "method": "adaptive",
+    "status": "certified_top1",
+    "winner": "C",
+    "expansions": 176,
+    "bound_evaluations": 355,
+    "exact_leaf_evaluations": 6,
+    "resolved_assignments": 6,
+    "unique_states": 3,
+    "state_uses": 9,
+    "certification_calls": 41,
+    "max_endpoint_bits": 88,
+    "tolerance_met": false,
+    "all_partitions_exact": false,
+    "bounds": [
+      {
+        "lower": 8978410320686120526192,
+        "upper": 13051695815612654231952
+      },
+      {
+        "lower": 17956820641372241052384,
+        "upper": 26103391631225308463904
+      },
+      {
+        "lower": 71801666192147555896704,
+        "upper": 139345457895569231950464
+      }
+    ],
+    "case": "shared12",
+    "seconds": 0.006709291,
+    "input": {
+      "unique_states": 3,
+      "state_uses": 9,
+      "binary_variables_per_state": 12,
+      "factor_entries": 207,
+      "coefficient_bits": 4,
+      "coefficient_bits_sum": 517,
+      "auxiliary_variables": 0
+    },
+    "repetition": 2
+  },
+  {
+    "method": "fixed",
+    "status": "certified_top1",
+    "winner": "C",
+    "expansions": 672,
+    "bound_evaluations": 1347,
+    "exact_leaf_evaluations": 150,
+    "resolved_assignments": 150,
+    "unique_states": 3,
+    "state_uses": 9,
+    "certification_calls": 5,
+    "max_endpoint_bits": 88,
+    "tolerance_met": true,
+    "all_partitions_exact": false,
+    "bounds": [
+      {
+        "lower": 9246182418983121471216,
+        "upper": 9326469678655864459536
+      },
+      {
+        "lower": 18492364837966242942432,
+        "upper": 18652939357311728919072
+      },
+      {
+        "lower": 73969459351864971769728,
+        "upper": 74611757429246915676288
+      }
+    ],
+    "case": "shared12",
+    "seconds": 0.0124305,
+    "input": {
+      "unique_states": 3,
+      "state_uses": 9,
+      "binary_variables_per_state": 12,
+      "factor_entries": 207,
+      "coefficient_bits": 4,
+      "coefficient_bits_sum": 517,
+      "auxiliary_variables": 0
+    },
+    "repetition": 2
+  },
+  {
+    "method": "adaptive",
+    "status": "certified_top1",
+    "winner": "B",
+    "expansions": 1152,
+    "bound_evaluations": 2313,
+    "exact_leaf_evaluations": 524,
+    "resolved_assignments": 524,
+    "unique_states": 9,
+    "state_uses": 9,
+    "certification_calls": 231,
+    "max_endpoint_bits": 113,
+    "tolerance_met": false,
+    "all_partitions_exact": false,
+    "bounds": [
+      {
+        "lower": 588153660293173879592976384,
+        "upper": 1441545555352797994549248000
+      },
+      {
+        "lower": 319993673379247254187081728,
+        "upper": 683908930389617582999076864
+      },
+      {
+        "lower": 38673040534445106767226470400,
+        "upper": 92775804060974825696919552000
+      },
+      {
+        "lower": 754575170307776994567536640,
+        "upper": 1101443217004491553876303872
+      },
+      {
+        "lower": 5665692931765280473460244480,
+        "upper": 6974703077321406782106501120
+      },
+      {
+        "lower": 212251934663546565321621504,
+        "upper": 276697289498007417669550080
+      },
+      {
+        "lower": 213375307510898532160634880,
+        "upper": 317114386950719261166796800
+      },
+      {
+        "lower": 704738156722631982794253312,
+        "upper": 984832188871854289322345472
+      },
+      {
+        "lower": 1254270583962031030272000000,
+        "upper": 1822514077201633318010880000
+      }
+    ],
+    "case": "independent_dense8",
+    "seconds": 0.06364275,
+    "input": {
+      "unique_states": 9,
+      "state_uses": 9,
+      "binary_variables_per_state": 8,
+      "factor_entries": 1152,
+      "coefficient_bits": 4,
+      "coefficient_bits_sum": 3249,
+      "auxiliary_variables": 0
+    },
+    "repetition": 0
+  },
+  {
+    "method": "fixed",
+    "status": "certified_top1",
+    "winner": "B",
+    "expansions": 1872,
+    "bound_evaluations": 3753,
+    "exact_leaf_evaluations": 1544,
+    "resolved_assignments": 1544,
+    "unique_states": 9,
+    "state_uses": 9,
+    "certification_calls": 3,
+    "max_endpoint_bits": 113,
+    "tolerance_met": true,
+    "all_partitions_exact": false,
+    "bounds": [
+      {
+        "lower": 638685182875175496192098304,
+        "upper": 642103368750668349362405376
+      },
+      {
+        "lower": 347701452091115575494574080,
+        "upper": 349045723687574131159597056
+      },
+      {
+        "lower": 40808778815404654419876249600,
+        "upper": 41121855035018084409686360064
+      },
+      {
+        "lower": 784649340063456335642280960,
+        "upper": 787551101679745591787897856
+      },
+      {
+        "lower": 5852050047733014936163713024,
+        "upper": 5862137547345972793447809024
+      },
+      {
+        "lower": 219878979192036642508406784,
+        "upper": 221625432400907772534620160
+      },
+      {
+        "lower": 227286270257899577939066880,
+        "upper": 229175777860399367706378240
+      },
+      {
+        "lower": 727053057513199131212768256,
+        "upper": 729231868323393375845753856
+      },
+      {
+        "lower": 1300509036459769901875200000,
+        "upper": 1307560761799775295897600000
+      }
+    ],
+    "case": "independent_dense8",
+    "seconds": 0.070958458,
+    "input": {
+      "unique_states": 9,
+      "state_uses": 9,
+      "binary_variables_per_state": 8,
+      "factor_entries": 1152,
+      "coefficient_bits": 4,
+      "coefficient_bits_sum": 3249,
+      "auxiliary_variables": 0
+    },
+    "repetition": 0
+  },
+  {
+    "method": "ve",
+    "status": "certified_top1",
+    "winner": "B",
+    "unique_states": 9,
+    "work": 34560,
+    "max_endpoint_bits": 96,
+    "case": "independent_dense8",
+    "seconds": 0.009628667,
+    "input": {
+      "unique_states": 9,
+      "state_uses": 9,
+      "binary_variables_per_state": 8,
+      "factor_entries": 1152,
+      "coefficient_bits": 4,
+      "coefficient_bits_sum": 3249,
+      "auxiliary_variables": 0
+    },
+    "repetition": 0
+  },
+  {
+    "method": "enumeration",
+    "status": "certified_top1",
+    "winner": "B",
+    "unique_states": 9,
+    "work": 2304,
+    "max_endpoint_bits": 96,
+    "case": "independent_dense8",
+    "seconds": 0.013294417,
+    "input": {
+      "unique_states": 9,
+      "state_uses": 9,
+      "binary_variables_per_state": 8,
+      "factor_entries": 1152,
+      "coefficient_bits": 4,
+      "coefficient_bits_sum": 3249,
+      "auxiliary_variables": 0
+    },
+    "repetition": 0
+  },
+  {
+    "method": "fixed",
+    "status": "certified_top1",
+    "winner": "B",
+    "expansions": 1872,
+    "bound_evaluations": 3753,
+    "exact_leaf_evaluations": 1544,
+    "resolved_assignments": 1544,
+    "unique_states": 9,
+    "state_uses": 9,
+    "certification_calls": 3,
+    "max_endpoint_bits": 113,
+    "tolerance_met": true,
+    "all_partitions_exact": false,
+    "bounds": [
+      {
+        "lower": 638685182875175496192098304,
+        "upper": 642103368750668349362405376
+      },
+      {
+        "lower": 347701452091115575494574080,
+        "upper": 349045723687574131159597056
+      },
+      {
+        "lower": 40808778815404654419876249600,
+        "upper": 41121855035018084409686360064
+      },
+      {
+        "lower": 784649340063456335642280960,
+        "upper": 787551101679745591787897856
+      },
+      {
+        "lower": 5852050047733014936163713024,
+        "upper": 5862137547345972793447809024
+      },
+      {
+        "lower": 219878979192036642508406784,
+        "upper": 221625432400907772534620160
+      },
+      {
+        "lower": 227286270257899577939066880,
+        "upper": 229175777860399367706378240
+      },
+      {
+        "lower": 727053057513199131212768256,
+        "upper": 729231868323393375845753856
+      },
+      {
+        "lower": 1300509036459769901875200000,
+        "upper": 1307560761799775295897600000
+      }
+    ],
+    "case": "independent_dense8",
+    "seconds": 0.069538,
+    "input": {
+      "unique_states": 9,
+      "state_uses": 9,
+      "binary_variables_per_state": 8,
+      "factor_entries": 1152,
+      "coefficient_bits": 4,
+      "coefficient_bits_sum": 3249,
+      "auxiliary_variables": 0
+    },
+    "repetition": 1
+  },
+  {
+    "method": "ve",
+    "status": "certified_top1",
+    "winner": "B",
+    "unique_states": 9,
+    "work": 34560,
+    "max_endpoint_bits": 96,
+    "case": "independent_dense8",
+    "seconds": 0.009571833,
+    "input": {
+      "unique_states": 9,
+      "state_uses": 9,
+      "binary_variables_per_state": 8,
+      "factor_entries": 1152,
+      "coefficient_bits": 4,
+      "coefficient_bits_sum": 3249,
+      "auxiliary_variables": 0
+    },
+    "repetition": 1
+  },
+  {
+    "method": "enumeration",
+    "status": "certified_top1",
+    "winner": "B",
+    "unique_states": 9,
+    "work": 2304,
+    "max_endpoint_bits": 96,
+    "case": "independent_dense8",
+    "seconds": 0.013327667,
+    "input": {
+      "unique_states": 9,
+      "state_uses": 9,
+      "binary_variables_per_state": 8,
+      "factor_entries": 1152,
+      "coefficient_bits": 4,
+      "coefficient_bits_sum": 3249,
+      "auxiliary_variables": 0
+    },
+    "repetition": 1
+  },
+  {
+    "method": "adaptive",
+    "status": "certified_top1",
+    "winner": "B",
+    "expansions": 1152,
+    "bound_evaluations": 2313,
+    "exact_leaf_evaluations": 524,
+    "resolved_assignments": 524,
+    "unique_states": 9,
+    "state_uses": 9,
+    "certification_calls": 231,
+    "max_endpoint_bits": 113,
+    "tolerance_met": false,
+    "all_partitions_exact": false,
+    "bounds": [
+      {
+        "lower": 588153660293173879592976384,
+        "upper": 1441545555352797994549248000
+      },
+      {
+        "lower": 319993673379247254187081728,
+        "upper": 683908930389617582999076864
+      },
+      {
+        "lower": 38673040534445106767226470400,
+        "upper": 92775804060974825696919552000
+      },
+      {
+        "lower": 754575170307776994567536640,
+        "upper": 1101443217004491553876303872
+      },
+      {
+        "lower": 5665692931765280473460244480,
+        "upper": 6974703077321406782106501120
+      },
+      {
+        "lower": 212251934663546565321621504,
+        "upper": 276697289498007417669550080
+      },
+      {
+        "lower": 213375307510898532160634880,
+        "upper": 317114386950719261166796800
+      },
+      {
+        "lower": 704738156722631982794253312,
+        "upper": 984832188871854289322345472
+      },
+      {
+        "lower": 1254270583962031030272000000,
+        "upper": 1822514077201633318010880000
+      }
+    ],
+    "case": "independent_dense8",
+    "seconds": 0.063246042,
+    "input": {
+      "unique_states": 9,
+      "state_uses": 9,
+      "binary_variables_per_state": 8,
+      "factor_entries": 1152,
+      "coefficient_bits": 4,
+      "coefficient_bits_sum": 3249,
+      "auxiliary_variables": 0
+    },
+    "repetition": 1
+  },
+  {
+    "method": "ve",
+    "status": "certified_top1",
+    "winner": "B",
+    "unique_states": 9,
+    "work": 34560,
+    "max_endpoint_bits": 96,
+    "case": "independent_dense8",
+    "seconds": 0.009360084,
+    "input": {
+      "unique_states": 9,
+      "state_uses": 9,
+      "binary_variables_per_state": 8,
+      "factor_entries": 1152,
+      "coefficient_bits": 4,
+      "coefficient_bits_sum": 3249,
+      "auxiliary_variables": 0
+    },
+    "repetition": 2
+  },
+  {
+    "method": "enumeration",
+    "status": "certified_top1",
+    "winner": "B",
+    "unique_states": 9,
+    "work": 2304,
+    "max_endpoint_bits": 96,
+    "case": "independent_dense8",
+    "seconds": 0.013292417,
+    "input": {
+      "unique_states": 9,
+      "state_uses": 9,
+      "binary_variables_per_state": 8,
+      "factor_entries": 1152,
+      "coefficient_bits": 4,
+      "coefficient_bits_sum": 3249,
+      "auxiliary_variables": 0
+    },
+    "repetition": 2
+  },
+  {
+    "method": "adaptive",
+    "status": "certified_top1",
+    "winner": "B",
+    "expansions": 1152,
+    "bound_evaluations": 2313,
+    "exact_leaf_evaluations": 524,
+    "resolved_assignments": 524,
+    "unique_states": 9,
+    "state_uses": 9,
+    "certification_calls": 231,
+    "max_endpoint_bits": 113,
+    "tolerance_met": false,
+    "all_partitions_exact": false,
+    "bounds": [
+      {
+        "lower": 588153660293173879592976384,
+        "upper": 1441545555352797994549248000
+      },
+      {
+        "lower": 319993673379247254187081728,
+        "upper": 683908930389617582999076864
+      },
+      {
+        "lower": 38673040534445106767226470400,
+        "upper": 92775804060974825696919552000
+      },
+      {
+        "lower": 754575170307776994567536640,
+        "upper": 1101443217004491553876303872
+      },
+      {
+        "lower": 5665692931765280473460244480,
+        "upper": 6974703077321406782106501120
+      },
+      {
+        "lower": 212251934663546565321621504,
+        "upper": 276697289498007417669550080
+      },
+      {
+        "lower": 213375307510898532160634880,
+        "upper": 317114386950719261166796800
+      },
+      {
+        "lower": 704738156722631982794253312,
+        "upper": 984832188871854289322345472
+      },
+      {
+        "lower": 1254270583962031030272000000,
+        "upper": 1822514077201633318010880000
+      }
+    ],
+    "case": "independent_dense8",
+    "seconds": 0.062818125,
+    "input": {
+      "unique_states": 9,
+      "state_uses": 9,
+      "binary_variables_per_state": 8,
+      "factor_entries": 1152,
+      "coefficient_bits": 4,
+      "coefficient_bits_sum": 3249,
+      "auxiliary_variables": 0
+    },
+    "repetition": 2
+  },
+  {
+    "method": "fixed",
+    "status": "certified_top1",
+    "winner": "B",
+    "expansions": 1872,
+    "bound_evaluations": 3753,
+    "exact_leaf_evaluations": 1544,
+    "resolved_assignments": 1544,
+    "unique_states": 9,
+    "state_uses": 9,
+    "certification_calls": 3,
+    "max_endpoint_bits": 113,
+    "tolerance_met": true,
+    "all_partitions_exact": false,
+    "bounds": [
+      {
+        "lower": 638685182875175496192098304,
+        "upper": 642103368750668349362405376
+      },
+      {
+        "lower": 347701452091115575494574080,
+        "upper": 349045723687574131159597056
+      },
+      {
+        "lower": 40808778815404654419876249600,
+        "upper": 41121855035018084409686360064
+      },
+      {
+        "lower": 784649340063456335642280960,
+        "upper": 787551101679745591787897856
+      },
+      {
+        "lower": 5852050047733014936163713024,
+        "upper": 5862137547345972793447809024
+      },
+      {
+        "lower": 219878979192036642508406784,
+        "upper": 221625432400907772534620160
+      },
+      {
+        "lower": 227286270257899577939066880,
+        "upper": 229175777860399367706378240
+      },
+      {
+        "lower": 727053057513199131212768256,
+        "upper": 729231868323393375845753856
+      },
+      {
+        "lower": 1300509036459769901875200000,
+        "upper": 1307560761799775295897600000
+      }
+    ],
+    "case": "independent_dense8",
+    "seconds": 0.069097,
+    "input": {
+      "unique_states": 9,
+      "state_uses": 9,
+      "binary_variables_per_state": 8,
+      "factor_entries": 1152,
+      "coefficient_bits": 4,
+      "coefficient_bits_sum": 3249,
+      "auxiliary_variables": 0
+    },
+    "repetition": 2
+  },
+  {
+    "method": "adaptive",
+    "status": "certified_top1",
+    "winner": "A",
+    "expansions": 8656,
+    "bound_evaluations": 17321,
+    "exact_leaf_evaluations": 1126,
+    "resolved_assignments": 1126,
+    "unique_states": 9,
+    "state_uses": 9,
+    "certification_calls": 1764,
+    "max_endpoint_bits": 239,
+    "tolerance_met": false,
+    "all_partitions_exact": false,
+    "bounds": [
+      {
+        "lower": 443884876619801922661842263948902769178497582920787558400,
+        "upper": 2506242800888609558625143159434961644110337142819175530496
+      },
+      {
+        "lower": 397764448219604543637685128798109901147044995535994880,
+        "upper": 2441492627527464966659123865875909666251645617438720000
+      },
+      {
+        "lower": 7858924745869684973321766389334340179640136666972160000,
+        "upper": 45157742377495392755573519394757790443470950089359360000
+      },
+      {
+        "lower": 363118376896604693340175657604057553764995298859417600,
+        "upper": 25790760749456607045032159714106132271506659878109184000
+      },
+      {
+        "lower": 1467663068827971138231004493885579009260871192397899366400,
+        "upper": 87855932587722592170281780093643736398823499579076378624000
+      },
+      {
+        "lower": 610244736193749850796694295476185677261569917473259520,
+        "upper": 44763982683436299654464587657014136525688248668530933760
+      },
+      {
+        "lower": 979298579229915570470024418596335922038649479401308160000,
+        "upper": 5731616580839100622262841990809291182545056328151203840000
+      },
+      {
+        "lower": 92063124072208775523997806620507058364340214127656960000,
+        "upper": 547643772057942201351978514716486387308691938378514432000
+      },
+      {
+        "lower": 16493345516841420406929916700671475505966287911334707200,
+        "upper": 97731326757119230802527033498552999184792643366499123200
+      }
+    ],
+    "case": "independent_dense12",
+    "seconds": 0.953027833,
+    "input": {
+      "unique_states": 9,
+      "state_uses": 9,
+      "binary_variables_per_state": 12,
+      "factor_entries": 2592,
+      "coefficient_bits": 4,
+      "coefficient_bits_sum": 7148,
+      "auxiliary_variables": 0
+    },
+    "repetition": 0
+  },
+  {
+    "method": "fixed",
+    "status": "certified_top1",
+    "winner": "A",
+    "expansions": 20000,
+    "bound_evaluations": 40009,
+    "exact_leaf_evaluations": 10872,
+    "resolved_assignments": 10872,
+    "unique_states": 9,
+    "state_uses": 9,
+    "certification_calls": 2,
+    "max_endpoint_bits": 239,
+    "tolerance_met": false,
+    "all_partitions_exact": false,
+    "bounds": [
+      {
+        "lower": 449688593945774609881622535414222510774039187323868938240,
+        "upper": 461744850644688754236513780400038467751181076428631310336
+      },
+      {
+        "lower": 412811214499668673484395723267392639237481667053486080,
+        "upper": 423217161164201829798846545746421814220506636327321600
+      },
+      {
+        "lower": 7971028766780443485175275955086499457184626500435968000,
+        "upper": 8185673928099693213186268014420004239786933045166080000
+      },
+      {
+        "lower": 473738458900317693590735206602494386058742581113651200,
+        "upper": 486460658104937249338754407813198943443544633769984000
+      },
+      {
+        "lower": 2184214989287133584448620724429532829754427202610187468800,
+        "upper": 2242232434619621650571146065200931541941979547033193676800
+      },
+      {
+        "lower": 994732997659156138836200498655605268029800275781877760,
+        "upper": 1021522854680178775616891643837958074463727565888552960
+      },
+      {
+        "lower": 1029584141821532377286997394407559079946388866544435200000,
+        "upper": 1056974561573422149292678224296410858032810130384355328000
+      },
+      {
+        "lower": 101445722822448519239305915084644193996909276299264000000,
+        "upper": 104088838093487471496018203259346832959951865552830464000
+      },
+      {
+        "lower": 17590025996126913159064756654671048136662011341071974400,
+        "upper": 18063968383092582201693880138679123305503583380072038400
+      }
+    ],
+    "case": "independent_dense12",
+    "seconds": 1.497160458,
+    "input": {
+      "unique_states": 9,
+      "state_uses": 9,
+      "binary_variables_per_state": 12,
+      "factor_entries": 2592,
+      "coefficient_bits": 4,
+      "coefficient_bits_sum": 7148,
+      "auxiliary_variables": 0
+    },
+    "repetition": 0
+  },
+  {
+    "method": "ve",
+    "status": "certified_top1",
+    "winner": "A",
+    "unique_states": 9,
+    "work": 847872,
+    "max_endpoint_bits": 191,
+    "case": "independent_dense12",
+    "seconds": 0.169344416,
+    "input": {
+      "unique_states": 9,
+      "state_uses": 9,
+      "binary_variables_per_state": 12,
+      "factor_entries": 2592,
+      "coefficient_bits": 4,
+      "coefficient_bits_sum": 7148,
+      "auxiliary_variables": 0
+    },
+    "repetition": 0
+  },
+  {
+    "method": "enumeration",
+    "status": "certified_top1",
+    "winner": "A",
+    "unique_states": 9,
+    "work": 36864,
+    "max_endpoint_bits": 191,
+    "case": "independent_dense12",
+    "seconds": 0.440001875,
+    "input": {
+      "unique_states": 9,
+      "state_uses": 9,
+      "binary_variables_per_state": 12,
+      "factor_entries": 2592,
+      "coefficient_bits": 4,
+      "coefficient_bits_sum": 7148,
+      "auxiliary_variables": 0
+    },
+    "repetition": 0
+  },
+  {
+    "method": "fixed",
+    "status": "certified_top1",
+    "winner": "A",
+    "expansions": 20000,
+    "bound_evaluations": 40009,
+    "exact_leaf_evaluations": 10872,
+    "resolved_assignments": 10872,
+    "unique_states": 9,
+    "state_uses": 9,
+    "certification_calls": 2,
+    "max_endpoint_bits": 239,
+    "tolerance_met": false,
+    "all_partitions_exact": false,
+    "bounds": [
+      {
+        "lower": 449688593945774609881622535414222510774039187323868938240,
+        "upper": 461744850644688754236513780400038467751181076428631310336
+      },
+      {
+        "lower": 412811214499668673484395723267392639237481667053486080,
+        "upper": 423217161164201829798846545746421814220506636327321600
+      },
+      {
+        "lower": 7971028766780443485175275955086499457184626500435968000,
+        "upper": 8185673928099693213186268014420004239786933045166080000
+      },
+      {
+        "lower": 473738458900317693590735206602494386058742581113651200,
+        "upper": 486460658104937249338754407813198943443544633769984000
+      },
+      {
+        "lower": 2184214989287133584448620724429532829754427202610187468800,
+        "upper": 2242232434619621650571146065200931541941979547033193676800
+      },
+      {
+        "lower": 994732997659156138836200498655605268029800275781877760,
+        "upper": 1021522854680178775616891643837958074463727565888552960
+      },
+      {
+        "lower": 1029584141821532377286997394407559079946388866544435200000,
+        "upper": 1056974561573422149292678224296410858032810130384355328000
+      },
+      {
+        "lower": 101445722822448519239305915084644193996909276299264000000,
+        "upper": 104088838093487471496018203259346832959951865552830464000
+      },
+      {
+        "lower": 17590025996126913159064756654671048136662011341071974400,
+        "upper": 18063968383092582201693880138679123305503583380072038400
+      }
+    ],
+    "case": "independent_dense12",
+    "seconds": 1.4991445,
+    "input": {
+      "unique_states": 9,
+      "state_uses": 9,
+      "binary_variables_per_state": 12,
+      "factor_entries": 2592,
+      "coefficient_bits": 4,
+      "coefficient_bits_sum": 7148,
+      "auxiliary_variables": 0
+    },
+    "repetition": 1
+  },
+  {
+    "method": "ve",
+    "status": "certified_top1",
+    "winner": "A",
+    "unique_states": 9,
+    "work": 847872,
+    "max_endpoint_bits": 191,
+    "case": "independent_dense12",
+    "seconds": 0.169309833,
+    "input": {
+      "unique_states": 9,
+      "state_uses": 9,
+      "binary_variables_per_state": 12,
+      "factor_entries": 2592,
+      "coefficient_bits": 4,
+      "coefficient_bits_sum": 7148,
+      "auxiliary_variables": 0
+    },
+    "repetition": 1
+  },
+  {
+    "method": "enumeration",
+    "status": "certified_top1",
+    "winner": "A",
+    "unique_states": 9,
+    "work": 36864,
+    "max_endpoint_bits": 191,
+    "case": "independent_dense12",
+    "seconds": 0.439463375,
+    "input": {
+      "unique_states": 9,
+      "state_uses": 9,
+      "binary_variables_per_state": 12,
+      "factor_entries": 2592,
+      "coefficient_bits": 4,
+      "coefficient_bits_sum": 7148,
+      "auxiliary_variables": 0
+    },
+    "repetition": 1
+  },
+  {
+    "method": "adaptive",
+    "status": "certified_top1",
+    "winner": "A",
+    "expansions": 8656,
+    "bound_evaluations": 17321,
+    "exact_leaf_evaluations": 1126,
+    "resolved_assignments": 1126,
+    "unique_states": 9,
+    "state_uses": 9,
+    "certification_calls": 1764,
+    "max_endpoint_bits": 239,
+    "tolerance_met": false,
+    "all_partitions_exact": false,
+    "bounds": [
+      {
+        "lower": 443884876619801922661842263948902769178497582920787558400,
+        "upper": 2506242800888609558625143159434961644110337142819175530496
+      },
+      {
+        "lower": 397764448219604543637685128798109901147044995535994880,
+        "upper": 2441492627527464966659123865875909666251645617438720000
+      },
+      {
+        "lower": 7858924745869684973321766389334340179640136666972160000,
+        "upper": 45157742377495392755573519394757790443470950089359360000
+      },
+      {
+        "lower": 363118376896604693340175657604057553764995298859417600,
+        "upper": 25790760749456607045032159714106132271506659878109184000
+      },
+      {
+        "lower": 1467663068827971138231004493885579009260871192397899366400,
+        "upper": 87855932587722592170281780093643736398823499579076378624000
+      },
+      {
+        "lower": 610244736193749850796694295476185677261569917473259520,
+        "upper": 44763982683436299654464587657014136525688248668530933760
+      },
+      {
+        "lower": 979298579229915570470024418596335922038649479401308160000,
+        "upper": 5731616580839100622262841990809291182545056328151203840000
+      },
+      {
+        "lower": 92063124072208775523997806620507058364340214127656960000,
+        "upper": 547643772057942201351978514716486387308691938378514432000
+      },
+      {
+        "lower": 16493345516841420406929916700671475505966287911334707200,
+        "upper": 97731326757119230802527033498552999184792643366499123200
+      }
+    ],
+    "case": "independent_dense12",
+    "seconds": 0.942730083,
+    "input": {
+      "unique_states": 9,
+      "state_uses": 9,
+      "binary_variables_per_state": 12,
+      "factor_entries": 2592,
+      "coefficient_bits": 4,
+      "coefficient_bits_sum": 7148,
+      "auxiliary_variables": 0
+    },
+    "repetition": 1
+  },
+  {
+    "method": "ve",
+    "status": "certified_top1",
+    "winner": "A",
+    "unique_states": 9,
+    "work": 847872,
+    "max_endpoint_bits": 191,
+    "case": "independent_dense12",
+    "seconds": 0.171305917,
+    "input": {
+      "unique_states": 9,
+      "state_uses": 9,
+      "binary_variables_per_state": 12,
+      "factor_entries": 2592,
+      "coefficient_bits": 4,
+      "coefficient_bits_sum": 7148,
+      "auxiliary_variables": 0
+    },
+    "repetition": 2
+  },
+  {
+    "method": "enumeration",
+    "status": "certified_top1",
+    "winner": "A",
+    "unique_states": 9,
+    "work": 36864,
+    "max_endpoint_bits": 191,
+    "case": "independent_dense12",
+    "seconds": 0.439079584,
+    "input": {
+      "unique_states": 9,
+      "state_uses": 9,
+      "binary_variables_per_state": 12,
+      "factor_entries": 2592,
+      "coefficient_bits": 4,
+      "coefficient_bits_sum": 7148,
+      "auxiliary_variables": 0
+    },
+    "repetition": 2
+  },
+  {
+    "method": "adaptive",
+    "status": "certified_top1",
+    "winner": "A",
+    "expansions": 8656,
+    "bound_evaluations": 17321,
+    "exact_leaf_evaluations": 1126,
+    "resolved_assignments": 1126,
+    "unique_states": 9,
+    "state_uses": 9,
+    "certification_calls": 1764,
+    "max_endpoint_bits": 239,
+    "tolerance_met": false,
+    "all_partitions_exact": false,
+    "bounds": [
+      {
+        "lower": 443884876619801922661842263948902769178497582920787558400,
+        "upper": 2506242800888609558625143159434961644110337142819175530496
+      },
+      {
+        "lower": 397764448219604543637685128798109901147044995535994880,
+        "upper": 2441492627527464966659123865875909666251645617438720000
+      },
+      {
+        "lower": 7858924745869684973321766389334340179640136666972160000,
+        "upper": 45157742377495392755573519394757790443470950089359360000
+      },
+      {
+        "lower": 363118376896604693340175657604057553764995298859417600,
+        "upper": 25790760749456607045032159714106132271506659878109184000
+      },
+      {
+        "lower": 1467663068827971138231004493885579009260871192397899366400,
+        "upper": 87855932587722592170281780093643736398823499579076378624000
+      },
+      {
+        "lower": 610244736193749850796694295476185677261569917473259520,
+        "upper": 44763982683436299654464587657014136525688248668530933760
+      },
+      {
+        "lower": 979298579229915570470024418596335922038649479401308160000,
+        "upper": 5731616580839100622262841990809291182545056328151203840000
+      },
+      {
+        "lower": 92063124072208775523997806620507058364340214127656960000,
+        "upper": 547643772057942201351978514716486387308691938378514432000
+      },
+      {
+        "lower": 16493345516841420406929916700671475505966287911334707200,
+        "upper": 97731326757119230802527033498552999184792643366499123200
+      }
+    ],
+    "case": "independent_dense12",
+    "seconds": 0.95369425,
+    "input": {
+      "unique_states": 9,
+      "state_uses": 9,
+      "binary_variables_per_state": 12,
+      "factor_entries": 2592,
+      "coefficient_bits": 4,
+      "coefficient_bits_sum": 7148,
+      "auxiliary_variables": 0
+    },
+    "repetition": 2
+  },
+  {
+    "method": "fixed",
+    "status": "certified_top1",
+    "winner": "A",
+    "expansions": 20000,
+    "bound_evaluations": 40009,
+    "exact_leaf_evaluations": 10872,
+    "resolved_assignments": 10872,
+    "unique_states": 9,
+    "state_uses": 9,
+    "certification_calls": 2,
+    "max_endpoint_bits": 239,
+    "tolerance_met": false,
+    "all_partitions_exact": false,
+    "bounds": [
+      {
+        "lower": 449688593945774609881622535414222510774039187323868938240,
+        "upper": 461744850644688754236513780400038467751181076428631310336
+      },
+      {
+        "lower": 412811214499668673484395723267392639237481667053486080,
+        "upper": 423217161164201829798846545746421814220506636327321600
+      },
+      {
+        "lower": 7971028766780443485175275955086499457184626500435968000,
+        "upper": 8185673928099693213186268014420004239786933045166080000
+      },
+      {
+        "lower": 473738458900317693590735206602494386058742581113651200,
+        "upper": 486460658104937249338754407813198943443544633769984000
+      },
+      {
+        "lower": 2184214989287133584448620724429532829754427202610187468800,
+        "upper": 2242232434619621650571146065200931541941979547033193676800
+      },
+      {
+        "lower": 994732997659156138836200498655605268029800275781877760,
+        "upper": 1021522854680178775616891643837958074463727565888552960
+      },
+      {
+        "lower": 1029584141821532377286997394407559079946388866544435200000,
+        "upper": 1056974561573422149292678224296410858032810130384355328000
+      },
+      {
+        "lower": 101445722822448519239305915084644193996909276299264000000,
+        "upper": 104088838093487471496018203259346832959951865552830464000
+      },
+      {
+        "lower": 17590025996126913159064756654671048136662011341071974400,
+        "upper": 18063968383092582201693880138679123305503583380072038400
+      }
+    ],
+    "case": "independent_dense12",
+    "seconds": 1.498650083,
+    "input": {
+      "unique_states": 9,
+      "state_uses": 9,
+      "binary_variables_per_state": 12,
+      "factor_entries": 2592,
+      "coefficient_bits": 4,
+      "coefficient_bits_sum": 7148,
+      "auxiliary_variables": 0
+    },
+    "repetition": 2
+  },
+  {
+    "method": "adaptive",
+    "status": "certified_top1",
+    "winner": "C",
+    "expansions": 944,
+    "bound_evaluations": 1892,
+    "exact_leaf_evaluations": 872,
+    "resolved_assignments": 872,
+    "unique_states": 4,
+    "state_uses": 9,
+    "certification_calls": 184,
+    "max_endpoint_bits": 76,
+    "tolerance_met": true,
+    "all_partitions_exact": false,
+    "bounds": [
+      {
+        "lower": 213563380351248000000,
+        "upper": 213563403562608000000
+      },
+      {
+        "lower": 213563380351248,
+        "upper": 213563403562608
+      },
+      {
+        "lower": 213563593914628351248,
+        "upper": 213563617126011562608
+      },
+      {
+        "lower": 213563769686573119776,
+        "upper": 213563944063721873376
+      }
+    ],
+    "case": "near_tie8",
+    "seconds": 0.018919125,
+    "input": {
+      "unique_states": 4,
+      "state_uses": 9,
+      "binary_variables_per_state": 8,
+      "factor_entries": 180,
+      "coefficient_bits": 20,
+      "coefficient_bits_sum": 501,
+      "auxiliary_variables": 0
+    },
+    "repetition": 0
+  },
+  {
+    "method": "fixed",
+    "status": "unresolved",
+    "winner": null,
+    "expansions": 256,
+    "bound_evaluations": 516,
+    "exact_leaf_evaluations": 80,
+    "resolved_assignments": 80,
+    "unique_states": 4,
+    "state_uses": 9,
+    "certification_calls": 3,
+    "max_endpoint_bits": 76,
+    "tolerance_met": true,
+    "all_partitions_exact": false,
+    "bounds": [
+      {
+        "lower": 213354853848864000000,
+        "upper": 214513175077344000000
+      },
+      {
+        "lower": 213354853848864,
+        "upper": 214513175077344
+      },
+      {
+        "lower": 213355067203717848864,
+        "upper": 214513389590519077344
+      },
+      {
+        "lower": 213355280558571697728,
+        "upper": 214513604103694154688
+      }
+    ],
+    "case": "near_tie8",
+    "seconds": 0.003684083,
+    "input": {
+      "unique_states": 4,
+      "state_uses": 9,
+      "binary_variables_per_state": 8,
+      "factor_entries": 180,
+      "coefficient_bits": 20,
+      "coefficient_bits_sum": 501,
+      "auxiliary_variables": 0
+    },
+    "repetition": 0
+  },
+  {
+    "method": "ve",
+    "status": "certified_top1",
+    "winner": "C",
+    "unique_states": 4,
+    "work": 336,
+    "max_endpoint_bits": 68,
+    "case": "near_tie8",
+    "seconds": 0.000539167,
+    "input": {
+      "unique_states": 4,
+      "state_uses": 9,
+      "binary_variables_per_state": 8,
+      "factor_entries": 180,
+      "coefficient_bits": 20,
+      "coefficient_bits_sum": 501,
+      "auxiliary_variables": 0
+    },
+    "repetition": 0
+  },
+  {
+    "method": "enumeration",
+    "status": "certified_top1",
+    "winner": "C",
+    "unique_states": 4,
+    "work": 1024,
+    "max_endpoint_bits": 68,
+    "case": "near_tie8",
+    "seconds": 0.002450292,
+    "input": {
+      "unique_states": 4,
+      "state_uses": 9,
+      "binary_variables_per_state": 8,
+      "factor_entries": 180,
+      "coefficient_bits": 20,
+      "coefficient_bits_sum": 501,
+      "auxiliary_variables": 0
+    },
+    "repetition": 0
+  },
+  {
+    "method": "fixed",
+    "status": "unresolved",
+    "winner": null,
+    "expansions": 256,
+    "bound_evaluations": 516,
+    "exact_leaf_evaluations": 80,
+    "resolved_assignments": 80,
+    "unique_states": 4,
+    "state_uses": 9,
+    "certification_calls": 3,
+    "max_endpoint_bits": 76,
+    "tolerance_met": true,
+    "all_partitions_exact": false,
+    "bounds": [
+      {
+        "lower": 213354853848864000000,
+        "upper": 214513175077344000000
+      },
+      {
+        "lower": 213354853848864,
+        "upper": 214513175077344
+      },
+      {
+        "lower": 213355067203717848864,
+        "upper": 214513389590519077344
+      },
+      {
+        "lower": 213355280558571697728,
+        "upper": 214513604103694154688
+      }
+    ],
+    "case": "near_tie8",
+    "seconds": 0.003584125,
+    "input": {
+      "unique_states": 4,
+      "state_uses": 9,
+      "binary_variables_per_state": 8,
+      "factor_entries": 180,
+      "coefficient_bits": 20,
+      "coefficient_bits_sum": 501,
+      "auxiliary_variables": 0
+    },
+    "repetition": 1
+  },
+  {
+    "method": "ve",
+    "status": "certified_top1",
+    "winner": "C",
+    "unique_states": 4,
+    "work": 336,
+    "max_endpoint_bits": 68,
+    "case": "near_tie8",
+    "seconds": 0.000497834,
+    "input": {
+      "unique_states": 4,
+      "state_uses": 9,
+      "binary_variables_per_state": 8,
+      "factor_entries": 180,
+      "coefficient_bits": 20,
+      "coefficient_bits_sum": 501,
+      "auxiliary_variables": 0
+    },
+    "repetition": 1
+  },
+  {
+    "method": "enumeration",
+    "status": "certified_top1",
+    "winner": "C",
+    "unique_states": 4,
+    "work": 1024,
+    "max_endpoint_bits": 68,
+    "case": "near_tie8",
+    "seconds": 0.002493333,
+    "input": {
+      "unique_states": 4,
+      "state_uses": 9,
+      "binary_variables_per_state": 8,
+      "factor_entries": 180,
+      "coefficient_bits": 20,
+      "coefficient_bits_sum": 501,
+      "auxiliary_variables": 0
+    },
+    "repetition": 1
+  },
+  {
+    "method": "adaptive",
+    "status": "certified_top1",
+    "winner": "C",
+    "expansions": 944,
+    "bound_evaluations": 1892,
+    "exact_leaf_evaluations": 872,
+    "resolved_assignments": 872,
+    "unique_states": 4,
+    "state_uses": 9,
+    "certification_calls": 184,
+    "max_endpoint_bits": 76,
+    "tolerance_met": true,
+    "all_partitions_exact": false,
+    "bounds": [
+      {
+        "lower": 213563380351248000000,
+        "upper": 213563403562608000000
+      },
+      {
+        "lower": 213563380351248,
+        "upper": 213563403562608
+      },
+      {
+        "lower": 213563593914628351248,
+        "upper": 213563617126011562608
+      },
+      {
+        "lower": 213563769686573119776,
+        "upper": 213563944063721873376
+      }
+    ],
+    "case": "near_tie8",
+    "seconds": 0.019937667,
+    "input": {
+      "unique_states": 4,
+      "state_uses": 9,
+      "binary_variables_per_state": 8,
+      "factor_entries": 180,
+      "coefficient_bits": 20,
+      "coefficient_bits_sum": 501,
+      "auxiliary_variables": 0
+    },
+    "repetition": 1
+  },
+  {
+    "method": "ve",
+    "status": "certified_top1",
+    "winner": "C",
+    "unique_states": 4,
+    "work": 336,
+    "max_endpoint_bits": 68,
+    "case": "near_tie8",
+    "seconds": 0.000517833,
+    "input": {
+      "unique_states": 4,
+      "state_uses": 9,
+      "binary_variables_per_state": 8,
+      "factor_entries": 180,
+      "coefficient_bits": 20,
+      "coefficient_bits_sum": 501,
+      "auxiliary_variables": 0
+    },
+    "repetition": 2
+  },
+  {
+    "method": "enumeration",
+    "status": "certified_top1",
+    "winner": "C",
+    "unique_states": 4,
+    "work": 1024,
+    "max_endpoint_bits": 68,
+    "case": "near_tie8",
+    "seconds": 0.003941208,
+    "input": {
+      "unique_states": 4,
+      "state_uses": 9,
+      "binary_variables_per_state": 8,
+      "factor_entries": 180,
+      "coefficient_bits": 20,
+      "coefficient_bits_sum": 501,
+      "auxiliary_variables": 0
+    },
+    "repetition": 2
+  },
+  {
+    "method": "adaptive",
+    "status": "certified_top1",
+    "winner": "C",
+    "expansions": 944,
+    "bound_evaluations": 1892,
+    "exact_leaf_evaluations": 872,
+    "resolved_assignments": 872,
+    "unique_states": 4,
+    "state_uses": 9,
+    "certification_calls": 184,
+    "max_endpoint_bits": 76,
+    "tolerance_met": true,
+    "all_partitions_exact": false,
+    "bounds": [
+      {
+        "lower": 213563380351248000000,
+        "upper": 213563403562608000000
+      },
+      {
+        "lower": 213563380351248,
+        "upper": 213563403562608
+      },
+      {
+        "lower": 213563593914628351248,
+        "upper": 213563617126011562608
+      },
+      {
+        "lower": 213563769686573119776,
+        "upper": 213563944063721873376
+      }
+    ],
+    "case": "near_tie8",
+    "seconds": 0.019560334,
+    "input": {
+      "unique_states": 4,
+      "state_uses": 9,
+      "binary_variables_per_state": 8,
+      "factor_entries": 180,
+      "coefficient_bits": 20,
+      "coefficient_bits_sum": 501,
+      "auxiliary_variables": 0
+    },
+    "repetition": 2
+  },
+  {
+    "method": "fixed",
+    "status": "unresolved",
+    "winner": null,
+    "expansions": 256,
+    "bound_evaluations": 516,
+    "exact_leaf_evaluations": 80,
+    "resolved_assignments": 80,
+    "unique_states": 4,
+    "state_uses": 9,
+    "certification_calls": 3,
+    "max_endpoint_bits": 76,
+    "tolerance_met": true,
+    "all_partitions_exact": false,
+    "bounds": [
+      {
+        "lower": 213354853848864000000,
+        "upper": 214513175077344000000
+      },
+      {
+        "lower": 213354853848864,
+        "upper": 214513175077344
+      },
+      {
+        "lower": 213355067203717848864,
+        "upper": 214513389590519077344
+      },
+      {
+        "lower": 213355280558571697728,
+        "upper": 214513604103694154688
+      }
+    ],
+    "case": "near_tie8",
+    "seconds": 0.003719125,
+    "input": {
+      "unique_states": 4,
+      "state_uses": 9,
+      "binary_variables_per_state": 8,
+      "factor_entries": 180,
+      "coefficient_bits": 20,
+      "coefficient_bits_sum": 501,
+      "auxiliary_variables": 0
+    },
+    "repetition": 2
+  },
+  {
+    "method": "adaptive",
+    "status": "exact_top_tie",
+    "winner": null,
+    "expansions": 255,
+    "bound_evaluations": 511,
+    "exact_leaf_evaluations": 256,
+    "resolved_assignments": 256,
+    "unique_states": 1,
+    "state_uses": 9,
+    "certification_calls": 51,
+    "max_endpoint_bits": 56,
+    "tolerance_met": true,
+    "all_partitions_exact": true,
+    "bounds": [
+      {
+        "lower": 213563384352000,
+        "upper": 213563384352000
+      }
+    ],
+    "case": "exact_tie8",
+    "seconds": 0.004201958,
+    "input": {
+      "unique_states": 1,
+      "state_uses": 9,
+      "binary_variables_per_state": 8,
+      "factor_entries": 45,
+      "coefficient_bits": 4,
+      "coefficient_bits_sum": 111,
+      "auxiliary_variables": 0
+    },
+    "repetition": 0
+  },
+  {
+    "method": "fixed",
+    "status": "unresolved",
+    "winner": null,
+    "expansions": 64,
+    "bound_evaluations": 129,
+    "exact_leaf_evaluations": 20,
+    "resolved_assignments": 20,
+    "unique_states": 1,
+    "state_uses": 9,
+    "certification_calls": 3,
+    "max_endpoint_bits": 56,
+    "tolerance_met": true,
+    "all_partitions_exact": false,
+    "bounds": [
+      {
+        "lower": 213354853848864,
+        "upper": 214513175077344
+      }
+    ],
+    "case": "exact_tie8",
+    "seconds": 0.000887459,
+    "input": {
+      "unique_states": 1,
+      "state_uses": 9,
+      "binary_variables_per_state": 8,
+      "factor_entries": 45,
+      "coefficient_bits": 4,
+      "coefficient_bits_sum": 111,
+      "auxiliary_variables": 0
+    },
+    "repetition": 0
+  },
+  {
+    "method": "ve",
+    "status": "exact_top_tie",
+    "winner": null,
+    "unique_states": 1,
+    "work": 84,
+    "max_endpoint_bits": 48,
+    "case": "exact_tie8",
+    "seconds": 0.0001795,
+    "input": {
+      "unique_states": 1,
+      "state_uses": 9,
+      "binary_variables_per_state": 8,
+      "factor_entries": 45,
+      "coefficient_bits": 4,
+      "coefficient_bits_sum": 111,
+      "auxiliary_variables": 0
+    },
+    "repetition": 0
+  },
+  {
+    "method": "enumeration",
+    "status": "exact_top_tie",
+    "winner": null,
+    "unique_states": 1,
+    "work": 256,
+    "max_endpoint_bits": 48,
+    "case": "exact_tie8",
+    "seconds": 0.000649875,
+    "input": {
+      "unique_states": 1,
+      "state_uses": 9,
+      "binary_variables_per_state": 8,
+      "factor_entries": 45,
+      "coefficient_bits": 4,
+      "coefficient_bits_sum": 111,
+      "auxiliary_variables": 0
+    },
+    "repetition": 0
+  },
+  {
+    "method": "fixed",
+    "status": "unresolved",
+    "winner": null,
+    "expansions": 64,
+    "bound_evaluations": 129,
+    "exact_leaf_evaluations": 20,
+    "resolved_assignments": 20,
+    "unique_states": 1,
+    "state_uses": 9,
+    "certification_calls": 3,
+    "max_endpoint_bits": 56,
+    "tolerance_met": true,
+    "all_partitions_exact": false,
+    "bounds": [
+      {
+        "lower": 213354853848864,
+        "upper": 214513175077344
+      }
+    ],
+    "case": "exact_tie8",
+    "seconds": 0.000810875,
+    "input": {
+      "unique_states": 1,
+      "state_uses": 9,
+      "binary_variables_per_state": 8,
+      "factor_entries": 45,
+      "coefficient_bits": 4,
+      "coefficient_bits_sum": 111,
+      "auxiliary_variables": 0
+    },
+    "repetition": 1
+  },
+  {
+    "method": "ve",
+    "status": "exact_top_tie",
+    "winner": null,
+    "unique_states": 1,
+    "work": 84,
+    "max_endpoint_bits": 48,
+    "case": "exact_tie8",
+    "seconds": 0.00017525,
+    "input": {
+      "unique_states": 1,
+      "state_uses": 9,
+      "binary_variables_per_state": 8,
+      "factor_entries": 45,
+      "coefficient_bits": 4,
+      "coefficient_bits_sum": 111,
+      "auxiliary_variables": 0
+    },
+    "repetition": 1
+  },
+  {
+    "method": "enumeration",
+    "status": "exact_top_tie",
+    "winner": null,
+    "unique_states": 1,
+    "work": 256,
+    "max_endpoint_bits": 48,
+    "case": "exact_tie8",
+    "seconds": 0.000649458,
+    "input": {
+      "unique_states": 1,
+      "state_uses": 9,
+      "binary_variables_per_state": 8,
+      "factor_entries": 45,
+      "coefficient_bits": 4,
+      "coefficient_bits_sum": 111,
+      "auxiliary_variables": 0
+    },
+    "repetition": 1
+  },
+  {
+    "method": "adaptive",
+    "status": "exact_top_tie",
+    "winner": null,
+    "expansions": 255,
+    "bound_evaluations": 511,
+    "exact_leaf_evaluations": 256,
+    "resolved_assignments": 256,
+    "unique_states": 1,
+    "state_uses": 9,
+    "certification_calls": 51,
+    "max_endpoint_bits": 56,
+    "tolerance_met": true,
+    "all_partitions_exact": true,
+    "bounds": [
+      {
+        "lower": 213563384352000,
+        "upper": 213563384352000
+      }
+    ],
+    "case": "exact_tie8",
+    "seconds": 0.00424875,
+    "input": {
+      "unique_states": 1,
+      "state_uses": 9,
+      "binary_variables_per_state": 8,
+      "factor_entries": 45,
+      "coefficient_bits": 4,
+      "coefficient_bits_sum": 111,
+      "auxiliary_variables": 0
+    },
+    "repetition": 1
+  },
+  {
+    "method": "ve",
+    "status": "exact_top_tie",
+    "winner": null,
+    "unique_states": 1,
+    "work": 84,
+    "max_endpoint_bits": 48,
+    "case": "exact_tie8",
+    "seconds": 0.000192833,
+    "input": {
+      "unique_states": 1,
+      "state_uses": 9,
+      "binary_variables_per_state": 8,
+      "factor_entries": 45,
+      "coefficient_bits": 4,
+      "coefficient_bits_sum": 111,
+      "auxiliary_variables": 0
+    },
+    "repetition": 2
+  },
+  {
+    "method": "enumeration",
+    "status": "exact_top_tie",
+    "winner": null,
+    "unique_states": 1,
+    "work": 256,
+    "max_endpoint_bits": 48,
+    "case": "exact_tie8",
+    "seconds": 0.000741166,
+    "input": {
+      "unique_states": 1,
+      "state_uses": 9,
+      "binary_variables_per_state": 8,
+      "factor_entries": 45,
+      "coefficient_bits": 4,
+      "coefficient_bits_sum": 111,
+      "auxiliary_variables": 0
+    },
+    "repetition": 2
+  },
+  {
+    "method": "adaptive",
+    "status": "exact_top_tie",
+    "winner": null,
+    "expansions": 255,
+    "bound_evaluations": 511,
+    "exact_leaf_evaluations": 256,
+    "resolved_assignments": 256,
+    "unique_states": 1,
+    "state_uses": 9,
+    "certification_calls": 51,
+    "max_endpoint_bits": 56,
+    "tolerance_met": true,
+    "all_partitions_exact": true,
+    "bounds": [
+      {
+        "lower": 213563384352000,
+        "upper": 213563384352000
+      }
+    ],
+    "case": "exact_tie8",
+    "seconds": 0.004313666,
+    "input": {
+      "unique_states": 1,
+      "state_uses": 9,
+      "binary_variables_per_state": 8,
+      "factor_entries": 45,
+      "coefficient_bits": 4,
+      "coefficient_bits_sum": 111,
+      "auxiliary_variables": 0
+    },
+    "repetition": 2
+  },
+  {
+    "method": "fixed",
+    "status": "unresolved",
+    "winner": null,
+    "expansions": 64,
+    "bound_evaluations": 129,
+    "exact_leaf_evaluations": 20,
+    "resolved_assignments": 20,
+    "unique_states": 1,
+    "state_uses": 9,
+    "certification_calls": 3,
+    "max_endpoint_bits": 56,
+    "tolerance_met": true,
+    "all_partitions_exact": false,
+    "bounds": [
+      {
+        "lower": 213354853848864,
+        "upper": 214513175077344
+      }
+    ],
+    "case": "exact_tie8",
+    "seconds": 0.000852459,
+    "input": {
+      "unique_states": 1,
+      "state_uses": 9,
+      "binary_variables_per_state": 8,
+      "factor_entries": 45,
+      "coefficient_bits": 4,
+      "coefficient_bits_sum": 111,
+      "auxiliary_variables": 0
+    },
+    "repetition": 2
+  }
+]

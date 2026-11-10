@@ -1,0 +1,5 @@
+# Preserve the measured CSV bytes across Git line-ending settings.
+experiments/certified_rank6/results/RESULTS.csv -text whitespace=cr-at-eol
+experiments/certified_rank6/results/WITNESSES.csv -text whitespace=cr-at-eol
+experiments/certified_rank6/results-v2/RESULTS.csv -text whitespace=cr-at-eol
+experiments/certified_rank6/results-v2/WITNESSES.csv -text whitespace=cr-at-eol
