@@ -1,5 +1,9 @@
 # ETH, finite-scale checks and remaining research lanes
 
+**Closeout, 2026-11-11:** active work has stopped. The possibilities below are
+retained as feasibility notes, not a continuing research plan. See
+[CONCLUSION.md](../CONCLUSION.md) for the decision and evidence required to reopen.
+
 On 2026-11-11, the [external continuation gate](../CAMPAIGN-008.md) failed for the
 4,096-expansion prefix configuration. The checked certificates were valid but
 resolved no external ordering. Preserve the verifier and archive that configuration
@@ -10,10 +14,10 @@ Follow-up on the same date: [campaign 006](../CAMPAIGN-006.md) has now implement
 the certified adaptive-stopping gate described below. It proves the integer rank
 checker and tests actual enclosing bounds on a frozen synthetic panel. Three
 nontrivial cases save refinement work and time against the fixed-precision policy;
-native exact VE remains faster in every nontrivial case. The remaining lane is a
-faster producer plus external held-out grading, rather than enlarging this prefix
-enumerator. Physical Boltzmann-weight certification and assay validation remain
-open. [BENCHMARK.md](../BENCHMARK.md) defines the measured question and scoring.
+native exact VE remains faster in every nontrivial case. A faster producer and
+external grading would need new evidence before reopening. Physical
+Boltzmann-weight certification and assay validation were not completed.
+[BENCHMARK.md](../BENCHMARK.md) defines the measured question and scoring.
 
 Checked 2026-11-10. This note explains the archive's scope and adds small deterministic arithmetic checks. It does not rerun protein experiments, rebuild Lean or independently certify the theorem. The bulk data remains in the release rather than on the local working machine.
 
@@ -57,7 +61,10 @@ A WT-normalized three-state effect contains six signed log partitions. If every 
 
 Campaign 005's reported smaller reversed-order gap is about 0.0371, while actual numerical errors were around 1e-14. That supports investigating ranking-aware precision as an engineering question. It does not show that a loose-tolerance method is faster, that the current floating endpoints are rigorous enclosures, or that computational ranking accuracy implies biological accuracy.
 
-## What would make each open lane worth pursuing
+## Historical research gates
+
+These gates were considered during exploration. None is an active task after
+closeout; the final README records their disposition.
 
 1. **Extract a useful algebraic primitive.** Start with tiny rational-weight factor graphs and an independently verified layout. Account for every measurement tuple, finite-difference term, polynomial coefficient and bit operation. Advance only if explicit finite costs compete with VE/enumeration on the same target. A changed layout needs its own correctness argument; an informal sparsity analogy is insufficient.
 2. **Audit the weighted representation.** Measure encoded variables, auxiliary assignments, width, density, coefficient bit lengths and precision after conversion. Compare a direct product-sum adapter with an encoding to a counting solver. Stop if the reduction dominates or loses the required rank-error guarantee. The protein objective additionally involves three states and sequence-dependent normalization.
@@ -65,7 +72,10 @@ Campaign 005's reported smaller reversed-order gap is about 0.0371, while actual
 4. **Validate the physical model.** Prepare the same sequence backgrounds, nucleotide/metal state, conformational model and assay conditions as the measurements. Then use held-out comparisons against same-model GMEC. Additional counting precision cannot correct a wrong molecular target. Larger flexible ensembles become scientifically useful only with this validation chain.
 5. **Buy compute after profiling a validated finite routine.** Larger memory, batching or parallelism may help conventional hard cases, but this project supplies no evidence that a hardware upgrade activates the ETH proof's asymptotic advantage. Require an explicit cost forecast and a useful accuracy/coverage endpoint first.
 
-These are research gates, not promises of an eventual speedup. The clearest practical next work is a ranking-aware same-target comparison or assay-matched preparation; extracting finite-size benefits from the ETH proof remains more speculative.
+The ranking-aware same-target comparison was subsequently tested in campaigns
+006 and 008 without establishing a solver advantage. Assay-matched preparation
+would be a separate biological project. Extracting finite-size benefits from the
+ETH proof remains speculative; no such implementation was benchmarked here.
 
 Source links are pinned to the inspected OpenAI repository revision. No complete third-party paper, bulk source dataset or formal proof is copied into this update.
 

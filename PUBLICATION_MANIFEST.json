@@ -43,8 +43,8 @@
       "path": "BENCHMARK.md",
       "storage": "git",
       "original_sha256": null,
-      "sha256": "dfa882332587fd1444fec8f59cded135c5744fe94307f9d224edd3894f4792a6",
-      "bytes": 6415,
+      "sha256": "67eda153f578f119a75b3f249e66e2c3897097315890e7e9050c27d9f9f7c6f8",
+      "bytes": 6677,
       "metadata_redacted": false,
       "publication_addition": true,
       "followup_addition": "2026-11-10: separately sealed campaign-006 synthetic experiment, formal checks, independent grading and external-grader source review.",
@@ -116,6 +116,15 @@
       "followup_addition": "2026-11-11: campaign-008 external source metadata, native baseline/checker adapters, sealed measurement records, independent audits and documentation. No upstream CNF or full certificate payloads mirrored."
     },
     {
+      "path": "CONCLUSION.md",
+      "storage": "git",
+      "original_sha256": null,
+      "metadata_redacted": false,
+      "publication_addition": true,
+      "sha256": "d6e117de291d3cc78b006dfa972e4a0e359973c914987f702914e14d899c107c",
+      "bytes": 5677
+    },
+    {
       "path": "DATA_RELEASE.json",
       "storage": "git",
       "original_sha256": null,
@@ -146,8 +155,8 @@
       "path": "PUBLICATION.md",
       "storage": "git",
       "original_sha256": null,
-      "sha256": "9db665910ebf4eda592d5259217897511ffed767d8058f5d2a12ae58f1605e76",
-      "bytes": 3615,
+      "sha256": "aaded2a59f0e5aa3c34f5b08f70f7c21098d36426ed809b49580a5d3df137b8a",
+      "bytes": 3814,
       "metadata_redacted": false,
       "publication_addition": true,
       "followup_edit": "2026-11-10: ETH explanation/open-lane check documentation; scientific campaign implementations and bulk data unchanged.",
@@ -160,8 +169,8 @@
       "path": "README.md",
       "storage": "git",
       "original_sha256": "8f7761ea3e667c1b02ed7e1d04c2ee17437e7c29d6da3ba0c617b6e54bfd0448",
-      "sha256": "8fc083d70b8c07997fa2bcd964bcf3859494f2f1c3a8dfe4af0e9f1ef73f634e",
-      "bytes": 11481,
+      "sha256": "e4ac4c04beb19c646ad50b0ce54652dc583a175381e57f879e5acfbfc1ecc28b",
+      "bytes": 11420,
       "metadata_redacted": true,
       "publication_edit": "Public README, agent guidance or ignore rules rewritten; scientific implementation unchanged.",
       "followup_edit": "2026-11-10: ETH explanation/open-lane check documentation; scientific campaign implementations and bulk data unchanged.",
@@ -3317,8 +3326,8 @@
       "path": "notes/ETH_AND_OPEN_LANES.md",
       "storage": "git",
       "original_sha256": null,
-      "sha256": "83c0a2b801370b8369a260795970f489d800fc30b4f106cfba63b3a687081767",
-      "bytes": 10222,
+      "sha256": "8e1a3b670910c1f5dd85b7f89e44acfdc748d756226dacfc855d0f31af6ce62c",
+      "bytes": 10604,
       "metadata_redacted": false,
       "publication_addition": true,
       "followup_addition": "2026-11-10: bounded arithmetic/source review, not a new solver experiment.",
@@ -76966,7 +76975,7 @@
   ],
   "omitted_artifacts": 377,
   "metadata_redacted_file_count": 2428,
-  "exported_file_bytes": 382154370,
+  "exported_file_bytes": 382160829,
   "followup": {
     "date": "2026-11-10",
     "scope": "README explanation and bounded open-lane arithmetic checks",
@@ -77112,6 +77121,21 @@
       "grader/campaign-008/audit_inputs.py",
       "grader/campaign-008/audit_results.py",
       "grader/campaign-008/oracle.py"
+    ]
+  },
+  "closeout_followup": {
+    "date": "2026-11-11",
+    "scope": "Completed exploratory project; stopping decision and guide status only",
+    "bulk_data_unchanged": true,
+    "implementations_proofs_protocols_measurements_and_source_seals_unchanged": true,
+    "updated_git_files": [
+      "BENCHMARK.md",
+      "PUBLICATION.md",
+      "README.md",
+      "notes/ETH_AND_OPEN_LANES.md"
+    ],
+    "added_git_files": [
+      "CONCLUSION.md"
     ]
   }
 }

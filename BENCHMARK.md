@@ -1,5 +1,9 @@
 # What the benchmark measures
 
+**Project closed on 2026-11-11.** These are completed, frozen studies and a
+record of evaluator requirements. No optimization campaign or integration is
+scheduled. See [the final decision](CONCLUSION.md).
+
 There are two separately frozen performance studies. [Campaign 008](CAMPAIGN-008.md)
 is the completed external continuation gate: six normalized count-ordering queries
 from MC2026, with native verification costs charged and Ganak as a strong exact
@@ -61,7 +65,7 @@ work gate requires at least two other solved cases with at most half the fixed
 method's expansions and 80% of its median time. A solver-speedup claim additionally
 requires beating exact VE on those same cases.
 
-## Using this in a discovery loop
+## Requirements for a separate discovery-loop project
 
 The current harness is a reproducible experiment, not an external competition
 grader or a protected leaderboard. Its eight public cases and local source are
@@ -100,4 +104,5 @@ No reviewed tool is a turnkey grader for the full three-state affinity task.
 
 The subsequent campaign-008 gate used unweighted Track 1 inputs to keep its adapter
 within the existing integer proof. It is a completed narrow negative result;
-weighted/projection extensions and biological validation remain proposed work.
+weighted/projection extensions and biological validation were not completed and
+are not scheduled in this project.

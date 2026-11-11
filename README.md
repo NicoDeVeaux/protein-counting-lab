@@ -1,14 +1,20 @@
 # Protein counting experiments
 
+**Status: exploratory work completed; active research stopped on 2026-11-11.**
+We found no demonstrated solver speedup or improvement in biological prediction
+that warrants another campaign. The Lean-checked partition-bound certificates are
+retained as a reusable prototype. [CONCLUSION.md](CONCLUSION.md) records the final
+decision, evidence, limits and conditions for reopening.
+
 Exploratory experiments on discrete protein design: partition functions, ensemble affinity scores, exact preprocessing, numerical references, and independent grading. This repository preserves local CPU campaigns, verified checks and negative findings.
 
 The latest biological study uses full-precision rigid energy matrices from the published c-Raf/Ras archive. All 78 state calculations for 13 admitted variants pass independent high-precision references. Ensemble counting reverses two pairwise variant rankings and changes no mutation-effect directions. A small model-transfer comparison does not establish improved biological prediction.
 
-The new [campaign 006](CAMPAIGN-006.md) tests certified adaptive ranking on small synthetic integer models. Lean checks the ranking arithmetic; TLC checks a bounded cache model. Adaptive stopping reduces work on three nontrivial cases, while exact variable elimination remains faster on every nontrivial case. [BENCHMARK.md](BENCHMARK.md) explains the task, scoring, baselines and requirements for a discovery loop.
+[Campaign 006](CAMPAIGN-006.md) tests certified adaptive ranking on small synthetic integer models. Lean checks the ranking arithmetic; TLC checks a bounded cache model. Adaptive stopping reduces work on three nontrivial cases, while exact variable elimination remains faster on every nontrivial case. [BENCHMARK.md](BENCHMARK.md) explains the task, scoring, baselines and requirements for a discovery loop.
 
 [Campaign 007](CAMPAIGN-007.md) strengthens that certificate path: Lean now recomputes and proves the partition-bound construction from a model and binary split certificate. The Python table translation remains independently tested rather than proved. This is a verification follow-up, with no new speedup claim.
 
-The [external continuation gate, campaign 008](CAMPAIGN-008.md), failed: the 4,096-expansion configuration resolved none of six MC2026 probability-ordering queries. Native Ganak resolved two; four timed out. The verified checker worked, but the bounds were too weak. This configuration is archived as a prototype; a full-time-budget or stronger-producer comparison remains unmeasured.
+The [external continuation gate, campaign 008](CAMPAIGN-008.md), failed: the 4,096-expansion configuration resolved none of six MC2026 probability-ordering queries. Native Ganak resolved two; four timed out. The verified checker worked, but the bounds were too weak. A full-time-budget or stronger-producer comparison remains unmeasured; neither is scheduled.
 
 | Study | Result |
 |---|---|
@@ -36,21 +42,28 @@ The released [manuscript](https://github.com/openai/math/blob/4eaee87548250b2682
 
 The current explanation is an implementation, finite-scale and model-validation gap. Better constructions or extracted subroutines remain possible. [Detailed checks and qualifications](notes/ETH_AND_OPEN_LANES.md) include reproducible arithmetic checks without downloading the bulk data.
 
-## Lanes left open
+## Disposition of the research lanes
 
-Checked on 2026-11-10; these assessments distinguish completed work from proposed experiments.
+Closed out on 2026-11-11. Mathematical possibilities remain, but there is no active
+follow-up campaign. These are evidence requirements for reconsideration, not a
+backlog.
 
-| Lane | Evidence and current assessment | Next useful gate |
+| Lane | Evidence and disposition | Evidence needed to reconsider |
 |---|---|---|
-| Literal proof schedules plus larger hardware | Poor practical starting point: old Section 4 and new appendix parameter checks fail at realistic sizes. This says nothing universal about other implementations. | Derive an explicit finite operation/bit-memory budget before implementing a full counter. |
-| Instance-specific layouts or simplified algebraic subroutines | Mathematically open: the paper exposes a general product-sum routine. No practical gain demonstrated here. | Construct and verify a small layout, bound every interpolation/measurement cost, and compare with same-target VE before expanding. |
-| Weighted encoding and precision | Campaign 006 uses exact integer intervals and proves the ratio comparison. Its table coefficients need at most 20 bits; initial partition bounds need at most 239 bits. This is not a physical-weight or CNF adapter. | Produce certified Boltzmann-weight intervals and count reduction auxiliaries and intermediate coefficient costs. |
-| Structure, shared-state reuse and certified rank-aware stopping | Synthetic refinement savings and a checked construction are real, but campaign 008 resolves 0/6 external queries at 4,096 expansions. | Archive this configuration as-is. A stronger producer or separately frozen larger-budget study would need new evidence, including checking costs. |
-| Assay-matched energies and flexibility | Highest priority for biological usefulness: campaign 005 changes two model orders but has no matched-assay validation or established biological winner. | Prepare the measured molecular system, freeze model/assay identities, and compare ensemble versus same-model GMEC on held-out measurements. |
+| Literal proof schedules plus larger hardware | Stop: audited Section 4 and appendix schedules are impractical at realistic sizes. This is not a universal barrier. | A different construction with a credible finite operation and memory budget. |
+| Instance-specific layouts or simplified algebraic subroutines | Stop: no practical gain demonstrated; mathematically open. | An independently checked finite routine competitive with same-target conventional inference. |
+| Weighted encoding and precision | Defer: exact integer bounds work, but physical-weight and reduction costs remain unestablished. | A concrete competitive solver that needs this adapter; an adapter alone would not establish a speedup. |
+| Structure, shared-state reuse and certified rank-aware stopping | Retain the checker; stop the current producer. Synthetic work savings did not beat exact VE; the external gate failed. | A materially stronger producer with useful external decisions and total costs, including verification, competitive with exact baselines. |
+| Assay-matched energies and flexibility | Close as a separate scientific dependency: two model-order reversals do not establish better affinity prediction. | An independently prepared matched molecular/assay benchmark and a committed biological collaborator. |
 
-The ETH parameter checks remain preconditions and error-budget arithmetic. Campaign 006 separately benchmarks conventional exact arithmetic and adaptive stopping. See [the checked roadmap](notes/ETH_AND_OPEN_LANES.md) for the earlier feasibility checks and [the benchmark guide](BENCHMARK.md) for the new engineering experiment.
+The ETH parameter checks remain preconditions and error-budget arithmetic. See
+[the feasibility notes](notes/ETH_AND_OPEN_LANES.md) and [benchmark guide](BENCHMARK.md)
+for the completed experiments and their scope.
 
-An independent [external-grader review](notes/EXTERNAL_GRADERS.md) recommends published weighted-counting instances plus an established exact-rational counter as the next computational gate. Biological validation needs a separate assay-matched evaluator. These are proposed external experiments, not completed results.
+The [external-grader review](notes/EXTERNAL_GRADERS.md) preserves other possible
+evaluators. Campaign 008 completed a narrower unweighted external gate within the
+existing integer proof. Weighted, projected and biological evaluations were not
+completed and are not pending work in this project.
 
 ## Code and data
 

@@ -6,6 +6,10 @@ The public Git repository contains original implementation/test code, research g
 
 The manifest on the main branch also tracks subsequent documented code/guide additions. The copy attached to the initial data release remains the snapshot for its Git tag. Campaign 006 adds separately sealed original code, formal checks and small synthetic measurements; campaign 007 adds checked bound construction; campaign 008 adds external input metadata and measured results. These additions live directly in Git. Campaign-008 upstream formulas, full converted certificates and solver/checker binaries are excluded; their source pointers and identities are retained. The earlier data archive and its per-file checksums remain unchanged; use the manifest from the same Git revision as the code being checked.
 
+The 2026-11-11 [project closeout](CONCLUSION.md) adds the stopping decision and
+updates guide status. It changes no implementation, proof, protocol, measured
+record, source seal or release payload.
+
 Local home paths, private policy breadcrumbs and query strings on signed download redirects were redacted in a separate export. No numerical scores or experimental outcomes were edited. The README, local agent guidance and ignore rules were rewritten for publication; their changes are identified in the manifest. New publication tooling and documentation are identified as publication additions. Source code implementing the scientific calculations otherwise remains unchanged.
 
 Copied upstream software, full papers/thesis extractions and sources without verified redistribution terms are excluded. Converted energy-table payloads from the UAI/INRAE inputs are also excluded: conversion alone does not establish a new license. The original source URLs, hashes and rebuild scripts are retained where available. `UPSTREAM_ARTIFACTS.json` records every omission, including artifacts that were generated or extracted and therefore have no direct download URL. Fetching an upstream file is an explicit opt-in local operation, not permission to redistribute it.
