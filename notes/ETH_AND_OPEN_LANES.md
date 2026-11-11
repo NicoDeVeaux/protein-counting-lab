@@ -1,5 +1,11 @@
 # ETH, finite-scale checks and remaining research lanes
 
+On 2026-11-11, the [external continuation gate](../CAMPAIGN-008.md) failed for the
+4,096-expansion prefix configuration. The checked certificates were valid but
+resolved no external ordering. Preserve the verifier and archive that configuration
+as-is; a stronger producer or larger-budget study remains unmeasured. This result
+does not benchmark an ETH-derived algorithm.
+
 Follow-up on the same date: [campaign 006](../CAMPAIGN-006.md) has now implemented
 the certified adaptive-stopping gate described below. It proves the integer rank
 checker and tests actual enclosing bounds on a frozen synthetic panel. Three

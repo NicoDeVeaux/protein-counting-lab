@@ -1,6 +1,12 @@
 # What the benchmark measures
 
-The current executable benchmark is **campaign006: certified strict top-1 ranking
+There are two separately frozen performance studies. [Campaign 008](CAMPAIGN-008.md)
+is the completed external continuation gate: six normalized count-ordering queries
+from MC2026, with native verification costs charged and Ganak as a strong exact
+baseline. It failed for the 4,096-expansion configuration: no certified ordering
+was resolved. A larger-budget sensitivity remains unmeasured.
+
+The internal development benchmark is **campaign006: certified strict top-1 ranking
 on finite integer factor models**. Its prospective rules are in
 [the independent protocol](grader/campaign-006/PROTOCOL.md); the
 [implementation design](experiments/certified_rank6/DESIGN.md) explains the algorithms
@@ -85,9 +91,13 @@ ranking. Biological usefulness needs a separate held-out affinity-assay evaluati
 with a matched molecular system. Success on synthetic counting does not establish
 that final biological gate.
 
-[The independent external-grader review](notes/EXTERNAL_GRADERS.md) recommends
+[The independent external-grader review](notes/EXTERNAL_GRADERS.md) originally recommended
 screening public MC2026/MC2025 Track 4 instances for nonnegative, unprojected
 weighted counting, with exact-rational Ganak as an independent reference. MC2022
 is an archived fallback. It distinguishes that proposed evaluator from external Lean
 count checkers, UAI factor-model benchmarks and assay-based biological grading.
 No reviewed tool is a turnkey grader for the full three-state affinity task.
+
+The subsequent campaign-008 gate used unweighted Track 1 inputs to keep its adapter
+within the existing integer proof. It is a completed narrow negative result;
+weighted/projection extensions and biological validation remain proposed work.

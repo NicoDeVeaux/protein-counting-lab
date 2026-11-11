@@ -1,0 +1,24 @@
+{
+  "files": {
+    "experiments/external_count8/__init__.py": "71b4ad3b963836bf2da3cc2aa5e6058b2951c804bfd40c50125a93a4e0ce3360",
+    "experiments/external_count8/cnf.py": "e6ac4782718f1a72565936d00fa27c339960d7e03152e5928e4133f74a61674c",
+    "experiments/external_count8/select.py": "c92341947991809070ca4a20e469a46b8ef40ceb138b84a0d7c20d344e4cfa5f",
+    "experiments/external_count8/worker.py": "7869a6e25cc51eb381092242a01eefb7548500c9817515c1fdfd09b1c5be3ddb",
+    "experiments/external_count8/run.py": "39f96d09a8febb1ff274856880830b6aea548171bdbc91633d959e8d71f3c4f5",
+    "experiments/external_count8/baseline.py": "5128b88c108a424e6b1f9e07b4fd2d43d60bc0cc6318daf0a9718540081d9f52",
+    "experiments/external_count8/lean_native.py": "3525b63d8fbfdc2e5e17a2941af2dec64b6623f6f43eafe474e40fb0058b27c4",
+    "experiments/certified_rank6/core.py": "56ae81b1a435202b9b1505b49e48224c96cae90493bfecb494275e23de69f8b6",
+    "experiments/partition_certificate7/core.py": "9d91249b431a76967f67a6f768a0cf37663a0651639904d25487d4954d264f04",
+    "experiments/partition_certificate7/verify.py": "e68441cac2699a1df2c128f9ffa4875e17661d08c6522df1938d819632cd82b1",
+    "formal/campaign-007/lean/PartitionCertificate.lean": "8c147616e4d68e5250a046131a9f6ee39bc7766777ddd2e23e8146d28a58e16a",
+    "formal/campaign-007/lean/Main.lean": "0ca6cd00d9b013546027897e8a23667f1738174a8f29feddb10a374c5a26ec29",
+    "formal/campaign-007/lean/lean-toolchain": "ca5f1f601d34c49079e38d7e7041eb0f2a9c227fbc1df0f404820069a052330c",
+    "grader/campaign-008/PROTOCOL.md": "7fcc505f07b9b458eb839d17600e9515fff7cdb3399977af59680cceef2817e6",
+    "grader/campaign-008/AMENDMENT-001.md": "e8d4c78d72b7c64de83c0048147bd22cb03fdec797e09827a58b0fab51ea2f72",
+    "experiments/external_count8/COHORT.json": "f1adb40a1280db24ec3b3d8bf3037a35b286f5b882f464616a3f0f81c91f6b78",
+    "experiments/external_count8/baseline-provenance.json": "1a084c11154e08e2745aad5fb63eaa5edb1544966117c6e985ddeeb1b6d87ae3",
+    "experiments/external_count8/NATIVE_BUILD.json": "75683ebf9fc4e0ccba51e9c497a46b48f508660ee260a58a4bbf70d07a652281"
+  },
+  "ganak_binary_sha256": "50de92712514b9655065cb6fe3a0fdc759f6ba2bb94c109f7fd3dc6107d030b2",
+  "checker_binary_sha256": "daa0891b7f7af9d6adbd89c43b0c6d134e56bcfba631e90377cd8f04010bd71c"
+}

@@ -24,4 +24,10 @@ runs/
 !experiments/certified_rank6/results/SOURCE_SEAL.json
 !experiments/certified_rank6/results-v2/RAW_RESULTS.json
 !experiments/certified_rank6/results-v2/SOURCE_SEAL.json
+!experiments/external_count8/COHORT.json
+!experiments/external_count8/NATIVE_BUILD.json
+!experiments/external_count8/baseline-provenance.json
+!experiments/external_count8/SOURCE_SEAL.json
+!experiments/external_count8/results-v1/RAW_RESULTS.json
+!experiments/external_count8/results-v1/SOURCE_SEAL.json
 

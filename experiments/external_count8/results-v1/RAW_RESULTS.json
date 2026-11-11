@@ -1,0 +1,1934 @@
+[
+  {
+    "status": "unresolved",
+    "direction": null,
+    "expansions": 4096,
+    "expansions_per_model": [
+      16,
+      4080
+    ],
+    "bounds": [
+      [
+        "0",
+        "402653184"
+      ],
+      [
+        "0",
+        "154742504910672534362390528"
+      ]
+    ],
+    "root_exact": false,
+    "certificate_nodes": 8194,
+    "certificate_bytes": 31804,
+    "certificate_generation_seconds": 0.002179500000000001,
+    "checking_seconds": 0.07579149999999998,
+    "preprocessing_seconds": 0.000905791000000003,
+    "search_seconds": 0.09291845900000001,
+    "accepted_certificates": [
+      {
+        "status": "accepted",
+        "lower": 0,
+        "upper": 402653184
+      },
+      {
+        "status": "accepted",
+        "lower": 0,
+        "upper": 154742504910672534362390528
+      }
+    ],
+    "method": "certified",
+    "variables": [
+      30,
+      87
+    ],
+    "worker_seconds": 0.174154833,
+    "seconds": 0.23140462499999997,
+    "certificate_file": "Q01-rep0.cert",
+    "certificate_sha256": "44c4e98aad115f040b3ab4466e4d034703f82cc7e0106796ea78f0629898a819",
+    "query": "Q01",
+    "inputs": [
+      "mc2026_track1_public/mc2026_track1_003.cnf.xz",
+      "mc2026_track1_public/mc2026_track1_021.cnf.xz"
+    ],
+    "repetition": 0
+  },
+  {
+    "status": "timeout",
+    "counts": null,
+    "members": [
+      {
+        "status": "exact",
+        "count": "8",
+        "returncode": 0,
+        "stdout": "c o Total time [Arjun+GANAK]: 0.00\ns SATISFIABLE\nc s type mc\nc s log10-estimate 9.03089987e-01\nc s exact arb int 8\nc s pac guarantees epsilon: 0 delta: 0\n",
+        "stderr": "",
+        "seconds": 0.015115666
+      },
+      {
+        "status": "timeout",
+        "count": null,
+        "seconds": 9.806160792,
+        "stdout": "",
+        "stderr": ""
+      }
+    ],
+    "seconds": 9.893705375,
+    "method": "ganak",
+    "variables": [
+      30,
+      87
+    ],
+    "worker_seconds": 9.82164625,
+    "query": "Q01",
+    "inputs": [
+      "mc2026_track1_public/mc2026_track1_003.cnf.xz",
+      "mc2026_track1_public/mc2026_track1_021.cnf.xz"
+    ],
+    "repetition": 0
+  },
+  {
+    "status": "table_cap",
+    "direction": null,
+    "counts": [
+      "8"
+    ],
+    "requested_table_entries": 524288,
+    "method": "ve",
+    "variables": [
+      30,
+      87
+    ],
+    "worker_seconds": 1.3099519160000002,
+    "seconds": 1.3781147909999998,
+    "query": "Q01",
+    "inputs": [
+      "mc2026_track1_public/mc2026_track1_003.cnf.xz",
+      "mc2026_track1_public/mc2026_track1_021.cnf.xz"
+    ],
+    "repetition": 0
+  },
+  {
+    "status": "timeout",
+    "counts": null,
+    "members": [
+      {
+        "status": "exact",
+        "count": "8",
+        "returncode": 0,
+        "stdout": "c o Total time [Arjun+GANAK]: 0.00\ns SATISFIABLE\nc s type mc\nc s log10-estimate 9.03089987e-01\nc s exact arb int 8\nc s pac guarantees epsilon: 0 delta: 0\n",
+        "stderr": "",
+        "seconds": 0.009182165999999999
+      },
+      {
+        "status": "timeout",
+        "count": null,
+        "seconds": 9.803919707999999,
+        "stdout": "",
+        "stderr": ""
+      }
+    ],
+    "seconds": 9.867445959,
+    "method": "ganak",
+    "variables": [
+      30,
+      87
+    ],
+    "worker_seconds": 9.813457375,
+    "query": "Q01",
+    "inputs": [
+      "mc2026_track1_public/mc2026_track1_003.cnf.xz",
+      "mc2026_track1_public/mc2026_track1_021.cnf.xz"
+    ],
+    "repetition": 1
+  },
+  {
+    "status": "table_cap",
+    "direction": null,
+    "counts": [
+      "8"
+    ],
+    "requested_table_entries": 524288,
+    "method": "ve",
+    "variables": [
+      30,
+      87
+    ],
+    "worker_seconds": 1.309009084,
+    "seconds": 1.3872537499999993,
+    "query": "Q01",
+    "inputs": [
+      "mc2026_track1_public/mc2026_track1_003.cnf.xz",
+      "mc2026_track1_public/mc2026_track1_021.cnf.xz"
+    ],
+    "repetition": 1
+  },
+  {
+    "status": "unresolved",
+    "direction": null,
+    "expansions": 4096,
+    "expansions_per_model": [
+      16,
+      4080
+    ],
+    "bounds": [
+      [
+        "0",
+        "402653184"
+      ],
+      [
+        "0",
+        "154742504910672534362390528"
+      ]
+    ],
+    "root_exact": false,
+    "certificate_nodes": 8194,
+    "certificate_bytes": 31804,
+    "certificate_generation_seconds": 0.0023472079999999895,
+    "checking_seconds": 0.18791191699999998,
+    "preprocessing_seconds": 0.001007082999999999,
+    "search_seconds": 0.097207875,
+    "accepted_certificates": [
+      {
+        "status": "accepted",
+        "lower": 0,
+        "upper": 402653184
+      },
+      {
+        "status": "accepted",
+        "lower": 0,
+        "upper": 154742504910672534362390528
+      }
+    ],
+    "method": "certified",
+    "variables": [
+      30,
+      87
+    ],
+    "worker_seconds": 0.29067375,
+    "seconds": 0.3627466669999997,
+    "certificate_file": "Q01-rep1.cert",
+    "certificate_sha256": "44c4e98aad115f040b3ab4466e4d034703f82cc7e0106796ea78f0629898a819",
+    "query": "Q01",
+    "inputs": [
+      "mc2026_track1_public/mc2026_track1_003.cnf.xz",
+      "mc2026_track1_public/mc2026_track1_021.cnf.xz"
+    ],
+    "repetition": 1
+  },
+  {
+    "status": "table_cap",
+    "direction": null,
+    "counts": [
+      "8"
+    ],
+    "requested_table_entries": 524288,
+    "method": "ve",
+    "variables": [
+      30,
+      87
+    ],
+    "worker_seconds": 1.306281917,
+    "seconds": 1.3772469580000006,
+    "query": "Q01",
+    "inputs": [
+      "mc2026_track1_public/mc2026_track1_003.cnf.xz",
+      "mc2026_track1_public/mc2026_track1_021.cnf.xz"
+    ],
+    "repetition": 2
+  },
+  {
+    "status": "unresolved",
+    "direction": null,
+    "expansions": 4096,
+    "expansions_per_model": [
+      16,
+      4080
+    ],
+    "bounds": [
+      [
+        "0",
+        "402653184"
+      ],
+      [
+        "0",
+        "154742504910672534362390528"
+      ]
+    ],
+    "root_exact": false,
+    "certificate_nodes": 8194,
+    "certificate_bytes": 31804,
+    "certificate_generation_seconds": 0.002223166999999998,
+    "checking_seconds": 0.061919,
+    "preprocessing_seconds": 0.0009112090000000031,
+    "search_seconds": 0.09553858400000001,
+    "accepted_certificates": [
+      {
+        "status": "accepted",
+        "lower": 0,
+        "upper": 402653184
+      },
+      {
+        "status": "accepted",
+        "lower": 0,
+        "upper": 154742504910672534362390528
+      }
+    ],
+    "method": "certified",
+    "variables": [
+      30,
+      87
+    ],
+    "worker_seconds": 0.162729958,
+    "seconds": 0.2342427090000001,
+    "certificate_file": "Q01-rep2.cert",
+    "certificate_sha256": "44c4e98aad115f040b3ab4466e4d034703f82cc7e0106796ea78f0629898a819",
+    "query": "Q01",
+    "inputs": [
+      "mc2026_track1_public/mc2026_track1_003.cnf.xz",
+      "mc2026_track1_public/mc2026_track1_021.cnf.xz"
+    ],
+    "repetition": 2
+  },
+  {
+    "status": "timeout",
+    "counts": null,
+    "members": [
+      {
+        "status": "exact",
+        "count": "8",
+        "returncode": 0,
+        "stdout": "c o Total time [Arjun+GANAK]: 0.00\ns SATISFIABLE\nc s type mc\nc s log10-estimate 9.03089987e-01\nc s exact arb int 8\nc s pac guarantees epsilon: 0 delta: 0\n",
+        "stderr": "",
+        "seconds": 0.014082208999999998
+      },
+      {
+        "status": "timeout",
+        "count": null,
+        "seconds": 9.796780792,
+        "stdout": "",
+        "stderr": ""
+      }
+    ],
+    "seconds": 9.876699834,
+    "method": "ganak",
+    "variables": [
+      30,
+      87
+    ],
+    "worker_seconds": 9.811244875,
+    "query": "Q01",
+    "inputs": [
+      "mc2026_track1_public/mc2026_track1_003.cnf.xz",
+      "mc2026_track1_public/mc2026_track1_021.cnf.xz"
+    ],
+    "repetition": 2
+  },
+  {
+    "status": "unresolved",
+    "direction": null,
+    "expansions": 4096,
+    "expansions_per_model": [
+      4096,
+      0
+    ],
+    "bounds": [
+      [
+        "0",
+        "549755813888"
+      ],
+      [
+        "0",
+        "1208925819614629174706176"
+      ]
+    ],
+    "root_exact": false,
+    "certificate_nodes": 8194,
+    "certificate_bytes": 320560,
+    "certificate_generation_seconds": 0.014121541000000015,
+    "checking_seconds": 0.448860708,
+    "preprocessing_seconds": 0.010918499999999998,
+    "search_seconds": 0.403912917,
+    "accepted_certificates": [
+      {
+        "status": "accepted",
+        "lower": 0,
+        "upper": 549755813888
+      },
+      {
+        "status": "accepted",
+        "lower": 0,
+        "upper": 1208925819614629174706176
+      }
+    ],
+    "method": "certified",
+    "variables": [
+      39,
+      80
+    ],
+    "worker_seconds": 0.889270417,
+    "seconds": 0.9614739999999955,
+    "certificate_file": "Q02-rep0.cert",
+    "certificate_sha256": "5fd730b3b2d1521064ffa93fa0dc5de9caab2816aec25c5e5f04dfc1435f6a8c",
+    "query": "Q02",
+    "inputs": [
+      "mc2026_track1_public/mc2026_track1_087.cnf.xz",
+      "mc2026_track1_public/mc2026_track1_053.cnf.xz"
+    ],
+    "repetition": 0
+  },
+  {
+    "status": "timeout",
+    "counts": null,
+    "members": [
+      {
+        "status": "exact",
+        "count": "17528422464",
+        "returncode": 0,
+        "stdout": "c o Total time [Arjun+GANAK]: 0.16\ns SATISFIABLE\nc s type mc\nc s log10-estimate 1.02437428e+01\nc s exact arb int 17528422464\nc s pac guarantees epsilon: 0 delta: 0\n",
+        "stderr": "",
+        "seconds": 0.17666500000000002
+      },
+      {
+        "status": "timeout",
+        "count": null,
+        "seconds": 9.634760209,
+        "stdout": "",
+        "stderr": ""
+      }
+    ],
+    "seconds": 9.884815249999996,
+    "method": "ganak",
+    "variables": [
+      39,
+      80
+    ],
+    "worker_seconds": 9.812162749999999,
+    "query": "Q02",
+    "inputs": [
+      "mc2026_track1_public/mc2026_track1_087.cnf.xz",
+      "mc2026_track1_public/mc2026_track1_053.cnf.xz"
+    ],
+    "repetition": 0
+  },
+  {
+    "status": "table_cap",
+    "direction": null,
+    "counts": [
+      "17528422464"
+    ],
+    "requested_table_entries": 1048576,
+    "method": "ve",
+    "variables": [
+      39,
+      80
+    ],
+    "worker_seconds": 2.009066334,
+    "seconds": 2.0820041249999974,
+    "query": "Q02",
+    "inputs": [
+      "mc2026_track1_public/mc2026_track1_087.cnf.xz",
+      "mc2026_track1_public/mc2026_track1_053.cnf.xz"
+    ],
+    "repetition": 0
+  },
+  {
+    "status": "timeout",
+    "counts": null,
+    "members": [
+      {
+        "status": "exact",
+        "count": "17528422464",
+        "returncode": 0,
+        "stdout": "c o Total time [Arjun+GANAK]: 0.17\ns SATISFIABLE\nc s type mc\nc s log10-estimate 1.02437428e+01\nc s exact arb int 17528422464\nc s pac guarantees epsilon: 0 delta: 0\n",
+        "stderr": "",
+        "seconds": 0.191662
+      },
+      {
+        "status": "timeout",
+        "count": null,
+        "seconds": 9.62093725,
+        "stdout": "",
+        "stderr": ""
+      }
+    ],
+    "seconds": 9.878782833000002,
+    "method": "ganak",
+    "variables": [
+      39,
+      80
+    ],
+    "worker_seconds": 9.81335325,
+    "query": "Q02",
+    "inputs": [
+      "mc2026_track1_public/mc2026_track1_087.cnf.xz",
+      "mc2026_track1_public/mc2026_track1_053.cnf.xz"
+    ],
+    "repetition": 1
+  },
+  {
+    "status": "table_cap",
+    "direction": null,
+    "counts": [
+      "17528422464"
+    ],
+    "requested_table_entries": 1048576,
+    "method": "ve",
+    "variables": [
+      39,
+      80
+    ],
+    "worker_seconds": 2.029701,
+    "seconds": 2.1165786250000025,
+    "query": "Q02",
+    "inputs": [
+      "mc2026_track1_public/mc2026_track1_087.cnf.xz",
+      "mc2026_track1_public/mc2026_track1_053.cnf.xz"
+    ],
+    "repetition": 1
+  },
+  {
+    "status": "unresolved",
+    "direction": null,
+    "expansions": 4096,
+    "expansions_per_model": [
+      4096,
+      0
+    ],
+    "bounds": [
+      [
+        "0",
+        "549755813888"
+      ],
+      [
+        "0",
+        "1208925819614629174706176"
+      ]
+    ],
+    "root_exact": false,
+    "certificate_nodes": 8194,
+    "certificate_bytes": 320560,
+    "certificate_generation_seconds": 0.014729209000000021,
+    "checking_seconds": 0.44415708299999995,
+    "preprocessing_seconds": 0.010830041999999998,
+    "search_seconds": 0.404299,
+    "accepted_certificates": [
+      {
+        "status": "accepted",
+        "lower": 0,
+        "upper": 549755813888
+      },
+      {
+        "status": "accepted",
+        "lower": 0,
+        "upper": 1208925819614629174706176
+      }
+    ],
+    "method": "certified",
+    "variables": [
+      39,
+      80
+    ],
+    "worker_seconds": 0.8853677910000001,
+    "seconds": 0.9630177919999952,
+    "certificate_file": "Q02-rep1.cert",
+    "certificate_sha256": "5fd730b3b2d1521064ffa93fa0dc5de9caab2816aec25c5e5f04dfc1435f6a8c",
+    "query": "Q02",
+    "inputs": [
+      "mc2026_track1_public/mc2026_track1_087.cnf.xz",
+      "mc2026_track1_public/mc2026_track1_053.cnf.xz"
+    ],
+    "repetition": 1
+  },
+  {
+    "status": "table_cap",
+    "direction": null,
+    "counts": [
+      "17528422464"
+    ],
+    "requested_table_entries": 1048576,
+    "method": "ve",
+    "variables": [
+      39,
+      80
+    ],
+    "worker_seconds": 2.0001741660000003,
+    "seconds": 2.0709015420000014,
+    "query": "Q02",
+    "inputs": [
+      "mc2026_track1_public/mc2026_track1_087.cnf.xz",
+      "mc2026_track1_public/mc2026_track1_053.cnf.xz"
+    ],
+    "repetition": 2
+  },
+  {
+    "status": "unresolved",
+    "direction": null,
+    "expansions": 4096,
+    "expansions_per_model": [
+      4096,
+      0
+    ],
+    "bounds": [
+      [
+        "0",
+        "549755813888"
+      ],
+      [
+        "0",
+        "1208925819614629174706176"
+      ]
+    ],
+    "root_exact": false,
+    "certificate_nodes": 8194,
+    "certificate_bytes": 320560,
+    "certificate_generation_seconds": 0.015274500000000024,
+    "checking_seconds": 0.31645483399999996,
+    "preprocessing_seconds": 0.010962167000000002,
+    "search_seconds": 0.40478741700000004,
+    "accepted_certificates": [
+      {
+        "status": "accepted",
+        "lower": 0,
+        "upper": 549755813888
+      },
+      {
+        "status": "accepted",
+        "lower": 0,
+        "upper": 1208925819614629174706176
+      }
+    ],
+    "method": "certified",
+    "variables": [
+      39,
+      80
+    ],
+    "worker_seconds": 0.7586937500000001,
+    "seconds": 0.8356116249999985,
+    "certificate_file": "Q02-rep2.cert",
+    "certificate_sha256": "5fd730b3b2d1521064ffa93fa0dc5de9caab2816aec25c5e5f04dfc1435f6a8c",
+    "query": "Q02",
+    "inputs": [
+      "mc2026_track1_public/mc2026_track1_087.cnf.xz",
+      "mc2026_track1_public/mc2026_track1_053.cnf.xz"
+    ],
+    "repetition": 2
+  },
+  {
+    "status": "timeout",
+    "counts": null,
+    "members": [
+      {
+        "status": "exact",
+        "count": "17528422464",
+        "returncode": 0,
+        "stdout": "c o Total time [Arjun+GANAK]: 0.17\ns SATISFIABLE\nc s type mc\nc s log10-estimate 1.02437428e+01\nc s exact arb int 17528422464\nc s pac guarantees epsilon: 0 delta: 0\n",
+        "stderr": "",
+        "seconds": 0.192230875
+      },
+      {
+        "status": "timeout",
+        "count": null,
+        "seconds": 9.623698459,
+        "stdout": "",
+        "stderr": ""
+      }
+    ],
+    "seconds": 9.889762583000007,
+    "method": "ganak",
+    "variables": [
+      39,
+      80
+    ],
+    "worker_seconds": 9.816679083,
+    "query": "Q02",
+    "inputs": [
+      "mc2026_track1_public/mc2026_track1_087.cnf.xz",
+      "mc2026_track1_public/mc2026_track1_053.cnf.xz"
+    ],
+    "repetition": 2
+  },
+  {
+    "status": "unresolved",
+    "direction": null,
+    "expansions": 4096,
+    "expansions_per_model": [
+      4096,
+      0
+    ],
+    "bounds": [
+      [
+        "0",
+        "1237940039285380274899124224"
+      ],
+      [
+        "0",
+        "1208925819614629174706176"
+      ]
+    ],
+    "root_exact": false,
+    "certificate_nodes": 8194,
+    "certificate_bytes": 76553,
+    "certificate_generation_seconds": 0.0037612089999999876,
+    "checking_seconds": 0.11730033300000003,
+    "preprocessing_seconds": 0.0026750830000000017,
+    "search_seconds": 0.221865459,
+    "accepted_certificates": [
+      {
+        "status": "accepted",
+        "lower": 0,
+        "upper": 1237940039285380274899124224
+      },
+      {
+        "status": "accepted",
+        "lower": 0,
+        "upper": 1208925819614629174706176
+      }
+    ],
+    "method": "certified",
+    "variables": [
+      90,
+      80
+    ],
+    "worker_seconds": 0.35085929099999996,
+    "seconds": 0.42323133300000393,
+    "certificate_file": "Q03-rep0.cert",
+    "certificate_sha256": "298cc6576745f1e7be68fec52163b806b795e03698c7db3df7a54fcae174294b",
+    "query": "Q03",
+    "inputs": [
+      "mc2026_track1_public/mc2026_track1_051.cnf.xz",
+      "mc2026_track1_public/mc2026_track1_049.cnf.xz"
+    ],
+    "repetition": 0
+  },
+  {
+    "status": "timeout",
+    "counts": null,
+    "members": [
+      {
+        "status": "timeout",
+        "count": null,
+        "seconds": 9.811178667,
+        "stdout": "",
+        "stderr": ""
+      }
+    ],
+    "seconds": 9.884512290999993,
+    "method": "ganak",
+    "variables": [
+      90,
+      80
+    ],
+    "worker_seconds": 9.811805625,
+    "query": "Q03",
+    "inputs": [
+      "mc2026_track1_public/mc2026_track1_051.cnf.xz",
+      "mc2026_track1_public/mc2026_track1_049.cnf.xz"
+    ],
+    "repetition": 0
+  },
+  {
+    "status": "table_cap",
+    "direction": null,
+    "counts": [],
+    "requested_table_entries": 524288,
+    "method": "ve",
+    "variables": [
+      90,
+      80
+    ],
+    "worker_seconds": 1.340413333,
+    "seconds": 1.411071167000003,
+    "query": "Q03",
+    "inputs": [
+      "mc2026_track1_public/mc2026_track1_051.cnf.xz",
+      "mc2026_track1_public/mc2026_track1_049.cnf.xz"
+    ],
+    "repetition": 0
+  },
+  {
+    "status": "timeout",
+    "counts": null,
+    "members": [
+      {
+        "status": "timeout",
+        "count": null,
+        "seconds": 9.812745999999999,
+        "stdout": "",
+        "stderr": ""
+      }
+    ],
+    "seconds": 9.878813000000008,
+    "method": "ganak",
+    "variables": [
+      90,
+      80
+    ],
+    "worker_seconds": 9.813339041999999,
+    "query": "Q03",
+    "inputs": [
+      "mc2026_track1_public/mc2026_track1_051.cnf.xz",
+      "mc2026_track1_public/mc2026_track1_049.cnf.xz"
+    ],
+    "repetition": 1
+  },
+  {
+    "status": "table_cap",
+    "direction": null,
+    "counts": [],
+    "requested_table_entries": 524288,
+    "method": "ve",
+    "variables": [
+      90,
+      80
+    ],
+    "worker_seconds": 1.3369217919999998,
+    "seconds": 1.4071872500000069,
+    "query": "Q03",
+    "inputs": [
+      "mc2026_track1_public/mc2026_track1_051.cnf.xz",
+      "mc2026_track1_public/mc2026_track1_049.cnf.xz"
+    ],
+    "repetition": 1
+  },
+  {
+    "status": "unresolved",
+    "direction": null,
+    "expansions": 4096,
+    "expansions_per_model": [
+      4096,
+      0
+    ],
+    "bounds": [
+      [
+        "0",
+        "1237940039285380274899124224"
+      ],
+      [
+        "0",
+        "1208925819614629174706176"
+      ]
+    ],
+    "root_exact": false,
+    "certificate_nodes": 8194,
+    "certificate_bytes": 76553,
+    "certificate_generation_seconds": 0.0037864169999999864,
+    "checking_seconds": 0.11662187499999999,
+    "preprocessing_seconds": 0.002635583000000004,
+    "search_seconds": 0.22377329199999998,
+    "accepted_certificates": [
+      {
+        "status": "accepted",
+        "lower": 0,
+        "upper": 1237940039285380274899124224
+      },
+      {
+        "status": "accepted",
+        "lower": 0,
+        "upper": 1208925819614629174706176
+      }
+    ],
+    "method": "certified",
+    "variables": [
+      90,
+      80
+    ],
+    "worker_seconds": 0.351915416,
+    "seconds": 0.4088125419999926,
+    "certificate_file": "Q03-rep1.cert",
+    "certificate_sha256": "298cc6576745f1e7be68fec52163b806b795e03698c7db3df7a54fcae174294b",
+    "query": "Q03",
+    "inputs": [
+      "mc2026_track1_public/mc2026_track1_051.cnf.xz",
+      "mc2026_track1_public/mc2026_track1_049.cnf.xz"
+    ],
+    "repetition": 1
+  },
+  {
+    "status": "table_cap",
+    "direction": null,
+    "counts": [],
+    "requested_table_entries": 524288,
+    "method": "ve",
+    "variables": [
+      90,
+      80
+    ],
+    "worker_seconds": 1.341501792,
+    "seconds": 1.4120474580000035,
+    "query": "Q03",
+    "inputs": [
+      "mc2026_track1_public/mc2026_track1_051.cnf.xz",
+      "mc2026_track1_public/mc2026_track1_049.cnf.xz"
+    ],
+    "repetition": 2
+  },
+  {
+    "status": "unresolved",
+    "direction": null,
+    "expansions": 4096,
+    "expansions_per_model": [
+      4096,
+      0
+    ],
+    "bounds": [
+      [
+        "0",
+        "1237940039285380274899124224"
+      ],
+      [
+        "0",
+        "1208925819614629174706176"
+      ]
+    ],
+    "root_exact": false,
+    "certificate_nodes": 8194,
+    "certificate_bytes": 76553,
+    "certificate_generation_seconds": 0.004090083999999994,
+    "checking_seconds": 0.10986591699999998,
+    "preprocessing_seconds": 0.0027212080000000027,
+    "search_seconds": 0.22409483300000002,
+    "accepted_certificates": [
+      {
+        "status": "accepted",
+        "lower": 0,
+        "upper": 1237940039285380274899124224
+      },
+      {
+        "status": "accepted",
+        "lower": 0,
+        "upper": 1208925819614629174706176
+      }
+    ],
+    "method": "certified",
+    "variables": [
+      90,
+      80
+    ],
+    "worker_seconds": 0.34594775,
+    "seconds": 0.4181901249999953,
+    "certificate_file": "Q03-rep2.cert",
+    "certificate_sha256": "298cc6576745f1e7be68fec52163b806b795e03698c7db3df7a54fcae174294b",
+    "query": "Q03",
+    "inputs": [
+      "mc2026_track1_public/mc2026_track1_051.cnf.xz",
+      "mc2026_track1_public/mc2026_track1_049.cnf.xz"
+    ],
+    "repetition": 2
+  },
+  {
+    "status": "timeout",
+    "counts": null,
+    "members": [
+      {
+        "status": "timeout",
+        "count": null,
+        "seconds": 9.812535875,
+        "stdout": "",
+        "stderr": ""
+      }
+    ],
+    "seconds": 9.86651387500001,
+    "method": "ganak",
+    "variables": [
+      90,
+      80
+    ],
+    "worker_seconds": 9.813112084,
+    "query": "Q03",
+    "inputs": [
+      "mc2026_track1_public/mc2026_track1_051.cnf.xz",
+      "mc2026_track1_public/mc2026_track1_049.cnf.xz"
+    ],
+    "repetition": 2
+  },
+  {
+    "status": "unresolved",
+    "direction": null,
+    "expansions": 4096,
+    "expansions_per_model": [
+      4032,
+      64
+    ],
+    "bounds": [
+      [
+        "0",
+        "8708132091985920"
+      ],
+      [
+        "0",
+        "1801439850948198400"
+      ]
+    ],
+    "root_exact": false,
+    "certificate_nodes": 8194,
+    "certificate_bytes": 52902,
+    "certificate_generation_seconds": 0.003112042000000037,
+    "checking_seconds": 0.09364050000000002,
+    "preprocessing_seconds": 0.001823832999999997,
+    "search_seconds": 0.2723225,
+    "accepted_certificates": [
+      {
+        "status": "accepted",
+        "lower": 0,
+        "upper": 8708132091985920
+      },
+      {
+        "status": "accepted",
+        "lower": 0,
+        "upper": 1801439850948198400
+      }
+    ],
+    "method": "certified",
+    "variables": [
+      56,
+      64
+    ],
+    "worker_seconds": 0.374957791,
+    "seconds": 0.4335175410000005,
+    "certificate_file": "Q04-rep0.cert",
+    "certificate_sha256": "9cf9b740f47261301a3e3c5a6305e0b4eb04c7685d501a07cd7d65f95fd62dc6",
+    "query": "Q04",
+    "inputs": [
+      "mc2026_track1_public/mc2026_track1_001.cnf.xz",
+      "mc2026_track1_public/mc2026_track1_101.cnf.xz"
+    ],
+    "repetition": 0
+  },
+  {
+    "status": "solved",
+    "counts": [
+      "48",
+      "3"
+    ],
+    "members": [
+      {
+        "status": "exact",
+        "count": "48",
+        "returncode": 0,
+        "stdout": "c o Total time [Arjun+GANAK]: 0.01\ns SATISFIABLE\nc s type mc\nc s log10-estimate 1.68124124e+00\nc s exact arb int 48\nc s pac guarantees epsilon: 0 delta: 0\n",
+        "stderr": "",
+        "seconds": 0.0161655
+      },
+      {
+        "status": "exact",
+        "count": "3",
+        "returncode": 0,
+        "stdout": "c o Total time [Arjun+GANAK]: 0.00\ns SATISFIABLE\nc s type mc\nc s log10-estimate 4.77121255e-01\nc s exact arb int 3\nc s pac guarantees epsilon: 0 delta: 0\n",
+        "stderr": "",
+        "seconds": 0.0087775
+      }
+    ],
+    "seconds": 0.08189566699999773,
+    "direction": "A",
+    "method": "ganak",
+    "variables": [
+      56,
+      64
+    ],
+    "worker_seconds": 0.025455582999999997,
+    "query": "Q04",
+    "inputs": [
+      "mc2026_track1_public/mc2026_track1_001.cnf.xz",
+      "mc2026_track1_public/mc2026_track1_101.cnf.xz"
+    ],
+    "repetition": 0
+  },
+  {
+    "status": "table_cap",
+    "direction": null,
+    "counts": [],
+    "requested_table_entries": 4194304,
+    "method": "ve",
+    "variables": [
+      56,
+      64
+    ],
+    "worker_seconds": 1.7761753329999999,
+    "seconds": 1.8284505839999952,
+    "query": "Q04",
+    "inputs": [
+      "mc2026_track1_public/mc2026_track1_001.cnf.xz",
+      "mc2026_track1_public/mc2026_track1_101.cnf.xz"
+    ],
+    "repetition": 0
+  },
+  {
+    "status": "solved",
+    "counts": [
+      "48",
+      "3"
+    ],
+    "members": [
+      {
+        "status": "exact",
+        "count": "48",
+        "returncode": 0,
+        "stdout": "c o Total time [Arjun+GANAK]: 0.01\ns SATISFIABLE\nc s type mc\nc s log10-estimate 1.68124124e+00\nc s exact arb int 48\nc s pac guarantees epsilon: 0 delta: 0\n",
+        "stderr": "",
+        "seconds": 0.020847374999999994
+      },
+      {
+        "status": "exact",
+        "count": "3",
+        "returncode": 0,
+        "stdout": "c o Total time [Arjun+GANAK]: 0.00\ns SATISFIABLE\nc s type mc\nc s log10-estimate 4.77121255e-01\nc s exact arb int 3\nc s pac guarantees epsilon: 0 delta: 0\n",
+        "stderr": "",
+        "seconds": 0.01445875
+      }
+    ],
+    "seconds": 0.10580833399998824,
+    "direction": "A",
+    "method": "ganak",
+    "variables": [
+      56,
+      64
+    ],
+    "worker_seconds": 0.03580149999999999,
+    "query": "Q04",
+    "inputs": [
+      "mc2026_track1_public/mc2026_track1_001.cnf.xz",
+      "mc2026_track1_public/mc2026_track1_101.cnf.xz"
+    ],
+    "repetition": 1
+  },
+  {
+    "status": "table_cap",
+    "direction": null,
+    "counts": [],
+    "requested_table_entries": 4194304,
+    "method": "ve",
+    "variables": [
+      56,
+      64
+    ],
+    "worker_seconds": 1.7834073750000001,
+    "seconds": 1.8432509160000023,
+    "query": "Q04",
+    "inputs": [
+      "mc2026_track1_public/mc2026_track1_001.cnf.xz",
+      "mc2026_track1_public/mc2026_track1_101.cnf.xz"
+    ],
+    "repetition": 1
+  },
+  {
+    "status": "unresolved",
+    "direction": null,
+    "expansions": 4096,
+    "expansions_per_model": [
+      4032,
+      64
+    ],
+    "bounds": [
+      [
+        "0",
+        "8708132091985920"
+      ],
+      [
+        "0",
+        "1801439850948198400"
+      ]
+    ],
+    "root_exact": false,
+    "certificate_nodes": 8194,
+    "certificate_bytes": 52902,
+    "certificate_generation_seconds": 0.0031122920000000165,
+    "checking_seconds": 0.08718383399999996,
+    "preprocessing_seconds": 0.0017116659999999936,
+    "search_seconds": 0.266873292,
+    "accepted_certificates": [
+      {
+        "status": "accepted",
+        "lower": 0,
+        "upper": 8708132091985920
+      },
+      {
+        "status": "accepted",
+        "lower": 0,
+        "upper": 1801439850948198400
+      }
+    ],
+    "method": "certified",
+    "variables": [
+      56,
+      64
+    ],
+    "worker_seconds": 0.36267095899999996,
+    "seconds": 0.43514045799999224,
+    "certificate_file": "Q04-rep1.cert",
+    "certificate_sha256": "9cf9b740f47261301a3e3c5a6305e0b4eb04c7685d501a07cd7d65f95fd62dc6",
+    "query": "Q04",
+    "inputs": [
+      "mc2026_track1_public/mc2026_track1_001.cnf.xz",
+      "mc2026_track1_public/mc2026_track1_101.cnf.xz"
+    ],
+    "repetition": 1
+  },
+  {
+    "status": "table_cap",
+    "direction": null,
+    "counts": [],
+    "requested_table_entries": 4194304,
+    "method": "ve",
+    "variables": [
+      56,
+      64
+    ],
+    "worker_seconds": 1.7833750830000001,
+    "seconds": 1.8551257919999955,
+    "query": "Q04",
+    "inputs": [
+      "mc2026_track1_public/mc2026_track1_001.cnf.xz",
+      "mc2026_track1_public/mc2026_track1_101.cnf.xz"
+    ],
+    "repetition": 2
+  },
+  {
+    "status": "unresolved",
+    "direction": null,
+    "expansions": 4096,
+    "expansions_per_model": [
+      4032,
+      64
+    ],
+    "bounds": [
+      [
+        "0",
+        "8708132091985920"
+      ],
+      [
+        "0",
+        "1801439850948198400"
+      ]
+    ],
+    "root_exact": false,
+    "certificate_nodes": 8194,
+    "certificate_bytes": 52902,
+    "certificate_generation_seconds": 0.003148291999999997,
+    "checking_seconds": 0.090094542,
+    "preprocessing_seconds": 0.0017293329999999996,
+    "search_seconds": 0.270179208,
+    "accepted_certificates": [
+      {
+        "status": "accepted",
+        "lower": 0,
+        "upper": 8708132091985920
+      },
+      {
+        "status": "accepted",
+        "lower": 0,
+        "upper": 1801439850948198400
+      }
+    ],
+    "method": "certified",
+    "variables": [
+      56,
+      64
+    ],
+    "worker_seconds": 0.368982792,
+    "seconds": 0.44418950000000734,
+    "certificate_file": "Q04-rep2.cert",
+    "certificate_sha256": "9cf9b740f47261301a3e3c5a6305e0b4eb04c7685d501a07cd7d65f95fd62dc6",
+    "query": "Q04",
+    "inputs": [
+      "mc2026_track1_public/mc2026_track1_001.cnf.xz",
+      "mc2026_track1_public/mc2026_track1_101.cnf.xz"
+    ],
+    "repetition": 2
+  },
+  {
+    "status": "solved",
+    "counts": [
+      "48",
+      "3"
+    ],
+    "members": [
+      {
+        "status": "exact",
+        "count": "48",
+        "returncode": 0,
+        "stdout": "c o Total time [Arjun+GANAK]: 0.01\ns SATISFIABLE\nc s type mc\nc s log10-estimate 1.68124124e+00\nc s exact arb int 48\nc s pac guarantees epsilon: 0 delta: 0\n",
+        "stderr": "",
+        "seconds": 0.022533125
+      },
+      {
+        "status": "exact",
+        "count": "3",
+        "returncode": 0,
+        "stdout": "c o Total time [Arjun+GANAK]: 0.00\ns SATISFIABLE\nc s type mc\nc s log10-estimate 4.77121255e-01\nc s exact arb int 3\nc s pac guarantees epsilon: 0 delta: 0\n",
+        "stderr": "",
+        "seconds": 0.015528542
+      }
+    ],
+    "seconds": 0.10838437499999998,
+    "direction": "A",
+    "method": "ganak",
+    "variables": [
+      56,
+      64
+    ],
+    "worker_seconds": 0.038547083,
+    "query": "Q04",
+    "inputs": [
+      "mc2026_track1_public/mc2026_track1_001.cnf.xz",
+      "mc2026_track1_public/mc2026_track1_101.cnf.xz"
+    ],
+    "repetition": 2
+  },
+  {
+    "status": "unresolved",
+    "direction": null,
+    "expansions": 4096,
+    "expansions_per_model": [
+      1408,
+      2688
+    ],
+    "bounds": [
+      [
+        "0",
+        "480767901696"
+      ],
+      [
+        "0",
+        "1083197534374707740536733696"
+      ]
+    ],
+    "root_exact": false,
+    "certificate_nodes": 8194,
+    "certificate_bytes": 51443,
+    "certificate_generation_seconds": 0.003172292000000021,
+    "checking_seconds": 0.087888459,
+    "preprocessing_seconds": 0.0018411669999999977,
+    "search_seconds": 0.170271083,
+    "accepted_certificates": [
+      {
+        "status": "accepted",
+        "lower": 0,
+        "upper": 480767901696
+      },
+      {
+        "status": "accepted",
+        "lower": 0,
+        "upper": 1083197534374707740536733696
+      }
+    ],
+    "method": "certified",
+    "variables": [
+      39,
+      90
+    ],
+    "worker_seconds": 0.266811458,
+    "seconds": 0.33253854100000524,
+    "certificate_file": "Q05-rep0.cert",
+    "certificate_sha256": "dadeee50beb32c8b613c586cb2d645d5de9a55a614d444d55bea1c4e444b48ba",
+    "query": "Q05",
+    "inputs": [
+      "mc2026_track1_public/mc2026_track1_023.cnf.xz",
+      "mc2026_track1_public/mc2026_track1_047.cnf.xz"
+    ],
+    "repetition": 0
+  },
+  {
+    "status": "timeout",
+    "counts": null,
+    "members": [
+      {
+        "status": "exact",
+        "count": "449260070",
+        "returncode": 0,
+        "stdout": "c o Total time [Arjun+GANAK]: 0.07\ns SATISFIABLE\nc s type mc\nc s log10-estimate 8.65249782e+00\nc s exact arb int 449260070\nc s pac guarantees epsilon: 0 delta: 0\n",
+        "stderr": "",
+        "seconds": 0.08513341699999999
+      },
+      {
+        "status": "timeout",
+        "count": null,
+        "seconds": 9.727380083,
+        "stdout": "",
+        "stderr": ""
+      }
+    ],
+    "seconds": 9.873535125000004,
+    "method": "ganak",
+    "variables": [
+      39,
+      90
+    ],
+    "worker_seconds": 9.813027791,
+    "query": "Q05",
+    "inputs": [
+      "mc2026_track1_public/mc2026_track1_023.cnf.xz",
+      "mc2026_track1_public/mc2026_track1_047.cnf.xz"
+    ],
+    "repetition": 0
+  },
+  {
+    "status": "table_cap",
+    "direction": null,
+    "counts": [
+      "449260070"
+    ],
+    "requested_table_entries": 1048576,
+    "method": "ve",
+    "variables": [
+      39,
+      90
+    ],
+    "worker_seconds": 3.3061047080000003,
+    "seconds": 3.383146083999989,
+    "query": "Q05",
+    "inputs": [
+      "mc2026_track1_public/mc2026_track1_023.cnf.xz",
+      "mc2026_track1_public/mc2026_track1_047.cnf.xz"
+    ],
+    "repetition": 0
+  },
+  {
+    "status": "timeout",
+    "counts": null,
+    "members": [
+      {
+        "status": "exact",
+        "count": "449260070",
+        "returncode": 0,
+        "stdout": "c o Total time [Arjun+GANAK]: 0.07\ns SATISFIABLE\nc s type mc\nc s log10-estimate 8.65249782e+00\nc s exact arb int 449260070\nc s pac guarantees epsilon: 0 delta: 0\n",
+        "stderr": "",
+        "seconds": 0.085128292
+      },
+      {
+        "status": "timeout",
+        "count": null,
+        "seconds": 9.725330584,
+        "stdout": "",
+        "stderr": ""
+      }
+    ],
+    "seconds": 9.885405875000004,
+    "method": "ganak",
+    "variables": [
+      39,
+      90
+    ],
+    "worker_seconds": 9.810945416000001,
+    "query": "Q05",
+    "inputs": [
+      "mc2026_track1_public/mc2026_track1_023.cnf.xz",
+      "mc2026_track1_public/mc2026_track1_047.cnf.xz"
+    ],
+    "repetition": 1
+  },
+  {
+    "status": "table_cap",
+    "direction": null,
+    "counts": [
+      "449260070"
+    ],
+    "requested_table_entries": 1048576,
+    "method": "ve",
+    "variables": [
+      39,
+      90
+    ],
+    "worker_seconds": 3.3241287089999996,
+    "seconds": 3.3939808749999827,
+    "query": "Q05",
+    "inputs": [
+      "mc2026_track1_public/mc2026_track1_023.cnf.xz",
+      "mc2026_track1_public/mc2026_track1_047.cnf.xz"
+    ],
+    "repetition": 1
+  },
+  {
+    "status": "unresolved",
+    "direction": null,
+    "expansions": 4096,
+    "expansions_per_model": [
+      1408,
+      2688
+    ],
+    "bounds": [
+      [
+        "0",
+        "480767901696"
+      ],
+      [
+        "0",
+        "1083197534374707740536733696"
+      ]
+    ],
+    "root_exact": false,
+    "certificate_nodes": 8194,
+    "certificate_bytes": 51443,
+    "certificate_generation_seconds": 0.003131875000000006,
+    "checking_seconds": 0.21108662499999997,
+    "preprocessing_seconds": 0.001757458999999996,
+    "search_seconds": 0.169436791,
+    "accepted_certificates": [
+      {
+        "status": "accepted",
+        "lower": 0,
+        "upper": 480767901696
+      },
+      {
+        "status": "accepted",
+        "lower": 0,
+        "upper": 1083197534374707740536733696
+      }
+    ],
+    "method": "certified",
+    "variables": [
+      39,
+      90
+    ],
+    "worker_seconds": 0.38869075000000003,
+    "seconds": 0.4542562919999966,
+    "certificate_file": "Q05-rep1.cert",
+    "certificate_sha256": "dadeee50beb32c8b613c586cb2d645d5de9a55a614d444d55bea1c4e444b48ba",
+    "query": "Q05",
+    "inputs": [
+      "mc2026_track1_public/mc2026_track1_023.cnf.xz",
+      "mc2026_track1_public/mc2026_track1_047.cnf.xz"
+    ],
+    "repetition": 1
+  },
+  {
+    "status": "table_cap",
+    "direction": null,
+    "counts": [
+      "449260070"
+    ],
+    "requested_table_entries": 1048576,
+    "method": "ve",
+    "variables": [
+      39,
+      90
+    ],
+    "worker_seconds": 3.319045917,
+    "seconds": 3.3903477499999894,
+    "query": "Q05",
+    "inputs": [
+      "mc2026_track1_public/mc2026_track1_023.cnf.xz",
+      "mc2026_track1_public/mc2026_track1_047.cnf.xz"
+    ],
+    "repetition": 2
+  },
+  {
+    "status": "unresolved",
+    "direction": null,
+    "expansions": 4096,
+    "expansions_per_model": [
+      1408,
+      2688
+    ],
+    "bounds": [
+      [
+        "0",
+        "480767901696"
+      ],
+      [
+        "0",
+        "1083197534374707740536733696"
+      ]
+    ],
+    "root_exact": false,
+    "certificate_nodes": 8194,
+    "certificate_bytes": 51443,
+    "certificate_generation_seconds": 0.00317604199999999,
+    "checking_seconds": 0.08761891699999999,
+    "preprocessing_seconds": 0.0017401249999999951,
+    "search_seconds": 0.17060175,
+    "accepted_certificates": [
+      {
+        "status": "accepted",
+        "lower": 0,
+        "upper": 480767901696
+      },
+      {
+        "status": "accepted",
+        "lower": 0,
+        "upper": 1083197534374707740536733696
+      }
+    ],
+    "method": "certified",
+    "variables": [
+      39,
+      90
+    ],
+    "worker_seconds": 0.266387167,
+    "seconds": 0.337122542000003,
+    "certificate_file": "Q05-rep2.cert",
+    "certificate_sha256": "dadeee50beb32c8b613c586cb2d645d5de9a55a614d444d55bea1c4e444b48ba",
+    "query": "Q05",
+    "inputs": [
+      "mc2026_track1_public/mc2026_track1_023.cnf.xz",
+      "mc2026_track1_public/mc2026_track1_047.cnf.xz"
+    ],
+    "repetition": 2
+  },
+  {
+    "status": "timeout",
+    "counts": null,
+    "members": [
+      {
+        "status": "exact",
+        "count": "449260070",
+        "returncode": 0,
+        "stdout": "c o Total time [Arjun+GANAK]: 0.07\ns SATISFIABLE\nc s type mc\nc s log10-estimate 8.65249782e+00\nc s exact arb int 449260070\nc s pac guarantees epsilon: 0 delta: 0\n",
+        "stderr": "",
+        "seconds": 0.084917042
+      },
+      {
+        "status": "timeout",
+        "count": null,
+        "seconds": 9.726953292,
+        "stdout": "",
+        "stderr": ""
+      }
+    ],
+    "seconds": 9.882862708000005,
+    "method": "ganak",
+    "variables": [
+      39,
+      90
+    ],
+    "worker_seconds": 9.812338417,
+    "query": "Q05",
+    "inputs": [
+      "mc2026_track1_public/mc2026_track1_023.cnf.xz",
+      "mc2026_track1_public/mc2026_track1_047.cnf.xz"
+    ],
+    "repetition": 2
+  },
+  {
+    "status": "unresolved",
+    "direction": null,
+    "expansions": 4096,
+    "expansions_per_model": [
+      16,
+      4080
+    ],
+    "bounds": [
+      [
+        "0",
+        "3746994889972252672"
+      ],
+      [
+        "0",
+        "1208925819614629174706176"
+      ]
+    ],
+    "root_exact": false,
+    "certificate_nodes": 8194,
+    "certificate_bytes": 274369,
+    "certificate_generation_seconds": 0.012763084000000036,
+    "checking_seconds": 0.566301833,
+    "preprocessing_seconds": 0.009804415999999996,
+    "search_seconds": 0.50004775,
+    "accepted_certificates": [
+      {
+        "status": "accepted",
+        "lower": 0,
+        "upper": 3746994889972252672
+      },
+      {
+        "status": "accepted",
+        "lower": 0,
+        "upper": 1208925819614629174706176
+      }
+    ],
+    "method": "certified",
+    "variables": [
+      64,
+      80
+    ],
+    "worker_seconds": 1.101001042,
+    "seconds": 1.1906081669999935,
+    "certificate_file": "Q06-rep0.cert",
+    "certificate_sha256": "287e5809c82b1f60c5863919b7e4ff44806bd608d09bbd62e81f7e21b03aaabf",
+    "query": "Q06",
+    "inputs": [
+      "mc2026_track1_public/mc2026_track1_097.cnf.xz",
+      "mc2026_track1_public/mc2026_track1_055.cnf.xz"
+    ],
+    "repetition": 0
+  },
+  {
+    "status": "solved",
+    "counts": [
+      "3",
+      "18014398509481984"
+    ],
+    "members": [
+      {
+        "status": "exact",
+        "count": "3",
+        "returncode": 0,
+        "stdout": "c o Total time [Arjun+GANAK]: 0.00\ns SATISFIABLE\nc s type mc\nc s log10-estimate 4.77121255e-01\nc s exact arb int 3\nc s pac guarantees epsilon: 0 delta: 0\n",
+        "stderr": "",
+        "seconds": 0.021268917
+      },
+      {
+        "status": "exact",
+        "count": "18014398509481984",
+        "returncode": 0,
+        "stdout": "c o Total time [Arjun+GANAK]: 0.01\ns SATISFIABLE\nc s type mc\nc s log10-estimate 1.62556198e+01\nc s exact arb int 18014398509481984\nc s pac guarantees epsilon: 0 delta: 0\n",
+        "stderr": "",
+        "seconds": 0.018584457999999998
+      }
+    ],
+    "seconds": 0.11211008299997616,
+    "direction": "B",
+    "method": "ganak",
+    "variables": [
+      64,
+      80
+    ],
+    "worker_seconds": 0.04086787499999999,
+    "query": "Q06",
+    "inputs": [
+      "mc2026_track1_public/mc2026_track1_097.cnf.xz",
+      "mc2026_track1_public/mc2026_track1_055.cnf.xz"
+    ],
+    "repetition": 0
+  },
+  {
+    "status": "table_cap",
+    "direction": null,
+    "counts": [],
+    "requested_table_entries": 4194304,
+    "method": "ve",
+    "variables": [
+      64,
+      80
+    ],
+    "worker_seconds": 0.11464533299999999,
+    "seconds": 0.18177658300001553,
+    "query": "Q06",
+    "inputs": [
+      "mc2026_track1_public/mc2026_track1_097.cnf.xz",
+      "mc2026_track1_public/mc2026_track1_055.cnf.xz"
+    ],
+    "repetition": 0
+  },
+  {
+    "status": "solved",
+    "counts": [
+      "3",
+      "18014398509481984"
+    ],
+    "members": [
+      {
+        "status": "exact",
+        "count": "3",
+        "returncode": 0,
+        "stdout": "c o Total time [Arjun+GANAK]: 0.00\ns SATISFIABLE\nc s type mc\nc s log10-estimate 4.77121255e-01\nc s exact arb int 3\nc s pac guarantees epsilon: 0 delta: 0\n",
+        "stderr": "",
+        "seconds": 0.009864167
+      },
+      {
+        "status": "exact",
+        "count": "18014398509481984",
+        "returncode": 0,
+        "stdout": "c o Total time [Arjun+GANAK]: 0.01\ns SATISFIABLE\nc s type mc\nc s log10-estimate 1.62556198e+01\nc s exact arb int 18014398509481984\nc s pac guarantees epsilon: 0 delta: 0\n",
+        "stderr": "",
+        "seconds": 0.018588792000000007
+      }
+    ],
+    "seconds": 0.09762283300000263,
+    "direction": "B",
+    "method": "ganak",
+    "variables": [
+      64,
+      80
+    ],
+    "worker_seconds": 0.029378792000000008,
+    "query": "Q06",
+    "inputs": [
+      "mc2026_track1_public/mc2026_track1_097.cnf.xz",
+      "mc2026_track1_public/mc2026_track1_055.cnf.xz"
+    ],
+    "repetition": 1
+  },
+  {
+    "status": "table_cap",
+    "direction": null,
+    "counts": [],
+    "requested_table_entries": 4194304,
+    "method": "ve",
+    "variables": [
+      64,
+      80
+    ],
+    "worker_seconds": 0.116200042,
+    "seconds": 0.18005124999999111,
+    "query": "Q06",
+    "inputs": [
+      "mc2026_track1_public/mc2026_track1_097.cnf.xz",
+      "mc2026_track1_public/mc2026_track1_055.cnf.xz"
+    ],
+    "repetition": 1
+  },
+  {
+    "status": "unresolved",
+    "direction": null,
+    "expansions": 4096,
+    "expansions_per_model": [
+      16,
+      4080
+    ],
+    "bounds": [
+      [
+        "0",
+        "3746994889972252672"
+      ],
+      [
+        "0",
+        "1208925819614629174706176"
+      ]
+    ],
+    "root_exact": false,
+    "certificate_nodes": 8194,
+    "certificate_bytes": 274369,
+    "certificate_generation_seconds": 0.013033666999999971,
+    "checking_seconds": 0.44280654099999994,
+    "preprocessing_seconds": 0.009922416999999996,
+    "search_seconds": 0.5032526249999999,
+    "accepted_certificates": [
+      {
+        "status": "accepted",
+        "lower": 0,
+        "upper": 3746994889972252672
+      },
+      {
+        "status": "accepted",
+        "lower": 0,
+        "upper": 1208925819614629174706176
+      }
+    ],
+    "method": "certified",
+    "variables": [
+      64,
+      80
+    ],
+    "worker_seconds": 0.980750334,
+    "seconds": 1.0552127499999813,
+    "certificate_file": "Q06-rep1.cert",
+    "certificate_sha256": "287e5809c82b1f60c5863919b7e4ff44806bd608d09bbd62e81f7e21b03aaabf",
+    "query": "Q06",
+    "inputs": [
+      "mc2026_track1_public/mc2026_track1_097.cnf.xz",
+      "mc2026_track1_public/mc2026_track1_055.cnf.xz"
+    ],
+    "repetition": 1
+  },
+  {
+    "status": "table_cap",
+    "direction": null,
+    "counts": [],
+    "requested_table_entries": 4194304,
+    "method": "ve",
+    "variables": [
+      64,
+      80
+    ],
+    "worker_seconds": 0.11570108400000001,
+    "seconds": 0.18254974999999263,
+    "query": "Q06",
+    "inputs": [
+      "mc2026_track1_public/mc2026_track1_097.cnf.xz",
+      "mc2026_track1_public/mc2026_track1_055.cnf.xz"
+    ],
+    "repetition": 2
+  },
+  {
+    "status": "unresolved",
+    "direction": null,
+    "expansions": 4096,
+    "expansions_per_model": [
+      16,
+      4080
+    ],
+    "bounds": [
+      [
+        "0",
+        "3746994889972252672"
+      ],
+      [
+        "0",
+        "1208925819614629174706176"
+      ]
+    ],
+    "root_exact": false,
+    "certificate_nodes": 8194,
+    "certificate_bytes": 274369,
+    "certificate_generation_seconds": 0.013283999999999963,
+    "checking_seconds": 0.45164099999999996,
+    "preprocessing_seconds": 0.009666416999999997,
+    "search_seconds": 0.49921229199999995,
+    "accepted_certificates": [
+      {
+        "status": "accepted",
+        "lower": 0,
+        "upper": 3746994889972252672
+      },
+      {
+        "status": "accepted",
+        "lower": 0,
+        "upper": 1208925819614629174706176
+      }
+    ],
+    "method": "certified",
+    "variables": [
+      64,
+      80
+    ],
+    "worker_seconds": 0.985673375,
+    "seconds": 1.0476764160000016,
+    "certificate_file": "Q06-rep2.cert",
+    "certificate_sha256": "287e5809c82b1f60c5863919b7e4ff44806bd608d09bbd62e81f7e21b03aaabf",
+    "query": "Q06",
+    "inputs": [
+      "mc2026_track1_public/mc2026_track1_097.cnf.xz",
+      "mc2026_track1_public/mc2026_track1_055.cnf.xz"
+    ],
+    "repetition": 2
+  },
+  {
+    "status": "solved",
+    "counts": [
+      "3",
+      "18014398509481984"
+    ],
+    "members": [
+      {
+        "status": "exact",
+        "count": "3",
+        "returncode": 0,
+        "stdout": "c o Total time [Arjun+GANAK]: 0.00\ns SATISFIABLE\nc s type mc\nc s log10-estimate 4.77121255e-01\nc s exact arb int 3\nc s pac guarantees epsilon: 0 delta: 0\n",
+        "stderr": "",
+        "seconds": 0.013409499999999998
+      },
+      {
+        "status": "exact",
+        "count": "18014398509481984",
+        "returncode": 0,
+        "stdout": "c o Total time [Arjun+GANAK]: 0.01\ns SATISFIABLE\nc s type mc\nc s log10-estimate 1.62556198e+01\nc s exact arb int 18014398509481984\nc s pac guarantees epsilon: 0 delta: 0\n",
+        "stderr": "",
+        "seconds": 0.018850332999999997
+      }
+    ],
+    "seconds": 0.1042237919999991,
+    "direction": "B",
+    "method": "ganak",
+    "variables": [
+      64,
+      80
+    ],
+    "worker_seconds": 0.033238708000000006,
+    "query": "Q06",
+    "inputs": [
+      "mc2026_track1_public/mc2026_track1_097.cnf.xz",
+      "mc2026_track1_public/mc2026_track1_055.cnf.xz"
+    ],
+    "repetition": 2
+  }
+]

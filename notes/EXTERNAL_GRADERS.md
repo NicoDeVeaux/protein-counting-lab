@@ -1,5 +1,12 @@
 # External graders and benchmarks
 
+Completed follow-up on 2026-11-11: [campaign 008](../CAMPAIGN-008.md) ran a bounded
+unweighted MC2026 Track 1 gate with native Ganak and the Lean bound checker. The
+4,096-expansion configuration resolved 0/6 queries; Ganak resolved two and four
+timed out. The recommendation is to archive that configuration as-is. The source
+review below records earlier alternatives; it does not establish success for
+unexecuted weighted or biological experiments.
+
 Checked against primary sources on 2026-11-10. This is a source review and a
 proposed next gate, not an executed external benchmark. No solver was installed,
 dataset downloaded, or external optimization run launched for this review.

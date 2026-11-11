@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-11",
+  "solver": "Ganak",
+  "version": "2.9.0",
+  "source_revision": "f262be5374f312b4bf7c99c6cca26e51182158e5",
+  "source_repository": "https://github.com/meelgroup/ganak",
+  "archive_url": "https://github.com/meelgroup/ganak/releases/download/release/v2.9.0/ganak-v2.9.0-mac-arm64.tar.gz",
+  "archive_bytes": 7523666,
+  "archive_sha256": "a8221049e25e6205e591046da7854b1a0d1d225cec97dc01fc74d20f63785e2f",
+  "binary_member": "ganak",
+  "binary_bytes": 17057992,
+  "binary_sha256": "50de92712514b9655065cb6fe3a0fdc759f6ba2bb94c109f7fd3dc6107d030b2",
+  "binary_architecture": "Mach-O arm64",
+  "arguments": ["--mode", "0", "--prob", "0", "--threads", "1", "--seed", "8008", "--verb", "0", "--arjunverb", "0", "--fast"],
+  "arithmetic": "GMP integer",
+  "probabilistic_cache": false,
+  "approximate_fallback": false,
+  "source_configuration_url": "https://github.com/meelgroup/ganak/blob/f262be5374f312b4bf7c99c6cca26e51182158e5/src/counter_config.hpp",
+  "source_cli_url": "https://github.com/meelgroup/ganak/blob/f262be5374f312b4bf7c99c6cca26e51182158e5/src/main.cpp",
+  "python_wrapper_not_selected": {
+    "distribution": "pyganak",
+    "version": "2.9.0",
+    "wheel_sha256": "392645f3aa1a021ad22ade05634855982ebeb798df693b910782652cd1116b61",
+    "reason": "Counter exposes no deterministic cache option; WeightedCounter is floating point."
+  },
+  "license_url": "https://github.com/meelgroup/ganak/blob/f262be5374f312b4bf7c99c6cca26e51182158e5/LICENSE.txt",
+  "redistributed_binary": false
+}

@@ -1,12 +1,14 @@
 # Protein counting experiments
 
-Exploratory experiments on discrete protein design: partition functions, ensemble affinity scores, exact preprocessing, numerical references, and independent grading. This repository preserves useful results and negative findings from six local CPU campaigns and a separate verification follow-up.
+Exploratory experiments on discrete protein design: partition functions, ensemble affinity scores, exact preprocessing, numerical references, and independent grading. This repository preserves local CPU campaigns, verified checks and negative findings.
 
 The latest biological study uses full-precision rigid energy matrices from the published c-Raf/Ras archive. All 78 state calculations for 13 admitted variants pass independent high-precision references. Ensemble counting reverses two pairwise variant rankings and changes no mutation-effect directions. A small model-transfer comparison does not establish improved biological prediction.
 
 The new [campaign 006](CAMPAIGN-006.md) tests certified adaptive ranking on small synthetic integer models. Lean checks the ranking arithmetic; TLC checks a bounded cache model. Adaptive stopping reduces work on three nontrivial cases, while exact variable elimination remains faster on every nontrivial case. [BENCHMARK.md](BENCHMARK.md) explains the task, scoring, baselines and requirements for a discovery loop.
 
 [Campaign 007](CAMPAIGN-007.md) strengthens that certificate path: Lean now recomputes and proves the partition-bound construction from a model and binary split certificate. The Python table translation remains independently tested rather than proved. This is a verification follow-up, with no new speedup claim.
+
+The [external continuation gate, campaign 008](CAMPAIGN-008.md), failed: the 4,096-expansion configuration resolved none of six MC2026 probability-ordering queries. Native Ganak resolved two; four timed out. The verified checker worked, but the bounds were too weak. This configuration is archived as a prototype; a full-time-budget or stronger-producer comparison remains unmeasured.
 
 | Study | Result |
 |---|---|
@@ -17,6 +19,7 @@ The new [campaign 006](CAMPAIGN-006.md) tests certified adaptive ranking on smal
 | [Campaign 005](CAMPAIGN-005.md) | Counting changes prioritization in a full-precision rigid model; assay/model mismatch prevents direct biological validation. |
 | [Campaign 006](CAMPAIGN-006.md) | Exact ranking certificates and safe adaptive stopping work on a laptop; refinement savings do not beat native exact VE. |
 | [Campaign 007](CAMPAIGN-007.md) | Lean checks factor bounds, completion counts and split coverage; a supplied Python enclosure is no longer a premise of the new bound theorem. |
+| [Campaign 008](CAMPAIGN-008.md) | External MC2026 gate fails: 0/6 certified decisions at the expansion cap, versus 2/6 for native exact Ganak; no speedup established. |
 
 The independent grader freezes criteria before fresh measurements and checks saved outputs separately from experiment implementations. This is research code, not a production solver or evidence of an ETH breakthrough.
 
@@ -42,7 +45,7 @@ Checked on 2026-11-10; these assessments distinguish completed work from propose
 | Literal proof schedules plus larger hardware | Poor practical starting point: old Section 4 and new appendix parameter checks fail at realistic sizes. This says nothing universal about other implementations. | Derive an explicit finite operation/bit-memory budget before implementing a full counter. |
 | Instance-specific layouts or simplified algebraic subroutines | Mathematically open: the paper exposes a general product-sum routine. No practical gain demonstrated here. | Construct and verify a small layout, bound every interpolation/measurement cost, and compare with same-target VE before expanding. |
 | Weighted encoding and precision | Campaign 006 uses exact integer intervals and proves the ratio comparison. Its table coefficients need at most 20 bits; initial partition bounds need at most 239 bits. This is not a physical-weight or CNF adapter. | Produce certified Boltzmann-weight intervals and count reduction auxiliaries and intermediate coefficient costs. |
-| Structure, shared-state reuse and certified rank-aware stopping | Campaign 006 passes its adaptive-work gate on three nontrivial synthetic cases; native exact VE remains faster. Campaign 007 proves the parsed-model bound construction and checks real producer certificates. | Couple a faster producer to the checked certificate path and an independent external benchmark; retain verification/preprocessing costs and unresolved outcomes. |
+| Structure, shared-state reuse and certified rank-aware stopping | Synthetic refinement savings and a checked construction are real, but campaign 008 resolves 0/6 external queries at 4,096 expansions. | Archive this configuration as-is. A stronger producer or separately frozen larger-budget study would need new evidence, including checking costs. |
 | Assay-matched energies and flexibility | Highest priority for biological usefulness: campaign 005 changes two model orders but has no matched-assay validation or established biological winner. | Prepare the measured molecular system, freeze model/assay identities, and compare ensemble versus same-model GMEC on held-out measurements. |
 
 The ETH parameter checks remain preconditions and error-budget arithmetic. Campaign 006 separately benchmarks conventional exact arithmetic and adaptive stopping. See [the checked roadmap](notes/ETH_AND_OPEN_LANES.md) for the earlier feasibility checks and [the benchmark guide](BENCHMARK.md) for the new engineering experiment.
@@ -51,7 +54,7 @@ An independent [external-grader review](notes/EXTERNAL_GRADERS.md) recommends pu
 
 ## Code and data
 
-Code, tests, reports, figures and the small synthetic campaign-006 results live in Git. Earlier bulk results and licensed inputs are attached to the [data release](https://github.com/NicoDeVeaux/protein-counting-lab/releases/tag/v2026.11.10). From a clone:
+Code, tests, reports, figures and the small synthetic/external benchmark measurements live in Git. Earlier bulk results and licensed inputs are attached to the [data release](https://github.com/NicoDeVeaux/protein-counting-lab/releases/tag/v2026.11.10). Campaign 008 keeps its upstream CNFs and full converted certificates outside the mirror, with source URLs and hashes for reproduction. From a clone:
 
 ```sh
 python3 publication.py verify --code-only
@@ -85,7 +88,7 @@ Earlier campaigns also require upstream inputs excluded from the mirror. Their p
 
 This is a privacy-redacted export. Original scientific outputs are retained, but local paths, private policy references and signed download URL query strings were removed. Historical freeze hashes describe original workspace bytes and must not be mistaken for checksums of edited public metadata. [PUBLICATION_MANIFEST.json](PUBLICATION_MANIFEST.json) records original/export hashes and omissions; [PUBLICATION.md](PUBLICATION.md) explains verification.
 
-The initial publication export did not recompute the historical campaigns. Campaign 006 adds new, separately sealed synthetic measurements. Read its independent [verdict](grader/campaign-006/REPORT.md), or the biological [campaign-005 verdict](grader/campaign-005/REPORT.md) and [result figure](outputs/campaign-005-v2.png), for findings and qualifications.
+The initial publication export did not recompute the historical campaigns. Later campaigns add separately sealed synthetic and external measurements and verification checks. Read the [external campaign-008 verdict](grader/campaign-008/REPORT.md), [synthetic campaign-006 verdict](grader/campaign-006/REPORT.md), or biological [campaign-005 verdict](grader/campaign-005/REPORT.md) and [result figure](outputs/campaign-005-v2.png), for findings and qualifications.
 
 Original software is MIT-licensed. Data and attributed transcriptions retain the terms described in [THIRD_PARTY.md](THIRD_PARTY.md). Please cite the original papers and datasets when using their material.
 

@@ -1,0 +1,16 @@
+{
+  "executable_name": "checker8",
+  "build_seconds": 6.59294275,
+  "audit_seconds": 1.7603110000000002,
+  "compile_seconds": 4.428106667,
+  "source_sha256": {
+    "formal/campaign-007/lean/PartitionCertificate.lean": "8c147616e4d68e5250a046131a9f6ee39bc7766777ddd2e23e8146d28a58e16a",
+    "formal/campaign-007/lean/Main.lean": "0ca6cd00d9b013546027897e8a23667f1738174a8f29feddb10a374c5a26ec29",
+    "formal/campaign-007/lean/lean-toolchain": "ca5f1f601d34c49079e38d7e7041eb0f2a9c227fbc1df0f404820069a052330c"
+  },
+  "binary_sha256": "daa0891b7f7af9d6adbd89c43b0c6d134e56bcfba631e90377cd8f04010bd71c",
+  "binary_bytes": 101448416,
+  "toolchain": "Lean (version 4.35.0, arm64-apple-darwin24.6.0, commit eb6cafb7290e8bd5f2937522d8d804f58f02bafc, Release)",
+  "proof_report": "'PartitionCertificate.factor_bounds_sound' depends on axioms: [propext]\n'PartitionCertificate.model_bounds_sound' depends on axioms: [propext]\n'PartitionCertificate.compatible_parent' depends on axioms: [propext, Quot.sound]\n'PartitionCertificate.uniform_mass_bounds' depends on axioms: [propext, Quot.sound]\n'PartitionCertificate.leaf_bounds_sound' depends on axioms: [propext, Quot.sound]\n'PartitionCertificate.cut_bounds_sound' depends on axioms: [propext, Quot.sound]\n'PartitionCertificate.valid_factor_eval_congr' depends on axioms: [propext]\n'PartitionCertificate.valid_model_eval_congr' depends on axioms: [propext, Quot.sound]\n'PartitionCertificate.check_model_valid' depends on axioms: [propext]\n'PartitionCertificate.check_sound' depends on axioms: [propext, Quot.sound]\n'PartitionCertificate.checked_greater_sound' depends on axioms: [propext, Quot.sound]\n",
+  "lakefile_sha256": "de5eb4379af61f8d74d8531fb28c04e8ef227248e359f14aa256906bfd05a432"
+}

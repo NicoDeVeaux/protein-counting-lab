@@ -8,22 +8,26 @@
       "path": ".gitattributes",
       "storage": "git",
       "original_sha256": null,
-      "sha256": "be600f7e84de14e82e5eb9aef2a1062c906ebc6e53416f6a4de2c93ce7342b8e",
-      "bytes": 377,
+      "sha256": "b167bf4a7b5acb069a1ba4b52a147cd2f352febb523714bc6220d7c9936a8e4b",
+      "bytes": 455,
       "metadata_redacted": false,
       "publication_addition": true,
-      "followup_addition": "2026-11-10: separately sealed campaign-006 synthetic experiment, formal checks, independent grading and external-grader source review."
+      "followup_addition": "2026-11-10: separately sealed campaign-006 synthetic experiment, formal checks, independent grading and external-grader source review.",
+      "followup_edits": [
+        "2026-11-11: record campaign-008 bounded external gate and narrow negative conclusion; historical scientific sources and release payload unchanged."
+      ]
     },
     {
       "path": ".gitignore",
       "storage": "git",
       "original_sha256": "ac9a663af9893abc94d031dbfa6e31ec23ea8734229214e4a36a5510c140e232",
-      "sha256": "a79314ea1841cacb84ca39e45c4ac5573f3a89838b063f58a019c6b2c2a78bef",
-      "bytes": 522,
+      "sha256": "95daebf45c7c76aaf3e022b7b69f038256256bae1c21d01681baa662831f1c47",
+      "bytes": 824,
       "metadata_redacted": true,
       "publication_edit": "Public README, agent guidance or ignore rules rewritten; scientific implementation unchanged.",
       "followup_edits": [
-        "2026-11-10: campaign-006 and external-grader follow-up; original campaign implementations and release payload unchanged."
+        "2026-11-10: campaign-006 and external-grader follow-up; original campaign implementations and release payload unchanged.",
+        "2026-11-11: record campaign-008 bounded external gate and narrow negative conclusion; historical scientific sources and release payload unchanged."
       ]
     },
     {
@@ -39,13 +43,14 @@
       "path": "BENCHMARK.md",
       "storage": "git",
       "original_sha256": null,
-      "sha256": "4827f5e6bc033bd14929259e45387c5d22a7253c621a14b5883454bb6399061f",
-      "bytes": 5768,
+      "sha256": "dfa882332587fd1444fec8f59cded135c5744fe94307f9d224edd3894f4792a6",
+      "bytes": 6415,
       "metadata_redacted": false,
       "publication_addition": true,
       "followup_addition": "2026-11-10: separately sealed campaign-006 synthetic experiment, formal checks, independent grading and external-grader source review.",
       "followup_edits": [
-        "2026-11-10: verified public MC2026/MC2025 archive availability; prefer semantic screening of recent Track 4 collections, retaining MC2022 as fallback."
+        "2026-11-10: verified public MC2026/MC2025 archive availability; prefer semantic screening of recent Track 4 collections, retaining MC2022 as fallback.",
+        "2026-11-11: record campaign-008 bounded external gate and narrow negative conclusion; historical scientific sources and release payload unchanged."
       ]
     },
     {
@@ -101,6 +106,16 @@
       "followup_addition": "2026-11-10: campaign-007 partition certificate exporter, universal Lean construction proof, independent correctness audit and documentation."
     },
     {
+      "path": "CAMPAIGN-008.md",
+      "storage": "git",
+      "original_sha256": null,
+      "sha256": "ced0b7c1f1f34af4b70997038ae5fc0ccd6c97d336206c5b65789abd297917c7",
+      "bytes": 6869,
+      "metadata_redacted": false,
+      "publication_addition": true,
+      "followup_addition": "2026-11-11: campaign-008 external source metadata, native baseline/checker adapters, sealed measurement records, independent audits and documentation. No upstream CNF or full certificate payloads mirrored."
+    },
+    {
       "path": "DATA_RELEASE.json",
       "storage": "git",
       "original_sha256": null,
@@ -131,27 +146,29 @@
       "path": "PUBLICATION.md",
       "storage": "git",
       "original_sha256": null,
-      "sha256": "a4ea681bd80e8639fe1e0710ee1c075a39700b12fadfebd7cf990bad3605fe92",
-      "bytes": 3330,
+      "sha256": "9db665910ebf4eda592d5259217897511ffed767d8058f5d2a12ae58f1605e76",
+      "bytes": 3615,
       "metadata_redacted": false,
       "publication_addition": true,
       "followup_edit": "2026-11-10: ETH explanation/open-lane check documentation; scientific campaign implementations and bulk data unchanged.",
       "followup_edits": [
-        "2026-11-10: campaign-006 and external-grader follow-up; original campaign implementations and release payload unchanged."
+        "2026-11-10: campaign-006 and external-grader follow-up; original campaign implementations and release payload unchanged.",
+        "2026-11-11: record campaign-008 bounded external gate and narrow negative conclusion; historical scientific sources and release payload unchanged."
       ]
     },
     {
       "path": "README.md",
       "storage": "git",
       "original_sha256": "8f7761ea3e667c1b02ed7e1d04c2ee17437e7c29d6da3ba0c617b6e54bfd0448",
-      "sha256": "dd743ae54bf4803014b0437b1cd49832c061337c6c40d77a020510718a48ad8c",
-      "bytes": 10806,
+      "sha256": "8fc083d70b8c07997fa2bcd964bcf3859494f2f1c3a8dfe4af0e9f1ef73f634e",
+      "bytes": 11481,
       "metadata_redacted": true,
       "publication_edit": "Public README, agent guidance or ignore rules rewritten; scientific implementation unchanged.",
       "followup_edit": "2026-11-10: ETH explanation/open-lane check documentation; scientific campaign implementations and bulk data unchanged.",
       "followup_edits": [
         "2026-11-10: campaign-006 and external-grader follow-up; original campaign implementations and release payload unchanged.",
-        "2026-11-10: document campaign-007 checked partition-bound construction; prior scientific implementations and measurements unchanged."
+        "2026-11-10: document campaign-007 checked partition-bound construction; prior scientific implementations and measurements unchanged.",
+        "2026-11-11: record campaign-008 bounded external gate and narrow negative conclusion; historical scientific sources and release payload unchanged."
       ]
     },
     {
@@ -1495,6 +1512,176 @@
       "sha256": "ecdd5d8d9827e1eeebd0e774621b3269bb614bf2e11ee34c924b9bb36848b5cc",
       "bytes": 1685,
       "metadata_redacted": false
+    },
+    {
+      "path": "experiments/external_count8/BASELINE.md",
+      "storage": "git",
+      "original_sha256": null,
+      "sha256": "4df3409be11d7a72c3ca9cfbe9d08a4b5b2cc40589502b3bf80281ec9ea2f627",
+      "bytes": 2418,
+      "metadata_redacted": false,
+      "publication_addition": true,
+      "followup_addition": "2026-11-11: campaign-008 external source metadata, native baseline/checker adapters, sealed measurement records, independent audits and documentation. No upstream CNF or full certificate payloads mirrored."
+    },
+    {
+      "path": "experiments/external_count8/COHORT.json",
+      "storage": "git",
+      "original_sha256": null,
+      "sha256": "f1adb40a1280db24ec3b3d8bf3037a35b286f5b882f464616a3f0f81c91f6b78",
+      "bytes": 61206,
+      "metadata_redacted": false,
+      "publication_addition": true,
+      "followup_addition": "2026-11-11: campaign-008 external source metadata, native baseline/checker adapters, sealed measurement records, independent audits and documentation. No upstream CNF or full certificate payloads mirrored."
+    },
+    {
+      "path": "experiments/external_count8/LEAN_BUILD.md",
+      "storage": "git",
+      "original_sha256": null,
+      "sha256": "3129e298316f12fe032869a42ff38d3b463bd3b49016284fc2b442ed50602336",
+      "bytes": 1544,
+      "metadata_redacted": false,
+      "publication_addition": true,
+      "followup_addition": "2026-11-11: campaign-008 external source metadata, native baseline/checker adapters, sealed measurement records, independent audits and documentation. No upstream CNF or full certificate payloads mirrored."
+    },
+    {
+      "path": "experiments/external_count8/NATIVE_BUILD.json",
+      "storage": "git",
+      "original_sha256": null,
+      "sha256": "75683ebf9fc4e0ccba51e9c497a46b48f508660ee260a58a4bbf70d07a652281",
+      "bytes": 1745,
+      "metadata_redacted": false,
+      "publication_addition": true,
+      "followup_addition": "2026-11-11: campaign-008 external source metadata, native baseline/checker adapters, sealed measurement records, independent audits and documentation. No upstream CNF or full certificate payloads mirrored."
+    },
+    {
+      "path": "experiments/external_count8/README.md",
+      "storage": "git",
+      "original_sha256": null,
+      "sha256": "26533913d8f517f17fe8a328bb35d23239b30deac875aeb70e26a7fd0b718cf5",
+      "bytes": 4718,
+      "metadata_redacted": false,
+      "publication_addition": true,
+      "followup_addition": "2026-11-11: campaign-008 external source metadata, native baseline/checker adapters, sealed measurement records, independent audits and documentation. No upstream CNF or full certificate payloads mirrored."
+    },
+    {
+      "path": "experiments/external_count8/SOURCE_SEAL.json",
+      "storage": "git",
+      "original_sha256": null,
+      "sha256": "39b32ca84dc0f55126910147c848709e740ad53fe825f2f36be39dedc391e787",
+      "bytes": 2285,
+      "metadata_redacted": false,
+      "publication_addition": true,
+      "followup_addition": "2026-11-11: campaign-008 external source metadata, native baseline/checker adapters, sealed measurement records, independent audits and documentation. No upstream CNF or full certificate payloads mirrored."
+    },
+    {
+      "path": "experiments/external_count8/__init__.py",
+      "storage": "git",
+      "original_sha256": null,
+      "sha256": "71b4ad3b963836bf2da3cc2aa5e6058b2951c804bfd40c50125a93a4e0ce3360",
+      "bytes": 69,
+      "metadata_redacted": false,
+      "publication_addition": true,
+      "followup_addition": "2026-11-11: campaign-008 external source metadata, native baseline/checker adapters, sealed measurement records, independent audits and documentation. No upstream CNF or full certificate payloads mirrored."
+    },
+    {
+      "path": "experiments/external_count8/baseline-provenance.json",
+      "storage": "git",
+      "original_sha256": null,
+      "sha256": "1a084c11154e08e2745aad5fb63eaa5edb1544966117c6e985ddeeb1b6d87ae3",
+      "bytes": 1519,
+      "metadata_redacted": false,
+      "publication_addition": true,
+      "followup_addition": "2026-11-11: campaign-008 external source metadata, native baseline/checker adapters, sealed measurement records, independent audits and documentation. No upstream CNF or full certificate payloads mirrored."
+    },
+    {
+      "path": "experiments/external_count8/baseline.py",
+      "storage": "git",
+      "original_sha256": null,
+      "sha256": "5128b88c108a424e6b1f9e07b4fd2d43d60bc0cc6318daf0a9718540081d9f52",
+      "bytes": 3653,
+      "metadata_redacted": false,
+      "publication_addition": true,
+      "followup_addition": "2026-11-11: campaign-008 external source metadata, native baseline/checker adapters, sealed measurement records, independent audits and documentation. No upstream CNF or full certificate payloads mirrored."
+    },
+    {
+      "path": "experiments/external_count8/cnf.py",
+      "storage": "git",
+      "original_sha256": null,
+      "sha256": "e6ac4782718f1a72565936d00fa27c339960d7e03152e5928e4133f74a61674c",
+      "bytes": 3328,
+      "metadata_redacted": false,
+      "publication_addition": true,
+      "followup_addition": "2026-11-11: campaign-008 external source metadata, native baseline/checker adapters, sealed measurement records, independent audits and documentation. No upstream CNF or full certificate payloads mirrored."
+    },
+    {
+      "path": "experiments/external_count8/lean_native.py",
+      "storage": "git",
+      "original_sha256": null,
+      "sha256": "3525b63d8fbfdc2e5e17a2941af2dec64b6623f6f43eafe474e40fb0058b27c4",
+      "bytes": 6091,
+      "metadata_redacted": false,
+      "publication_addition": true,
+      "followup_addition": "2026-11-11: campaign-008 external source metadata, native baseline/checker adapters, sealed measurement records, independent audits and documentation. No upstream CNF or full certificate payloads mirrored."
+    },
+    {
+      "path": "experiments/external_count8/results-v1/RAW_RESULTS.json",
+      "storage": "git",
+      "original_sha256": null,
+      "sha256": "10ea922d053229520704b3f3c2a20b35707ce0ac67eda0336982e6b9b829f012",
+      "bytes": 46863,
+      "metadata_redacted": false,
+      "publication_addition": true,
+      "followup_addition": "2026-11-11: campaign-008 external source metadata, native baseline/checker adapters, sealed measurement records, independent audits and documentation. No upstream CNF or full certificate payloads mirrored."
+    },
+    {
+      "path": "experiments/external_count8/results-v1/RESULTS.csv",
+      "storage": "git",
+      "original_sha256": null,
+      "sha256": "3b1e3e2e3db24788b588ccfb94d4baf7af70ca5ae4babd2968d53d192c268094",
+      "bytes": 1593,
+      "metadata_redacted": false,
+      "publication_addition": true,
+      "followup_addition": "2026-11-11: campaign-008 external source metadata, native baseline/checker adapters, sealed measurement records, independent audits and documentation. No upstream CNF or full certificate payloads mirrored."
+    },
+    {
+      "path": "experiments/external_count8/results-v1/SOURCE_SEAL.json",
+      "storage": "git",
+      "original_sha256": null,
+      "sha256": "39b32ca84dc0f55126910147c848709e740ad53fe825f2f36be39dedc391e787",
+      "bytes": 2285,
+      "metadata_redacted": false,
+      "publication_addition": true,
+      "followup_addition": "2026-11-11: campaign-008 external source metadata, native baseline/checker adapters, sealed measurement records, independent audits and documentation. No upstream CNF or full certificate payloads mirrored."
+    },
+    {
+      "path": "experiments/external_count8/run.py",
+      "storage": "git",
+      "original_sha256": null,
+      "sha256": "39f96d09a8febb1ff274856880830b6aea548171bdbc91633d959e8d71f3c4f5",
+      "bytes": 8913,
+      "metadata_redacted": false,
+      "publication_addition": true,
+      "followup_addition": "2026-11-11: campaign-008 external source metadata, native baseline/checker adapters, sealed measurement records, independent audits and documentation. No upstream CNF or full certificate payloads mirrored."
+    },
+    {
+      "path": "experiments/external_count8/select.py",
+      "storage": "git",
+      "original_sha256": null,
+      "sha256": "c92341947991809070ca4a20e469a46b8ef40ceb138b84a0d7c20d344e4cfa5f",
+      "bytes": 3362,
+      "metadata_redacted": false,
+      "publication_addition": true,
+      "followup_addition": "2026-11-11: campaign-008 external source metadata, native baseline/checker adapters, sealed measurement records, independent audits and documentation. No upstream CNF or full certificate payloads mirrored."
+    },
+    {
+      "path": "experiments/external_count8/worker.py",
+      "storage": "git",
+      "original_sha256": null,
+      "sha256": "7869a6e25cc51eb381092242a01eefb7548500c9817515c1fdfd09b1c5be3ddb",
+      "bytes": 7699,
+      "metadata_redacted": false,
+      "publication_addition": true,
+      "followup_addition": "2026-11-11: campaign-008 external source metadata, native baseline/checker adapters, sealed measurement records, independent audits and documentation. No upstream CNF or full certificate payloads mirrored."
     },
     {
       "path": "experiments/inference/README.md",
@@ -2995,6 +3182,66 @@
       "followup_addition": "2026-11-10: campaign-007 partition certificate exporter, universal Lean construction proof, independent correctness audit and documentation."
     },
     {
+      "path": "grader/campaign-008/AMENDMENT-001.md",
+      "storage": "git",
+      "original_sha256": null,
+      "sha256": "e8d4c78d72b7c64de83c0048147bd22cb03fdec797e09827a58b0fab51ea2f72",
+      "bytes": 2442,
+      "metadata_redacted": false,
+      "publication_addition": true,
+      "followup_addition": "2026-11-11: campaign-008 external source metadata, native baseline/checker adapters, sealed measurement records, independent audits and documentation. No upstream CNF or full certificate payloads mirrored."
+    },
+    {
+      "path": "grader/campaign-008/PROTOCOL.md",
+      "storage": "git",
+      "original_sha256": null,
+      "sha256": "7fcc505f07b9b458eb839d17600e9515fff7cdb3399977af59680cceef2817e6",
+      "bytes": 7846,
+      "metadata_redacted": false,
+      "publication_addition": true,
+      "followup_addition": "2026-11-11: campaign-008 external source metadata, native baseline/checker adapters, sealed measurement records, independent audits and documentation. No upstream CNF or full certificate payloads mirrored."
+    },
+    {
+      "path": "grader/campaign-008/REPORT.md",
+      "storage": "git",
+      "original_sha256": null,
+      "sha256": "ec183f4a3e72e738e63fa73396146ee82c239d7cc3f6f50e121e6df5c622bce5",
+      "bytes": 9354,
+      "metadata_redacted": false,
+      "publication_addition": true,
+      "followup_addition": "2026-11-11: campaign-008 external source metadata, native baseline/checker adapters, sealed measurement records, independent audits and documentation. No upstream CNF or full certificate payloads mirrored."
+    },
+    {
+      "path": "grader/campaign-008/audit_inputs.py",
+      "storage": "git",
+      "original_sha256": null,
+      "sha256": "478911f402b65f95880c9db53e6c07a74a39942c0dc7b01c8d7cd355ec7926d5",
+      "bytes": 6344,
+      "metadata_redacted": false,
+      "publication_addition": true,
+      "followup_addition": "2026-11-11: campaign-008 external source metadata, native baseline/checker adapters, sealed measurement records, independent audits and documentation. No upstream CNF or full certificate payloads mirrored."
+    },
+    {
+      "path": "grader/campaign-008/audit_results.py",
+      "storage": "git",
+      "original_sha256": null,
+      "sha256": "c50fd2f4e700e5f237750e1561b68435b1453e3432ce6162ec3b7af686549343",
+      "bytes": 11374,
+      "metadata_redacted": false,
+      "publication_addition": true,
+      "followup_addition": "2026-11-11: campaign-008 external source metadata, native baseline/checker adapters, sealed measurement records, independent audits and documentation. No upstream CNF or full certificate payloads mirrored."
+    },
+    {
+      "path": "grader/campaign-008/oracle.py",
+      "storage": "git",
+      "original_sha256": null,
+      "sha256": "ec92bfdf3217eed60ff82114d50fd1d4eb562bf4e5240de787b6981cc442df83",
+      "bytes": 3827,
+      "metadata_redacted": false,
+      "publication_addition": true,
+      "followup_addition": "2026-11-11: campaign-008 external source metadata, native baseline/checker adapters, sealed measurement records, independent audits and documentation. No upstream CNF or full certificate payloads mirrored."
+    },
+    {
       "path": "grader/freeze_manifest.json",
       "storage": "release",
       "original_sha256": "68bb14cb44995a3a9016c565bfb4a667437764470e891fad49e34da38e702dfa",
@@ -3070,26 +3317,28 @@
       "path": "notes/ETH_AND_OPEN_LANES.md",
       "storage": "git",
       "original_sha256": null,
-      "sha256": "868145e7f7524825c3afbf0b32b47e8c4bd54762a5292025c303d12073bd9f3f",
-      "bytes": 9849,
+      "sha256": "83c0a2b801370b8369a260795970f489d800fc30b4f106cfba63b3a687081767",
+      "bytes": 10222,
       "metadata_redacted": false,
       "publication_addition": true,
       "followup_addition": "2026-11-10: bounded arithmetic/source review, not a new solver experiment.",
       "followup_edits": [
-        "2026-11-10: campaign-006 and external-grader follow-up; original campaign implementations and release payload unchanged."
+        "2026-11-10: campaign-006 and external-grader follow-up; original campaign implementations and release payload unchanged.",
+        "2026-11-11: record campaign-008 bounded external gate and narrow negative conclusion; historical scientific sources and release payload unchanged."
       ]
     },
     {
       "path": "notes/EXTERNAL_GRADERS.md",
       "storage": "git",
       "original_sha256": null,
-      "sha256": "fca3cc29fa8e86ed32b8caabf1d7d80e29b719c44f555c94d8da892d4e33722e",
-      "bytes": 14536,
+      "sha256": "3c1ab7f90a500678756dadde6bdc4ac3572a15616e38d63e7aa753059ba27f07",
+      "bytes": 14987,
       "metadata_redacted": false,
       "publication_addition": true,
       "followup_addition": "2026-11-10: separately sealed campaign-006 synthetic experiment, formal checks, independent grading and external-grader source review.",
       "followup_edits": [
-        "2026-11-10: verified public MC2026/MC2025 archive availability; prefer semantic screening of recent Track 4 collections, retaining MC2022 as fallback."
+        "2026-11-10: verified public MC2026/MC2025 archive availability; prefer semantic screening of recent Track 4 collections, retaining MC2022 as fallback.",
+        "2026-11-11: record campaign-008 bounded external gate and narrow negative conclusion; historical scientific sources and release payload unchanged."
       ]
     },
     {
@@ -76717,7 +76966,7 @@
   ],
   "omitted_artifacts": 377,
   "metadata_redacted_file_count": 2428,
-  "exported_file_bytes": 381944212,
+  "exported_file_bytes": 382154370,
   "followup": {
     "date": "2026-11-10",
     "scope": "README explanation and bounded open-lane arithmetic checks",
@@ -76818,6 +77067,51 @@
       "grader/campaign-007/audit.py",
       "grader/campaign-007/audit_lean.py",
       "grader/campaign-007/oracle.py"
+    ]
+  },
+  "campaign_008_followup": {
+    "date": "2026-11-11",
+    "scope": "Bounded external MC2026 query gate; 54 invocations, continuation gate failed at 4096 expansions",
+    "bulk_data_unchanged": true,
+    "upstream_payloads_not_mirrored": [
+      "source CNFs",
+      "converted factor/certificate payloads",
+      "native executable binaries"
+    ],
+    "updated_git_files": [
+      ".gitattributes",
+      ".gitignore",
+      "BENCHMARK.md",
+      "PUBLICATION.md",
+      "README.md",
+      "notes/ETH_AND_OPEN_LANES.md",
+      "notes/EXTERNAL_GRADERS.md"
+    ],
+    "added_git_files": [
+      "CAMPAIGN-008.md",
+      "experiments/external_count8/BASELINE.md",
+      "experiments/external_count8/COHORT.json",
+      "experiments/external_count8/LEAN_BUILD.md",
+      "experiments/external_count8/NATIVE_BUILD.json",
+      "experiments/external_count8/README.md",
+      "experiments/external_count8/SOURCE_SEAL.json",
+      "experiments/external_count8/__init__.py",
+      "experiments/external_count8/baseline-provenance.json",
+      "experiments/external_count8/baseline.py",
+      "experiments/external_count8/cnf.py",
+      "experiments/external_count8/lean_native.py",
+      "experiments/external_count8/results-v1/RAW_RESULTS.json",
+      "experiments/external_count8/results-v1/RESULTS.csv",
+      "experiments/external_count8/results-v1/SOURCE_SEAL.json",
+      "experiments/external_count8/run.py",
+      "experiments/external_count8/select.py",
+      "experiments/external_count8/worker.py",
+      "grader/campaign-008/AMENDMENT-001.md",
+      "grader/campaign-008/PROTOCOL.md",
+      "grader/campaign-008/REPORT.md",
+      "grader/campaign-008/audit_inputs.py",
+      "grader/campaign-008/audit_results.py",
+      "grader/campaign-008/oracle.py"
     ]
   }
 }
